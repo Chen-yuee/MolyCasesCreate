@@ -1,0 +1,16 @@
+{
+  "api": {
+    "endpoint": "https://api.deepseek.com/v1/chat/completions",
+    "api_key": "sk-cba95772704a40a793f4f7188c5842f3",
+    "model": "deepseek-chat"
+  },
+  "translation": {
+    "source_lang": "English",
+    "target_lang": "Chinese",
+    "max_tokens_per_chunk": 2000
+  },
+  "performance": {
+    "max_workers": 4,
+    "batch_size": 10
+  }
+}
