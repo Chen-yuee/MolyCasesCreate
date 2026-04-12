@@ -1,0 +1,235 @@
+{
+  "queries": [
+    {
+      "id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+      "query_text": "今天是 24 年 4 月 1 日，我在明天下午 15 点有个毕昇的会，你帮我安排一下会议，通知一些人",
+      "sample_id": 2,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-12T23:13:18.942491",
+      "evidences": [
+        {
+          "id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "content": "清睿是毕昇的负责人。",
+          "type": "contact",
+          "speaker": "林晓",
+          "order": 0,
+          "constraints": [
+            {
+              "target_evidence_id": "82d3c715-8387-4c7d-a8ad-9c6669259f61",
+              "same_session": false,
+              "min_turns": 50,
+              "max_turns": null
+            }
+          ],
+          "target_dia_id": "D11:11",
+          "session_key": "session_11",
+          "status": "polished",
+          "created_at": "2026-04-12T23:14:39.389321"
+        },
+        {
+          "id": "82d3c715-8387-4c7d-a8ad-9c6669259f61",
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "content": "毕昇是 ai agent 产品。",
+          "type": "general",
+          "speaker": "林晓",
+          "order": 4,
+          "constraints": [],
+          "target_dia_id": "D32:15",
+          "session_key": "session_32",
+          "status": "polished",
+          "created_at": "2026-04-12T23:14:52.608728"
+        },
+        {
+          "id": "26495bfd-b512-4533-9990-3d62f566fbd0",
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "content": "ai agent 方向24 年 3 月 28 号在北京有个会，叫人工智能大会",
+          "type": "general",
+          "speaker": "王丽",
+          "order": 1,
+          "constraints": [],
+          "target_dia_id": "D29:17",
+          "session_key": "session_29",
+          "status": "polished",
+          "created_at": "2026-04-12T23:15:25.914036"
+        },
+        {
+          "id": "3fed6e51-839f-41f3-a2ab-db71feae9729",
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "content": "人工智能大会有个叫杨植麟的人，我与他有点联系",
+          "type": "general",
+          "speaker": "林晓",
+          "order": 2,
+          "constraints": [],
+          "target_dia_id": "D31:13",
+          "session_key": "session_31",
+          "status": "polished",
+          "created_at": "2026-04-12T23:16:12.697268"
+        },
+        {
+          "id": "df12d023-fbf4-4a6f-a294-52c01162b21d",
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "content": "我在 24 年 4 月 1 号，有一个 14 点的会，持续两个小时。",
+          "type": "general",
+          "speaker": "林晓",
+          "order": 3,
+          "constraints": [],
+          "target_dia_id": "D32:11",
+          "session_key": "session_32",
+          "status": "polished",
+          "created_at": "2026-04-12T23:17:06.522316"
+        }
+      ]
+    },
+    {
+      "id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
+      "query_text": "我清明去哪玩",
+      "sample_id": 2,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-13T00:11:09.009127",
+      "evidences": [
+        {
+          "id": "66981444-4cfe-479e-ba20-185cbec02093",
+          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
+          "content": "我去过颐和园和。\n",
+          "type": "general",
+          "speaker": "林晓",
+          "order": 0,
+          "constraints": [],
+          "target_dia_id": "D11:11",
+          "session_key": "session_11",
+          "status": "polished",
+          "created_at": "2026-04-13T00:14:36.752775"
+        },
+        {
+          "id": "08fabd3d-2254-4522-80e6-2384fb5f528c",
+          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
+          "content": "我去过圆明园",
+          "type": "general",
+          "speaker": null,
+          "order": 1,
+          "constraints": [],
+          "target_dia_id": "D13:31",
+          "session_key": "session_13",
+          "status": "polished",
+          "created_at": "2026-04-13T00:15:14.567028"
+        }
+      ]
+    },
+    {
+      "id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
+      "query_text": "fdjlfadjl",
+      "sample_id": 2,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-13T00:17:33.155078",
+      "evidences": []
+    }
+  ],
+  "polished_messages": [
+    {
+      "sample_id": 2,
+      "dia_id": "D13:31",
+      "session_key": "session_13",
+      "original_text": "哇，王丽，太棒了！尝试新事物需要勇气，而且回报丰厚。继续保持这份勇敢！",
+      "final_polished_text": "哇，王丽，太棒了！尝试新事物需要勇气，而且回报丰厚。就像我之前去圆明园，虽然只是参观，但也是一种新的体验和探索。继续保持这份勇敢！",
+      "evidence_items": [
+        {
+          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
+          "evidence_id": "08fabd3d-2254-4522-80e6-2384fb5f528c",
+          "query_text": "我清明去哪玩",
+          "evidence_content": "我去过圆明园"
+        }
+      ],
+      "updated_at": "2026-04-13T00:28:10.557382"
+    },
+    {
+      "sample_id": 2,
+      "dia_id": "D11:11",
+      "session_key": "session_11",
+      "original_text": "干得漂亮，王丽！你正在创造真正的改变。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了。请继续坚持下去！",
+      "final_polished_text": "干得漂亮，王丽！你正在创造真正的改变，就像清睿作为毕昇的负责人所倡导的那样，把关怀落到实处。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了，请继续坚持下去！",
+      "evidence_items": [
+        {
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "evidence_id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
+          "query_text": "今天是 24 年 4 月 1 日，我在明天下午 15 点有个毕昇的会，你帮我安排一下会议，通知一些人",
+          "evidence_content": "清睿是毕昇的负责人。"
+        },
+        {
+          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
+          "evidence_id": "66981444-4cfe-479e-ba20-185cbec02093",
+          "query_text": "我清明去哪玩",
+          "evidence_content": "我去过颐和园和。\n"
+        }
+      ],
+      "updated_at": "2026-04-13T00:50:53.782007"
+    },
+    {
+      "sample_id": 2,
+      "dia_id": "D32:15",
+      "session_key": "session_32",
+      "original_text": "王丽，我很高兴你在那里找到了满足感。一点小小的善意就能对某人的生活产生如此大的影响，这真是太神奇了。让我们继续为我们社区带来改变吧！",
+      "final_polished_text": "王丽，我很高兴你在那里找到了满足感。一点小小的善意就能对某人的生活产生如此大的影响，这真是太神奇了。就像我们团队开发的毕昇——它作为一款ai agent产品，也在用技术帮助更多人——让我们继续为我们社区带来改变吧！",
+      "evidence_items": [
+        {
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "evidence_id": "82d3c715-8387-4c7d-a8ad-9c6669259f61",
+          "query_text": "今天是 24 年 4 月 1 日，我在明天下午 15 点有个毕昇的会，你帮我安排一下会议，通知一些人",
+          "evidence_content": "毕昇是 ai agent 产品。"
+        }
+      ],
+      "updated_at": "2026-04-13T00:31:48.375116"
+    },
+    {
+      "sample_id": 2,
+      "dia_id": "D29:17",
+      "session_key": "session_29",
+      "original_text": "是啊，林晓！有你这样同样充满热情和动力的朋友真的很棒。我们很快再聊！",
+      "final_polished_text": "是啊，林晓！有你这样同样充满热情和动力的朋友真的很棒。对了，我听说AI Agent方向今年3月28号在北京要开人工智能大会，感觉挺值得关注的。我们很快再聊！",
+      "evidence_items": [
+        {
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "evidence_id": "26495bfd-b512-4533-9990-3d62f566fbd0",
+          "query_text": "今天是 24 年 4 月 1 日，我在明天下午 15 点有个毕昇的会，你帮我安排一下会议，通知一些人",
+          "evidence_content": "ai agent 方向24 年 3 月 28 号在北京有个会，叫人工智能大会"
+        }
+      ],
+      "updated_at": "2026-04-13T00:41:28.356360"
+    },
+    {
+      "sample_id": 2,
+      "dia_id": "D31:13",
+      "session_key": "session_31",
+      "original_text": "动物真的很神奇——它们可以成为不可思议的伴侣。",
+      "final_polished_text": "动物真的很神奇——它们可以成为不可思议的伴侣。说起来，最近我在人工智能大会上遇到一个叫杨植麟的人，还和他有点联系，这让我想到，无论是科技还是自然生灵，都能给我们带来独特的陪伴感。",
+      "evidence_items": [
+        {
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "evidence_id": "3fed6e51-839f-41f3-a2ab-db71feae9729",
+          "query_text": "今天是 24 年 4 月 1 日，我在明天下午 15 点有个毕昇的会，你帮我安排一下会议，通知一些人",
+          "evidence_content": "人工智能大会有个叫杨植麟的人，我与他有点联系"
+        }
+      ],
+      "updated_at": "2026-04-13T00:31:53.767048"
+    },
+    {
+      "sample_id": 2,
+      "dia_id": "D32:11",
+      "session_key": "session_32",
+      "original_text": "谢谢你，王丽！你的支持对我意义重大。找到自己的激情能产生如此大的影响，真是不可思议。我会继续努力的。大家的捐款甚至帮助购置了一辆全新的消防车！",
+      "final_polished_text": "谢谢你，王丽！你的支持对我意义重大。找到自己的激情能产生如此大的影响，真是不可思议。对了，我下个月4月1号下午2点还有个关于社区安全的会议，要开两个小时，我会继续努力的。大家的捐款甚至帮助购置了一辆全新的消防车！",
+      "evidence_items": [
+        {
+          "query_id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "evidence_id": "df12d023-fbf4-4a6f-a294-52c01162b21d",
+          "query_text": "今天是 24 年 4 月 1 日，我在明天下午 15 点有个毕昇的会，你帮我安排一下会议，通知一些人",
+          "evidence_content": "我在 24 年 4 月 1 号，有一个 14 点的会，持续两个小时。"
+        }
+      ],
+      "updated_at": "2026-04-13T00:31:56.946118"
+    }
+  ]
+}
