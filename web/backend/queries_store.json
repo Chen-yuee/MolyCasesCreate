@@ -81,128 +81,9 @@
           "created_at": "2026-04-12T23:17:06.522316"
         }
       ]
-    },
-    {
-      "id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-      "query_text": "我清明去哪玩",
-      "sample_id": 2,
-      "protagonist": "林晓",
-      "status": "draft",
-      "created_at": "2026-04-13T00:11:09.009127",
-      "evidences": [
-        {
-          "id": "66981444-4cfe-479e-ba20-185cbec02093",
-          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-          "content": "我去过圆明园\n",
-          "type": "general",
-          "speaker": "林晓",
-          "order": 0,
-          "constraints": [],
-          "target_dia_id": "D11:11",
-          "session_key": "session_11",
-          "status": "polished",
-          "created_at": "2026-04-13T00:14:36.752775"
-        },
-        {
-          "id": "08fabd3d-2254-4522-80e6-2384fb5f528c",
-          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-          "content": "我去过圆明园",
-          "type": "general",
-          "speaker": null,
-          "order": 1,
-          "constraints": [],
-          "target_dia_id": "D13:31",
-          "session_key": "session_13",
-          "status": "polished",
-          "created_at": "2026-04-13T00:15:14.567028"
-        }
-      ]
-    },
-    {
-      "id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-      "query_text": "连续",
-      "sample_id": 2,
-      "protagonist": "林晓",
-      "status": "draft",
-      "created_at": "2026-04-13T00:17:33.155078",
-      "evidences": [
-        {
-          "id": "6341ccac-047f-4430-9200-640af5f52f16",
-          "query_id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-          "content": "我有 1",
-          "type": "general",
-          "speaker": "林晓",
-          "order": 0,
-          "constraints": [
-            {
-              "target_evidence_id": "fe00d83a-eb0f-470b-87fe-e3cbbc3ce5a1",
-              "same_session": null,
-              "min_turns": 1,
-              "max_turns": 1
-            }
-          ],
-          "target_dia_id": "D1:1",
-          "session_key": "session_1",
-          "status": "polished",
-          "created_at": "2026-04-13T01:54:04.384905"
-        },
-        {
-          "id": "fe00d83a-eb0f-470b-87fe-e3cbbc3ce5a1",
-          "query_id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-          "content": "我有 2",
-          "type": "general",
-          "speaker": "王丽",
-          "order": 1,
-          "constraints": [
-            {
-              "target_evidence_id": "2adb67d8-f045-4082-94b0-7e2e2f28257e",
-              "same_session": null,
-              "min_turns": 1,
-              "max_turns": 1
-            }
-          ],
-          "target_dia_id": "D1:2",
-          "session_key": "session_1",
-          "status": "polished",
-          "created_at": "2026-04-13T01:54:10.804340"
-        },
-        {
-          "id": "2adb67d8-f045-4082-94b0-7e2e2f28257e",
-          "query_id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-          "content": "我有 3",
-          "type": "general",
-          "speaker": null,
-          "order": 2,
-          "constraints": [],
-          "target_dia_id": "D1:3",
-          "session_key": "session_1",
-          "status": "polished",
-          "created_at": "2026-04-13T01:54:18.836723"
-        }
-      ]
     }
   ],
   "polished_messages": [
-    {
-      "sample_id": 2,
-      "dia_id": "D13:31",
-      "session_key": "session_13",
-      "original_text": "哇，王丽，太棒了！尝试新事物需要勇气，而且回报丰厚。继续保持这份勇敢！",
-      "final_polished_text": "哇，王丽，太棒了！尝试新事物需要勇气，而且回报丰厚。就像我之前去圆明园，虽然只是参观，但也是一种新的体验和探索。继续保持这份勇敢！",
-      "evidence_items": [
-        {
-          "query": {
-            "id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-            "text": "我清明去哪玩"
-          },
-          "evidence": {
-            "id": "08fabd3d-2254-4522-80e6-2384fb5f528c",
-            "content": "我去过圆明园"
-          }
-        }
-      ],
-      "updated_at": "2026-04-13T00:28:10.557382"
-    },
     {
       "sample_id": 2,
       "dia_id": "D11:11",
@@ -218,16 +99,6 @@
           "evidence": {
             "id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
             "content": "清睿是毕昇的负责人。"
-          }
-        },
-        {
-          "query": {
-            "id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-            "text": "我清明去哪玩"
-          },
-          "evidence": {
-            "id": "66981444-4cfe-479e-ba20-185cbec02093",
-            "content": "我去过圆明园\n"
           }
         }
       ],
@@ -312,66 +183,6 @@
         }
       ],
       "updated_at": "2026-04-13T00:31:56.946118"
-    },
-    {
-      "sample_id": 2,
-      "dia_id": "D1:1",
-      "session_key": "session_1",
-      "original_text": "嘿，林晓！好久不见！最近怎么样？",
-      "final_polished_text": "嘿，林晓！好久不见！最近怎么样？我最近刚结束一次家庭自驾游回来，玩得挺开心的，而且我还有1个特别有趣的发现想和你分享呢！",
-      "evidence_items": [
-        {
-          "query": {
-            "id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-            "text": "连续"
-          },
-          "evidence": {
-            "id": "6341ccac-047f-4430-9200-640af5f52f16",
-            "content": "我有 1"
-          }
-        }
-      ],
-      "updated_at": "2026-04-13T02:11:15.318847"
-    },
-    {
-      "sample_id": 2,
-      "dia_id": "D1:2",
-      "session_key": "session_1",
-      "original_text": "嘿，王丽！很高兴见到你。昨天刚结束一次家庭自驾游回来，很有趣！你最近有什么令人兴奋的事吗？",
-      "final_polished_text": "嘿，王丽！很高兴见到你。昨天刚结束一次家庭自驾游回来，我们有2辆车一起出行，特别有趣！你最近有什么令人兴奋的事吗？",
-      "evidence_items": [
-        {
-          "query": {
-            "id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-            "text": "连续"
-          },
-          "evidence": {
-            "id": "fe00d83a-eb0f-470b-87fe-e3cbbc3ce5a1",
-            "content": "我有 2"
-          }
-        }
-      ],
-      "updated_at": "2026-04-13T02:11:17.448708"
-    },
-    {
-      "sample_id": 2,
-      "dia_id": "D1:3",
-      "session_key": "session_1",
-      "original_text": "最近一直在无家可归者收容所做志愿者，同时也在保持健身。刚开始尝试空中瑜伽，感觉棒极了。你试过其他很酷的健身课吗？",
-      "final_polished_text": "最近一直在无家可归者收容所做志愿者，同时也在保持健身。刚开始尝试空中瑜伽，感觉棒极了，而且我已经坚持了3周！你试过其他很酷的健身课吗？",
-      "evidence_items": [
-        {
-          "query": {
-            "id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-            "text": "连续"
-          },
-          "evidence": {
-            "id": "2adb67d8-f045-4082-94b0-7e2e2f28257e",
-            "content": "我有 3"
-          }
-        }
-      ],
-      "updated_at": "2026-04-13T02:11:19.710831"
     }
   ]
 }

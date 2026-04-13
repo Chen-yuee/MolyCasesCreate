@@ -1,0 +1,29 @@
+# ------------------------------------
+# 仅用于本地开发的 Dockerfile.dev
+# (相较于生产环境，这里利用了分阶段构建提取基础依赖，源码依赖动态挂载)
+# ------------------------------------
+
+# ==== 后端开发环境基础层 ====
+FROM python:3.10-slim AS backend
+WORKDIR /app
+
+# 先拷贝并安装依赖包（利用Docker缓存层，只要 requirements 不变就不会重新下载）
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt fastapi uvicorn pydantic requests -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 其他业务代码通过 docker-compose volumes 动态挂载
+# 运行带有 --reload 参数的服务
+CMD ["python", "-m", "uvicorn", "web.backend.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+
+# ==== 前端开发环境基础层 ====
+FROM node:18-alpine AS frontend
+WORKDIR /app/web/frontend
+
+# 仅拷贝包配置，优先缓存执行 npm install
+COPY web/frontend/package*.json ./
+RUN npm install --registry=https://registry.npmmirror.com
+
+# 其余核心源码由 docker-compose 中的 volumes 挂载控制
+# 运行 Vite 专属的热更新开发服务
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

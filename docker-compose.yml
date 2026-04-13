@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  moly-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: moly-web
+    ports:
+      - "8000:8000"
+    volumes:
+      # --- 配置文件与数据挂载 ---
+      - ./config.json:/app/config.json
+      - ./data:/app/data
+      - ./web/backend/queries_store.json:/app/web/backend/queries_store.json
+      # --- 代码热更新挂载 ---
+      # 【同步后端代码】将本地后端的代码直接挂载给容器，实现自动同步
+      - ./web/backend:/app/web/backend
+      # 注意：由于本镜像是生产环境打包镜像，前端代码(web/frontend)会被编译成静态文件后通过后端代理。
+      # 因此直接挂载前端 src 无法热更新前端代码。如果你需要前后端均热更新，建议使用专用开发镜像或 docker-compose.dev.yml
+    command: ["python", "-m", "uvicorn", "web.backend.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    restart: unless-stopped

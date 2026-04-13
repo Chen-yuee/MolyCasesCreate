@@ -633,33 +633,42 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                           rules={[{ required: true }]}
                         >
                           <Select placeholder="选择目标 Evidence">
-                            {evidences.map(ev => (
-                              <Select.Option key={ev.id} value={ev.id}>
-                                {ev.content}
-                              </Select.Option>
-                            ))}
+                            {evidences.map(e => (
+                                <Select.Option key={e.id} value={e.id}>
+                                  {e.content.substring(0, 30)}...
+                                </Select.Option>
+                              ))}
+                          </Select>
+                        </Form.Item>
+
+                        <Form.Item
+                          {...field}
+                          name={[field.name, 'same_session']}
+                          label="是否在同一 Session"
+                        >
+                          <Select allowClear placeholder="不限制">
+                            <Select.Option value={true}>必须在同一 Session</Select.Option>
+                            <Select.Option value={false}>必须不在同一 Session</Select.Option>
                           </Select>
                         </Form.Item>
 
                         <Space>
                           <Form.Item
                             {...field}
-                            name={[field.name, 'same_session']}
-                            valuePropName="checked"
-                            style={{ marginBottom: 0 }}
+                            name={[field.name, 'min_turns']}
+                            label="最小间隔 (turns)"
                           >
-                            <input type="checkbox" /> 同一 session
+                            <InputNumber min={0} placeholder="不限制" />
+                          </Form.Item>
+
+                          <Form.Item
+                            {...field}
+                            name={[field.name, 'max_turns']}
+                            label="最大间隔 (turns)"
+                          >
+                            <InputNumber min={0} placeholder="不限制" />
                           </Form.Item>
                         </Space>
-
-                        <Form.Item
-                          {...field}
-                          name={[field.name, 'max_turns']}
-                          label="最大间隔 turns"
-                          style={{ marginBottom: 0 }}
-                        >
-                          <InputNumber min={0} placeholder="不限制" />
-                        </Form.Item>
                       </Space>
 
                       <Button danger size="small" onClick={() => remove(field.name)}>

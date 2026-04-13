@@ -75,29 +75,31 @@ Evidence（需要融入的信息）：
         """
         other_ev_str = "\n".join([f"- {ev}" for ev in other_evidences]) if other_evidences else "（无）"
 
-        prompt = f"""你是一个对话数据标注助手。一条原始消息被融入了多个 evidence 信息后变成了润色后的消息。现在需要删除其中一个 evidence，但保留其他 evidence 的效果。
+        prompt = f"""你是一个对话数据标注专家。这里有一段"润色后的消息"，它包含了几条额外的信息(Evidence)。
+请你从"润色后的消息"中，完全剔除**需要删除的Evidence**对应的内容，并尽量保留**其他保留的Evidence**的内容不变。
 
-原始消息：
+【输入信息】
+原始消息（未添加任何Evidence）：
 {original_text}
 
-润色后的消息（包含多个 evidence）：
+当前的润色消息：
 {polished_text}
 
-要删除的 evidence：
+🚩需要删除的Evidence：
 {evidence_to_remove}
 
-要保留的其他 evidence：
+✅需要保留的其他Evidence：
 {other_ev_str}
 
-要求：
-1. 从润色后的消息中删除「要删除的 evidence」相关的内容
-2. 保留其他 evidence 的润色效果
-3. 如果其他 evidence 为空，则恢复到原始消息
-4. 保持对话自然流畅
-5. 不要添加任何解释，直接输出修改后的消息文本
+【处理要求】
+1. 仔细对比"当前的润色消息"和"需要删除的Evidence"，找出属于该Evidence特有的描述和信息。
+2. 将这部分内容从"当前的润色消息"中彻底删除。
+3. **绝对不要**删除属于"需要保留的其他Evidence"的内容，必须维持它们原本的润色结构和用词。
+4. 修复由于删除导致的语句不通顺，但不要改变其他不相关的句子。
+5. 请直接输出修改后的消息文本，不允许有任何解释性的语言。
 
-修改后的消息："""
-        result = self.call(prompt, temperature=0.7)
+【输出消息】"""
+        result = self.call(prompt, temperature=0.1)
         return result or original_text
 
 

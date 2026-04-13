@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # ============================
+  # 后端服务 - 开发模式 (热重载)
+  # ============================
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: backend  # 指定构建上面的 backend 阶段
+    container_name: moly-backend-dev
+    ports:
+      - "8000:8000"
+    volumes:
+      # 挂载宿主机后端代码目录，保存后立即触发 --reload 重启
+      - ./web/backend:/app/web/backend
+      # 挂载相关配置和数据文件
+      - ./config.json:/app/config.json
+      - ./data:/app/data
+      - ./web/backend/queries_store.json:/app/web/backend/queries_store.json
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
+
+  # ============================
+  # 前端服务 - 开发模式 (Vite HMR)
+  # ============================
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: frontend  # 指定构建上面的 frontend 阶段
+    container_name: moly-frontend-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      # 【升级优化版挂载策略】
+      # 直接整体挂载前端目录以监控包括 vite.config.js 在内的所有源码变化
+      - ./web/frontend:/app/web/frontend
+      # 【关键：匿名卷隔离机制】优先让内部保留自己镜像层的 node_modules
+      # 确保即便宿主机是 Mac 内部也能用原汁原味的 Linux 原生二进制依赖（无需你手写那么多条长长的一长串文件了，这是企业最佳实践）
+      - /app/web/frontend/node_modules
+    environment:
+      - VITE_HOST=0.0.0.0
+      - VITE_API_URL=http://backend:8000
+    depends_on:
+      - backend
+    restart: unless-stopped

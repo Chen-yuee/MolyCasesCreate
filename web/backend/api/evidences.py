@@ -101,36 +101,26 @@ def unpolish_evidence(eid: str):
             "message": "已撤销润色，恢复原文"
         }
     else:
-        # 重新累积润色
-        base_text = polished_msg.original_text
+        # 使用大模型直接去除指定润色，保留其他润色结果
+        other_evidences = []
         for item in polished_msg.evidence_items:
             current_ev = store.get_evidence(item["evidence"]["id"])
-            if not current_ev:
-                continue
+            if current_ev:
+                other_evidences.append(current_ev.content)
 
-            # 获取 evidence 所属的 query
-            ev_query = store.get_query(current_ev.query_id)
-            if not ev_query:
-                continue
+        polished = llm_client.unpolish(
+            original_text=polished_msg.original_text,
+            polished_text=polished_msg.final_polished_text,
+            evidence_to_remove=ev.content,
+            other_evidences=other_evidences
+        )
 
-            ctx = loader.get_context_window(q.sample_id, current_ev.target_dia_id, window=3)
-            if not ctx:
-                continue
-            polished = llm_client.polish(
-                evidence=current_ev.content,
-                original_text=base_text,
-                context=ctx["context"],
-                target_index=ctx["target_index"],
-                speaker=ev_query.protagonist,
-            )
-            base_text = polished
-
-        polished_msg.final_polished_text = base_text
+        polished_msg.final_polished_text = polished
         polished_msg.updated_at = datetime.now().isoformat()
         store.update_polished_message(polished_msg)
 
         return {
             "evidence_id": ev.id,
             "final_polished_text": polished_msg.final_polished_text,
-            "message": "已撤销润色并重新累积"
+            "message": "已成功去润色，保留其余润色内容"
         }
