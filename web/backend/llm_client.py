@@ -34,30 +34,34 @@ class LLMClient:
                     raise e
         return None
 
-    def polish(self, evidence: str, original_text: str, context: list, target_index: int, speaker: str) -> str:
+    def polish(self, evidence: str, original_text: str, context: list, target_index: int, speaker: str, already_polished: list = None) -> str:
         ctx_lines = []
         for i, msg in enumerate(context):
             marker = "→ [目标]" if i == target_index else "  "
             ctx_lines.append(f"{marker} {msg['speaker']}: {msg['text']}")
         ctx_str = "\n".join(ctx_lines)
 
+        # 构建已润色 evidence 的提示
+        already_polished_str = ""
+        if already_polished:
+            already_polished_str = "\n已融入的 Evidence（保持这些信息）：\n" + "\n".join(f"- {e}" for e in already_polished) + "\n"
+
         prompt = f"""你是一个对话数据标注助手。请将以下 evidence 信息自然地融入目标消息中，使对话保持流畅自然。
 
-Evidence（需要融入的信息）：
+当前要融入的 Evidence：
 {evidence}
-
+{already_polished_str}
 对话上下文：
 {ctx_str}
 
-当前消息文本（可能已包含其他 evidence）：
+原始消息文本：
 {original_text}
 
 要求：
 1. 只修改「→ [目标]」标记的那条消息
-2. 将 evidence 信息自然地融入该消息，保持说话人「{speaker}」的语气风格
-3. 如果当前消息已经包含其他信息，请在此基础上继续融入新的 evidence
-4. 修改后的消息长度控制在 1-3 句话
-5. 不要添加任何解释，直接输出修改后的消息文本
+2. 将当前 evidence 信息自然地融入该消息，保持说话人「{speaker}」的语气风格
+3. 如果有已融入的 evidence，请保留这些信息，在此基础上继续融入新的 evidence
+4. 不要添加任何解释，直接输出修改后的消息文本
 
 修改后的消息："""
         result = self.call(prompt, temperature=0.7)

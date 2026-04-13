@@ -119,41 +119,44 @@ def repolish(eid: str):
     # 按 (query_id, order) 排序
     all_evidences.sort(key=lambda e: (e.query_id, e.order))
 
-    # 从原始文本开始累积润色
-    base_text = polished_msg.original_text
+    # 获取上下文
+    ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
+    if not ctx:
+        raise HTTPException(status_code=400, detail="无法获取上下文")
+
+    # 准备已润色的 evidence 列表（不包括当前要润色的）
+    already_polished = [e.content for e in all_evidences if e.id != ev.id]
+
+    # 一次性调用 LLM，传入当前 evidence 和已润色的列表
+    polished = llm_client.polish(
+        evidence=ev.content,
+        original_text=polished_msg.original_text,
+        context=ctx["context"],
+        target_index=ctx["target_index"],
+        speaker=q.protagonist,
+        already_polished=already_polished
+    )
+
+    # 更新所有 evidence 的状态和 evidence_items
     new_evidence_items = []
-
     for current_ev in all_evidences:
-        ctx = loader.get_context_window(q.sample_id, current_ev.target_dia_id, window=3)
-        if not ctx:
-            continue
-
-        # 获取 evidence 所属的 query
-        ev_query = store.get_query(current_ev.query_id)
-        if not ev_query:
-            continue
-
-        polished = llm_client.polish(
-            evidence=current_ev.content,
-            original_text=base_text,
-            context=ctx["context"],
-            target_index=ctx["target_index"],
-            speaker=ev_query.protagonist,
-        )
-        base_text = polished
         current_ev.status = "polished"
         store.update_evidence(current_ev)
 
-        new_evidence_items.append({
-            "query": {
-                "id": current_ev.query_id,
-                "text": ev_query.query_text
-            },
-            "evidence": {
-                "id": current_ev.id,
-                "content": current_ev.content
-            }
-        })
+        ev_query = store.get_query(current_ev.query_id)
+        if ev_query:
+            new_evidence_items.append({
+                "query": {
+                    "id": current_ev.query_id,
+                    "text": ev_query.query_text
+                },
+                "evidence": {
+                    "id": current_ev.id,
+                    "content": current_ev.content
+                }
+            })
+
+    base_text = polished
 
     # 保存最终润色结果
     polished_msg.final_polished_text = base_text
