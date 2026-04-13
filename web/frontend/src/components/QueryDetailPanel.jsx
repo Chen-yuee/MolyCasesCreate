@@ -725,7 +725,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
             <Popconfirm
               key="unpolish"
               title="确定要去除润色吗？"
-              description="将重置该 evidence 的位置和润色状态"
+              description="将去除该 evidence 的润色内容，保留位置信息"
               onConfirm={async () => {
                 try {
                   await unpolishEvidence(editingEvidence.id)
