@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: moly-web
     ports:
-      - "8000:8000"
+      - "8024:8000"
     volumes:
       # --- 配置文件与数据挂载 ---
       - ./config.json:/app/config.json

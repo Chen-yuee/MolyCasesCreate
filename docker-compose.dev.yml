@@ -11,7 +11,7 @@ services:
       target: backend  # 指定构建上面的 backend 阶段
     container_name: moly-backend-dev
     ports:
-      - "8000:8000"
+      - "8024:8000"
     volumes:
       # 挂载宿主机后端代码目录，保存后立即触发 --reload 重启
       - ./web/backend:/app/web/backend
@@ -33,7 +33,7 @@ services:
       target: frontend  # 指定构建上面的 frontend 阶段
     container_name: moly-frontend-dev
     ports:
-      - "5173:5173"
+      - "5124:5173"
     volumes:
       # 【升级优化版挂载策略】
       # 直接整体挂载前端目录以监控包括 vite.config.js 在内的所有源码变化
