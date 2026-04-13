@@ -85,12 +85,46 @@ class DataStore:
         return query
 
     def delete_query(self, qid: str):
+        from .llm_client import llm_client
+        from datetime import datetime
+
         query = self._queries.pop(qid, None)
         if query:
+            # 先对每个已润色的 evidence 执行 unpolish 逻辑
             for e in query.evidences:
+                if e.target_dia_id:
+                    # 获取该消息的 PolishedMessage
+                    polished_msg = self.get_polished_message(query.sample_id, e.target_dia_id)
+                    if polished_msg:
+                        # 移除该 evidence 的关联
+                        polished_msg.evidence_items = [
+                            item for item in polished_msg.evidence_items
+                            if item["evidence"]["id"] != e.id
+                        ]
+
+                        # 如果没有其他 evidence 了，删除 PolishedMessage（恢复原文）
+                        if not polished_msg.evidence_items:
+                            self.delete_polished_message(query.sample_id, polished_msg.dia_id)
+                        else:
+                            # 还有其他 evidence，调用 LLM 去除当前 evidence 的润色
+                            other_evidences = []
+                            for item in polished_msg.evidence_items:
+                                current_ev = self.get_evidence(item["evidence"]["id"])
+                                if current_ev:
+                                    other_evidences.append(current_ev.content)
+
+                            polished = llm_client.unpolish(
+                                original_text=polished_msg.original_text,
+                                polished_text=polished_msg.final_polished_text,
+                                evidence_to_remove=e.content,
+                                other_evidences=other_evidences
+                            )
+                            polished_msg.final_polished_text = polished
+                            polished_msg.updated_at = datetime.now().isoformat()
+                            self.update_polished_message(polished_msg)
+
+                # 删除 evidence
                 self._evidences.pop(e.id, None)
-            # 删除关联的 PolishedMessage
-            self.delete_polished_messages_by_query(qid)
         self._save()
 
     # Evidence operations
