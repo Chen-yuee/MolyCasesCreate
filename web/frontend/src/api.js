@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8024',
+  baseURL: '', // 使用相对路径，开发环境通过 Vite proxy，生产环境由于同源直接生效
   timeout: 60000,
 })
 
