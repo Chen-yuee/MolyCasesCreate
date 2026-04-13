@@ -17,7 +17,7 @@ CMD ["python", "-m", "uvicorn", "web.backend.main:app", "--host", "0.0.0.0", "--
 
 
 # ==== 前端开发环境基础层 ====
-FROM docker.m.daocloud.io/library/node:18-alpine AS frontend
+FROM docker.m.daocloud.io/library/node:20-alpine AS frontend
 WORKDIR /app/web/frontend
 
 # 仅拷贝包配置，优先缓存执行 npm install
