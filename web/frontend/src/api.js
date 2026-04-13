@@ -7,7 +7,7 @@ const api = axios.create({
 
 // Samples
 export const getSamples = () => api.get('/api/samples').then(r => r.data)
-export const getConversation = (idx) => api.get(`/api/samples/${idx}/conversation`).then(r => r.data)
+export const getConversation = (idx) => api.get(`/api/samples/${idx}/conversation?_t=${Date.now()}`).then(r => r.data)
 export const getSpeakers = (idx) => api.get(`/api/samples/${idx}/speakers`).then(r => r.data)
 
 // Queries
