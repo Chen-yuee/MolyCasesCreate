@@ -1,5 +1,5 @@
 # 构建前端
-FROM node:18-alpine AS frontend-builder
+FROM docker.m.daocloud.io/library/node:18-alpine AS frontend-builder
 WORKDIR /app/web/frontend
 
 # 安装依赖
@@ -11,7 +11,7 @@ COPY web/frontend/ ./
 RUN npm run build
 
 # 构建后端环境
-FROM python:3.10-slim
+FROM docker.m.daocloud.io/library/python:3.10-slim
 WORKDIR /app
 
 # 设置时间为东八区（根据需要）

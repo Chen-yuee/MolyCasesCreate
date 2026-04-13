@@ -4,7 +4,7 @@
 # ------------------------------------
 
 # ==== 后端开发环境基础层 ====
-FROM python:3.10-slim AS backend
+FROM docker.m.daocloud.io/library/python:3.10-slim AS backend
 WORKDIR /app
 
 # 先拷贝并安装依赖包（利用Docker缓存层，只要 requirements 不变就不会重新下载）
@@ -17,7 +17,7 @@ CMD ["python", "-m", "uvicorn", "web.backend.main:app", "--host", "0.0.0.0", "--
 
 
 # ==== 前端开发环境基础层 ====
-FROM node:18-alpine AS frontend
+FROM docker.m.daocloud.io/library/node:18-alpine AS frontend
 WORKDIR /app/web/frontend
 
 # 仅拷贝包配置，优先缓存执行 npm install
