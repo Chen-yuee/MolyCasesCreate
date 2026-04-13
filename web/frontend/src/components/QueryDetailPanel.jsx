@@ -109,6 +109,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
       message.success('位置已分配')
       setManualAssignModalOpen(false)
       setManualAssignments({})
+      setMode('polish')
       load()
     } catch (e) {
       message.error(e.response?.data?.detail || '分配失败')
