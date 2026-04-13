@@ -86,10 +86,8 @@ def unpolish_evidence(eid: str):
         if item["evidence"]["id"] != ev.id
     ]
 
-    # 重置 evidence 状态
-    ev.target_dia_id = None
-    ev.session_key = None
-    ev.status = "draft"
+    # 重置 evidence 状态为 positioned，保留位置信息
+    ev.status = "positioned"
     store.update_evidence(ev)
 
     # 重新累积润色剩余的 evidences
