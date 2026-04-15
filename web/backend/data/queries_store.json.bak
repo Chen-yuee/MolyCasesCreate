@@ -81,80 +81,15 @@
           "created_at": "2026-04-12T23:17:06.522316"
         }
       ]
-    },
-    {
-      "id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-      "query_text": "我清明去哪玩",
-      "sample_id": 2,
-      "protagonist": "林晓",
-      "status": "draft",
-      "created_at": "2026-04-13T00:11:09.009127",
-      "evidences": [
-        {
-          "id": "66981444-4cfe-479e-ba20-185cbec02093",
-          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-          "content": "我去过颐和园和。\n",
-          "type": "general",
-          "speaker": "林晓",
-          "order": 0,
-          "constraints": [],
-          "target_dia_id": "D11:11",
-          "session_key": "session_11",
-          "status": "polished",
-          "created_at": "2026-04-13T00:14:36.752775"
-        },
-        {
-          "id": "08fabd3d-2254-4522-80e6-2384fb5f528c",
-          "query_id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-          "content": "我去过圆明园",
-          "type": "general",
-          "speaker": null,
-          "order": 1,
-          "constraints": [],
-          "target_dia_id": "D13:31",
-          "session_key": "session_13",
-          "status": "polished",
-          "created_at": "2026-04-13T00:15:14.567028"
-        }
-      ]
-    },
-    {
-      "id": "2337ddb7-633d-4a12-9b0b-1ccd41bfe4d9",
-      "query_text": "fdjlfadjl",
-      "sample_id": 2,
-      "protagonist": "林晓",
-      "status": "draft",
-      "created_at": "2026-04-13T00:17:33.155078",
-      "evidences": []
     }
   ],
   "polished_messages": [
     {
       "sample_id": 2,
-      "dia_id": "D13:31",
-      "session_key": "session_13",
-      "original_text": "哇，王丽，太棒了！尝试新事物需要勇气，而且回报丰厚。继续保持这份勇敢！",
-      "final_polished_text": "哇，王丽，太棒了！尝试新事物需要勇气，而且回报丰厚。就像我之前去圆明园，虽然只是参观，但也是一种新的体验和探索。继续保持这份勇敢！",
-      "evidence_items": [
-        {
-          "query": {
-            "id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-            "text": "我清明去哪玩"
-          },
-          "evidence": {
-            "id": "08fabd3d-2254-4522-80e6-2384fb5f528c",
-            "content": "我去过圆明园"
-          }
-        }
-      ],
-      "updated_at": "2026-04-13T00:28:10.557382"
-    },
-    {
-      "sample_id": 2,
       "dia_id": "D11:11",
       "session_key": "session_11",
       "original_text": "干得漂亮，王丽！你正在创造真正的改变。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了。请继续坚持下去！",
-      "final_polished_text": "干得漂亮，王丽！你正在创造真正的改变，就像清睿作为毕昇的负责人所倡导的那样，把关怀落到实处。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了，请继续坚持下去！",
+      "final_polished_text": "干得漂亮，王丽！你正在创造真正的改变，让我想起清睿作为毕昇的负责人，也一直致力于这样的联结与奉献。记得我去圆明园时，也感受到历史与自然带来的宁静力量，正如你所说，与他人联结并帮助他人能带来如此多的快乐，请继续坚持下去！",
       "evidence_items": [
         {
           "query": {
@@ -165,19 +100,9 @@
             "id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
             "content": "清睿是毕昇的负责人。"
           }
-        },
-        {
-          "query": {
-            "id": "48ae5b6e-9134-46ac-9b24-3bc736a5378f",
-            "text": "我清明去哪玩"
-          },
-          "evidence": {
-            "id": "66981444-4cfe-479e-ba20-185cbec02093",
-            "content": "我去过颐和园和。\n"
-          }
         }
       ],
-      "updated_at": "2026-04-13T00:50:53.782007"
+      "updated_at": "2026-04-13T01:50:39.185793"
     },
     {
       "sample_id": 2,
