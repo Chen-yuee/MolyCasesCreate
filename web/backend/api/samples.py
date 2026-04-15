@@ -48,9 +48,10 @@ def get_conversation(index: int):
             msg["polished_text"] = polished_msg.final_polished_text
 
         for q in queries:
-            # 附加 evidence 信息
-            for ev in q.evidences:
-                if ev.target_dia_id == msg["dia_id"]:
+            # 附加 evidence 信息（q.evidences 是 ID 列表，需获取实际对象）
+            for eid in q.evidences:
+                ev = store.get_evidence(eid)
+                if ev and ev.target_dia_id == msg["dia_id"]:
                     msg["evidences"].append({
                         "query_id": q.id,
                         "query_text": q.query_text,

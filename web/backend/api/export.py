@@ -16,7 +16,14 @@ def export_query(qid: str):
     if not q:
         raise HTTPException(status_code=404, detail="Query not found")
 
-    confirmed = [e for e in q.evidences if e.status == "confirmed" and e.target_dia_id]
+    # q.evidences 是 ID 列表，获取实际的 Evidence 对象
+    confirmed = [
+        store.get_evidence(eid) for eid in q.evidences
+        if store.get_evidence(eid) and
+        store.get_evidence(eid).status == "confirmed" and
+        store.get_evidence(eid).target_dia_id
+    ]
+
     if not confirmed:
         raise HTTPException(status_code=400, detail="没有已确认的 evidence 可以导出")
 
@@ -40,7 +47,7 @@ def export_query(qid: str):
             if msg["dia_id"] in polish_map:
                 msg["text"] = polish_map[msg["dia_id"]]
 
-    # 添加 metadata
+    # 构建导出结果
     output = {
         "metadata": {
             "query_id": q.id,
@@ -52,7 +59,6 @@ def export_query(qid: str):
                 {
                     "evidence_id": e.id,
                     "content": e.content,
-                    "type": e.type,
                     "target_dia_id": e.target_dia_id,
                 }
                 for e in confirmed
@@ -62,7 +68,7 @@ def export_query(qid: str):
                     "dia_id": m.dia_id,
                     "original_text": m.original_text,
                     "final_polished_text": m.final_polished_text,
-                    "evidence_count": len(m.evidence_ids)
+                    "evidence_count": len(m.evidence_items)
                 }
                 for m in polished_messages
             ]

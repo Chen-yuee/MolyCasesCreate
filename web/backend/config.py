@@ -23,15 +23,15 @@ def get_data_path() -> str:
 
 def get_store_path() -> str:
     base = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(base, "queries_store.json")
+    return os.path.join(base, "data", "queries_store.json")
 
-
-def classify_evidence(content: str) -> str:
-    if any(kw in content for kw in ["公司", "负责人", "经理", "总监", "联系人"]):
-        return "contact"
-    if re.search(r"\d{2,4}年\d{1,2}月\d{1,2}日", content) or \
-       re.search(r"\d{1,2}[点时]\d{0,2}", content):
-        return "schedule"
-    if any(kw in content for kw in ["待办", "任务", "记得", "提醒"]):
-        return "todo"
-    return "general"
+# 扔了
+# def classify_evidence(content: str) -> str:
+#     if any(kw in content for kw in ["公司", "负责人", "经理", "总监", "联系人"]):
+#         return "contact"
+#     if re.search(r"\d{2,4}年\d{1,2}月\d{1,2}日", content) or \
+#        re.search(r"\d{1,2}[点时]\d{0,2}", content):
+#         return "schedule"
+#     if any(kw in content for kw in ["待办", "任务", "记得", "提醒"]):
+#         return "todo"
+#     return "general"

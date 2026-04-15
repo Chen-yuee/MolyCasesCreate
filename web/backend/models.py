@@ -33,13 +33,17 @@ class EvidencePolishUpdate(BaseModel):
     polished_text: str
 
 
+class EvidenceQueryRef(BaseModel):
+    """Evidence 所属的 query 引用"""
+    id: str        # query id
+    order: int     # 在该 query 中的顺序
+
+
 class Evidence(BaseModel):
     id: str
-    query_id: str
     content: str
-    type: str                           # contact/schedule/todo/general
+    queries: List[EvidenceQueryRef] = []  # 所属的 query 列表（含顺序）
     speaker: Optional[str] = None       # 由谁说（主角或对方），None 表示主角
-    order: int = 0                      # 在 query 中的顺序
     constraints: List[EvidenceConstraint] = []  # 与其他 evidence 的约束
     target_dia_id: Optional[str] = None
     session_key: Optional[str] = None
@@ -54,7 +58,7 @@ class PolishedMessage(BaseModel):
     session_key: str
     original_text: str                   # 原始文本
     final_polished_text: str             # 最终润色文本
-    evidence_items: List[dict]           # [{"query": {"id": str, "text": str}, "evidence": {"id": str, "content": str}}, ...]（按润色顺序）
+    evidence_items: List[dict]           # [{"evidence": {"id": str, "content": str}}, ...]（按润色顺序）
     updated_at: str                      # 最后更新时间
 
 
@@ -78,12 +82,12 @@ class Query(BaseModel):
     protagonist: str
     status: str = "draft"
     created_at: str
-    evidences: List[Evidence] = []
+    evidences: List[str] = []  # 关联的 evidence id 列表
 
     @property
     def sorted_evidences(self):
-        """按 order 排序的 evidences"""
-        return sorted(self.evidences, key=lambda e: e.order)
+        """按 order 排序的 evidences（需要外部注入 _evidences_map）"""
+        return self.evidences  # 顺序已在 queries 字段中维护
 
 
 class SampleInfo(BaseModel):
