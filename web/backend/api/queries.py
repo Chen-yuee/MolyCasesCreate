@@ -10,25 +10,14 @@ router = APIRouter(prefix="/api/queries", tags=["queries"])
 
 def _populate_evidences(query: Query) -> List[dict]:
     """
-    将 query.evidences (ID列表) 转换为完整的 Evidence 对象列表，
-    并在每个 evidence 中注入 order 字段（从 evidence.queries 中提取）
+    将 query.evidences (ID列表) 转换为完整的 Evidence 对象列表
+    按 query.evidences 列表顺序返回（列表索引即为顺序）
     """
     result = []
     for eid in query.evidences:
         ev = store.get_evidence(eid)
         if ev:
-            # 从 ev.queries 中找到当前 query 的 order
-            query_ref = next((ref for ref in ev.queries if ref.id == query.id), None)
-            # 创建副本并添加 order 字段
-            ev_dict = ev.model_dump()
-            if query_ref:
-                ev_dict['order'] = query_ref.order
-            else:
-                # 如果找不到 query_ref，使用默认 order 0
-                ev_dict['order'] = 0
-            result.append(ev_dict)
-    # 按 order 排序
-    result.sort(key=lambda e: e.get('order', 0))
+            result.append(ev.model_dump())
     return result
 
 

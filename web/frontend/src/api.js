@@ -34,7 +34,7 @@ export const getEvidences = (qid) => api.get(`/api/queries/${qid}/evidences`).th
 export const createEvidence = (qid, body) => api.post(`/api/queries/${qid}/evidences`, body).then(r => r.data)
 // → 关联已有 evidence 到 query
 export const attachEvidence = (eid, qid) => api.post(`/api/evidences/${eid}/attach?qid=${qid}`).then(r => r.data)
-// → QueryDetailPanel 编辑 evidence 内容/说话人/顺序后保存
+// → QueryDetailPanel 编辑 evidence 内容/说话人后保存
 export const updateEvidence = (eid, body) => api.put(`/api/evidences/${eid}`, body).then(r => r.data)
 // → QueryDetailPanel "删除 Evidence"按钮
 export const deleteEvidence = (eid) => api.delete(`/api/evidences/${eid}`).then(r => r.data)
