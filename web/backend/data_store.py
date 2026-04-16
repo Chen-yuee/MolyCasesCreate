@@ -203,18 +203,27 @@ class DataStore:
 
     def delete_query(self, qid: str):
         """
-        删除 Query 及所有关联的 evidence（每个 evidence 会自动处理自身的 PolishedMessage 减退）。
-        1. 收集该 query 的所有 evidence IDs
-        2. 逐个调用 delete_evidence 删除
-        3. 从存储中移除 query
+        删除 Query，智能处理关联的 evidence：
+        - 如果 evidence 被多个 query 共享，仅移除当前 query 的引用
+        - 如果 evidence 仅属于当前 query，则完全删除
         """
         query = self._queries.get(qid)
         if not query:
             return
 
-        # 复制列表避免迭代中修改
+        # 处理每个关联的 evidence
         for eid in list(query.evidences):
-            self.delete_evidence(eid)
+            evidence = self._evidences.get(eid)
+            if not evidence:
+                continue
+
+            # 检查是否被其他 query 共享
+            if len(evidence.queries) > 1:
+                # 共享的 evidence：仅移除当前 query 的引用
+                evidence.queries = [ref for ref in evidence.queries if ref.id != qid]
+            else:
+                # 独占的 evidence：完全删除（包括 polished messages）
+                self.delete_evidence(eid)
 
         # 移除 query
         self._queries.pop(qid)
