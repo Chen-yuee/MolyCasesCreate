@@ -26,6 +26,13 @@ def apply_manual_positions(
     Returns:
         {"success": bool, "processed": int, "unpolished": int, "error": Optional[str]}
     """
+    # 检查 assignments 格式
+    for i, assignment in enumerate(assignments):
+        if "evidence_id" not in assignment:
+            return {"success": False, "error": f"Assignment {i} missing 'evidence_id'"}
+        if "target_dia_id" not in assignment:
+            return {"success": False, "error": f"Assignment {i} missing 'target_dia_id'"}
+
     q = store.get_query(query_id)
     if not q:
         return {"success": False, "error": f"Query {query_id} not found"}
@@ -42,7 +49,7 @@ def apply_manual_positions(
 
     unpolished_count = 0
 
-    # 1. 只对位置发生改变的 positioned/polished evidence 去除润色
+    # 1. 只对位置发生改变的 polished evidence 去除润色
     for ev in all_evidence:
         target_dia_id = assignment_map.get(ev.id)
         if not target_dia_id:
@@ -51,17 +58,17 @@ def apply_manual_positions(
         # 检查位置是否发生改变
         position_changed = ev.target_dia_id != target_dia_id
 
-        # 只有位置改变且状态是 positioned 或 polished 时才去除润色
-        if position_changed and ev.status in ["positioned", "polished"]:
-            if ev.status == "polished":
-                store.unpolish_evidence_from_message(ev, q)
-                unpolished_count += 1
+        # 只有位置改变且状态是 polished 时才去除润色
+        if position_changed and ev.status == "polished":
+            store.unpolish_evidence_from_message(ev, q)
+            unpolished_count += 1
 
     # 2. 分配位置
     processed_count = 0
     for ev in all_evidence:
         target_dia_id = assignment_map.get(ev.id)
         if not target_dia_id:
+            # 这里的continue导致前端报错？？？后续得看。什么情况下没有dia_id???
             continue
 
         msg = loader.get_message_by_dia_id(q.sample_id, target_dia_id)
