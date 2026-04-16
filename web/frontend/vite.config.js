@@ -12,7 +12,7 @@ export default defineConfig({
     },
     proxy: {
       '/api': {
-        target: 'http://backend:8000',
+        target: 'http://localhost:8000', // 本地开发使用 localhost，Docker 环境使用 http://backend:8000
         changeOrigin: true
       }
     }
