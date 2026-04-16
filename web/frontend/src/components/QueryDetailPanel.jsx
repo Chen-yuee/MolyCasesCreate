@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Layout, Card, Button, Space, List, Tag, Form, Input, Select, InputNumber, message, Popconfirm, Modal } from 'antd'
 import { PlusOutlined, DeleteOutlined, ThunderboltOutlined, CloseOutlined, EditOutlined, EyeOutlined } from '@ant-design/icons'
-import { getQueries, createEvidence, updateEvidence, deleteEvidence, autoAssign, batchPolish, previewAssign, unpolishEvidence, setPosition, repolish, getPolishedMessages, getConversation } from '../api'
+import { getQueries, createEvidence, updateEvidence, deleteEvidence, autoAssign, batchPolish, previewAssign, unpolishEvidence, setPosition, repolish, getPolishedMessages, getConversation, getAllEvidences, attachEvidence } from '../api'
 
 const { Sider } = Layout
 
@@ -23,6 +23,9 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
   const [allMessages, setAllMessages] = useState([])
   const [sessionKeys, setSessionKeys] = useState([])
   const [manualAssignments, setManualAssignments] = useState({})
+  const [addMode, setAddMode] = useState('new') // 'new' | 'existing'
+  const [allEvidences, setAllEvidences] = useState([])
+  const [selectedExistingEvidence, setSelectedExistingEvidence] = useState(null)
 
   const load = async () => {
     const qs = await getQueries()
@@ -41,6 +44,22 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
       // 提取所有 session keys
       const sessions = [...new Set(msgs.map(m => m.session_key))].sort()
       setSessionKeys(sessions)
+    }
+    // 加载所有 evidences（用于添加已有 evidence）
+    try {
+      const allEvs = await getAllEvidences()
+      // 过滤出该 sample 中已经 positioned 或 polished 的 evidence，且不属于当前 query
+      const currentQueryEvidenceIds = new Set(q?.evidences?.map(e => e.id) || [])
+      const availableEvs = allEvs.filter(ev =>
+        ev.target_dia_id && // 有位置
+        (ev.status === 'positioned' || ev.status === 'polished') && // 状态是 positioned 或 polished
+        !currentQueryEvidenceIds.has(ev.id) && // 不属于当前 query
+        ev.queries.length > 0 && // 有关联的 query
+        ev.queries[0].id !== queryId // 确保不是当前 query
+      )
+      setAllEvidences(availableEvs)
+    } catch (e) {
+      setAllEvidences([])
     }
     // 加载 PolishedMessages
     try {
@@ -67,17 +86,44 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
   }, [queryId, refreshKey])
 
   const handleAddEvidence = async () => {
-    const values = await form.validateFields()
-    await createEvidence(queryId, values)
-    message.success('已添加')
-    form.resetFields()
-    setAddModalOpen(false)
-    load()
+    try {
+      if (addMode === 'new') {
+        // 创建新 evidence
+        const values = await form.validateFields()
+        await createEvidence(queryId, values)
+        message.success('已添加')
+      } else {
+        // 关联已有 evidence
+        if (!selectedExistingEvidence) {
+          message.warning('请选择要添加的 evidence')
+          return
+        }
+        await attachEvidence(selectedExistingEvidence, queryId)
+        message.success('已关联')
+      }
+      form.resetFields()
+      setAddModalOpen(false)
+      setAddMode('new')
+      setSelectedExistingEvidence(null)
+      load()
+    } catch (e) {
+      message.error(e.response?.data?.detail || '操作失败')
+    }
   }
 
   // 打开手动分配位置弹窗
   const handleOpenManualAssign = () => {
-    setManualAssignments({})
+    // 预填已有位置的 evidence
+    const initialAssignments = {}
+    evidences.forEach(ev => {
+      if (ev.target_dia_id && ev.session_key) {
+        initialAssignments[ev.id] = {
+          session: ev.session_key,
+          dia_id: ev.target_dia_id
+        }
+      }
+    })
+    setManualAssignments(initialAssignments)
     setManualAssignModalOpen(true)
   }
 
@@ -91,20 +137,14 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
         return
       }
 
-      // 先删除所有已润色的 evidence
-      for (const ev of evidences) {
-        if (ev.status === 'polished' || ev.status === 'confirmed') {
-          await unpolishEvidence(ev.id)
-        }
-      }
+      // 构建 assignments 数组
+      const assignments = evidences.map(ev => ({
+        evidence_id: ev.id,
+        target_dia_id: manualAssignments[ev.id].dia_id
+      }))
 
-      // 设置新位置
-      for (const ev of evidences) {
-        const assignment = manualAssignments[ev.id]
-        if (assignment?.dia_id) {
-          await setPosition(ev.id, assignment.dia_id)
-        }
-      }
+      // 调用批量手动分配 API（后端会智能处理：只对位置改变的 polished evidence 去除润色）
+      await manualAssign(queryId, assignments)
 
       message.success('位置已分配')
       setManualAssignModalOpen(false)
@@ -394,7 +434,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                   block
                   icon={<EyeOutlined />}
                   onClick={handlePreviewAssign}
-                  disabled={evidences.length === 0}
+                  disabled={true}
                 >
                   1. 自动分配位置（预览）
                 </Button>
@@ -404,7 +444,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                   block
                   icon={<ThunderboltOutlined />}
                   onClick={handleConfirmAndApply}
-                  disabled={evidences.length === 0 || isDirty || Object.keys(previewAssignments).length === 0}
+                  disabled={true}
                 >
                   2. 确认并重新应用位置（会删除旧润色）
                 </Button>
@@ -602,10 +642,29 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
         onCancel={() => {
           setAddModalOpen(false)
           form.resetFields()
+          setAddMode('new')
+          setSelectedExistingEvidence(null)
         }}
         width={600}
       >
-        <Form form={form} layout="vertical">
+        <Space direction="vertical" style={{ width: '100%', marginBottom: 16 }}>
+          <div>选择添加方式：</div>
+          <Select
+            value={addMode}
+            onChange={(value) => {
+              setAddMode(value)
+              form.resetFields()
+              setSelectedExistingEvidence(null)
+            }}
+            style={{ width: '100%' }}
+          >
+            <Select.Option value="new">创建新 Evidence</Select.Option>
+            <Select.Option value="existing">关联已有 Evidence（已 positioned/polished）</Select.Option>
+          </Select>
+        </Space>
+
+        {addMode === 'new' ? (
+          <Form form={form} layout="vertical">
           <Form.Item name="content" label="Evidence 内容" rules={[{ required: true }]}>
             <Input.TextArea rows={3} />
           </Form.Item>
@@ -686,6 +745,37 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
             </Form.List>
           </Form.Item>
         </Form>
+        ) : (
+          <div>
+            <div style={{ marginBottom: 8 }}>选择要关联的 Evidence：</div>
+            <Select
+              placeholder="选择已有的 positioned/polished evidence"
+              style={{ width: '100%' }}
+              value={selectedExistingEvidence}
+              onChange={setSelectedExistingEvidence}
+              showSearch
+              optionFilterProp="children"
+            >
+              {allEvidences.map(ev => (
+                <Select.Option key={ev.id} value={ev.id}>
+                  <Space direction="vertical" size={0}>
+                    <div>
+                      <Tag color={ev.status === 'positioned' ? 'processing' : 'success'}>{ev.status}</Tag>
+                      <Tag color="cyan">{ev.target_dia_id}</Tag>
+                      {ev.speaker && <Tag>{ev.speaker}</Tag>}
+                    </div>
+                    <div>{ev.content}</div>
+                  </Space>
+                </Select.Option>
+              ))}
+            </Select>
+            {allEvidences.length === 0 && (
+              <div style={{ marginTop: 8, color: '#999', fontSize: 12 }}>
+                当前没有可用的已 positioned/polished 的 evidence
+              </div>
+            )}
+          </div>
+        )}
       </Modal>
 
       <Modal

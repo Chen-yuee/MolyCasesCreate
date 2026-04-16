@@ -44,11 +44,20 @@ def apply_manual_positions(
 
     unpolished_count = 0
 
-    # 1. 减退所有已润色的 evidence
+    # 1. 只对位置发生改变的 positioned/polished evidence 去除润色
     for _, ev in all_evidence:
-        if ev.status == "polished":
-            store.unpolish_evidence_from_message(ev, q)
-            unpolished_count += 1
+        target_dia_id = assignment_map.get(ev.id)
+        if not target_dia_id:
+            continue
+
+        # 检查位置是否发生改变
+        position_changed = ev.target_dia_id != target_dia_id
+
+        # 只有位置改变且状态是 positioned 或 polished 时才去除润色
+        if position_changed and ev.status in ["positioned", "polished"]:
+            if ev.status == "polished":
+                store.unpolish_evidence_from_message(ev, q)
+                unpolished_count += 1
 
     # 2. 分配位置
     processed_count = 0

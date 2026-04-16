@@ -9,10 +9,22 @@
       "created_at": "2026-04-12T23:13:18.942491",
       "evidences": [
         "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
-        "82d3c715-8387-4c7d-a8ad-9c6669259f61",
-        "26495bfd-b512-4533-9990-3d62f566fbd0",
         "3fed6e51-839f-41f3-a2ab-db71feae9729",
-        "df12d023-fbf4-4a6f-a294-52c01162b21d"
+        "df12d023-fbf4-4a6f-a294-52c01162b21d",
+        "82d3c715-8387-4c7d-a8ad-9c6669259f61",
+        "26495bfd-b512-4533-9990-3d62f566fbd0"
+      ]
+    },
+    {
+      "id": "44a78245-dacd-40c2-9b48-110030849341",
+      "query_text": "fdsfdas\n",
+      "sample_id": 2,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-16T17:53:06.922274",
+      "evidences": [
+        "b68c7a97-ccf6-4a04-bcae-48d4a3782341",
+        "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6"
       ]
     }
   ],
@@ -20,8 +32,17 @@
     {
       "id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
       "content": "清睿是毕昇的负责人。",
+      "queries": [
+        {
+          "id": "452e7e84-1b46-49e0-8580-6c8580342e60",
+          "order": 0
+        },
+        {
+          "id": "44a78245-dacd-40c2-9b48-110030849341",
+          "order": 1
+        }
+      ],
       "speaker": "林晓",
-      "order": 0,
       "constraints": [
         {
           "target_evidence_id": "82d3c715-8387-4c7d-a8ad-9c6669259f61",
@@ -33,100 +54,90 @@
       "target_dia_id": "D11:11",
       "session_key": "session_11",
       "status": "polished",
-      "created_at": "2026-04-12T23:14:39.389321",
-      "queries": [
-        {
-          "id": "452e7e84-1b46-49e0-8580-6c8580342e60",
-          "order": 0
-        }
-      ]
+      "created_at": "2026-04-12T23:14:39.389321"
     },
     {
       "id": "82d3c715-8387-4c7d-a8ad-9c6669259f61",
       "content": "毕昇是 ai agent 产品。",
-      "speaker": "林晓",
-      "order": 4,
-      "constraints": [],
-      "target_dia_id": "D32:15",
-      "session_key": "session_32",
-      "status": "polished",
-      "created_at": "2026-04-12T23:14:52.608728",
       "queries": [
         {
           "id": "452e7e84-1b46-49e0-8580-6c8580342e60",
           "order": 1
         }
-      ]
+      ],
+      "speaker": "林晓",
+      "constraints": [],
+      "target_dia_id": "D32:15",
+      "session_key": "session_32",
+      "status": "polished",
+      "created_at": "2026-04-12T23:14:52.608728"
     },
     {
       "id": "26495bfd-b512-4533-9990-3d62f566fbd0",
       "content": "ai agent 方向24 年 3 月 28 号在北京有个会，叫人工智能大会",
-      "speaker": "王丽",
-      "order": 1,
-      "constraints": [],
-      "target_dia_id": "D29:17",
-      "session_key": "session_29",
-      "status": "polished",
-      "created_at": "2026-04-12T23:15:25.914036",
       "queries": [
         {
           "id": "452e7e84-1b46-49e0-8580-6c8580342e60",
           "order": 2
         }
-      ]
+      ],
+      "speaker": "王丽",
+      "constraints": [],
+      "target_dia_id": "D29:17",
+      "session_key": "session_29",
+      "status": "polished",
+      "created_at": "2026-04-12T23:15:25.914036"
     },
     {
       "id": "3fed6e51-839f-41f3-a2ab-db71feae9729",
       "content": "人工智能大会有个叫杨植麟的人，我与他有点联系",
-      "speaker": "林晓",
-      "order": 2,
-      "constraints": [],
-      "target_dia_id": "D31:13",
-      "session_key": "session_31",
-      "status": "polished",
-      "created_at": "2026-04-12T23:16:12.697268",
       "queries": [
         {
           "id": "452e7e84-1b46-49e0-8580-6c8580342e60",
           "order": 3
         }
-      ]
+      ],
+      "speaker": "林晓",
+      "constraints": [],
+      "target_dia_id": "D31:13",
+      "session_key": "session_31",
+      "status": "polished",
+      "created_at": "2026-04-12T23:16:12.697268"
     },
     {
       "id": "df12d023-fbf4-4a6f-a294-52c01162b21d",
       "content": "我在 24 年 4 月 1 号，有一个 14 点的会，持续两个小时。",
-      "speaker": "林晓",
-      "order": 3,
-      "constraints": [],
-      "target_dia_id": "D32:11",
-      "session_key": "session_32",
-      "status": "polished",
-      "created_at": "2026-04-12T23:17:06.522316",
       "queries": [
         {
           "id": "452e7e84-1b46-49e0-8580-6c8580342e60",
           "order": 4
         }
-      ]
+      ],
+      "speaker": "林晓",
+      "constraints": [],
+      "target_dia_id": "D32:11",
+      "session_key": "session_32",
+      "status": "polished",
+      "created_at": "2026-04-12T23:17:06.522316"
+    },
+    {
+      "id": "b68c7a97-ccf6-4a04-bcae-48d4a3782341",
+      "content": "放大水电费",
+      "queries": [
+        {
+          "id": "44a78245-dacd-40c2-9b48-110030849341",
+          "order": 0
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D12:3",
+      "session_key": "session_12",
+      "status": "polished",
+      "created_at": "2026-04-16T18:27:29.321700"
     }
   ],
   "polished_messages": [
-    {
-      "sample_id": 2,
-      "dia_id": "D11:11",
-      "session_key": "session_11",
-      "original_text": "干得漂亮，王丽！你正在创造真正的改变。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了。请继续坚持下去！",
-      "final_polished_text": "干得漂亮，王丽！你正在创造真正的改变，让我想起清睿作为毕昇的负责人，也一直致力于这样的联结与奉献。记得我去圆明园时，也感受到历史与自然带来的宁静力量，正如你所说，与他人联结并帮助他人能带来如此多的快乐，请继续坚持下去！",
-      "evidence_items": [
-        {
-          "evidence": {
-            "id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
-            "content": "清睿是毕昇的负责人。"
-          }
-        }
-      ],
-      "updated_at": "2026-04-13T01:50:39.185793"
-    },
     {
       "sample_id": 2,
       "dia_id": "D32:15",
@@ -190,6 +201,38 @@
         }
       ],
       "updated_at": "2026-04-13T00:31:56.946118"
+    },
+    {
+      "sample_id": 2,
+      "dia_id": "D12:3",
+      "session_key": "session_12",
+      "original_text": "谢谢，王丽！能和理解这些问题重要性的人交谈真是太好了。深入探究政治体系让我大开眼界，所以我正在研究政策，写下我的想法和观点。希望能提高人们的意识，引发讨论，从而创造积极的改变。",
+      "final_polished_text": "谢谢，王丽！能和理解这些问题重要性的人交谈真是太好了。深入探究政治体系让我大开眼界，所以我正在研究政策，写下我的想法和观点。比如最近我就关注到一些地方存在水电费被不合理放大的问题，这直接影响到普通家庭的生活。希望能通过我的写作提高人们的意识，引发讨论，从而创造积极的改变。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "b68c7a97-ccf6-4a04-bcae-48d4a3782341",
+            "content": "放大水电费"
+          }
+        }
+      ],
+      "updated_at": "2026-04-16T18:29:24.902103"
+    },
+    {
+      "sample_id": 2,
+      "dia_id": "D11:11",
+      "session_key": "session_11",
+      "original_text": "干得漂亮，王丽！你正在创造真正的改变。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了。请继续坚持下去！",
+      "final_polished_text": "干得漂亮，王丽！你正在创造真正的改变。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了。说起来，清睿作为毕昇的负责人，也常常强调社区联结的价值呢。请继续坚持下去！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
+            "content": "清睿是毕昇的负责人。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-16T18:29:28.599051"
     }
   ]
 }
