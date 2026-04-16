@@ -1,15 +1,31 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import os
+import time
 
 from .api.queries import router as queries_router
 from .api.evidences import router as evidences_router
 from .api.insertion import router as insertion_router
 from .api.polish import router as polish_router
 from .api.samples import router as samples_router
+from .logger import get_logger
+
+logger = get_logger("main")
 
 app = FastAPI(title="Moly Evidence 插入工具", version="1.0.0")
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    start_time = time.time()
+    logger.info(f"→ {request.method} {request.url.path}")
+
+    response = await call_next(request)
+
+    duration = time.time() - start_time
+    logger.info(f"← {request.method} {request.url.path} - {response.status_code} ({duration:.3f}s)")
+
+    return response
 
 app.add_middleware(
     CORSMiddleware,

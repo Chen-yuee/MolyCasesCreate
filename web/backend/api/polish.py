@@ -6,6 +6,9 @@ from ..data_store import store
 from ..data_loader import loader
 from ..llm_client import llm_client
 from ..models import PolishedMessage
+from ..logger import get_logger
+
+logger = get_logger("api.polish")
 
 router = APIRouter(tags=["polish"])
 
@@ -50,8 +53,10 @@ def get_polished_messages(qid: str):
 @router.post("/api/queries/{qid}/polish")
 def batch_polish(qid: str, body: BatchPolishBody = None):
     """批量润色 Query 下指定的 evidence。"""
+    logger.info(f"批量润色开始 - qid: {qid}")
     q = store.get_query(qid)
     if not q:
+        logger.error(f"Query 未找到 - qid: {qid}")
         raise HTTPException(status_code=404, detail="Query not found")
 
     # 从 evidence IDs 获取对象，确定要润色的
@@ -66,16 +71,20 @@ def batch_polish(qid: str, body: BatchPolishBody = None):
         to_polish = [e for e in all_evidences if e.status == "positioned" and e.target_dia_id]
 
     if not to_polish:
+        logger.warning(f"没有要润色的 evidence - qid: {qid}")
         raise HTTPException(status_code=400, detail="没有要润色的 evidence")
 
+    logger.info(f"开始润色 {len(to_polish)} 个 evidence")
     results = []
     for ev in to_polish:
         try:
             result = repolish(ev.id)
             results.append(result)
         except Exception as e:
+            logger.error(f"润色失败 - evidence_id: {ev.id}, error: {str(e)}")
             results.append({"evidence_id": ev.id, "error": str(e)})
 
+    logger.info(f"批量润色完成 - qid: {qid}, 成功: {len([r for r in results if 'error' not in r])}")
     return {"results": results}
 
 
@@ -85,25 +94,33 @@ def repolish(eid: str):
     重新润色单条 evidence。
     一次性收集该消息所有关联的 evidence
     """
+    logger.info(f"重新润色 - eid: {eid}")
     ev = store.get_evidence(eid)
     if not ev:
+        logger.error(f"Evidence 未找到 - eid: {eid}")
         raise HTTPException(status_code=404, detail="Evidence not found")
     if not ev.target_dia_id:
+        logger.error(f"Evidence 尚未分配插入位置 - eid: {eid}")
         raise HTTPException(status_code=400, detail="该 evidence 尚未分配插入位置")
 
     # 从 evidence.queries 获取关联的 query
     if not ev.queries:
+        logger.error(f"Evidence 未关联任何 query - eid: {eid}")
         raise HTTPException(status_code=400, detail="该 evidence 未关联任何 query")
     q = store.get_query(ev.queries[0].id)
     if not q:
+        logger.error(f"关联的 Query 不存在 - qid: {ev.queries[0].id}")
         raise HTTPException(status_code=404, detail="关联的 Query 不存在")
 
+    logger.debug(f"获取 PolishedMessage - sample_id: {q.sample_id}, dia_id: {ev.target_dia_id}")
     # 获取或创建该消息的 PolishedMessage
     polished_msg = store.get_polished_message(q.sample_id, ev.target_dia_id)
     if not polished_msg:
         # 首次润色：创建 PolishedMessage
+        logger.debug(f"首次润色，创建 PolishedMessage")
         ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
         if not ctx:
+            logger.error(f"无法获取上下文 - sample_id: {q.sample_id}, dia_id: {ev.target_dia_id}")
             raise HTTPException(status_code=400, detail="无法获取上下文")
         original = ctx["context"][ctx["target_index"]]["text"]
         polished_msg = PolishedMessage(
@@ -127,18 +144,23 @@ def repolish(eid: str):
     if ev.id not in [e.id for e in all_evidences]:
         all_evidences.append(ev)
 
+    logger.info(f"收集到 {len(all_evidences)} 个 evidence 进行润色")
+
     # 按 query_id 排序
     all_evidences.sort(key=lambda e: e.queries[0].id if e.queries else "")
 
     # 获取上下文
     ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
     if not ctx:
+        logger.error(f"无法获取上下文 - sample_id: {q.sample_id}, dia_id: {ev.target_dia_id}")
         raise HTTPException(status_code=400, detail="无法获取上下文")
 
     # 准备已润色的 evidence 内容（不包括当前要润色的）
     already_polished = [e.content for e in all_evidences if e.id != ev.id]
+    logger.debug(f"已润色的 evidence 数量: {len(already_polished)}")
 
     # 调用 LLM 整体润色
+    logger.info(f"调用 LLM 润色 - eid: {eid}")
     polished = llm_client.polish(
         evidence=ev.content,
         original_text=polished_msg.original_text,
@@ -166,6 +188,8 @@ def repolish(eid: str):
     polished_msg.evidence_items = new_evidence_items
     polished_msg.updated_at = datetime.now().isoformat()
     store.update_polished_message(polished_msg)
+
+    logger.info(f"润色完成 - eid: {eid}, evidence_count: {len(polished_msg.evidence_items)}")
 
     return {
         "dia_id": ev.target_dia_id,

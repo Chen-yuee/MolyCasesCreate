@@ -5,6 +5,9 @@ from ..data_store import store
 from ..data_loader import loader
 from ..inserter import assign_positions
 from .. import manual_inserter
+from ..logger import get_logger
+
+logger = get_logger("api.insertion")
 
 router = APIRouter(tags=["insertion"])
 
@@ -105,7 +108,10 @@ def manual_assign(qid: str, body: ManualAssignBody):
     手动分配 evidence 位置。
     已润色的 evidence 会先减退再分配位置。
     """
+    logger.info(f"收到手动分配请求 - qid: {qid}, assignments: {len(body.assignments)}")
     result = manual_inserter.apply_manual_positions(qid, body.assignments)
     if not result.get("success"):
+        logger.error(f"手动分配失败 - qid: {qid}, error: {result.get('error')}")
         raise HTTPException(status_code=400, detail=result.get("error"))
+    logger.info(f"手动分配成功 - qid: {qid}, result: {result}")
     return result

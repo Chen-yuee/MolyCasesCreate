@@ -4,6 +4,9 @@ from typing import List
 from fastapi import APIRouter, HTTPException
 from ..data_store import store
 from ..models import Query, QueryCreate, QueryUpdate, Evidence
+from ..logger import get_logger
+
+logger = get_logger("api.queries")
 
 router = APIRouter(prefix="/api/queries", tags=["queries"])
 
@@ -35,6 +38,7 @@ def list_queries():
 
 @router.post("")
 def create_query(body: QueryCreate):
+    logger.info(f"创建 query - sample_id: {body.sample_id}, protagonist: {body.protagonist}")
     query = Query(
         id=str(uuid.uuid4()),
         query_text=body.query_text,
@@ -44,7 +48,9 @@ def create_query(body: QueryCreate):
         created_at=datetime.now().isoformat(),
         evidences=[],
     )
-    return store.create_query(query)
+    result = store.create_query(query)
+    logger.info(f"Query 创建成功 - id: {result.id}")
+    return result
 
 
 @router.get("/{qid}")
@@ -70,8 +76,10 @@ def get_query_polished_messages(qid: str):
 
 @router.put("/{qid}")
 def update_query(qid: str, body: QueryUpdate):
+    logger.info(f"更新 query - qid: {qid}")
     q = store.get_query(qid)
     if not q:
+        logger.error(f"Query 未找到 - qid: {qid}")
         raise HTTPException(status_code=404, detail="Query not found")
     if body.query_text is not None:
         q.query_text = body.query_text
@@ -81,13 +89,18 @@ def update_query(qid: str, body: QueryUpdate):
         q.protagonist = body.protagonist
     if body.status is not None:
         q.status = body.status
-    return store.update_query(q)
+    result = store.update_query(q)
+    logger.info(f"Query 更新成功 - qid: {qid}")
+    return result
 
 
 @router.delete("/{qid}")
 def delete_query(qid: str):
+    logger.info(f"删除 query - qid: {qid}")
     q = store.get_query(qid)
     if not q:
+        logger.error(f"Query 未找到 - qid: {qid}")
         raise HTTPException(status_code=404, detail="Query not found")
     store.delete_query(qid)
+    logger.info(f"Query 删除成功 - qid: {qid}")
     return {"ok": True}
