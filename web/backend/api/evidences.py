@@ -7,6 +7,12 @@ from ..models import Evidence, EvidenceCreate, EvidenceUpdate, EvidenceQueryRef
 router = APIRouter(tags=["evidences"])
 
 
+@router.get("/api/evidences")
+def list_all_evidences():
+    """返回所有 evidence 对象列表。"""
+    return store.list_evidences()
+
+
 @router.get("/api/queries/{qid}/evidences")
 def list_evidences(qid: str):
     """返回该 query 关联的所有 evidence 对象（按 order 排序）。"""
@@ -16,6 +22,39 @@ def list_evidences(qid: str):
     # q.evidences 是 ID 列表，需要从 _evidences 中取出对象并按 order 排序
     evidences = [store.get_evidence(eid) for eid in q.evidences]
     return sorted([e for e in evidences if e is not None], key=lambda e: e.queries[0].order if e.queries else 0)
+
+
+@router.post("/api/evidences/{eid}/attach")
+def attach_evidence_to_query(eid: str, qid: str):
+    """将已有的 evidence 关联到另一个 query。
+    oder 有问题。我觉得之后考虑 order 后端不动，全由前端传过来。 4.16 日
+    """
+    ev = store.get_evidence(eid)
+    if not ev:
+        raise HTTPException(status_code=404, detail="Evidence not found")
+    q = store.get_query(qid)
+    if not q:
+        raise HTTPException(status_code=404, detail="Query not found")
+
+    # 检查是否已关联该 query
+    if any(ref.id == qid for ref in ev.queries):
+        raise HTTPException(status_code=400, detail="该 evidence 已关联此 query")
+
+    # 自动分配 order
+    max_order = max(
+        (store.get_evidence(eid).queries[0].order for eid in q.evidences
+         if store.get_evidence(eid) and store.get_evidence(eid).queries),
+        default=-1
+    )
+    ev.queries.append(EvidenceQueryRef(id=qid, order=max_order + 1))
+    store.update_evidence(ev)
+
+    # 在 query.evidences 中也追加该 evidence ID
+    if eid not in q.evidences:
+        q.evidences.append(eid)
+        store.update_query(q)
+
+    return ev
 
 
 @router.post("/api/queries/{qid}/evidences")

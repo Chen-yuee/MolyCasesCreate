@@ -199,6 +199,10 @@ class DataStore:
         """按 ID 获取 Evidence。"""
         return self._evidences.get(eid)
 
+    def list_evidences(self) -> List[Evidence]:
+        """返回所有 Evidence 对象列表。"""
+        return list(self._evidences.values())
+
     def add_evidence(self, qid: str, evidence: Evidence) -> Optional[Evidence]:
         """
         向指定 query 添加 evidence。
