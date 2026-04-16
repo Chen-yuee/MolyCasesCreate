@@ -8,10 +8,10 @@
       "status": "draft",
       "created_at": "2026-04-12T23:13:18.942491",
       "evidences": [
-        "df12d023-fbf4-4a6f-a294-52c01162b21d",
-        "3fed6e51-839f-41f3-a2ab-db71feae9729",
-        "82d3c715-8387-4c7d-a8ad-9c6669259f61",
         "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
+        "3fed6e51-839f-41f3-a2ab-db71feae9729",
+        "df12d023-fbf4-4a6f-a294-52c01162b21d",
+        "82d3c715-8387-4c7d-a8ad-9c6669259f61",
         "26495bfd-b512-4533-9990-3d62f566fbd0"
       ]
     },
@@ -23,8 +23,8 @@
       "status": "draft",
       "created_at": "2026-04-16T17:53:06.922274",
       "evidences": [
-        "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
-        "b68c7a97-ccf6-4a04-bcae-48d4a3782341"
+        "b68c7a97-ccf6-4a04-bcae-48d4a3782341",
+        "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6"
       ]
     }
   ],
@@ -51,9 +51,9 @@
           "max_turns": null
         }
       ],
-      "target_dia_id": "D10:1",
-      "session_key": "session_10",
-      "status": "positioned",
+      "target_dia_id": "D11:11",
+      "session_key": "session_11",
+      "status": "polished",
       "created_at": "2026-04-12T23:14:39.389321"
     },
     {
@@ -69,7 +69,7 @@
       "constraints": [],
       "target_dia_id": "D32:15",
       "session_key": "session_32",
-      "status": "positioned",
+      "status": "polished",
       "created_at": "2026-04-12T23:14:52.608728"
     },
     {
@@ -85,7 +85,7 @@
       "constraints": [],
       "target_dia_id": "D29:17",
       "session_key": "session_29",
-      "status": "positioned",
+      "status": "polished",
       "created_at": "2026-04-12T23:15:25.914036"
     },
     {
@@ -101,7 +101,7 @@
       "constraints": [],
       "target_dia_id": "D31:13",
       "session_key": "session_31",
-      "status": "positioned",
+      "status": "polished",
       "created_at": "2026-04-12T23:16:12.697268"
     },
     {
@@ -117,7 +117,7 @@
       "constraints": [],
       "target_dia_id": "D32:11",
       "session_key": "session_32",
-      "status": "positioned",
+      "status": "polished",
       "created_at": "2026-04-12T23:17:06.522316"
     },
     {
@@ -207,7 +207,7 @@
       "dia_id": "D12:3",
       "session_key": "session_12",
       "original_text": "谢谢，王丽！能和理解这些问题重要性的人交谈真是太好了。深入探究政治体系让我大开眼界，所以我正在研究政策，写下我的想法和观点。希望能提高人们的意识，引发讨论，从而创造积极的改变。",
-      "final_polished_text": "谢谢，王丽！能和理解这些问题重要性的人交谈真是太好了。深入探究政治体系让我大开眼界，所以我正在研究政策，写下我的想法和观点。比如最近我就关注到一些地方存在水电费被不合理放大的问题，这直接影响到普通家庭的生活。希望能通过我的写作提高人们对这类议题的意识，引发讨论，从而创造积极的改变。",
+      "final_polished_text": "谢谢，王丽！能和理解这些问题重要性的人交谈真是太好了。深入探究政治体系让我大开眼界，所以我正在研究政策，写下我的想法和观点。比如最近我就关注到一些地方存在水电费被不合理放大的问题，这直接影响到普通家庭的生活。希望能通过我的写作提高人们的意识，引发讨论，从而创造积极的改变。",
       "evidence_items": [
         {
           "evidence": {
@@ -216,14 +216,14 @@
           }
         }
       ],
-      "updated_at": "2026-04-16T18:36:15.515569"
+      "updated_at": "2026-04-16T18:29:24.902103"
     },
     {
       "sample_id": 2,
-      "dia_id": "D10:1",
-      "session_key": "session_10",
-      "original_text": "嘿，王丽，我超兴奋地告诉你，我和一位同事一起报了个周末瑜伽班——太棒了！每次上完课，无论是精神上还是身体上，我都感觉特别好。我想尝试瑜伽已经有一阵子了，终于下定决心了。简单的拉伸和呼吸对我的身心健康产生了非常积极的影响。而且教练也很棒。",
-      "final_polished_text": "嘿，王丽，我超兴奋地告诉你，我和一位同事一起报了个周末瑜伽班——太棒了！每次上完课，无论是精神上还是身体上，我都感觉特别好。我想尝试瑜伽已经有一阵子了，终于下定决心了。简单的拉伸和呼吸对我的身心健康产生了非常积极的影响。而且教练也很棒，你知道吗，我们的教练清睿还是毕昇的负责人呢，没想到她瑜伽也教得这么好。",
+      "dia_id": "D11:11",
+      "session_key": "session_11",
+      "original_text": "干得漂亮，王丽！你正在创造真正的改变。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了。请继续坚持下去！",
+      "final_polished_text": "干得漂亮，王丽！你正在创造真正的改变。与他人联结并帮助他人能给你带来如此多的快乐，这真是太棒了。说起来，清睿作为毕昇的负责人，也常常强调社区联结的价值呢。请继续坚持下去！",
       "evidence_items": [
         {
           "evidence": {
@@ -232,7 +232,7 @@
           }
         }
       ],
-      "updated_at": "2026-04-16T18:36:20.320345"
+      "updated_at": "2026-04-16T18:29:28.599051"
     }
   ]
 }
