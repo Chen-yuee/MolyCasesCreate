@@ -176,63 +176,21 @@ class DataStore:
 
     def delete_query(self, qid: str):
         """
-        删除 Query 及关联的 evidences 和 polished_messages。
-        流程：
-        1. 遍历该 query 的每条 evidence，从关联的 PolishedMessage 中解绑并 unpolish
-        2. 删除所有关联 evidence
-        3. 删除该 query 的 polished_messages
-        4. 从存储中移除 query
+        删除 Query 及所有关联的 evidence（每个 evidence 会自动处理自身的 PolishedMessage 减退）。
+        1. 收集该 query 的所有 evidence IDs
+        2. 逐个调用 delete_evidence 删除
+        3. 从存储中移除 query
         """
-        from .llm_client import llm_client
-        from datetime import datetime
-
-        query = self._queries.pop(qid, None)
+        query = self._queries.get(qid)
         if not query:
             return
 
-        # 遍历该 query 关联的所有 evidence（从 queries 数组中查找）
-        for ev in list(self._evidences.values()):
-            if any(ref.id == qid for ref in ev.queries):
-                if ev.target_dia_id:
-                    # sample_id 从关联的 query 获取
-                    sample_id = self._queries.get(qid, None)
-                    sample_id = sample_id.sample_id if sample_id else None
-                    polished_msg = self.get_polished_message(sample_id, ev.target_dia_id) if sample_id else None
-                    if polished_msg:
-                        # 移除该 evidence 的关联
-                        polished_msg.evidence_items = [
-                            item for item in polished_msg.evidence_items
-                            if item["evidence"]["id"] != ev.id
-                        ]
-                        if not polished_msg.evidence_items:
-                            # 无剩余 evidence，删除 PolishedMessage（恢复原文）
-                            self.delete_polished_message(sample_id, polished_msg.dia_id)
-                        else:
-                            # 还有其他 evidence，调用 LLM 去除当前 evidence 的润色
-                            other_contents = []
-                            for item in polished_msg.evidence_items:
-                                cur_ev = self._evidences.get(item["evidence"]["id"])
-                                if cur_ev:
-                                    other_contents.append(cur_ev.content)
-                            polished = llm_client.unpolish(
-                                original_text=polished_msg.original_text,
-                                polished_text=polished_msg.final_polished_text,
-                                evidence_to_remove=ev.content,
-                                other_evidences=other_contents,
-                            )
-                            polished_msg.final_polished_text = polished
-                            polished_msg.updated_at = datetime.now().isoformat()
-                            self.update_polished_message(polished_msg)
+        # 复制列表避免迭代中修改
+        for eid in list(query.evidences):
+            self.delete_evidence(eid)
 
-                # 从所有 query 的 evidences 列表中移除该 evidence ID
-                for q in self._queries.values():
-                    if ev.id in q.evidences:
-                        q.evidences.remove(ev.id)
-                # 删除 evidence
-                self._evidences.pop(ev.id, None)
-
-        # 删除该 query 的 polished_messages
-        self.delete_polished_messages_by_query(qid)
+        # 移除 query
+        self._queries.pop(qid)
         self._save()
 
     # ── Evidence ────────────────────────────────────────────────────────────────
@@ -279,20 +237,73 @@ class DataStore:
         self._save()
         return evidence
 
+    def _unpolish_evidence_from_message(self, ev: Evidence, q: Query):
+        """
+        将 evidence 从关联的 PolishedMessage 中解绑并减退。
+        - 若无剩余 evidence_items，删除 PolishedMessage
+        - 若有其他 evidence，重新调用 LLM 减退
+        """
+        from .llm_client import llm_client
+        from datetime import datetime
+
+        if not ev.target_dia_id:
+            return
+
+        polished_msg = self.get_polished_message(q.sample_id, ev.target_dia_id)
+        if not polished_msg:
+            return
+
+        polished_msg.evidence_items = [
+            item for item in polished_msg.evidence_items
+            if item["evidence"]["id"] != ev.id
+        ]
+
+        if not polished_msg.evidence_items:
+            self.delete_polished_message(q.sample_id, polished_msg.dia_id)
+        else:
+            other_contents = []
+            for item in polished_msg.evidence_items:
+                cur_ev = self._evidences.get(item["evidence"]["id"])
+                if cur_ev:
+                    other_contents.append(cur_ev.content)
+            polished = llm_client.unpolish(
+                original_text=polished_msg.original_text,
+                polished_text=polished_msg.final_polished_text,
+                evidence_to_remove=ev.content,
+                other_evidences=other_contents,
+            )
+            polished_msg.final_polished_text = polished
+            polished_msg.updated_at = datetime.now().isoformat()
+            self.update_polished_message(polished_msg)
+
     def delete_evidence(self, eid: str) -> bool:
         """
-        删除 evidence。
-        1. 从 _evidences 移除
-        2. 从所有 query.evidences 列表中移除该 ID
+        删除 evidence，同时处理关联的 PolishedMessage 减退。
+        1. 找到关联的 query
+        2. 从 PolishedMessage 中解绑并减退
+        3. 从 query.evidences 列表中移除 ID
+        4. 从 _evidences 中移除
         """
-        evidence = self._evidences.pop(eid, None)
+        evidence = self._evidences.get(eid)
         if not evidence:
             return False
 
-        for q in self._queries.values():
-            if eid in q.evidences:
-                q.evidences.remove(eid)
+        # 找到关联的 query
+        q = None
+        if evidence.queries:
+            q = self._queries.get(evidence.queries[0].id)
 
+        # 处理 PolishedMessage 减退
+        if q:
+            self._unpolish_evidence_from_message(evidence, q)
+
+        # 从 query.evidences 列表中移除
+        for query in self._queries.values():
+            if eid in query.evidences:
+                query.evidences.remove(eid)
+
+        # 从顶层移除
+        self._evidences.pop(eid)
         self._save()
         return True
 
@@ -335,28 +346,28 @@ class DataStore:
         self._polished_messages.pop(key, None)
         self._save()
 
-    def delete_polished_messages_by_query(self, query_id: str):
-        """
-        删除与指定 query 关联的所有 PolishedMessage。
-        通过 evidence IDs 桥接，逻辑同 get_polished_messages_by_query。
-        """
-        evidence_ids = {
-            eid for eid, ev in self._evidences.items()
-            if any(ref.id == query_id for ref in ev.queries)
-        }
+    # def delete_polished_messages_by_query(self, query_id: str):
+    #     """
+    #     删除与指定 query 关联的所有 PolishedMessage。
+    #     通过 evidence IDs 桥接，逻辑同 get_polished_messages_by_query。
+    #     """
+    #     evidence_ids = {
+    #         eid for eid, ev in self._evidences.items()
+    #         if any(ref.id == query_id for ref in ev.queries)
+    #     }
 
-        for msg in list(self._polished_messages.values()):
-            msg_evidence_ids = {item["evidence"]["id"] for item in msg.evidence_items}
-            intersecting = msg_evidence_ids & evidence_ids
-            if intersecting:
-                # 移除属于该 query 的 evidence_items
-                msg.evidence_items = [
-                    item for item in msg.evidence_items
-                    if item["evidence"]["id"] not in intersecting
-                ]
-                if not msg.evidence_items:
-                    self.delete_polished_message(msg.sample_id, msg.dia_id)
-        self._save()
+    #     for msg in list(self._polished_messages.values()):
+    #         msg_evidence_ids = {item["evidence"]["id"] for item in msg.evidence_items}
+    #         intersecting = msg_evidence_ids & evidence_ids
+    #         if intersecting:
+    #             # 移除属于该 query 的 evidence_items
+    #             msg.evidence_items = [
+    #                 item for item in msg.evidence_items
+    #                 if item["evidence"]["id"] not in intersecting
+    #             ]
+    #             if not msg.evidence_items:
+    #                 self.delete_polished_message(msg.sample_id, msg.dia_id)
+    #     self._save()
 
 
 # 全局单例
