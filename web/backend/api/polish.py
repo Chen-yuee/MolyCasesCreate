@@ -83,7 +83,7 @@ def batch_polish(qid: str, body: BatchPolishBody = None):
 def repolish(eid: str):
     """
     重新润色单条 evidence。
-    一次性收集该消息所有关联的 evidence，按 (query_id, order) 排序后整体润色。
+    一次性收集该消息所有关联的 evidence
     """
     ev = store.get_evidence(eid)
     if not ev:
@@ -127,8 +127,8 @@ def repolish(eid: str):
     if ev.id not in [e.id for e in all_evidences]:
         all_evidences.append(ev)
 
-    # 按 (query_id, order) 排序
-    all_evidences.sort(key=lambda e: (e.queries[0].id if e.queries else "", e.queries[0].order if e.queries else 0))
+    # 按 query_id 排序
+    all_evidences.sort(key=lambda e: e.queries[0].id if e.queries else "")
 
     # 获取上下文
     ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
