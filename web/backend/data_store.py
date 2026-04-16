@@ -280,6 +280,15 @@ class DataStore:
             polished_msg.updated_at = datetime.now().isoformat()
             self.update_polished_message(polished_msg)
 
+    def unpolish_evidence_from_message(self, ev: Evidence, q: Query):
+        """
+        将 evidence 从 PolishedMessage 解绑并减退（公开版本）。
+        减退后将 evidence.status 改为 "positioned" 并持久化。
+        """
+        self._unpolish_evidence_from_message(ev, q)
+        ev.status = "positioned"
+        self.update_evidence(ev)
+
     def delete_evidence(self, eid: str) -> bool:
         """
         删除 evidence，同时处理关联的 PolishedMessage 减退。

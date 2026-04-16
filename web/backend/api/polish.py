@@ -175,51 +175,51 @@ def repolish(eid: str):
     }
 
 
-@router.put("/api/evidences/{eid}/polish_text")
-def set_polish_text(eid: str, body: PolishTextBody):
-    """手动编辑润色结果。"""
-    ev = store.get_evidence(eid)
-    if not ev:
-        raise HTTPException(status_code=404, detail="Evidence not found")
-    if not ev.target_dia_id:
-        raise HTTPException(status_code=400, detail="该 evidence 尚未分配插入位置")
+# @router.put("/api/evidences/{eid}/polish_text")
+# def set_polish_text(eid: str, body: PolishTextBody):
+#     """手动编辑润色结果。"""
+#     ev = store.get_evidence(eid)
+#     if not ev:
+#         raise HTTPException(status_code=404, detail="Evidence not found")
+#     if not ev.target_dia_id:
+#         raise HTTPException(status_code=400, detail="该 evidence 尚未分配插入位置")
 
-    # 从 evidence.queries 获取关联 query
-    if not ev.queries:
-        raise HTTPException(status_code=400, detail="该 evidence 未关联任何 query")
-    q = store.get_query(ev.queries[0].id)
-    if not q:
-        raise HTTPException(status_code=404, detail="关联的 Query 不存在")
+#     # 从 evidence.queries 获取关联 query
+#     if not ev.queries:
+#         raise HTTPException(status_code=400, detail="该 evidence 未关联任何 query")
+#     q = store.get_query(ev.queries[0].id)
+#     if not q:
+#         raise HTTPException(status_code=404, detail="关联的 Query 不存在")
 
-    # 获取或创建 PolishedMessage
-    polished_msg = store.get_polished_message(q.sample_id, ev.target_dia_id)
-    if not polished_msg:
-        ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
-        if not ctx:
-            raise HTTPException(status_code=400, detail="无法获取上下文")
-        original = ctx["context"][ctx["target_index"]]["text"]
-        polished_msg = PolishedMessage(
-            sample_id=q.sample_id,
-            dia_id=ev.target_dia_id,
-            session_key=ev.session_key,
-            original_text=original,
-            final_polished_text=body.polished_text,
-            evidence_items=[{"evidence": {"id": ev.id, "content": ev.content}}],
-            updated_at=datetime.now().isoformat()
-        )
-    else:
-        polished_msg.final_polished_text = body.polished_text
-        polished_msg.updated_at = datetime.now().isoformat()
-        # 将该 evidence 加入 evidence_items（如果不在）
-        if not any(item["evidence"]["id"] == ev.id for item in polished_msg.evidence_items):
-            polished_msg.evidence_items.append({"evidence": {"id": ev.id, "content": ev.content}})
+#     # 获取或创建 PolishedMessage
+#     polished_msg = store.get_polished_message(q.sample_id, ev.target_dia_id)
+#     if not polished_msg:
+#         ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
+#         if not ctx:
+#             raise HTTPException(status_code=400, detail="无法获取上下文")
+#         original = ctx["context"][ctx["target_index"]]["text"]
+#         polished_msg = PolishedMessage(
+#             sample_id=q.sample_id,
+#             dia_id=ev.target_dia_id,
+#             session_key=ev.session_key,
+#             original_text=original,
+#             final_polished_text=body.polished_text,
+#             evidence_items=[{"evidence": {"id": ev.id, "content": ev.content}}],
+#             updated_at=datetime.now().isoformat()
+#         )
+#     else:
+#         polished_msg.final_polished_text = body.polished_text
+#         polished_msg.updated_at = datetime.now().isoformat()
+#         # 将该 evidence 加入 evidence_items（如果不在）
+#         if not any(item["evidence"]["id"] == ev.id for item in polished_msg.evidence_items):
+#             polished_msg.evidence_items.append({"evidence": {"id": ev.id, "content": ev.content}})
 
-    ev.status = "confirmed"
-    store.update_evidence(ev)
-    store.update_polished_message(polished_msg)
+#     ev.status = "confirmed"
+#     store.update_evidence(ev)
+#     store.update_polished_message(polished_msg)
 
-    return {
-        "dia_id": ev.target_dia_id,
-        "original_text": polished_msg.original_text,
-        "final_polished_text": polished_msg.final_polished_text
-    }
+#     return {
+#         "dia_id": ev.target_dia_id,
+#         "original_text": polished_msg.original_text,
+#         "final_polished_text": polished_msg.final_polished_text
+#     }
