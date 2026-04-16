@@ -234,7 +234,7 @@ class DataStore:
         """
         向指定 query 添加 evidence。
         1. 验证 query 存在
-        2. 构造 queries 字段（含当前 query 的 order）
+        2. 构造 queries 字段（含当前 query 的引用）
         3. 写入顶层 _evidences
         4. 在 query.evidences 列表中追加 evidence ID
         """
@@ -242,9 +242,8 @@ class DataStore:
         if not query:
             return None
 
-        # 构造 queries 引用字段（当前 evidence 在该 query 中的顺序）
-        order = len(query.evidences)
-        evidence.queries = [EvidenceQueryRef(id=qid, order=order)]
+        # 构造 queries 引用字段
+        evidence.queries = [EvidenceQueryRef(id=qid)]
 
         self._evidences[evidence.id] = evidence
         query.evidences.append(evidence.id)

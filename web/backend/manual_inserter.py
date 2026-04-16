@@ -33,19 +33,17 @@ def apply_manual_positions(
     # 构建 evidence_id -> assignment 映射
     assignment_map = {a["evidence_id"]: a["target_dia_id"] for a in assignments}
 
-    # 按 order 排序获取所有 evidence
+    # 按 query.evidences 列表顺序获取所有 evidence
     all_evidence = []
     for eid in q.evidences:
         ev = store.get_evidence(eid)
         if ev:
-            order = ev.queries[0].order if ev.queries else 0
-            all_evidence.append((order, ev))
-    all_evidence.sort(key=lambda x: x[0])
+            all_evidence.append(ev)
 
     unpolished_count = 0
 
     # 1. 只对位置发生改变的 positioned/polished evidence 去除润色
-    for _, ev in all_evidence:
+    for ev in all_evidence:
         target_dia_id = assignment_map.get(ev.id)
         if not target_dia_id:
             continue
@@ -61,7 +59,7 @@ def apply_manual_positions(
 
     # 2. 分配位置
     processed_count = 0
-    for _, ev in all_evidence:
+    for ev in all_evidence:
         target_dia_id = assignment_map.get(ev.id)
         if not target_dia_id:
             continue

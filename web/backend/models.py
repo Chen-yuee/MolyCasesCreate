@@ -14,14 +14,12 @@ class EvidenceConstraint(BaseModel):
 class EvidenceCreate(BaseModel):
     content: str
     speaker: Optional[str] = None  # 指定由谁说（主角或对方），None 表示主角
-    order: Optional[int] = None  # 在 query 中的顺序（用于拖动排序）
     constraints: Optional[List[EvidenceConstraint]] = []  # 与其他 evidence 的约束
 
 
 class EvidenceUpdate(BaseModel):
     content: Optional[str] = None
     speaker: Optional[str] = None
-    order: Optional[int] = None
     constraints: Optional[List[EvidenceConstraint]] = None
 
 
@@ -36,7 +34,6 @@ class EvidencePolishUpdate(BaseModel):
 class EvidenceQueryRef(BaseModel):
     """Evidence 所属的 query 引用"""
     id: str        # query id
-    order: int     # 在该 query 中的顺序
 
 
 class Evidence(BaseModel):

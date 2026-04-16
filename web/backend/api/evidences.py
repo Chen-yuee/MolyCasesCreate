@@ -15,20 +15,18 @@ def list_all_evidences():
 
 @router.get("/api/queries/{qid}/evidences")
 def list_evidences(qid: str):
-    """返回该 query 关联的所有 evidence 对象（按 order 排序）。"""
+    """返回该 query 关联的所有 evidence 对象（按 query.evidences 列表顺序）。"""
     q = store.get_query(qid)
     if not q:
         raise HTTPException(status_code=404, detail="Query not found")
-    # q.evidences 是 ID 列表，需要从 _evidences 中取出对象并按 order 排序
+    # q.evidences 是 ID 列表，按列表顺序返回对象
     evidences = [store.get_evidence(eid) for eid in q.evidences]
-    return sorted([e for e in evidences if e is not None], key=lambda e: e.queries[0].order if e.queries else 0)
+    return [e for e in evidences if e is not None]
 
 
 @router.post("/api/evidences/{eid}/attach")
 def attach_evidence_to_query(eid: str, qid: str):
-    """将已有的 evidence 关联到另一个 query。
-    oder 有问题。我觉得之后考虑 order 后端不动，全由前端传过来。 4.16 日
-    """
+    """将已有的 evidence 关联到另一个 query。"""
     ev = store.get_evidence(eid)
     if not ev:
         raise HTTPException(status_code=404, detail="Evidence not found")
@@ -40,13 +38,8 @@ def attach_evidence_to_query(eid: str, qid: str):
     if any(ref.id == qid for ref in ev.queries):
         raise HTTPException(status_code=400, detail="该 evidence 已关联此 query")
 
-    # 自动分配 order
-    max_order = max(
-        (store.get_evidence(eid).queries[0].order for eid in q.evidences
-         if store.get_evidence(eid) and store.get_evidence(eid).queries),
-        default=-1
-    )
-    ev.queries.append(EvidenceQueryRef(id=qid, order=max_order + 1))
+    # 添加 query 引用（不需要 order）
+    ev.queries.append(EvidenceQueryRef(id=qid))
     store.update_evidence(ev)
 
     # 在 query.evidences 中也追加该 evidence ID
@@ -64,13 +57,6 @@ def create_evidence(qid: str, body: EvidenceCreate):
     if not q:
         raise HTTPException(status_code=404, detail="Query not found")
 
-    # 自动分配 order（取当前最大值 + 1）
-    # 最大 order 从已有 evidence 的 queries[0].order 取得
-    max_order = max(
-        (store.get_evidence(eid).queries[0].order for eid in q.evidences if store.get_evidence(eid) and store.get_evidence(eid).queries),
-        default=-1
-    )
-    order_val = body.order if body.order is not None else max_order + 1
     ev = Evidence(
         id=str(uuid.uuid4()),
         content=body.content,
@@ -79,7 +65,7 @@ def create_evidence(qid: str, body: EvidenceCreate):
         status="draft",
         created_at=datetime.now().isoformat(),
     )
-    ev.queries = [EvidenceQueryRef(id=qid, order=order_val)]
+    ev.queries = [EvidenceQueryRef(id=qid)]
     return store.add_evidence(qid, ev)
 
 
@@ -93,10 +79,6 @@ def update_evidence(eid: str, body: EvidenceUpdate):
         ev.content = body.content
     if body.speaker is not None:
         ev.speaker = body.speaker
-    if body.order is not None:
-        # 更新 queries 中的 order（通常 evidence 只属于一个 query）
-        for ref in ev.queries:
-            ref.order = body.order
     if body.constraints is not None:
         ev.constraints = body.constraints
     return store.update_evidence(ev)
