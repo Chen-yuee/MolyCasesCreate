@@ -1,15 +1,41 @@
 import uuid
 from datetime import datetime
+from typing import List
 from fastapi import APIRouter, HTTPException
 from ..data_store import store
-from ..models import Query, QueryCreate, QueryUpdate
+from ..models import Query, QueryCreate, QueryUpdate, Evidence
 
 router = APIRouter(prefix="/api/queries", tags=["queries"])
 
 
+def _populate_evidences(query: Query) -> List[Evidence]:
+    """
+    将 query.evidences (ID列表) 转换为完整的 Evidence 对象列表，
+    并在每个 evidence 中注入 order 字段（从 evidence.queries 中提取）
+    """
+    result = []
+    for eid in query.evidences:
+        ev = store.get_evidence(eid)
+        if ev:
+            # 从 ev.queries 中找到当前 query 的 order
+            query_ref = next((ref for ref in ev.queries if ref.id == query.id), None)
+            if query_ref:
+                # 创建副本并添加 order 字段
+                ev_dict = ev.model_dump()
+                ev_dict['order'] = query_ref.order
+                result.append(Evidence(**ev_dict))
+    # 按 order 排序
+    result.sort(key=lambda e: e.order if hasattr(e, 'order') else 0)
+    return result
+
+
 @router.get("")
 def list_queries():
-    return store.get_queries()
+    queries = store.get_queries()
+    # 填充完整 evidence 对象
+    for q in queries:
+        q.evidences = _populate_evidences(q)
+    return queries
 
 
 @router.post("")
@@ -31,6 +57,8 @@ def get_query(qid: str):
     q = store.get_query(qid)
     if not q:
         raise HTTPException(status_code=404, detail="Query not found")
+    # 填充完整 evidence 对象
+    q.evidences = _populate_evidences(q)
     return q
 
 

@@ -6,9 +6,9 @@ import {
 } from 'antd'
 import {
   ArrowLeftOutlined, ThunderboltOutlined, ReloadOutlined,
-  CheckOutlined, EditOutlined, SaveOutlined
+  CheckOutlined
 } from '@ant-design/icons'
-import { getQueries, batchPolish, repolish, setPolishText } from '../api'
+import { getQueries, batchPolish, repolish } from '../api'
 
 const { Header, Content } = Layout
 const { Title, Text, Paragraph } = Typography
@@ -18,8 +18,6 @@ export default function PolishView() {
   const navigate = useNavigate()
   const [query, setQuery] = useState(null)
   const [polishing, setPolishing] = useState(false)
-  const [editingId, setEditingId] = useState(null)
-  const [editText, setEditText] = useState('')
   const [repolishingId, setRepolishingId] = useState(null)
 
   const load = async () => {
@@ -53,13 +51,6 @@ export default function PolishView() {
     } finally {
       setRepolishingId(null)
     }
-  }
-
-  const handleSaveEdit = async (eid) => {
-    await setPolishText(eid, editText)
-    message.success('已保存')
-    setEditingId(null)
-    load()
   }
 
   if (!query) return <Spin style={{ padding: 48 }} />
@@ -116,29 +107,6 @@ export default function PolishView() {
                   >
                     重新润色
                   </Button>
-                  <Button
-                    size="small"
-                    icon={<EditOutlined />}
-                    onClick={() => {
-                      setEditingId(ev.id)
-                      setEditText(ev.polished_text || ev.original_text || '')
-                    }}
-                  >
-                    手动编辑
-                  </Button>
-                  {ev.polished_text && ev.status !== 'confirmed' && (
-                    <Button
-                      size="small"
-                      type="primary"
-                      icon={<CheckOutlined />}
-                      onClick={async () => {
-                        await setPolishText(ev.id, ev.polished_text)
-                        load()
-                      }}
-                    >
-                      确认
-                    </Button>
-                  )}
                 </Space>
               }
             >
@@ -155,35 +123,18 @@ export default function PolishView() {
                 </div>
                 <div style={{ flex: 1 }}>
                   <Text type="secondary" style={{ fontSize: 12 }}>润色后</Text>
-                  {editingId === ev.id ? (
-                    <Space.Compact style={{ width: '100%', marginTop: 4 }} direction="vertical">
-                      <Input.TextArea
-                        rows={4}
-                        value={editText}
-                        onChange={e => setEditText(e.target.value)}
-                      />
-                      <Space>
-                        <Button size="small" type="primary" icon={<SaveOutlined />} onClick={() => handleSaveEdit(ev.id)}>
-                          保存
-                        </Button>
-                        <Button size="small" onClick={() => setEditingId(null)}>取消</Button>
-                      </Space>
-                    </Space.Compact>
-                  ) : (
-                    <Paragraph
-                      style={{
-                        background: ev.polished_text ? '#f6ffed' : '#fafafa',
-                        padding: 8, borderRadius: 4, marginTop: 4,
-                        border: ev.polished_text ? '1px solid #b7eb8f' : undefined,
-                      }}
-                    >
-                      {ev.polished_text || <Text type="secondary">尚未润色</Text>}
-                    </Paragraph>
-                  )}
+                  <Paragraph
+                    style={{
+                      background: ev.polished_text ? '#f6ffed' : '#fafafa',
+                      padding: 8, borderRadius: 4, marginTop: 4,
+                      border: ev.polished_text ? '1px solid #b7eb8f' : undefined,
+                    }}
+                  >
+                    {ev.polished_text || <Text type="secondary">尚未润色</Text>}
+                  </Paragraph>
                 </div>
               </div>
             </Card>
-          ))}
           ))}
         </Card>
       </Content>

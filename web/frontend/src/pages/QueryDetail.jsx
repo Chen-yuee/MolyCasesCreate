@@ -7,18 +7,16 @@ import {
 } from 'antd'
 import {
   PlusOutlined, DeleteOutlined, EditOutlined, ThunderboltOutlined,
-  EyeOutlined, ArrowLeftOutlined, ExportOutlined
+  EyeOutlined, ArrowLeftOutlined
 } from '@ant-design/icons'
 import {
   getQueries, createEvidence, updateEvidence, deleteEvidence,
-  autoAssign, exportQuery
+  autoAssign
 } from '../api'
 
 const { Header, Content } = Layout
 const { Title, Text } = Typography
 
-const TYPE_COLOR = { contact: 'blue', schedule: 'green', todo: 'orange', general: 'default' }
-const TYPE_LABEL = { contact: '联系人', schedule: '日程', todo: '待办', general: '通用' }
 const STATUS_COLOR = { draft: 'default', positioned: 'processing', polished: 'success', confirmed: 'success' }
 const STATUS_LABEL = { draft: '草稿', positioned: '已定位', polished: '已润色', confirmed: '已确认' }
 
@@ -102,20 +100,6 @@ export default function QueryDetail() {
     }
   }
 
-  const handleExport = async () => {
-    try {
-      const blob = await exportQuery(qid)
-      const url = URL.createObjectURL(blob)
-      const a = document.createElement('a')
-      a.href = url
-      a.download = `query_${qid.slice(0, 8)}.json`
-      a.click()
-      URL.revokeObjectURL(url)
-    } catch (e) {
-      message.error(e.response?.data?.detail || '导出失败')
-    }
-  }
-
   if (!query) return <div style={{ padding: 24 }}>加载中...</div>
 
   const evidences = query.evidences || []
@@ -132,12 +116,6 @@ export default function QueryDetail() {
       title: 'Evidence 内容',
       dataIndex: 'content',
       ellipsis: true,
-    },
-    {
-      title: '类型',
-      dataIndex: 'type',
-      width: 80,
-      render: (t) => <Tag color={TYPE_COLOR[t]}>{TYPE_LABEL[t] || t}</Tag>,
     },
     {
       title: '插入位置',
@@ -230,13 +208,6 @@ export default function QueryDetail() {
               >
                 润色
               </Button>
-              <Button
-                icon={<ExportOutlined />}
-                onClick={handleExport}
-                disabled={confirmedCount === 0}
-              >
-                导出 JSON
-              </Button>
             </Space>
           }
         >
@@ -278,7 +249,7 @@ export default function QueryDetail() {
                 <Select allowClear placeholder="如果此 evidence 是对旧 evidence 的更新，请选择旧的那条">
                   {evidences.filter(e => e.id !== editingEv?.id).map(e => (
                     <Select.Option key={e.id} value={e.id}>
-                      [{TYPE_LABEL[e.type]}] {e.content.slice(0, 40)}
+                      {e.content.slice(0, 40)}
                     </Select.Option>
                   ))}
                 </Select>
