@@ -6,14 +6,7 @@
       "sample_id": 2,
       "protagonist": "林晓",
       "status": "draft",
-      "created_at": "2026-04-12T23:13:18.942491",
-      "evidences": [
-        "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
-        "82d3c715-8387-4c7d-a8ad-9c6669259f61",
-        "26495bfd-b512-4533-9990-3d62f566fbd0",
-        "3fed6e51-839f-41f3-a2ab-db71feae9729",
-        "df12d023-fbf4-4a6f-a294-52c01162b21d"
-      ]
+      "created_at": "2026-04-12T23:13:18.942491"
     }
   ],
   "evidences": [

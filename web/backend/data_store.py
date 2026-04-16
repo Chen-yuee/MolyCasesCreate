@@ -132,8 +132,35 @@ class DataStore:
                 msg = PolishedMessage(**m)
                 key = f"{msg.sample_id}:{msg.dia_id}"
                 self._polished_messages[key] = msg
+
+            # 验证并修复双向引用一致性
+            self._verify_and_fix_bidirectional_refs()
         except Exception:
             pass
+
+    def _verify_and_fix_bidirectional_refs(self):
+        """
+        验证并修复 Query ↔ Evidence 双向引用一致性。
+        - 确保 query.evidences 包含所有引用它的 evidence ID
+        - 确保 evidence.queries 包含所有引用它的 query ID
+        """
+        modified = False
+
+        # 从 evidence.queries 重建 query.evidences
+        for query in self._queries.values():
+            expected_evidence_ids = set()
+            for evidence in self._evidences.values():
+                if any(ref.id == query.id for ref in evidence.queries):
+                    expected_evidence_ids.add(evidence.id)
+
+            current_evidence_ids = set(query.evidences)
+            if expected_evidence_ids != current_evidence_ids:
+                query.evidences = list(expected_evidence_ids)
+                modified = True
+
+        if modified:
+            print("检测到数据不一致，已自动修复")
+            self._save()
 
     def _save(self):
         """
