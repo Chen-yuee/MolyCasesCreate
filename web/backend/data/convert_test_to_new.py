@@ -1,70 +1,118 @@
 #!/usr/bin/env python3
 """
-数据转换脚本: 将 test 格式转换为 new 格式
-- 提取嵌套的 evidences 到顶层数组
-- 删除 evidence 中的 query_id, type, order 字段
-- queries 中的 evidences 改为 ID 数组
-- 简化 polished_messages 的 evidence_items
+Transform queries_store_test.json to queries_store_new.json format.
+Converts hierarchical structure (evidence nested in queries) to normalized structure
+(evidence stored separately at top level).
 """
 
 import json
-import shutil
-from datetime import datetime
+import sys
 from pathlib import Path
-import argparse
-
-parser = argparse.ArgumentParser(description="转换 test 格式到 new 格式")
-parser.add_argument("input", help="输入文件路径")
-parser.add_argument("-o", "--output", help="输出文件路径(默认覆盖输入)")
-args = parser.parse_args()
-
-input_path = Path(args.input)
-output_path = Path(args.output) if args.output else input_path
 
 
-def convert():
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_path = input_path.with_name(f"{input_path.stem}.backup_{timestamp}{input_path.suffix}")
-    shutil.copy2(input_path, backup_path)
-    print(f"备份已保存到: {backup_path}")
-
-    with open(input_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    all_evidences = []
-
-    for query in data.get("queries", []):
-        evidences = query.get("evidences", [])
-        evidence_ids = []
-
-        for ev in evidences:
-            ev.pop("query_id", None)
-            ev.pop("type", None)
-            ev.pop("order", None)
-            ev["queries"] = [{"id": query["id"]}]
-
-            all_evidences.append(ev)
-            evidence_ids.append(ev["id"])
-
-        query["evidences"] = evidence_ids
-
-    print(f"共提取 {len(all_evidences)} 条 evidence")
-
-    for msg in data.get("polished_messages", []):
-        for item in msg.get("evidence_items", []):
-            item.pop("query", None)
-
-    new_data = {
-        "queries": data["queries"],
-        "evidences": all_evidences,
-        "polished_messages": data.get("polished_messages", []),
+def transform_data(input_data):
+    """Transform from test format to new format."""
+    output = {
+        "queries": [],
+        "evidences": []
     }
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(new_data, f, ensure_ascii=False, indent=2)
+    evidence_map = {}
 
-    print(f"转换完成，写入 {output_path}")
+    for query in input_data.get("queries", []):
+        query_id = query["id"]
+        evidence_ids = []
+
+        for evidence in query.get("evidences", []):
+            evidence_id = evidence["id"]
+            evidence_ids.append(evidence_id)
+
+            new_evidence = {
+                "id": evidence["id"],
+                "content": evidence["content"],
+                "queries": [{"id": query_id}],
+                "speaker": evidence["speaker"],
+                "constraints": evidence["constraints"],
+                "target_dia_id": evidence["target_dia_id"],
+                "session_key": evidence["session_key"],
+                "status": evidence["status"],
+                "created_at": evidence["created_at"]
+            }
+
+            evidence_map[evidence_id] = new_evidence
+
+        new_query = {
+            "id": query["id"],
+            "query_text": query["query_text"],
+            "sample_id": query["sample_id"],
+            "protagonist": query["protagonist"],
+            "status": query["status"],
+            "created_at": query["created_at"],
+            "evidences": evidence_ids
+        }
+
+        output["queries"].append(new_query)
+
+    polished_messages = []
+    for msg in input_data.get("polished_messages", []):
+        new_msg = {
+            "sample_id": msg["sample_id"],
+            "dia_id": msg["dia_id"],
+            "session_key": msg["session_key"],
+            "original_text": msg["original_text"],
+            "final_polished_text": msg["final_polished_text"],
+            "evidence_items": []
+        }
+
+        for item in msg.get("evidence_items", []):
+            new_item = {
+                "evidence": {
+                    "id": item["evidence"]["id"],
+                    "content": item["evidence"]["content"]
+                }
+            }
+            new_msg["evidence_items"].append(new_item)
+
+        new_msg["updated_at"] = msg["updated_at"]
+        polished_messages.append(new_msg)
+
+    def sort_key(dia_id):
+        parts = dia_id.split(':')
+        return (int(parts[0][1:]), int(parts[1]))
+
+    evidences_list = sorted(evidence_map.values(), key=lambda e: sort_key(e['target_dia_id']))
+    polished_messages_sorted = sorted(polished_messages, key=lambda m: sort_key(m['dia_id']), reverse=True)
+
+    output["evidences"] = evidences_list
+    output["polished_messages"] = polished_messages_sorted
+
+    return output
+
+
+def main():
+    script_dir = Path(__file__).parent
+    input_file = script_dir / "queries_store_test.json"
+    output_file = script_dir / "queries_store_new.json"
+
+    if len(sys.argv) > 1:
+        input_file = Path(sys.argv[1])
+    if len(sys.argv) > 2:
+        output_file = Path(sys.argv[2])
+
+    print(f"Reading from: {input_file}")
+    with open(input_file, 'r', encoding='utf-8') as f:
+        input_data = json.load(f)
+
+    output_data = transform_data(input_data)
+
+    print(f"Writing to: {output_file}")
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+    print(f"Transformation complete!")
+    print(f"  Queries: {len(output_data['queries'])}")
+    print(f"  Evidences: {len(output_data['evidences'])}")
 
 
 if __name__ == "__main__":
-    convert()
+    main()
