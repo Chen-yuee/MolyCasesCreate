@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Layout, Card, Button, Space, List, Tag, Form, Input, Select, InputNumber, message, Popconfirm, Modal } from 'antd'
 import { PlusOutlined, DeleteOutlined, ThunderboltOutlined, CloseOutlined, EditOutlined, EyeOutlined } from '@ant-design/icons'
-import { getQueries, createEvidence, updateEvidence, deleteEvidence, autoAssign, batchPolish, previewAssign, unpolishEvidence, setPosition, repolish, getPolishedMessages, getConversation, getAllEvidences, attachEvidence } from '../api'
+import { getQueries, createEvidence, updateEvidence, deleteEvidence, autoAssign, batchPolish, previewAssign, unpolishEvidence, setPosition, repolish, getPolishedMessages, getConversation, getAllEvidences, attachEvidence, manualAssign } from '../api'
 
 const { Sider } = Layout
 
@@ -327,7 +327,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
 
   return (
     <>
-      <Sider width={400} style={{ background: '#fff', borderLeft: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'auto' }}>
+      <Sider width={400} style={{ background: '#fff', borderLeft: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)' }}>
         <Card
           size="small"
           title={mode === 'setup' ? 'Evidences 草稿' : '润色确认'}
@@ -344,19 +344,24 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
               <Button size="small" icon={<CloseOutlined />} onClick={onClose} />
             </Space>
           }
+          style={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+          bodyStyle={{ flex: 1, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}
         >
-          <Space direction="vertical" style={{ width: '100%' }} size="middle">
-            <div>
+          <div style={{ display: 'flex', flexDirection: 'column', height: '100%', gap: '16px' }}>
+            <div style={{ flexShrink: 0 }}>
               <strong>Query:</strong> {query.query_text}
             </div>
 
             {mode === 'setup' && (
               <>
-                <Button type="dashed" block icon={<PlusOutlined />} onClick={() => setAddModalOpen(true)}>
-                  添加 Evidence
-                </Button>
+                <div style={{ flexShrink: 0 }}>
+                  <Button type="dashed" block icon={<PlusOutlined />} onClick={() => setAddModalOpen(true)}>
+                    添加 Evidence
+                  </Button>
+                </div>
 
-                <List
+                <div style={{ flex: 1, overflow: 'auto', minHeight: 0, paddingRight: '8px' }}>
+                  <List
                   size="small"
                   header={<strong>Evidence 列表（可拖拽）</strong>}
                   dataSource={evidences}
@@ -428,7 +433,9 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                     )
                   }}
                 />
+                </div>
 
+                <div style={{ flexShrink: 0, marginTop: '16px' }}>
                 <Button
                   type="default"
                   block
@@ -457,11 +464,13 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                 >
                   手动设置位置并应用（会删除旧润色）
                 </Button>
+                </div>
               </>
             )}
 
             {mode === 'polish' && (
               <>
+                <div style={{ flex: 1, overflow: 'auto', minHeight: 0, paddingRight: '8px' }}>
                 <List
                   size="small"
                   dataSource={evidences}
@@ -523,7 +532,9 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                     )
                   }}
                 />
+                </div>
 
+                <div style={{ flexShrink: 0, marginTop: '16px' }}>
                 <Button
                   type="primary"
                   block
@@ -532,9 +543,10 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                 >
                   批量润色
                 </Button>
+                </div>
               </>
             )}
-          </Space>
+          </div>
         </Card>
       </Sider>
 
