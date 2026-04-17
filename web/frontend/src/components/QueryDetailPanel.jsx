@@ -42,7 +42,11 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
       const msgs = await getConversation(q.sample_id)
       setAllMessages(msgs)
       // 提取所有 session keys
-      const sessions = [...new Set(msgs.map(m => m.session_key))].sort()
+      const sessions = [...new Set(msgs.map(m => m.session_key))].sort((a, b) => {
+        const numA = parseInt(a.split('_')[1]) || 0
+        const numB = parseInt(b.split('_')[1]) || 0
+        return numA - numB
+      })
       setSessionKeys(sessions)
     }
     // 加载所有 evidences（用于添加已有 evidence）
