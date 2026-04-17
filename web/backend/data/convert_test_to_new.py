@@ -7,6 +7,7 @@ Converts hierarchical structure (evidence nested in queries) to normalized struc
 
 import json
 import sys
+import argparse
 from pathlib import Path
 
 
@@ -90,14 +91,25 @@ def transform_data(input_data):
 
 
 def main():
-    script_dir = Path(__file__).parent
-    input_file = script_dir / "queries_store_test.json"
-    output_file = script_dir / "queries_store_new.json"
+    parser = argparse.ArgumentParser(
+        description='Transform queries_store from test format to new format'
+    )
+    parser.add_argument(
+        '--input', '-i',
+        type=str,
+        help='Input JSON file path (default: queries_store_test.json in script directory)'
+    )
+    parser.add_argument(
+        '--output', '-o',
+        type=str,
+        help='Output JSON file path (default: queries_store_new.json in script directory)'
+    )
 
-    if len(sys.argv) > 1:
-        input_file = Path(sys.argv[1])
-    if len(sys.argv) > 2:
-        output_file = Path(sys.argv[2])
+    args = parser.parse_args()
+
+    script_dir = Path(__file__).parent
+    input_file = Path(args.input) if args.input else script_dir / "queries_store_test.json"
+    output_file = Path(args.output) if args.output else script_dir / "queries_store_new.json"
 
     print(f"Reading from: {input_file}")
     with open(input_file, 'r', encoding='utf-8') as f:
