@@ -381,6 +381,13 @@ class DataStore:
                 result.append(msg)
         return result
 
+    def get_polished_message_by_dia_id(self, dia_id: str) -> Optional[PolishedMessage]:
+        """通过 dia_id 查找 PolishedMessage（不需要 sample_id）。"""
+        for msg in self._polished_messages.values():
+            if msg.dia_id == dia_id:
+                return msg
+        return None
+
     def update_polished_message(self, msg: PolishedMessage) -> PolishedMessage:
         """更新 PolishedMessage 内容并持久化。"""
         key = f"{msg.sample_id}:{msg.dia_id}"

@@ -26,6 +26,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
   const [addMode, setAddMode] = useState('new') // 'new' | 'existing'
   const [allEvidences, setAllEvidences] = useState([])
   const [selectedExistingEvidence, setSelectedExistingEvidence] = useState(null)
+  const [querySequenceMap, setQuerySequenceMap] = useState(new Map())
 
   const load = async () => {
     const qs = await getQueries()
@@ -64,6 +65,18 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
       setAllEvidences(availableEvs)
     } catch (e) {
       setAllEvidences([])
+    }
+    // 加载所有 queries 并构建序号映射
+    try {
+      const allQueries = await getQueries()
+      const seqMap = new Map()
+      allQueries.forEach((q, index) => {
+        seqMap.set(q.id, index + 1) // 1-based sequence number
+      })
+      setQuerySequenceMap(seqMap)
+    } catch (e) {
+      console.error('Failed to load queries for sequence mapping:', e)
+      setQuerySequenceMap(new Map())
     }
     // 加载 PolishedMessages
     try {
@@ -779,6 +792,11 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                       <Tag color={ev.status === 'positioned' ? 'processing' : 'success'}>{ev.status}</Tag>
                       <Tag color="cyan">{ev.target_dia_id}</Tag>
                       {ev.speaker && <Tag>{ev.speaker}</Tag>}
+                      {ev.queries && ev.queries.length > 0 && ev.queries.map(qRef => (
+                        <Tag key={qRef.id} color="blue">
+                          Query #{querySequenceMap.get(qRef.id) || '?'}
+                        </Tag>
+                      ))}
                     </div>
                     <div>{ev.content}</div>
                   </Space>

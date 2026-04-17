@@ -103,28 +103,39 @@ def repolish(eid: str):
         logger.error(f"Evidence 尚未分配插入位置 - eid: {eid}")
         raise HTTPException(status_code=400, detail="该 evidence 尚未分配插入位置")
 
-    # 从 evidence.queries 获取关联的 query
-    if not ev.queries:
-        logger.error(f"Evidence 未关联任何 query - eid: {eid}")
-        raise HTTPException(status_code=400, detail="该 evidence 未关联任何 query")
-    q = store.get_query(ev.queries[0].id)
-    if not q:
-        logger.error(f"关联的 Query 不存在 - qid: {ev.queries[0].id}")
-        raise HTTPException(status_code=404, detail="关联的 Query 不存在")
+    # 直接通过 dia_id 查找 PolishedMessage，不需要通过 query
+    logger.debug(f"获取 PolishedMessage - dia_id: {ev.target_dia_id}")
+    polished_msg = store.get_polished_message_by_dia_id(ev.target_dia_id)
 
-    logger.debug(f"获取 PolishedMessage - sample_id: {q.sample_id}, dia_id: {ev.target_dia_id}")
-    # 获取或创建该消息的 PolishedMessage
-    polished_msg = store.get_polished_message(q.sample_id, ev.target_dia_id)
+    # 如果没有找到，需要获取 sample_id 来创建新的 PolishedMessage
+    sample_id = None
     if not polished_msg:
-        # 首次润色：创建 PolishedMessage
-        logger.debug(f"首次润色，创建 PolishedMessage")
-        ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
+        # 从关联的 query 获取 sample_id
+        if not ev.queries:
+            logger.error(f"Evidence 未关联任何 query，无法获取 sample_id - eid: {eid}")
+            raise HTTPException(status_code=400, detail="该 evidence 未关联任何 query，无法创建润色消息")
+
+        # 尝试从所有关联的 query 中找到一个有效的
+        q = None
+        for qRef in ev.queries:
+            q = store.get_query(qRef.id)
+            if q:
+                break
+
+        if not q:
+            logger.error(f"所有关联的 Query 都不存在 - evidence_id: {eid}")
+            raise HTTPException(status_code=404, detail="所有关联的 Query 都不存在")
+        sample_id = q.sample_id
+
+        # 创建新的 PolishedMessage
+        logger.debug(f"首次润色，创建 PolishedMessage - sample_id: {sample_id}, dia_id: {ev.target_dia_id}")
+        ctx = loader.get_context_window(sample_id, ev.target_dia_id, window=3)
         if not ctx:
-            logger.error(f"无法获取上下文 - sample_id: {q.sample_id}, dia_id: {ev.target_dia_id}")
+            logger.error(f"无法获取上下文 - sample_id: {sample_id}, dia_id: {ev.target_dia_id}")
             raise HTTPException(status_code=400, detail="无法获取上下文")
         original = ctx["context"][ctx["target_index"]]["text"]
         polished_msg = PolishedMessage(
-            sample_id=q.sample_id,
+            sample_id=sample_id,
             dia_id=ev.target_dia_id,
             session_key=ev.session_key,
             original_text=original,
@@ -132,6 +143,8 @@ def repolish(eid: str):
             evidence_items=[],
             updated_at=datetime.now().isoformat()
         )
+    else:
+        sample_id = polished_msg.sample_id
 
     # 收集该消息关联的所有 evidence 对象
     all_evidences = []
@@ -150,9 +163,9 @@ def repolish(eid: str):
     all_evidences.sort(key=lambda e: e.queries[0].id if e.queries else "")
 
     # 获取上下文
-    ctx = loader.get_context_window(q.sample_id, ev.target_dia_id, window=3)
+    ctx = loader.get_context_window(polished_msg.sample_id, ev.target_dia_id, window=3)
     if not ctx:
-        logger.error(f"无法获取上下文 - sample_id: {q.sample_id}, dia_id: {ev.target_dia_id}")
+        logger.error(f"无法获取上下文 - sample_id: {polished_msg.sample_id}, dia_id: {ev.target_dia_id}")
         raise HTTPException(status_code=400, detail="无法获取上下文")
 
     # 准备已润色的 evidence 内容（不包括当前要润色的）
@@ -166,7 +179,7 @@ def repolish(eid: str):
         original_text=polished_msg.original_text,
         context=ctx["context"],
         target_index=ctx["target_index"],
-        speaker=q.protagonist,
+        speaker=ev.speaker,
         already_polished=already_polished
     )
 
