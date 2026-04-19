@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Layout, Card, List, Tag, Space, Button, Modal, Form, Input, Select, message, Typography, Popconfirm } from 'antd'
+import { Layout, List, Tag, Space, Button, Modal, Form, Input, Select, message, Typography, Popconfirm } from 'antd'
 import { PlusOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons'
 import { getQueries, getSpeakers, createQuery, updateQuery, deleteQuery, unpolishEvidence } from '../api'
 
@@ -96,14 +96,12 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
 
   return (
     <>
-      <Sider width="30%" style={{ background: '#fff', borderRight: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-        <Card
-          size="small"
-          title="Query 列表"
-          extra={<Button size="small" type="primary" icon={<PlusOutlined />} onClick={() => setModalOpen(true)}>新建</Button>}
-          style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}
-          styles={{ body: { flex: 1, overflowY: 'auto', minHeight: 0 } }}
-        >
+      <Sider width="30%" style={{ background: '#fff', borderRight: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 8, flexShrink: 0 }}>
+          <span style={{ fontWeight: 600, fontSize: 14 }}>Query 列表</span>
+          <Button size="small" type="primary" icon={<PlusOutlined />} onClick={() => setModalOpen(true)}>新建</Button>
+        </div>
+        <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
           <List
             size="small"
             dataSource={queries}
@@ -162,7 +160,7 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
               </List.Item>
             )}
           />
-        </Card>
+        </div>
       </Sider>
 
       <Modal
