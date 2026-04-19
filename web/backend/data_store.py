@@ -37,6 +37,7 @@ DataStore 方法:
 最后更新: 2026-04-15
 """
 
+import asyncio
 import json
 import os
 from typing import Dict, List, Optional
@@ -76,8 +77,29 @@ class DataStore:
         self._queries: Dict[str, Query] = {}
         self._evidences: Dict[str, Evidence] = {}
         self._polished_messages: Dict[str, PolishedMessage] = {}
+        self._sse_clients: List[asyncio.Queue] = []
+        self._loop: Optional[asyncio.AbstractEventLoop] = None
         self._load()
         self._start_file_watcher()
+
+    # ── SSE 客户端管理 ──────────────────────────────────────────────────────────
+
+    def subscribe(self) -> asyncio.Queue:
+        q: asyncio.Queue = asyncio.Queue()
+        self._sse_clients.append(q)
+        return q
+
+    def unsubscribe(self, q: asyncio.Queue):
+        try:
+            self._sse_clients.remove(q)
+        except ValueError:
+            pass
+
+    def _notify_clients(self):
+        if not self._sse_clients or self._loop is None:
+            return
+        for q in list(self._sse_clients):
+            self._loop.call_soon_threadsafe(q.put_nowait, "data-changed")
 
     # ── 文件监听 ────────────────────────────────────────────────────────────────
 
@@ -135,6 +157,7 @@ class DataStore:
 
             # 验证并修复双向引用一致性
             self._verify_and_fix_bidirectional_refs()
+            self._notify_clients()
         except Exception:
             pass
 
@@ -186,6 +209,7 @@ class DataStore:
         }
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+        self._notify_clients()
 
     # ── Query ───────────────────────────────────────────────────────────────────
 

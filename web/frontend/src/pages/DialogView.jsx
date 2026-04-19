@@ -17,13 +17,11 @@ export default function DialogView() {
   const [highlightDiaId, setHighlightDiaId] = useState(null)
   const [refreshKey, setRefreshKey] = useState(0)
 
-  // 轮询刷新
+  // 数据变更时刷新（SSE 长连接替代轮询）
   useEffect(() => {
-    const interval = setInterval(() => {
-      setRefreshKey(k => k + 1)
-    }, 500) // 每0.5秒刷新一次
-
-    return () => clearInterval(interval)
+    const es = new EventSource('/api/events')
+    es.onmessage = () => setRefreshKey(k => k + 1)
+    return () => es.close()
   }, [])
 
   const handleClickEvidence = (evidenceId, diaId) => {

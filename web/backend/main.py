@@ -1,20 +1,29 @@
-from fastapi import FastAPI, Request
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
+import asyncio
 import os
 import time
 from collections import defaultdict
+
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
+from fastapi.staticfiles import StaticFiles
 
 from .api.queries import router as queries_router
 from .api.evidences import router as evidences_router
 from .api.insertion import router as insertion_router
 from .api.polish import router as polish_router
 from .api.samples import router as samples_router
+from .data_store import store
 from .logger import get_logger
 
 logger = get_logger("main")
 
 app = FastAPI(title="Moly Evidence 插入工具", version="1.0.0")
+
+
+@app.on_event("startup")
+async def _startup():
+    store._loop = asyncio.get_event_loop()
 
 # 轮询请求的最后记录时间
 _polling_last_log = defaultdict(float)
@@ -64,6 +73,34 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.get("/api/events")
+async def data_events(request: Request):
+    q = store.subscribe()
+
+    async def event_stream():
+        try:
+            while True:
+                if await request.is_disconnected():
+                    break
+                try:
+                    await asyncio.wait_for(q.get(), timeout=30.0)
+                    yield "data: changed\n\n"
+                except asyncio.TimeoutError:
+                    yield ": heartbeat\n\n"
+        finally:
+            store.unsubscribe(q)
+
+    return StreamingResponse(
+        event_stream(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+            "Connection": "keep-alive",
+        },
+    )
+
 
 app.include_router(samples_router)
 app.include_router(queries_router)
