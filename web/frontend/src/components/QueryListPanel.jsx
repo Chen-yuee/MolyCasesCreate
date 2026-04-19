@@ -109,7 +109,7 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
             size="small"
             dataSource={queries}
             split={false}
-            renderItem={q => (
+            renderItem={(q, idx) => (
               <List.Item
                 style={{
                   cursor: 'pointer',
@@ -123,7 +123,7 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
                 onClick={() => onSelectQuery(q.id)}
               >
                 <Space direction="vertical" size={4} style={{ width: '100%' }}>
-                  <Text strong style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>{q.query_text}</Text>
+                  <Text strong style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}><Tag>#{idx + 1}</Tag>{q.query_text}</Text>
                   <Space size="small" style={{ width: '100%', justifyContent: 'space-between' }}>
                     <Space size="small">
                       <Tag size="small">{q.protagonist}</Tag>
