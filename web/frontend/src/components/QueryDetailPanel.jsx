@@ -784,6 +784,8 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
               onChange={setSelectedExistingEvidence}
               showSearch
               optionFilterProp="children"
+              listHeight={600}
+              dropdownStyle={{ maxHeight: 'calc(100vh - 250px)', overflowY: 'auto' }}
             >
               {allEvidences.map(ev => (
                 <Select.Option key={ev.id} value={ev.id}>
