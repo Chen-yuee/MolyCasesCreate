@@ -96,11 +96,13 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
 
   return (
     <>
-      <Sider width="30%" style={{ background: '#fff', borderRight: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'auto' }}>
+      <Sider width="30%" style={{ background: '#fff', borderRight: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
         <Card
           size="small"
           title="Query 列表"
           extra={<Button size="small" type="primary" icon={<PlusOutlined />} onClick={() => setModalOpen(true)}>新建</Button>}
+          style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}
+          styles={{ body: { flex: 1, overflowY: 'auto', minHeight: 0 } }}
         >
           <List
             size="small"
