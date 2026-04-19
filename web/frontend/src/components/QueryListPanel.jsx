@@ -96,7 +96,7 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
 
   return (
     <>
-      <Sider width={280} style={{ background: '#fff', borderRight: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'auto' }}>
+      <Sider width="30%" style={{ background: '#fff', borderRight: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'auto' }}>
         <Card
           size="small"
           title="Query 列表"

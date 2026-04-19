@@ -344,7 +344,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
 
   return (
     <>
-      <Sider width={400} style={{ background: '#fff', borderLeft: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)' }}>
+      <Sider width="30%" style={{ background: '#fff', borderLeft: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'auto' }}>
         <Card
           size="small"
           title={mode === 'setup' ? 'Evidences 草稿' : '润色确认'}
@@ -576,7 +576,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
           setEditingEvidence(null)
           editForm.resetFields()
         }}
-        width={600}
+        width="60vw"
       >
         <Form form={editForm} layout="vertical">
           <Form.Item name="content" label="Evidence 内容" rules={[{ required: true }]}>
@@ -674,7 +674,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
           setAddMode('new')
           setSelectedExistingEvidence(null)
         }}
-        width={600}
+        width="60vw"
       >
         <Space direction="vertical" style={{ width: '100%', marginBottom: 16 }}>
           <div>选择添加方式：</div>
@@ -905,7 +905,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
         }}
         okText="确认分配"
         cancelText="取消"
-        width={800}
+        width="80vw"
       >
         <List
           size="small"
