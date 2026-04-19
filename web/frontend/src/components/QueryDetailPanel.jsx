@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { Layout, Card, Button, Space, List, Tag, Form, Input, Select, InputNumber, message, Popconfirm, Modal } from 'antd'
 import { PlusOutlined, DeleteOutlined, ThunderboltOutlined, CloseOutlined, EditOutlined, EyeOutlined } from '@ant-design/icons'
 import { getQueries, createEvidence, updateEvidence, deleteEvidence, autoAssign, batchPolish, previewAssign, unpolishEvidence, setPosition, repolish, getPolishedMessages, getConversation, getAllEvidences, attachEvidence, manualAssign } from '../api'
@@ -27,6 +27,8 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
   const [allEvidences, setAllEvidences] = useState([])
   const [selectedExistingEvidence, setSelectedExistingEvidence] = useState(null)
   const [querySequenceMap, setQuerySequenceMap] = useState(new Map())
+  const [dropdownHeight, setDropdownHeight] = useState(500)
+  const existingSelectRef = useRef(null)
 
   const load = async () => {
     const qs = await getQueries()
@@ -777,6 +779,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
         ) : (
           <div>
             <div style={{ marginBottom: 8 }}>选择要关联的 Evidence：</div>
+            <div ref={existingSelectRef}>
             <Select
               placeholder="选择已有的 positioned/polished evidence"
               style={{ width: '100%' }}
@@ -784,8 +787,15 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
               onChange={setSelectedExistingEvidence}
               showSearch
               optionFilterProp="children"
-              listHeight={600}
-              dropdownStyle={{ maxHeight: 'calc(100vh - 250px)', overflowY: 'auto' }}
+              listHeight={dropdownHeight}
+              dropdownStyle={{ maxHeight: dropdownHeight, overflowY: 'auto' }}
+              onDropdownVisibleChange={(open) => {
+                if (open && existingSelectRef.current) {
+                  const rect = existingSelectRef.current.getBoundingClientRect()
+                  const available = window.innerHeight - rect.bottom - 16
+                  setDropdownHeight(Math.max(200, available))
+                }
+              }}
             >
               {allEvidences.map(ev => (
                 <Select.Option key={ev.id} value={ev.id}>
@@ -805,6 +815,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                 </Select.Option>
               ))}
             </Select>
+            </div>
             {allEvidences.length === 0 && (
               <div style={{ marginTop: 8, color: '#999', fontSize: 12 }}>
                 当前没有可用的已 positioned/polished 的 evidence

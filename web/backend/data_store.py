@@ -146,7 +146,14 @@ class DataStore:
         """
         modified = False
 
-        # 从 evidence.queries 重建 query.evidences
+        # Pass 0: 清理 evidence.queries 中指向不存在 query 的悬空引用
+        for evidence in self._evidences.values():
+            original_len = len(evidence.queries)
+            evidence.queries = [ref for ref in evidence.queries if ref.id in self._queries]
+            if len(evidence.queries) != original_len:
+                modified = True
+
+        # 从 evidence.queries 重建 query.evidences（保留已有顺序）
         for query in self._queries.values():
             expected_evidence_ids = set()
             for evidence in self._evidences.values():
@@ -155,7 +162,11 @@ class DataStore:
 
             current_evidence_ids = set(query.evidences)
             if expected_evidence_ids != current_evidence_ids:
-                query.evidences = list(expected_evidence_ids)
+                query.evidences = [eid for eid in query.evidences if eid in expected_evidence_ids]
+                existing = set(query.evidences)
+                for eid in expected_evidence_ids:
+                    if eid not in existing:
+                        query.evidences.append(eid)
                 modified = True
 
         if modified:
@@ -261,17 +272,28 @@ class DataStore:
 
     def update_evidence(self, evidence: Evidence) -> Optional[Evidence]:
         """
-        更新 evidence 内容。找到所有引用该 evidence 的 query，同步更新它们的 evidence 列表。
-        注意：queries 字段本身不修改（如需变更归属应使用其他逻辑）。
+        更新 evidence 内容，并根据 queries 字段的变化做双向同步：
+        - 新增关联的 query → 在 query.evidences 中追加 evidence ID
+        - 移除关联的 query → 在 query.evidences 中删除 evidence ID
         """
         if evidence.id not in self._evidences:
             return None
+
+        old_evidence = self._evidences[evidence.id]
+        old_query_ids = {ref.id for ref in old_evidence.queries}
+        new_query_ids = {ref.id for ref in evidence.queries}
+
         self._evidences[evidence.id] = evidence
 
-        # 同步到所有关联 query 的 evidence ID 列表
-        for q in self._queries.values():
-            if evidence.id not in q.evidences:
+        for qid in new_query_ids - old_query_ids:
+            q = self._queries.get(qid)
+            if q and evidence.id not in q.evidences:
                 q.evidences.append(evidence.id)
+
+        for qid in old_query_ids - new_query_ids:
+            q = self._queries.get(qid)
+            if q and evidence.id in q.evidences:
+                q.evidences.remove(evidence.id)
 
         self._save()
         return evidence
