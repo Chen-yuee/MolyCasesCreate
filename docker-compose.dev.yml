@@ -18,7 +18,6 @@ services:
       # 挂载相关配置和数据文件
       - ./config.json:/app/config.json
       - ./data:/app/data
-      - ./web/backend/queries_store.json:/app/web/backend/queries_store.json
     environment:
       - PYTHONPATH=/app
     restart: unless-stopped

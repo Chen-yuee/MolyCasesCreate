@@ -1,0 +1,3863 @@
+{
+  "queries": [
+    {
+      "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908",
+      "query_text": "Koji 刚给我发消息说下期想聊聊我的 AI 同事们是怎么分工的，帮我起草一下回复。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T13:24:44.689346",
+      "evidences": [
+        "fc8a376e-6644-485a-9bcd-0e58db8ffb7d",
+        "d23d1ab2-e6df-42d5-ab46-cd2750df3b54",
+        "c108ed3c-7335-473a-98d1-2e35c74e2573",
+        "8fc9d6d2-8348-4004-aad6-a9055067953e",
+        "51b42f1a-9a6a-431c-9483-a4ebb97f4724",
+        "d4fc1f38-a7f8-456d-955f-45ac03e00eab",
+        "b976f22b-f38a-4201-a93e-fbaee885e9bc"
+      ]
+    },
+    {
+      "id": "db4b7b14-2c10-4195-bacf-864ec4fc6905",
+      "query_text": "我最近到底在忙什么？帮我梳一下。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T13:31:41.090824",
+      "evidences": [
+        "f8b359ca-9b51-4798-86f0-f5ae8cba7472",
+        "f2781292-b792-4d5d-8b10-c1ecdef95d95",
+        "51b42f1a-9a6a-431c-9483-a4ebb97f4724",
+        "e268771f-d09b-45b1-90b1-5d51dc05e49a",
+        "e3f0d683-9eda-4f3b-89eb-c4740be13f27",
+        "14fffde9-e048-4b62-bf2b-1d1af69f3ccd"
+      ]
+    },
+    {
+      "id": "5d5c55c6-1567-499a-b3a2-da0ddbb224cc",
+      "query_text": "集团做咖啡业务那个同事又发消息说想再约着聊聊 Moxt，帮我想下次可以跟他深聊哪些方向。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T13:51:11.251673",
+      "evidences": [
+        "776a2c5d-9d9c-4b87-93e4-237dc12f3755",
+        "02fb5abd-8e0b-45f9-aeac-7f440c2e8ce2",
+        "53ba6b2a-ea56-4081-88fe-61acc38ee154",
+        "e268771f-d09b-45b1-90b1-5d51dc05e49a",
+        "14fffde9-e048-4b62-bf2b-1d1af69f3ccd"
+      ]
+    },
+    {
+      "id": "3246a5f1-7729-4d14-954d-5fe1d31981ca",
+      "query_text": "我下周准备写一篇公众号文章宣传 Moxt 下一个版本的新功能，你帮我起个草吧。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T13:58:01.819013",
+      "evidences": [
+        "a3ff3810-ff48-47ac-b993-cd51e7b85896",
+        "db1f8314-4d81-4e92-b17e-e062f74191b2",
+        "206e4a74-3b0f-47bc-b1ad-32bb396e54c1"
+      ]
+    },
+    {
+      "id": "bdf0bb7d-8d44-476a-a44a-80a237daeed8",
+      "query_text": "给我在 JIRA 里建一个任务，跟踪下周 Moxt 的发布进展。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T13:59:12.063627",
+      "evidences": [
+        "0ca75d43-50c5-45a0-8496-353aec22332d",
+        "938ccb25-eeb5-4e33-acd0-41cd41daef66",
+        "7470a5df-bd82-4d71-8899-949aa1c047c7"
+      ]
+    },
+    {
+      "id": "4ba8ed4e-dfd9-4292-9ba3-dd21ead92321",
+      "query_text": "最近有没有什么关于 AI Agent 分工的讨论值得我看一下？",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T14:00:02.213697",
+      "evidences": [
+        "2c2d1678-e506-42c1-a824-6f8996816161",
+        "5b865dd9-f95a-4dc5-9409-a536896d0585",
+        "9099e2e1-d0d2-4649-87a3-17ae77b046e9"
+      ]
+    },
+    {
+      "id": "d6761870-9ffe-4468-9ec6-1156bbcc3861",
+      "query_text": "有人建议我们 Pricing 页面做一个\"AI 员工 vs 人类员工\"的对比表，突出 AI 员工更便宜，你觉得这个方向怎么样？",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T14:07:11.082741",
+      "evidences": [
+        "c338030d-9aa8-477b-9ac7-b4f8ad586730",
+        "206e4a74-3b0f-47bc-b1ad-32bb396e54c1",
+        "6d8e2952-dc47-4c7a-95c7-a08dfebd8ab2"
+      ]
+    },
+    {
+      "id": "6604f926-16a8-41b1-bb19-05b6986bfef0",
+      "query_text": "回想一下我们当初为什么放弃 Paraflow 全力做 Moxt？最近老有人问这个，我得想清楚怎么回答。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T14:08:28.581025",
+      "evidences": [
+        "cfb74283-fdf0-4b46-b2f3-9cdbd17cea23",
+        "48fdcb29-8a88-43c3-92cf-1e419998acee",
+        "f2781292-b792-4d5d-8b10-c1ecdef95d95",
+        "2d0e3e7d-134d-45cb-abc2-9c717fc94381"
+      ]
+    },
+    {
+      "id": "c9307b56-d6fa-4fd5-b392-99fd21a01328",
+      "query_text": "我之前是怎么论述\"AGI 已经来了\"这件事的？帮我整理一版完整的说法，我下周要在一个活动上讲。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T14:11:03.089773",
+      "evidences": [
+        "d23d1ab2-e6df-42d5-ab46-cd2750df3b54",
+        "9099e2e1-d0d2-4649-87a3-17ae77b046e9",
+        "20c992b1-001e-40d1-93e5-7bd9b0b67ae0",
+        "a4f24334-4a99-40ec-a7c2-527f2d57dbb5"
+      ]
+    },
+    {
+      "id": "5ac3caa4-9c10-4972-ba55-e76fe6a97cc1",
+      "query_text": "下周我要见一个客户，他们现在重度使用飞书，问我为什么要换 Moxt。帮我准备几个 key message。\n",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T14:12:18.593600",
+      "evidences": [
+        "08bd9e37-9713-496a-bea7-6decc5e00889",
+        "b84705d8-69fe-43f3-bae8-12efe0578953",
+        "a83e87ee-c21e-4928-8a37-171ebf1774af",
+        "53ba6b2a-ea56-4081-88fe-61acc38ee154",
+        "9bec2d13-67de-494b-8bad-365417a900d9"
+      ]
+    },
+    {
+      "id": "a3a81bab-a57e-4f57-9d23-77f3cbcb2512",
+      "query_text": "团队有新同事在 Moxt 里纠结该建几个 AI agent 才合理，跑来问我的建议。帮我整理一版回复。",
+      "sample_id": 0,
+      "protagonist": "林晓",
+      "status": "draft",
+      "created_at": "2026-04-21T14:14:48.452702",
+      "evidences": [
+        "f8f68b25-b183-4726-b3a2-0c05134f6bfd",
+        "42f97012-6a64-4bb2-af08-6f44ec6a4347",
+        "5e7d4085-884f-48b5-b9fa-db83b71faefd",
+        "7ff9a839-b101-4368-9cbd-057ea03a443b"
+      ]
+    },
+    {
+      "id": "d0917c8a-e56b-43e4-9554-37ff4d3211e5",
+      "query_text": "Koji 发消息说想再约一期聊聊我们最近拿下的新客户，帮我想想这期可以聊哪些亮点。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T14:55:48.290214",
+      "evidences": [
+        "27bc0a0e-c172-405d-a864-e390b873ff13",
+        "f7e71de4-e4d7-4635-9a8a-fb320b937c0b",
+        "f1a16eb0-7f9b-43b5-a4f4-56eac1c655b7",
+        "014a6f18-4599-4af9-a36e-88aad279cdbb"
+      ]
+    },
+    {
+      "id": "5a898eaa-3db8-47bd-82fa-b9d4c230d7aa",
+      "query_text": "我最近到底在推什么？帮我理一下优先级。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T14:58:25.826371",
+      "evidences": [
+        "33a017df-eb92-4ec9-ab32-013a029ec1bb",
+        "9e82cccf-36de-4fc2-938e-48d3c5682533",
+        "f7e71de4-e4d7-4635-9a8a-fb320b937c0b",
+        "f1a16eb0-7f9b-43b5-a4f4-56eac1c655b7",
+        "22236a37-f694-4e6d-836d-04e9686ceb57"
+      ]
+    },
+    {
+      "id": "d5e0161c-9380-46c5-aeac-4d71ecac4422",
+      "query_text": "Jesse 帮我约了一个矿企客户，他们之前一直用传统地质咨询，问我们跟那些老牌公司有什么区别。帮我准备几个 key message。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:01:00.147369",
+      "evidences": [
+        "3a567e6c-89a5-4bdf-909b-d96e233ab026",
+        "1c6c7684-5af9-48b8-bd91-e631dd90bbce",
+        "e2e72281-65ec-4996-a3c6-e7f1056ad943",
+        "bfefe9ea-0d84-4183-9ff4-a19cffb85080",
+        "2cf67956-1658-45fe-83a2-394d6f327461"
+      ]
+    },
+    {
+      "id": "eef651d2-1ca0-4167-a2b7-889ee1c5e8c9",
+      "query_text": "有个投资人问我，你们三个合伙人里只有 Jesse 有矿业背景，你和方博凭什么能做好这个行业？帮我想个有说服力的回答。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:02:27.716327",
+      "evidences": [
+        "3a567e6c-89a5-4bdf-909b-d96e233ab026",
+        "e78b13a8-84e7-4dc0-bd2f-cd9b07b809ea",
+        "be1a4e4e-b748-4f3e-a553-b353ab968930",
+        "c3a16716-da66-4c7b-bdb8-cc39180d4b06"
+      ]
+    },
+    {
+      "id": "4fb348ad-95bd-415f-add4-927fbe1ccbed",
+      "query_text": "有人建议我们赶紧扩到 50 人以上，说客户都是大客户需要大团队伺候。你觉得呢？",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:03:28.473806",
+      "evidences": [
+        "22236a37-f694-4e6d-836d-04e9686ceb57",
+        "2cf67956-1658-45fe-83a2-394d6f327461",
+        "9a3ee528-f5fe-4c39-b56c-910bd0dd6f45"
+      ]
+    },
+    {
+      "id": "69a05f1c-004b-4fcc-82ab-e7684f504b81",
+      "query_text": "我博士做的量子光学跟现在做矿业到底是什么关系？下周有个活动要讲，帮我整理一版说法。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:04:32.660987",
+      "evidences": [
+        "cdcc5b8b-1c92-46ec-8272-7dcb6c9647c2",
+        "4be9d4ce-4e7f-47ba-9dac-36eaf224d4d5",
+        "ab482283-4eda-492a-8f0d-503b75786709"
+      ]
+    },
+    {
+      "id": "2ba98447-fef6-4884-99f9-34adc50f8d1c",
+      "query_text": "方博说要不要把我们的基础模型开源一版，你之前是怎么想的？",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:05:24.033229",
+      "evidences": [
+        "e78b13a8-84e7-4dc0-bd2f-cd9b07b809ea",
+        "0f934639-6fe8-49e7-8a84-225e50e163e1",
+        "72f08b51-56f6-409f-bec6-89b7df1ead0e"
+      ]
+    },
+    {
+      "id": "1ec629ac-ba20-49ec-bb7f-4ac52a3e7d1c",
+      "query_text": "如果 DeepOptica 失败了，你觉得最可能是因为什么？我想提前做个风险预案。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:06:12.173285",
+      "evidences": [
+        "130cd372-6367-45af-9057-9826e0298a2f",
+        "9588de7b-8f9e-4f2a-bb5f-ecadcf6ee785",
+        "d3de223b-429b-4fda-87f0-cf102b9ea100"
+      ]
+    },
+    {
+      "id": "b97e0fb3-24c4-4229-a698-3b51997b033c",
+      "query_text": "Koji 说他认识一个做 AI 制药的团队想跟我们聊聊，你觉得有聊头吗？",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:07:11.960540",
+      "evidences": [
+        "27bc0a0e-c172-405d-a864-e390b873ff13",
+        "ab482283-4eda-492a-8f0d-503b75786709",
+        "72f08b51-56f6-409f-bec6-89b7df1ead0e"
+      ]
+    },
+    {
+      "id": "f07d786f-f5ed-441b-afc2-16f07ade7501",
+      "query_text": "帮我给那个想加入我们的候选人写封回复，说说我们团队的文化和做事风格。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:08:31.888669",
+      "evidences": [
+        "524a1273-143a-4724-a373-6b253a6f7d31",
+        "caac318a-fffb-428f-b87a-8eed66d1710b",
+        "9a3ee528-f5fe-4c39-b56c-910bd0dd6f45",
+        "7387ec1e-c66c-4496-827f-c04a238e1306"
+      ]
+    },
+    {
+      "id": "82aac913-cfba-4613-8284-88490a732402",
+      "query_text": "有新同事问我，DeepOptica 到底要不要自己去拿矿权当矿主？帮我整理一下我的想法。",
+      "sample_id": 3,
+      "protagonist": "张明",
+      "status": "draft",
+      "created_at": "2026-04-21T15:09:52.328501",
+      "evidences": [
+        "e327d5bf-7d5b-427d-ba80-ec829ef5e210",
+        "593d4ac7-8161-4a59-a2e1-dd1b911a0dde",
+        "39275680-47d1-4e2d-9b2b-a4d9546047da",
+        "a9277a73-5b45-4074-bf12-11a6a92eec44"
+      ]
+    },
+    {
+      "id": "70b7d0c0-c4c7-41c6-8837-e1d257dd1c03",
+      "query_text": "有人把我最近那期播客丢进 NotebookLM 生成了个 summary 发给我看，问我觉得怎么样。\n",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:16:03.259225",
+      "evidences": [
+        "284e99d1-157c-46f5-bc8c-d96dfc74a8c3",
+        "da849115-499d-4c85-babb-ffc37ec8ee19",
+        "9505298c-bcd4-47d4-8861-32a511f50e57"
+      ]
+    },
+    {
+      "id": "5d81377a-5014-4b10-bbe4-be6d268e1b98",
+      "query_text": "Chris 那个产品最近又更新了，你之前特别推过他，他有哪些观点让你印象很深？\n",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:17:06.598168",
+      "evidences": [
+        "823b9e81-1737-43f2-834d-94b16dc4f295",
+        "163523ad-2499-4940-b62b-6d81e02da4b7",
+        "7ca10ab0-1685-478f-8dd4-6c8081fefabc"
+      ]
+    },
+    {
+      "id": "8421c855-da91-4f4c-848b-0eb95cd8eabd",
+      "query_text": "有个 AI 创业的朋友问我他们产品同质化严重怎么办，帮我整理一下我对这件事的看法。\n",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:17:32.695514",
+      "evidences": [
+        "bc523920-0e93-48e7-9b83-019e343f2663",
+        "cac21d18-b686-46e3-990f-7bfa74287671",
+        "9d044e59-8ee5-415c-ab14-bc67e762cccb",
+        "7db41dfe-6cc3-4855-8a60-7a1b205b61af",
+        "cb173bb1-49cc-43a4-ac32-56e6bdb43e4e"
+      ]
+    },
+    {
+      "id": "5f994dfb-3b3c-42f3-8319-a366354fc540",
+      "query_text": "帮我起草一篇公众号，系统介绍一下 AI 时代文科生的机会。",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:18:57.810246",
+      "evidences": [
+        "00dd4801-db46-49b6-b6f5-125385d62d41",
+        "a7aeb8bc-e379-43a2-9773-43eb4f7462ca",
+        "94b76afe-15d5-488a-aac2-cc0aa728512c",
+        "f1019981-434d-4220-8337-328ca38846db"
+      ]
+    },
+    {
+      "id": "412d7845-1761-426b-a5d4-3bb214a1f3f4",
+      "query_text": "Lulu 最近又发了个新的 PR 框架，你之前学她学得挺多的，帮我回忆一下她那套理论的要点。",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:19:53.397792",
+      "evidences": [
+        "7f9e050d-779f-4bf0-b8ad-42d9b1cac874",
+        "614cedee-1928-4530-aeb6-ba9ce15b7a84",
+        "1805bf8d-4e69-4f5d-85e6-bb2ca2bc6f50",
+        "cf525bcd-ab15-4d58-ae64-1ea753b4d2bd"
+      ]
+    },
+    {
+      "id": "3c34a083-4aee-4dd3-8f5c-37095b57b92c",
+      "query_text": "有人建议我们招一个专门的剪辑师和运营团队来做内容，你觉得我要不要？",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:20:43.072763",
+      "evidences": [
+        "6ba007b2-5991-4f17-ab61-69b870e19717",
+        "acf7f826-f59a-4424-8346-514e6a323a55",
+        "0e956794-f161-4c79-b4ea-3d331500c630"
+      ]
+    },
+    {
+      "id": "6f6aedb8-7317-4ac1-84e8-291908287eea",
+      "query_text": "有人建议我用 AI 批量生成小红书内容，说效率能提升 10 倍，你觉得怎么样？",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:21:44.868723",
+      "evidences": [
+        "acf7f826-f59a-4424-8346-514e6a323a55",
+        "6ba007b2-5991-4f17-ab61-69b870e19717",
+        "28c5c7f8-6d25-48dd-a08d-9298621daee5",
+        "9025fe77-f5d7-4fa8-95c0-a4c8d562bcfa"
+      ]
+    },
+    {
+      "id": "0e8180d0-341f-4df6-a79c-b92f22670b83",
+      "query_text": "有朋友想全职做自媒体，说先辞职 all in 内容创作，你之前怎么看这件事的？",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:23:23.939217",
+      "evidences": [
+        "01e6ec87-5ea9-4a0a-a2e7-3856c8e02aa0",
+        "2c0626e8-f40c-45ed-8abc-a657df06aace",
+        "69437756-6293-4be1-9035-57e11e1a9fcc"
+      ]
+    },
+    {
+      "id": "7339ebd4-b86d-448b-9934-9850991e4fa5",
+      "query_text": "下周的分享我想讲\"怎么开始做小红书\"，帮我列个提纲。",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:23:48.290793",
+      "evidences": [
+        "82cce2dc-54ea-4093-8d9d-1fa9aa272973",
+        "28c5c7f8-6d25-48dd-a08d-9298621daee5",
+        "9014bfe8-5d1c-4b81-8010-257ce844466b",
+        "9025fe77-f5d7-4fa8-95c0-a4c8d562bcfa",
+        "2b450dce-c8b9-4381-b02f-416a2548dd28"
+      ]
+    },
+    {
+      "id": "c56ec499-250d-4c1f-95ea-a271e5412054",
+      "query_text": "有个做 AI 产品的朋友，东西做得不错但发布后完全没水花，问我有什么有创意的 launch 玩法。",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:25:39.473272",
+      "evidences": [
+        "9d044e59-8ee5-415c-ab14-bc67e762cccb",
+        "7db41dfe-6cc3-4855-8a60-7a1b205b61af",
+        "cac21d18-b686-46e3-990f-7bfa74287671",
+        "cf525bcd-ab15-4d58-ae64-1ea753b4d2bd",
+        "cb173bb1-49cc-43a4-ac32-56e6bdb43e4e"
+      ]
+    },
+    {
+      "id": "ee2f120a-3fe5-4f2a-a654-e3afe8a539f0",
+      "query_text": "有人问我技术背景到底重不重要，我记得我以前和现在的看法不太一样，帮我理清一下。",
+      "sample_id": 6,
+      "protagonist": "陈华",
+      "status": "draft",
+      "created_at": "2026-04-21T15:27:05.655769",
+      "evidences": [
+        "49c8ac6f-673f-44bf-b30e-68a61b4da42b",
+        "97a2a987-0ba2-4b78-9b8f-bc28bee58db8",
+        "8c518e66-95a2-44f9-b429-641dcb3aa9e6",
+        "660efc94-39c9-4035-842a-5cb999a6a58d"
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "id": "e42adf8b-de15-4759-a0a8-1ab16e62583b",
+      "content": "在 Moxt 里每个人的第一个 AI 同事都必须叫 momo，这是我们的一个强制设定。momo 是贴身助理级别的存在，知道你的所有信息，可以按你的习惯设定它的风格，和其他 AI 同事的定位不一样。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D8:18",
+      "session_key": "session_8",
+      "status": "polished",
+      "created_at": "2026-04-15T06:40:25.928222"
+    },
+    {
+      "id": "1634fc9c-c5dd-43b3-9d57-c44abac0e58b",
+      "content": "我有一个叫 Ryan manager 的 AI 同事（Ryan 是我的英文名），头像是只凶狠的小猫咪。他负责帮我处理所有项目进度同步和管理信息相关的事，会主动定期去找相关同学 check 进展。现在我们团队有些同事已经不直接跟我沟通了，都是经 Ryan manager 转达。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D11:5",
+      "session_key": "session_11",
+      "status": "polished",
+      "created_at": "2026-04-15T06:40:36.783731"
+    },
+    {
+      "id": "1029dcd4-c1b6-404d-a12b-dfe5d2a238e6",
+      "content": "清睿是毕昇的负责人。",
+      "queries": [],
+      "speaker": "林晓",
+      "constraints": [
+        {
+          "target_evidence_id": "82d3c715-8387-4c7d-a8ad-9c6669259f61",
+          "same_session": false,
+          "min_turns": 50,
+          "max_turns": null
+        }
+      ],
+      "target_dia_id": "D11:11",
+      "session_key": "session_11",
+      "status": "polished",
+      "created_at": "2026-04-12T23:14:39.389321"
+    },
+    {
+      "id": "058d75f4-3286-47de-b0d4-2dc7f9359637",
+      "content": "我有一个叫 golden sales 的 AI 同事，目标是为 Moxt 找到 1000 个付费用户。我只给目标不给动作，他自己出了一份详尽的计划，还主动做了一个 CRM——一开始是表格我嫌丑，他就改成了 HTML 看板。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D12:1",
+      "session_key": "session_12",
+      "status": "polished",
+      "created_at": "2026-04-15T06:42:23.909633"
+    },
+    {
+      "id": "45773152-07f0-4a9f-b67c-733c42e3fd7b",
+      "content": "我还有一个做深度思考的 AI 同事。我把团队这季度的 OKR 详细输入给他，他每隔两三天给我做一次汇报，汇报形式是一页一页的 PPT，涵盖空间内部新思考和外部竞品动向。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D16:6",
+      "session_key": "session_16",
+      "status": "polished",
+      "created_at": "2026-04-15T06:42:30.088612"
+    },
+    {
+      "id": "140ad365-eb63-49ba-91e2-3cdb84379704",
+      "content": "另外还有两个比较特别的 AI 同事：一个叫 Miss Creative，专门做发散创意；一个叫\"批评家\"，最近才开始用，他会用比较严厉的方式审视我每天是否在关注最主要的事情。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D18:7",
+      "session_key": "session_18",
+      "status": "polished",
+      "created_at": "2026-04-15T06:42:40.833990"
+    },
+    {
+      "id": "26495bfd-b512-4533-9990-3d62f566fbd0",
+      "content": "ai agent 方向24 年 3 月 28 号在北京有个会，叫人工智能大会",
+      "queries": [],
+      "speaker": "王丽",
+      "constraints": [],
+      "target_dia_id": "D29:17",
+      "session_key": "session_29",
+      "status": "polished",
+      "created_at": "2026-04-12T23:15:25.914036"
+    },
+    {
+      "id": "3fed6e51-839f-41f3-a2ab-db71feae9729",
+      "content": "人工智能大会有个叫杨植麟的人，我与他有点联系",
+      "queries": [],
+      "speaker": "林晓",
+      "constraints": [],
+      "target_dia_id": "D31:13",
+      "session_key": "session_31",
+      "status": "polished",
+      "created_at": "2026-04-12T23:16:12.697268"
+    },
+    {
+      "id": "df12d023-fbf4-4a6f-a294-52c01162b21d",
+      "content": "我在 24 年 4 月 1 号，有一个 14 点的会，持续两个小时。",
+      "queries": [],
+      "speaker": "林晓",
+      "constraints": [],
+      "target_dia_id": "D32:11",
+      "session_key": "session_32",
+      "status": "polished",
+      "created_at": "2026-04-12T23:17:06.522316"
+    },
+    {
+      "id": "82d3c715-8387-4c7d-a8ad-9c6669259f61",
+      "content": "毕昇是 ai agent 产品。",
+      "queries": [],
+      "speaker": "林晓",
+      "constraints": [],
+      "target_dia_id": "D32:15",
+      "session_key": "session_32",
+      "status": "polished",
+      "created_at": "2026-04-12T23:14:52.608728"
+    },
+    {
+      "id": "1deacdfe-9ece-4378-a4bf-071226434c56",
+      "content": " Koji 是十字路口播客的主理人，我们是朋友。上周我刚去他那儿录了一期播客专门聊 Moxt，那期是我第一次对外完整介绍 Moxt。Koji 也是我们早期做播客推广比较重要的一个渠道。",
+      "queries": [],
+      "speaker": "林晓",
+      "constraints": [],
+      "target_dia_id": "D1:5",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-17T09:04:41.929979"
+    },
+    {
+      "id": "9c6937f8-a6fe-491a-9fed-7be85417ede2",
+      "content": "我跟 Koji 讲过一句让他印象很深的话——\"AGI 已经来了，只是大家缺少一个打开方式\"。最早是给他私下展示 Moxt 内测版本时说的，后来录播客时又顺着这句话展开聊了一整期。Koji 当时很震惊，说这句话甚至比黄仁勋说得还早。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:6",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-17T09:04:48.672635"
+    },
+    {
+      "id": "563ee04a-5a9c-43b2-9f81-4d2d0e25d56c",
+      "content": "在 Moxt 里每个人的第一个 AI 同事都必须叫 momo，这是我们的一个强制设定。momo 是贴身助理级别的存在，知道你的所有信息，可以按你的习惯设定它的风格，和其他 AI 同事的定位不一样。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D5:5",
+      "session_key": "session_5",
+      "status": "polished",
+      "created_at": "2026-04-17T09:04:54.411391"
+    },
+    {
+      "id": "52710e6d-4965-4e22-b353-79f197b811a9",
+      "content": "我有一个叫 Ryan manager 的 AI 同事（Ryan 是我的英文名），头像是只凶狠的小猫咪。他负责帮我处理所有项目进度同步和管理信息相关的事，会主动定期去找相关同学 check 进展。现在我们团队有些同事已经不直接跟我沟通了，都是经 Ryan manager 转达。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D6:7",
+      "session_key": "session_6",
+      "status": "polished",
+      "created_at": "2026-04-17T09:05:07.335750"
+    },
+    {
+      "id": "cb422472-321f-4184-a29e-22dabe726d41",
+      "content": "我有一个叫 golden sales 的 AI 同事，目标是为 Moxt 找到 1000 个付费用户。我只给目标不给动作，他自己出了一份详尽的计划，还主动做了一个 CRM——一开始是表格我嫌丑，他就改成了 HTML 看板。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:5",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-17T09:05:14.372140"
+    },
+    {
+      "id": "e79e6cca-4417-4aab-bf56-b067d51bcde9",
+      "content": "我还有一个做深度思考的 AI 同事。我把团队这季度的 OKR 详细输入给他，他每隔两三天给我做一次汇报，汇报形式是一页一页的 PPT，涵盖空间内部新思考和外部竞品动向。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D12:5",
+      "session_key": "session_12",
+      "status": "polished",
+      "created_at": "2026-04-17T09:05:23.344631"
+    },
+    {
+      "id": "0f2069a9-20d1-49d4-bc3b-b44b82d39aab",
+      "content": "另外还有两个比较特别的 AI 同事：一个叫 Miss Creative，专门做发散创意；一个叫\"批评家\"，最近才开始用，会用比较严厉的方式审视我每天是否在关注最主要的事情。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D13:6",
+      "session_key": "session_13",
+      "status": "polished",
+      "created_at": "2026-04-17T09:05:31.664594"
+    },
+    {
+      "id": "17986574-0657-439a-b1c6-43a32b8a7e6c",
+      "content": "我们团队现在大概四五十人都在做 Moxt 这件事。Moxt 是春节前一个周三晚上临时决定做的，周四就开始动工，用了差不多三周时间做出了第一个可用版本，到现在产品才正式上线一周。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:7",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-17T09:07:37.915776"
+    },
+    {
+      "id": "0e8e70fd-6ab5-47b0-b0b2-5f922d4a627c",
+      "content": "春节后第五天，我们所有人坐下来聊了一次，没有人对之前在做的 Paraflow 项目有任何眷恋，所有人一致决定转向 Moxt。这种一致性来得非常突然，是我职业生涯里很奇妙的一次经历。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D5:1",
+      "session_key": "session_5",
+      "status": "polished",
+      "created_at": "2026-04-17T09:07:43.712639"
+    },
+    {
+      "id": "084e6092-41e0-49f8-9059-544f83745adf",
+      "content": "下个季度我准备重点投入语音输入，现在还没动工。日常场景里语音交互已经渗透很深，按一下语音说几句话就能起草文档，这件事在产品里应该有一等公民的地位。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D16:6",
+      "session_key": "session_16",
+      "status": "polished",
+      "created_at": "2026-04-17T09:10:28.181263"
+    },
+    {
+      "id": "243cf24c-09dd-4a0d-bb30-15ee0386b72d",
+      "content": "我最近还在琢磨要不要做一个硬件，能放在会议室里自己听大家聊、自己参与发言。Koji 也说想要一个开会时能伴他左右的 AI Agent，这个需求很真实。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D17:7",
+      "session_key": "session_17",
+      "status": "polished",
+      "created_at": "2026-04-17T09:10:34.343576"
+    },
+    {
+      "id": "81f30039-5ad2-4f9a-90c6-f639104ba0c1",
+      "content": "一键搬家功能是下一步我们要重点投入的。因为用户迁移到 Moxt 最大的阻力就是把已有资料导进来，围绕 more context 这个核心（Moxt 这个名字就是 more context 来的），这个功能优先级最高。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D18:4",
+      "session_key": "session_18",
+      "status": "polished",
+      "created_at": "2026-04-17T09:10:39.887084"
+    },
+    {
+      "id": "e133e910-082c-4633-b6b1-5b28d818e2ca",
+      "content": "我们集团有一位同事在做线下咖啡品牌业务。他之前特别激动地来找我分享——他在 Moxt 里创建了一个 AI 同事，专门帮他做爆款预测和分析。这在我们早期内部用户 case 里很有代表性，因为他完全不是互联网创业场景。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:4",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-17T09:12:25.522039"
+    },
+    {
+      "id": "8f8ffa90-3595-424c-b8e4-d15858400867",
+      "content": "他当时的反馈让我意识到两件事：一是我原本没想到线下消费品业务的同事会这么快用起来；二是最好的 practice 往往得由用户自己构建，你永远无法想象用户会在什么场景下放大他原来的思维模式。我后来在观察这类用户时会特别留意他们用的方式。",
+      "queries": [],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:16",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-17T09:12:34.419752"
+    },
+    {
+      "id": "fc8a376e-6644-485a-9bcd-0e58db8ffb7d",
+      "content": "Koji 是十字路口播客的主理人，我们是朋友。上周我刚去他那儿录了一期播客专门聊 Moxt，那期是我第一次对外完整介绍 Moxt。Koji 也是我们早期做播客推广比较重要的一个渠道。",
+      "queries": [
+        {
+          "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:1",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T13:24:55.931824"
+    },
+    {
+      "id": "d23d1ab2-e6df-42d5-ab46-cd2750df3b54",
+      "content": "我跟 Koji 讲过一句让他印象很深的话——\"AGI 已经来了，只是大家缺少一个打开方式\"。最早是给他私下展示 Moxt 内测版本时说的，后来录播客时又顺着这句话展开聊了一整期。Koji 当时很震惊，说这句话甚至比黄仁勋说得还早。",
+      "queries": [
+        {
+          "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908"
+        },
+        {
+          "id": "c9307b56-d6fa-4fd5-b392-99fd21a01328"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:4",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T13:25:04.072133"
+    },
+    {
+      "id": "c108ed3c-7335-473a-98d1-2e35c74e2573",
+      "content": "在 Moxt 里每个人的第一个 AI 同事都必须叫 momo，这是我们的一个强制设定。momo 是贴身助理级别的存在，知道你的所有信息，可以按你的习惯设定它的风格，和其他 AI 同事的定位不一样。",
+      "queries": [
+        {
+          "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:7",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T13:25:11.417940"
+    },
+    {
+      "id": "8fc9d6d2-8348-4004-aad6-a9055067953e",
+      "content": "我有一个叫 Ryan manager 的 AI 同事（Ryan 是我的英文名），头像是只凶狠的小猫咪。他负责帮我处理所有项目进度同步和管理信息相关的事，会主动定期去找相关同学 check 进展。现在我们团队有些同事已经不直接跟我沟通了，都是经 Ryan manager 转达。",
+      "queries": [
+        {
+          "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:11",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T13:25:20.665912"
+    },
+    {
+      "id": "51b42f1a-9a6a-431c-9483-a4ebb97f4724",
+      "content": "我有一个叫 golden sales 的 AI 同事，目标是为 Moxt 找到 1000 个付费用户。我只给目标不给动作，他自己出了一份详尽的计划，还主动做了一个 CRM——一开始是表格我嫌丑，他就改成了 HTML 看板。",
+      "queries": [
+        {
+          "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908"
+        },
+        {
+          "id": "db4b7b14-2c10-4195-bacf-864ec4fc6905"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:3",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T13:25:33.554717"
+    },
+    {
+      "id": "d4fc1f38-a7f8-456d-955f-45ac03e00eab",
+      "content": "我还有一个做深度思考的 AI 同事。我把团队这季度的 OKR 详细输入给他，他每隔两三天给我做一次汇报，汇报形式是一页一页的 PPT，涵盖空间内部新思考和外部竞品动向。",
+      "queries": [
+        {
+          "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:7",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T13:25:42.871158"
+    },
+    {
+      "id": "b976f22b-f38a-4201-a93e-fbaee885e9bc",
+      "content": "另外还有两个比较特别的 AI 同事：一个叫 Miss Creative，专门做发散创意；一个叫\"批评家\"，最近才开始用，会用比较严厉的方式审视我每天是否在关注最主要的事情。",
+      "queries": [
+        {
+          "id": "4605a59e-5f50-4d75-9f2f-38ef82c7c908"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:9",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T13:28:16.306531"
+    },
+    {
+      "id": "f8b359ca-9b51-4798-86f0-f5ae8cba7472",
+      "content": "我们团队现在大概四五十人都在做 Moxt 这件事。Moxt 是春节前一个周三晚上临时决定做的，周四就开始动工，用了差不多三周时间做出了第一个可用版本，到现在产品才正式上线一周。",
+      "queries": [
+        {
+          "id": "db4b7b14-2c10-4195-bacf-864ec4fc6905"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:5",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T13:41:56.843958"
+    },
+    {
+      "id": "f2781292-b792-4d5d-8b10-c1ecdef95d95",
+      "content": "春节后第五天，我们所有人坐下来聊了一次，没有人对之前在做的 Paraflow 项目有任何眷恋，所有人一致决定转向 Moxt。这种一致性来得非常突然，是我职业生涯里很奇妙的一次经历。",
+      "queries": [
+        {
+          "id": "db4b7b14-2c10-4195-bacf-864ec4fc6905"
+        },
+        {
+          "id": "6604f926-16a8-41b1-bb19-05b6986bfef0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:14",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T13:42:09.256537"
+    },
+    {
+      "id": "e268771f-d09b-45b1-90b1-5d51dc05e49a",
+      "content": "下个季度我准备重点投入语音输入，现在还没动工。日常场景里语音交互已经渗透很深，按一下语音说几句话就能起草文档，这件事在产品里应该有一等公民的地位。",
+      "queries": [
+        {
+          "id": "db4b7b14-2c10-4195-bacf-864ec4fc6905"
+        },
+        {
+          "id": "5d5c55c6-1567-499a-b3a2-da0ddbb224cc"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:9",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T13:50:18.454331"
+    },
+    {
+      "id": "e3f0d683-9eda-4f3b-89eb-c4740be13f27",
+      "content": "我最近还在琢磨要不要做一个硬件，能放在会议室里自己听大家聊、自己参与发言。Koji 也说想要一个开会时能伴他左右的 AI Agent，这个需求很真实。",
+      "queries": [
+        {
+          "id": "db4b7b14-2c10-4195-bacf-864ec4fc6905"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D5:5",
+      "session_key": "session_5",
+      "status": "polished",
+      "created_at": "2026-04-21T13:50:26.014564"
+    },
+    {
+      "id": "14fffde9-e048-4b62-bf2b-1d1af69f3ccd",
+      "content": "一键搬家功能是下一步我们要重点投入的。因为用户迁移到 Moxt 最大的阻力就是把已有资料导进来，围绕 more context 这个核心（Moxt 这个名字就是 more context 来的），这个功能优先级最高。",
+      "queries": [
+        {
+          "id": "db4b7b14-2c10-4195-bacf-864ec4fc6905"
+        },
+        {
+          "id": "5d5c55c6-1567-499a-b3a2-da0ddbb224cc"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D6:3",
+      "session_key": "session_6",
+      "status": "polished",
+      "created_at": "2026-04-21T13:50:32.406650"
+    },
+    {
+      "id": "776a2c5d-9d9c-4b87-93e4-237dc12f3755",
+      "content": "我们集团有一位同事在做线下咖啡品牌业务。他之前特别激动地来找我分享——他在 Moxt 里创建了一个 AI 同事，专门帮他做爆款预测和分析。这在我们早期内部用户 case 里很有代表性，因为他完全不是互联网创业场景。",
+      "queries": [
+        {
+          "id": "5d5c55c6-1567-499a-b3a2-da0ddbb224cc"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:17",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T13:51:38.144500"
+    },
+    {
+      "id": "02fb5abd-8e0b-45f9-aeac-7f440c2e8ce2",
+      "content": "他当时的反馈让我意识到两件事：一是我原本没想到线下消费品业务的同事会这么快用起来；二是最好的 practice 往往得由用户自己构建，你永远无法想象用户会在什么场景下放大他原来的思维模式。我后来在观察这类用户时会特别留意他们用的方式。",
+      "queries": [
+        {
+          "id": "5d5c55c6-1567-499a-b3a2-da0ddbb224cc"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:16",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T13:51:49.233709"
+    },
+    {
+      "id": "53ba6b2a-ea56-4081-88fe-61acc38ee154",
+      "content": "我们内部现在已经有一些很狂热的用户，有人半夜 12 点给我发企业微信说\"能不能给我再充点积分\"。这是我之前做 Motiff 和 Paraflow 时从没遇到过的用户状态。我现在会把这些狂热用户当作产品判断的重要信号源，尤其是来自非互联网背景的。",
+      "queries": [
+        {
+          "id": "5d5c55c6-1567-499a-b3a2-da0ddbb224cc"
+        },
+        {
+          "id": "5ac3caa4-9c10-4972-ba55-e76fe6a97cc1"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:11",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T13:52:04.736908"
+    },
+    {
+      "id": "a3ff3810-ff48-47ac-b993-cd51e7b85896",
+      "content": "上次我写那篇公众号文章介绍 Moxt，是完全手搓的，一字一字敲的。写完之后我甚至很刻意地没让 AI 帮我 review 找错别字，连错别字都没让 AI 看一遍。",
+      "queries": [
+        {
+          "id": "3246a5f1-7729-4d14-954d-5fe1d31981ca"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:3",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T13:58:17.842563"
+    },
+    {
+      "id": "db1f8314-4d81-4e92-b17e-e062f74191b2",
+      "content": "我对这件事想得很清楚：我希望有生之年回头看这篇文章时，无论 Moxt 项目后来怎样，我知道当年那个瞬间我的感受是我自己写出来的，没有被以效率的方式生产出来。这算是我的一个底线。",
+      "queries": [
+        {
+          "id": "3246a5f1-7729-4d14-954d-5fe1d31981ca"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:7",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T13:58:26.822378"
+    },
+    {
+      "id": "206e4a74-3b0f-47bc-b1ad-32bb396e54c1",
+      "content": "我在 Moxt 空间的 agents.md 文档里（这个文档权限极高，所有 AI 都把它当价值观来 follow）还专门写了一句话：无论何时你都不该去创作一些内容让 AI 可以取代人，你更好的作用还是放大于人。",
+      "queries": [
+        {
+          "id": "3246a5f1-7729-4d14-954d-5fe1d31981ca"
+        },
+        {
+          "id": "d6761870-9ffe-4468-9ec6-1156bbcc3861"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:11",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T13:58:45.638149"
+    },
+    {
+      "id": "0ca75d43-50c5-45a0-8496-353aec22332d",
+      "content": "我们以前是 JIRA 的十年老用户，但现在已经完全不用了。核心原因是我们把所有项目进度都通过 Moxt 交互完成，PRD 和产品计划都在空间里，我们还把 Moxt 连入了代码仓库，它知道每一次代码提交。",
+      "queries": [
+        {
+          "id": "bdf0bb7d-8d44-476a-a44a-80a237daeed8"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D11:6",
+      "session_key": "session_11",
+      "status": "polished",
+      "created_at": "2026-04-21T13:59:19.656829"
+    },
+    {
+      "id": "938ccb25-eeb5-4e33-acd0-41cd41daef66",
+      "content": "我们决定转向 Moxt 之后的第三天，就有一个研发同学在 Moxt 里手搓了一个看板来替代 JIRA。我们发现核心 UI 并不重要，JIRA 的价值是同步产品和研发的所有信息和进度，但现在这个需求已经被 Moxt 原生满足了。",
+      "queries": [
+        {
+          "id": "bdf0bb7d-8d44-476a-a44a-80a237daeed8"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D11:8",
+      "session_key": "session_11",
+      "status": "polished",
+      "created_at": "2026-04-21T13:59:26.377330"
+    },
+    {
+      "id": "7470a5df-bd82-4d71-8899-949aa1c047c7",
+      "content": "我甚至觉得\"为什么还要用看板\"这件事本身值得反思。看板在解决站会时的信息同步问题，但信息同步完全可以有更好的呈现形式——你有 HTML，理论上可以让 AI 给你做成任何你想要的样子。",
+      "queries": [
+        {
+          "id": "bdf0bb7d-8d44-476a-a44a-80a237daeed8"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D12:15",
+      "session_key": "session_12",
+      "status": "polished",
+      "created_at": "2026-04-21T13:59:32.610484"
+    },
+    {
+      "id": "2c2d1678-e506-42c1-a824-6f8996816161",
+      "content": "我最近看了 YC 的 Garry Tan 的分享，以及 Anthropic 增长负责人的分享——他一个人管理着一个由成百上千个 AI Agents 组成的增长部门。他们都给出了一个一致的建议：分工要细。原因是分工细则目标单一、context 不容易混乱、skill 和 memory 也更稳定。",
+      "queries": [
+        {
+          "id": "4ba8ed4e-dfd9-4292-9ba3-dd21ead92321"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:3",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T14:06:48.522194"
+    },
+    {
+      "id": "5b865dd9-f95a-4dc5-9409-a536896d0585",
+      "content": "我挺认同他们的这个方向。从我自己用下来的实际体感看，分工细的 AI 同事各司其职、产出质量比大杂烩好。",
+      "queries": [
+        {
+          "id": "4ba8ed4e-dfd9-4292-9ba3-dd21ead92321"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:5",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T14:06:55.312376"
+    },
+    {
+      "id": "9099e2e1-d0d2-4649-87a3-17ae77b046e9",
+      "content": "还有一个我认可的观点来自广密老师——他对数字世界 AGI 的定义是\"在 90% 的行业中 90% 的人的 90% 的工作 AI 都可以胜任\"。我基本是按这个标准判断 AGI 是否到来的。\n",
+      "queries": [
+        {
+          "id": "4ba8ed4e-dfd9-4292-9ba3-dd21ead92321"
+        },
+        {
+          "id": "c9307b56-d6fa-4fd5-b392-99fd21a01328"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D16:5",
+      "session_key": "session_16",
+      "status": "polished",
+      "created_at": "2026-04-21T14:07:01.875444"
+    },
+    {
+      "id": "c338030d-9aa8-477b-9ac7-b4f8ad586730",
+      "content": "我最近看到一些 AI Agents 产品的 Pricing 界面就是这么做的——左边是 AI 员工价格、右边是人类员工价格，下面列一堆 AI 更强的地方。我觉得很多人会做，因为这是一个很大的诱惑。但我非常清楚一件事：我不希望这件事发生在我们产品上。",
+      "queries": [
+        {
+          "id": "d6761870-9ffe-4468-9ec6-1156bbcc3861"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:2",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T14:07:23.227780"
+    },
+    {
+      "id": "6d8e2952-dc47-4c7a-95c7-a08dfebd8ab2",
+      "content": "我最近对 AI 和人的关系稍微乐观了一些。我觉得可能像工业革命时代一样，那时的纺织工人无法想象今天的世界是什么样子，我们今天也无法想象生产关系重组后的下一个时代。但我始终觉得应该用放大人的方式去做，而不是反向。",
+      "queries": [
+        {
+          "id": "d6761870-9ffe-4468-9ec6-1156bbcc3861"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D10:5",
+      "session_key": "session_10",
+      "status": "polished",
+      "created_at": "2026-04-21T14:08:20.580012"
+    },
+    {
+      "id": "cfb74283-fdf0-4b46-b2f3-9cdbd17cea23",
+      "content": "Paraflow 是我们之前在做的一款 Vibe Coding 工具，一个差异化的 Lovable，定位是从 ideas 到 App。本来今年的计划是在 Paraflow 上大搞特搞，没想到变化这么快，春节前后就发生了 Moxt 这件事。",
+      "queries": [
+        {
+          "id": "6604f926-16a8-41b1-bb19-05b6986bfef0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:3",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T14:08:44.480639"
+    },
+    {
+      "id": "48fdcb29-8a88-43c3-92cf-1e419998acee",
+      "content": "启动 Moxt 的触发点很具体：我们观察到一个很反常的现象——越来越多的群里大家在发 MD 文件。好不容易进入协同办公时代，结果又开始互传文件了。于是春节前三天一个周三晚上，我们决定做 Moxt，周四就开始。",
+      "queries": [
+        {
+          "id": "6604f926-16a8-41b1-bb19-05b6986bfef0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:9",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T14:09:28.665304"
+    },
+    {
+      "id": "2d0e3e7d-134d-45cb-abc2-9c717fc94381",
+      "content": "后来我们想清楚了，Paraflow 和 Moxt 可以顺其自然地连在一起——Paraflow 的 Vibe Coding 版本本来还没上线，把它嵌进 Moxt 的空间里反而更顺。因为所有数据都在 Moxt 里，用 HTML 就可以可视化一切，不需要专门为内部工具再造一个 Paraflow。",
+      "queries": [
+        {
+          "id": "6604f926-16a8-41b1-bb19-05b6986bfef0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:17",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T14:10:27.065537"
+    },
+    {
+      "id": "20c992b1-001e-40d1-93e5-7bd9b0b67ae0",
+      "content": "让我真正确信这件事的经验是用 Moxt 的体感。很多人早就用过 Claude Code 或其他先进模型，在 Coding 领域感觉到变化，但我的头皮发麻在于两点——这件事不只发生在 Coding 领域、正在一个更大的领域发生；以及整个社会面临一种新的生产关系和分工模式。",
+      "queries": [
+        {
+          "id": "c9307b56-d6fa-4fd5-b392-99fd21a01328"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D17:5",
+      "session_key": "session_17",
+      "status": "polished",
+      "created_at": "2026-04-21T14:11:49.792959"
+    },
+    {
+      "id": "a4f24334-4a99-40ec-a7c2-527f2d57dbb5",
+      "content": "我的核心论点是 AGI 来了但打开方式不对——你需要为 AI 创造一个更适宜它的工作环境。当你把 context 以 AI 易读的方式给它，现有模型涌现出的能力会比在不规整模式下大得多。",
+      "queries": [
+        {
+          "id": "c9307b56-d6fa-4fd5-b392-99fd21a01328"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D17:25",
+      "session_key": "session_17",
+      "status": "polished",
+      "created_at": "2026-04-21T14:11:57.072951"
+    },
+    {
+      "id": "08bd9e37-9713-496a-bea7-6decc5e00889",
+      "content": "Moxt 跟飞书 Notion 最本质的区别是\"原教旨主义\"——只用 AI 易于阅读和创作的格式。文档是 Markdown，表格是 CSV，可视化一切都是 HTML，数据库结构是 JSON。这些是新时代的 Doc、Excel 和 PPT。",
+      "queries": [
+        {
+          "id": "5ac3caa4-9c10-4972-ba55-e76fe6a97cc1"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:11",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T14:13:20.898183"
+    },
+    {
+      "id": "b84705d8-69fe-43f3-bae8-12efe0578953",
+      "content": "第二个原教旨是文件结构——左侧目录树虽然形似知识库，但本质就是一个文件系统，像 OS、Windows、Mac、Git 一样，可以用命令行熟悉。Notion 那种知识库结构对 AI 来说其实是个迷宫。",
+      "queries": [
+        {
+          "id": "5ac3caa4-9c10-4972-ba55-e76fe6a97cc1"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:17",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T14:13:26.875786"
+    },
+    {
+      "id": "a83e87ee-c21e-4928-8a37-171ebf1774af",
+      "content": "飞书和 Notion 为什么做不到这件事？它们面临典型的\"创新者的窘境\"——旧世界有大量客户愿意为现有产品上的 AI 改造付费，这个诱惑很难抵抗。另起炉灶需要非常大的决心。",
+      "queries": [
+        {
+          "id": "5ac3caa4-9c10-4972-ba55-e76fe6a97cc1"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:16",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T14:13:32.277133"
+    },
+    {
+      "id": "9bec2d13-67de-494b-8bad-365417a900d9",
+      "content": "迁移门槛这件事我想得很清楚。用\"新体验 - 旧体验 - 迁移成本\"这个公式看，关键是让新体验足够大，以及把迁移成本降下来。所以我们下一步会重点投一键搬家功能，围绕 more context 让用户更快把已有资料导进来。",
+      "queries": [
+        {
+          "id": "5ac3caa4-9c10-4972-ba55-e76fe6a97cc1"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D17:3",
+      "session_key": "session_17",
+      "status": "polished",
+      "created_at": "2026-04-21T14:13:59.286519"
+    },
+    {
+      "id": "f8f68b25-b183-4726-b3a2-0c05134f6bfd",
+      "content": "两周前我对 AI 员工数量的观点是不宜过多。我甚至觉得每增加一个 AI 员工都应该收点钱——倒不是从商业角度，而是觉得这样用户会主动做熵减。当时我对分太多 agent 是明确反对的。",
+      "queries": [
+        {
+          "id": "a3a81bab-a57e-4f57-9d23-77f3cbcb2512"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:5",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T14:15:47.578208"
+    },
+    {
+      "id": "42f97012-6a64-4bb2-af08-6f44ec6a4347",
+      "content": "但我最近看了 YC 的 Garry Tan，还有 Anthropic 增长负责人（他一个人管理着成百上千个 AI Agents 组成的增长部门）的分享，他们都给出了一个一致的建议——分工要细。原因是分工细则目标单一、AI 的 context 不容易混乱、它的 skill 和 memory 也更稳定。看完之后我已经不坚持\"宜少\"的观点了。",
+      "queries": [
+        {
+          "id": "a3a81bab-a57e-4f57-9d23-77f3cbcb2512"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D10:5",
+      "session_key": "session_10",
+      "status": "polished",
+      "created_at": "2026-04-21T14:15:56.301230"
+    },
+    {
+      "id": "5e7d4085-884f-48b5-b9fa-db83b71faefd",
+      "content": "我自己对这件事其实没有最终定论，觉得人们在实践中会有偏好，最终也可能会涌现出一些更好的 best practice。但就现阶段的建议而言，我更倾向于听从那些管理过大规模 agent 组织的人的经验。\n",
+      "queries": [
+        {
+          "id": "a3a81bab-a57e-4f57-9d23-77f3cbcb2512"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D16:5",
+      "session_key": "session_16",
+      "status": "polished",
+      "created_at": "2026-04-21T14:16:02.420421"
+    },
+    {
+      "id": "7ff9a839-b101-4368-9cbd-057ea03a443b",
+      "content": "从我自己的实践看也是支持细分那一派——我目前除了 momo 之外自己有 5 个 AI 同事，分别是 Ryan manager、golden sales、做深度思考的、Miss Creative、批评家，各自职责不重合。实际用下来这种分工没让我觉得混乱，反而每个同事的产出质量都比大杂烩好。",
+      "queries": [
+        {
+          "id": "a3a81bab-a57e-4f57-9d23-77f3cbcb2512"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D19:5",
+      "session_key": "session_19",
+      "status": "polished",
+      "created_at": "2026-04-21T14:16:08.508750"
+    },
+    {
+      "id": "27bc0a0e-c172-405d-a864-e390b873ff13",
+      "content": "Koji 是十字路口播客的主理人，也是我朋友。之前我去他节目上录过一期，专门聊了 DeepOptica 怎么用 AI 做矿业。他当时穿了一件播客周边卫衣，上面写着\"hands dirty club\"，说创业要 get your hands dirty，我们做矿业可能是最名副其实的。",
+      "queries": [
+        {
+          "id": "d0917c8a-e56b-43e4-9554-37ff4d3211e5"
+        },
+        {
+          "id": "b97e0fb3-24c4-4229-a698-3b51997b033c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:3",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T14:55:56.740693"
+    },
+    {
+      "id": "f7e71de4-e4d7-4635-9a8a-fb320b937c0b",
+      "content": "我们现在最大的客户之一是巴西的 GE21，南美最大的地质咨询公司。我们是一个纯华人团队，才融完种子轮，但 GE21 这么大的公司愿意和我们合作，就是因为早期做了很多 proof of concept，我们的模型能力和数据处理能力在他们的项目上得到了验证。目前我们和 GE21 在数据及产品层面都已展开合作。",
+      "queries": [
+        {
+          "id": "d0917c8a-e56b-43e4-9554-37ff4d3211e5"
+        },
+        {
+          "id": "5a898eaa-3db8-47bd-82fa-b9d4c230d7aa"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:2",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T14:56:03.341777"
+    },
+    {
+      "id": "f1a16eb0-7f9b-43b5-a4f4-56eac1c655b7",
+      "content": "除了巴西，我们在蒙古和中东也有验证成果。昨天刚和中东客户开会开到很晚，最后一个 call 是 9 点多。我开口第一句就说\"你们昨天发的需求，我们已经做了初步分析\"，当时对方项目经理跟他的合伙人说：\"See, I told you this team can manage a lot of stuff.\"\n",
+      "queries": [
+        {
+          "id": "d0917c8a-e56b-43e4-9554-37ff4d3211e5"
+        },
+        {
+          "id": "5a898eaa-3db8-47bd-82fa-b9d4c230d7aa"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:6",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T14:56:11.233404"
+    },
+    {
+      "id": "014a6f18-4599-4af9-a36e-88aad279cdbb",
+      "content": "我们刚签下约 550 万人民币的订单，目前收入将近 100 万人民币。下半年 close 了种子轮融资，百度风投领投。",
+      "queries": [
+        {
+          "id": "d0917c8a-e56b-43e4-9554-37ff4d3211e5"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:10",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T14:56:17.172954"
+    },
+    {
+      "id": "33a017df-eb92-4ec9-ab32-013a029ec1bb",
+      "content": "我们今年内的目标是在几个核心成矿区——澳大利亚、南美和非洲——完成模型验证。预计到明年上半年某个时候，推出第一版泛化的矿业世界模型。",
+      "queries": [
+        {
+          "id": "5a898eaa-3db8-47bd-82fa-b9d4c230d7aa"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:3",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T14:58:34.177251"
+    },
+    {
+      "id": "9e82cccf-36de-4fc2-938e-48d3c5682533",
+      "content": "合成数据引擎是我们目前在重点优化的。它在一些典型的成矿带比如斑岩型矿带上性能已经比较好了，但矿体结构远不止一种，还有铁氧化型、矽卡岩型、沉积岩型等等，这些方面都需要持续投入。目前合成数据在我们训练里占比大概 50%，还会继续深挖。\n",
+      "queries": [
+        {
+          "id": "5a898eaa-3db8-47bd-82fa-b9d4c230d7aa"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:6",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T14:58:41.146140"
+    },
+    {
+      "id": "22236a37-f694-4e6d-836d-04e9686ceb57",
+      "content": "人才方面，我们目前主要在招募地球科学、AI 合成数据和大型模型这三个方向的人才。团队现在还不大，但我觉得二三十人就够了——有了 AI 技术，关键是能不能找到最核心的十几二十个人，把他们的生产力推到最大。\n",
+      "queries": [
+        {
+          "id": "5a898eaa-3db8-47bd-82fa-b9d4c230d7aa"
+        },
+        {
+          "id": "4fb348ad-95bd-415f-add4-927fbe1ccbed"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D9:5",
+      "session_key": "session_9",
+      "status": "polished",
+      "created_at": "2026-04-21T15:00:32.763444"
+    },
+    {
+      "id": "3a567e6c-89a5-4bdf-909b-d96e233ab026",
+      "content": "Jesse 是我们的 CFO，曾经是赤峰黄金的副总裁，在那之前是精品投行拉扎德的大中华区 staffer 和矿业负责人。他在矿业领域待了十几年，在我们团队里扮演的是用户角色——他最清楚客户需要什么结果。\n",
+      "queries": [
+        {
+          "id": "d5e0161c-9380-46c5-aeac-4d71ecac4422"
+        },
+        {
+          "id": "eef651d2-1ca0-4167-a2b7-889ee1c5e8c9"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:3",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T15:01:08.988674"
+    },
+    {
+      "id": "1c6c7684-5af9-48b8-bd91-e631dd90bbce",
+      "content": "传统探矿靠地质学家实地踏勘、地质填图，看地表有没有矿物露头（地下矿物经过风化跑到地表可以直接看见的那种）。后来有了地球物理和遥感卫星，可以看磁场、重力场、电磁电阻率的变化。但这些方法的问题是多解性很强——同一个地表测量值，可能对应地下 10 万种不同的三维矿体结构。\n",
+      "queries": [
+        {
+          "id": "d5e0161c-9380-46c5-aeac-4d71ecac4422"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D5:3",
+      "session_key": "session_5",
+      "status": "polished",
+      "created_at": "2026-04-21T15:01:19.674715"
+    },
+    {
+      "id": "e2e72281-65ec-4996-a3c6-e7f1056ad943",
+      "content": "我们做的是构建一个\"矿业世界模型\"——通过 AI 把地质、地球物理和遥感卫星的多模态数据集成起来，真正揭示地下的三维矿体结构，甚至能判断其经济价值。不只是告诉矿企\"下一钻打哪里\"，而是直接回答\"这里有多少吨铜、多少盎司黄金\"。\n",
+      "queries": [
+        {
+          "id": "d5e0161c-9380-46c5-aeac-4d71ecac4422"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D6:4",
+      "session_key": "session_6",
+      "status": "polished",
+      "created_at": "2026-04-21T15:01:26.109325"
+    },
+    {
+      "id": "bfefe9ea-0d84-4183-9ff4-a19cffb85080",
+      "content": "这和 KoBold Metals 的做法很不一样。KoBold 用贝叶斯决策帮矿企优化钻孔——告诉你下一钻在哪里打可以最大概率定位矿体，或者消除最多不确定性。但他们没法告诉你地下到底有多少吨铜多少盎司黄金。我们的目标是比他们再深一层，用更少的钻孔和更强大的数据，提早知道地下的具体资源量，让矿企能更好地评估一个矿的经济价值。\n",
+      "queries": [
+        {
+          "id": "d5e0161c-9380-46c5-aeac-4d71ecac4422"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:6",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T15:01:34.291422"
+    },
+    {
+      "id": "2cf67956-1658-45fe-83a2-394d6f327461",
+      "content": "有了 AI 技术加成，我们每个服务项目上不需要像传统咨询公司那样投入大量人力了。如果需要野外考察就去完成具体任务，带回来一起分析。未来这种模式会在某种程度上替代很多传统的咨询服务。\n",
+      "queries": [
+        {
+          "id": "d5e0161c-9380-46c5-aeac-4d71ecac4422"
+        },
+        {
+          "id": "4fb348ad-95bd-415f-add4-927fbe1ccbed"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D8:6",
+      "session_key": "session_8",
+      "status": "polished",
+      "created_at": "2026-04-21T15:01:43.188400"
+    },
+    {
+      "id": "e78b13a8-84e7-4dc0-bd2f-cd9b07b809ea",
+      "content": "我们 CTO 方博之前和我一起做过一家遥感 startup，再之前他是英国最大金融机构的 AI leader。我自己创业前主要做遥感卫星相关项目，更早之前是欧洲航天局和英国航天局一些项目的技术负责人。我偏重勘探技术，方博偏重 AI，我们俩结合起来就能看到哪些 AI 领域结合最新的勘探技术可以提供新思路。\n",
+      "queries": [
+        {
+          "id": "eef651d2-1ca0-4167-a2b7-889ee1c5e8c9"
+        },
+        {
+          "id": "2ba98447-fef6-4884-99f9-34adc50f8d1c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:5",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T15:02:49.241869"
+    },
+    {
+      "id": "be1a4e4e-b748-4f3e-a553-b353ab968930",
+      "content": "恰恰是像我们这样 profile 的团队才能真正改变这个行业。如果是一个在矿业公司工作了 50 年的地质学家，很可能会被自己的思想局限，而不是从数据和技术驱动的角度去思考。地球科学和计算机科学之间有一道巨大的鸿沟——不像物理与计算机、生物与计算机已经有了交叉学科，地质统计学这类学科存在的时间并不长。能弥补这个鸿沟的团队，需要在这个交叉领域扎根。",
+      "queries": [
+        {
+          "id": "eef651d2-1ca0-4167-a2b7-889ee1c5e8c9"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:6",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T15:02:54.720327"
+    },
+    {
+      "id": "c3a16716-da66-4c7b-bdb8-cc39180d4b06",
+      "content": "有个有趣的事实——我们和 KoBold Metals 创始团队的背景非常像。他们团队里有一位科学家是做量子计算的，一位做地球科学，还有一位金融出身。我们创始人的背景和他们不谋而合。掌握 AI 的人成了传统行业门口的野蛮人，颠覆传统行业的往往不是内部人，而是带着新工具和新视角闯进来的门外汉。\n",
+      "queries": [
+        {
+          "id": "eef651d2-1ca0-4167-a2b7-889ee1c5e8c9"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:8",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T15:02:59.900119"
+    },
+    {
+      "id": "9a3ee528-f5fe-4c39-b56c-910bd0dd6f45",
+      "content": "我不希望 DeepOptica 是一个体量很大的公司。我更关注的是：能不能找到最核心的十几二十个人？能不能用 AI 把这些人的生产力推到最大？能不能让大家真正享受自己每天做的事？我觉得这比人头数重要得多。\n",
+      "queries": [
+        {
+          "id": "4fb348ad-95bd-415f-add4-927fbe1ccbed"
+        },
+        {
+          "id": "f07d786f-f5ed-441b-afc2-16f07ade7501"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D12:4",
+      "session_key": "session_12",
+      "status": "polished",
+      "created_at": "2026-04-21T15:04:03.012187"
+    },
+    {
+      "id": "cdcc5b8b-1c92-46ec-8272-7dcb6c9647c2",
+      "content": "我博士读的是量子光学，研究的是量子传感技术。量子传感两个最大的应用领域就是量子重力计和量子磁力计，而矿业探测最常用的物理量恰好就是重力和磁场。读博的时候我就已经开始接触矿业和油气勘探企业了，因为它们就是量子传感最大的应用方。\n",
+      "queries": [
+        {
+          "id": "69a05f1c-004b-4fcc-82ab-e7684f504b81"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:4",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T15:04:42.779281"
+    },
+    {
+      "id": "4be9d4ce-4e7f-47ba-9dac-36eaf224d4d5",
+      "content": "一旦涉及物理层面，无论地球物理还是量子物理，很多原理都是相通的。做地球物理要解偏微分方程，用到的分析和解题方法跟我们在量子物理、波动光学里用的方法非常相通。所以对我来说，从量子光学到矿业其实是一个比较自然的过渡，不是跨行，是同一套物理语言在不同领域的应用。\n",
+      "queries": [
+        {
+          "id": "69a05f1c-004b-4fcc-82ab-e7684f504b81"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D5:5",
+      "session_key": "session_5",
+      "status": "polished",
+      "created_at": "2026-04-21T15:04:49.602266"
+    },
+    {
+      "id": "ab482283-4eda-492a-8f0d-503b75786709",
+      "content": "我们 AI 模型的核心技术栈——多解性反演的收敛问题——其实和我读博时研究的东西密切相关。地表一个地球物理测量值可能对应地下 10 万种矿体结构，AI 通过学习大量数据来收敛这个多解性。这和医学 CT 把二维图像匹配三维器官结构、AlphaFold 把序列匹配蛋白质三维结构，底层逻辑是相通的。我们团队里就有医学背景的成员在做这件事。",
+      "queries": [
+        {
+          "id": "69a05f1c-004b-4fcc-82ab-e7684f504b81"
+        },
+        {
+          "id": "b97e0fb3-24c4-4229-a698-3b51997b033c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D6:2",
+      "session_key": "session_6",
+      "status": "polished",
+      "created_at": "2026-04-21T15:04:57.605721"
+    },
+    {
+      "id": "0f934639-6fe8-49e7-8a84-225e50e163e1",
+      "content": "我畅想过 5 年后 DeepOptica 成功的样子：我们的模型一定在世界范围内有影响力，是一个 AlphaFold 级别的模型，可能会有一个基础开源版和一个商用版。很多矿企能用我们的模型在自己的矿区进行实践，理解那里的地质特征。\n",
+      "queries": [
+        {
+          "id": "2ba98447-fef6-4884-99f9-34adc50f8d1c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:6",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T15:05:44.626611"
+    },
+    {
+      "id": "72f08b51-56f6-409f-bec6-89b7df1ead0e",
+      "content": "但目前我们的矿业模型不是在开源基础上搭建的。通用世界模型架构和我们做的矿业世界模型架构差别非常大，我们是自己搭建的，更像 AI for science 赛道的其他模型比如 AI 制药、AI 材料那种。护城河在两点：一是你的数据，二是你是否有团队能支持从矿业合成数据到矿业世界模型的整套体系。\n",
+      "queries": [
+        {
+          "id": "2ba98447-fef6-4884-99f9-34adc50f8d1c"
+        },
+        {
+          "id": "b97e0fb3-24c4-4229-a698-3b51997b033c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:8",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T15:05:51.771072"
+    },
+    {
+      "id": "130cd372-6367-45af-9057-9826e0298a2f",
+      "content": "我觉得如果 DeepOptica 失败，最大的问题很可能出在节奏上——没有把握好融资节奏和获取客户的节奏。无论哪个环节，都必须在某个时间点内完成相应的任务。如果到了那个时间点你没有管理好、没有完成，企业就很可能开始走下坡路。\n",
+      "queries": [
+        {
+          "id": "1ec629ac-ba20-49ec-bb7f-4ac52a3e7d1c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D10:3",
+      "session_key": "session_10",
+      "status": "polished",
+      "created_at": "2026-04-21T15:06:26.482356"
+    },
+    {
+      "id": "9588de7b-8f9e-4f2a-bb5f-ecadcf6ee785",
+      "content": "为了应对这个风险，我们做了一套非常详细的计划：一个三年的长期规划和一个 18 个月的中期规划，再把 18 个月拆解成以每三个月为节点的短期规划，里面明确了技术在三个月内要达到什么状态、商业化需要什么样的支撑。不是小镇做题家式的拆题，而是由长线 vision 引导中线 vision，再拆解成每个人都能执行的小目标。\n",
+      "queries": [
+        {
+          "id": "1ec629ac-ba20-49ec-bb7f-4ac52a3e7d1c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D10:9",
+      "session_key": "session_10",
+      "status": "polished",
+      "created_at": "2026-04-21T15:06:32.069852"
+    },
+    {
+      "id": "d3de223b-429b-4fda-87f0-cf102b9ea100",
+      "content": "2021 年我有过一次完全不成功的创业经历。一个 PhD 刚毕业，放弃了很多东西，自己投钱创业，最后失败了，打击非常大。但正是经历过几次这样的打击，才能更好地管理压力、管理预期，碰到挫折时变得更乐观。\n",
+      "queries": [
+        {
+          "id": "1ec629ac-ba20-49ec-bb7f-4ac52a3e7d1c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D21:5",
+      "session_key": "session_21",
+      "status": "polished",
+      "created_at": "2026-04-21T15:06:37.788334"
+    },
+    {
+      "id": "524a1273-143a-4724-a373-6b253a6f7d31",
+      "content": "我在剑桥读博期间划了四年赛艇，最后一年做到了学院赛艇队的主席兼大队长，是学院史上第一位华人大队长。一开始也有人质疑——欧洲人占 90% 的队伍为什么是个华人队长——但我用行动去证明：争取更好的教练和设备，带大家去参加以前不会参加的比赛，最后拿了优胜。\n",
+      "queries": [
+        {
+          "id": "f07d786f-f5ed-441b-afc2-16f07ade7501"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:18",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T15:08:41.785948"
+    },
+    {
+      "id": "caac318a-fffb-428f-b87a-8eed66d1710b",
+      "content": "我的领导风格不是表面上很 sharp 的那种，更多是用行动去慢慢感化。我觉得领导力和别人是否喜欢你并没有必然关联。关键是：队员能不能在这件事上获得幸福感和满足感。如果我作为 leader 让他很开心，他为什么不信任我呢？即使不 100% 喜欢一个人，但信任他、愿意和他一起成长——那就是好的 leader。\n",
+      "queries": [
+        {
+          "id": "f07d786f-f5ed-441b-afc2-16f07ade7501"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D12:2",
+      "session_key": "session_12",
+      "status": "polished",
+      "created_at": "2026-04-21T15:08:47.175080"
+    },
+    {
+      "id": "7387ec1e-c66c-4496-827f-c04a238e1306",
+      "content": "和国际客户打交道时，我的哲学是先建立 heart to heart 的连接，再去谈具体的事。很多华人在国际场合要么很害羞要么急于表达，但真正的人际交流，更重要的是先有那种真诚的连接。我们团队也是这个氛围——靠谱、真诚、国际化。\n",
+      "queries": [
+        {
+          "id": "f07d786f-f5ed-441b-afc2-16f07ade7501"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D26:5",
+      "session_key": "session_26",
+      "status": "polished",
+      "created_at": "2026-04-21T15:09:16.223783"
+    },
+    {
+      "id": "e327d5bf-7d5b-427d-ba80-ec829ef5e210",
+      "content": "之前有人问我要不要自己拿矿当矿主，我很明确地说不考虑。我们是做技术和模型的，自己去拿矿权风险太大，资金需求也完全不一样。我当时觉得我们应该专注在产品和模型本身，先把技术做扎实再说。\n",
+      "queries": [
+        {
+          "id": "82aac913-cfba-4613-8284-88490a732402"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D10:5",
+      "session_key": "session_10",
+      "status": "polished",
+      "created_at": "2026-04-21T15:10:05.352066"
+    },
+    {
+      "id": "593d4ac7-8161-4a59-a2e1-dd1b911a0dde",
+      "content": "但最近我想法变了。我们在做项目的过程中发现，合作客户已有矿区的周围经常存在高潜力靶区。我们拿到数据做完分析后，对那些地方的理解比任何人都深。所以现在我觉得可以和矿企一起去拿矿权，以技术入股的方式成为矿企。这件事不一定非要等模型能力泛化得很强才去做，而是顺理成章的——我们做了一个项目，就以\"占山头\"的方式把周围的矿权合作起来。",
+      "queries": [
+        {
+          "id": "82aac913-cfba-4613-8284-88490a732402"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D18:5",
+      "session_key": "session_18",
+      "status": "polished",
+      "created_at": "2026-04-21T15:10:16.934019"
+    },
+    {
+      "id": "39275680-47d1-4e2d-9b2b-a4d9546047da",
+      "content": "我现在的想法是，无论未来会不会成为矿主，都必须先把模型和产品做好。产品可以服务小型矿企，同时当我们在一个地区有了更强的理解力后，也可以顺理成章地成为一家矿业企业。运营方法有很多，但目前只关注产品和模型本身，看它能在多大程度上解决客户的问题。\n",
+      "queries": [
+        {
+          "id": "82aac913-cfba-4613-8284-88490a732402"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D24:4",
+      "session_key": "session_24",
+      "status": "polished",
+      "created_at": "2026-04-21T15:10:25.606556"
+    },
+    {
+      "id": "a9277a73-5b45-4074-bf12-11a6a92eec44",
+      "content": "五年后我设想 DeepOptica 一定是一个集技术、矿业运营和矿业金融于一体的结合体。我们可以通过自己的模型和估值系统进行矿业权益金的投资，甚至入股一些矿权。不只是一家纯技术公司，而是有实际矿业资产参与的综合体。\n",
+      "queries": [
+        {
+          "id": "82aac913-cfba-4613-8284-88490a732402"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D29:5",
+      "session_key": "session_29",
+      "status": "polished",
+      "created_at": "2026-04-21T15:10:31.866394"
+    },
+    {
+      "id": "284e99d1-157c-46f5-bc8c-d96dfc74a8c3",
+      "content": "我非常不喜欢 summary。一个东西被变成 summary 之后，原汁原味的故事、例子和金句都没了——而这些往往才是最精华的。不要以为看了一个文字 summary 就吸收了原来的观点。这是我做 LongCut 这个产品的核心出发点。\n",
+      "queries": [
+        {
+          "id": "70b7d0c0-c4c7-41c6-8837-e1d257dd1c03"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D3:4",
+      "session_key": "session_3",
+      "status": "polished",
+      "created_at": "2026-04-21T15:16:14.504393"
+    },
+    {
+      "id": "da849115-499d-4c85-babb-ffc37ec8ee19",
+      "content": "LongCut 是我的第一个 AI 产品，名字是 Shortcut 的反义词——学习不要走捷径。它的做法是大模型读取视频逐字稿，提取最精华最有独特观点的部分，在时间轴上 highlight 出来给标题，你点标题跳转到原视频看。理念是一定要看原视频，即使跳着看。另外还有一键 Explain（选中术语结合上下文讲解）、Take notes 和一键去口水词。\n",
+      "queries": [
+        {
+          "id": "70b7d0c0-c4c7-41c6-8837-e1d257dd1c03"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:4",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T15:16:21.019790"
+    },
+    {
+      "id": "9505298c-bcd4-47d4-8861-32a511f50e57",
+      "content": "我推荐 NotebookLM，但我推荐的用法跟大部分人不一样。大部分人用它来学习信息，我会用它来理解自己——把非常个人化的东西传上去，比如简历，生成一段播客让两个 AI 夸你 20 分钟，你会更好地理解自己的竞争力。NotebookLM 的 slogan 是\"understand anything\"，我给它补一句：\"understand anything, including yourself.\"\n",
+      "queries": [
+        {
+          "id": "70b7d0c0-c4c7-41c6-8837-e1d257dd1c03"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D6:6",
+      "session_key": "session_6",
+      "status": "polished",
+      "created_at": "2026-04-21T15:16:31.456637"
+    },
+    {
+      "id": "823b9e81-1737-43f2-834d-94b16dc4f295",
+      "content": "我的年度精神导师之一是 Granola 的创始人 Chris Pedregal。Granola 在一个竞争激烈的赛道里不仅活下来了，用户反馈还非常好。他对 UX 的创新本质上来自对用户群体的深刻理解。\n",
+      "queries": [
+        {
+          "id": "5d81377a-5014-4b10-bbe4-be6d268e1b98"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:3",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T15:17:13.947549"
+    },
+    {
+      "id": "163523ad-2499-4940-b62b-6d81e02da4b7",
+      "content": "Chris 有几句话让我印象很深。他说产品经理当然要做用户访谈，但不是用户说什么你就做什么——每一个用户说的东西其实都是在提升你自己的直觉，最后还是要靠直觉和 sense 做决策，但你的直觉来自无数次的用户访谈。另外他认为在应用层不要跟模型层竞争，比如 context window 的问题模型公司会解决，他不会花过多时间在上面。\n",
+      "queries": [
+        {
+          "id": "5d81377a-5014-4b10-bbe4-be6d268e1b98"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D14:5",
+      "session_key": "session_14",
+      "status": "polished",
+      "created_at": "2026-04-21T15:17:19.092655"
+    },
+    {
+      "id": "7ca10ab0-1685-478f-8dd4-6c8081fefabc",
+      "content": "我找内容有一个核心原则：Follow builders, not influencers。最高质量的信息来自行业内的实际从业者。我养成了一个习惯：从头到尾看完 YouTube 长视频，感觉就像跟硅谷最 top 的从业者免费开了一场视频会议。builder 讲的东西来自实战经验，而 influencer 很多时候只是转述，而且可能接赞助推广自己没用过的产品。\n",
+      "queries": [
+        {
+          "id": "5d81377a-5014-4b10-bbe4-be6d268e1b98"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D30:3",
+      "session_key": "session_30",
+      "status": "polished",
+      "created_at": "2026-04-21T15:17:23.662983"
+    },
+    {
+      "id": "bc523920-0e93-48e7-9b83-019e343f2663",
+      "content": "AI 产品很难在功能层面做差异化。AI Coding 产品至少 10 个，普通人讲不出功能差别，但能明显感觉到 Vibe 不同。作为小白用户我不愿花时间对比，只挑大家讨论多、气场契合、或网站好看的。区分它们的往往不是功能而是品牌、设计、Storytelling 和整体感受——越来越像消费品。\n",
+      "queries": [
+        {
+          "id": "8421c855-da91-4f4c-848b-0eb95cd8eabd"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D2:5",
+      "session_key": "session_2",
+      "status": "polished",
+      "created_at": "2026-04-21T15:17:41.011992"
+    },
+    {
+      "id": "cac21d18-b686-46e3-990f-7bfa74287671",
+      "content": "AI 时代有一个显著变化：开发成本大幅降低导致产品非常泛滥，注意力才是最稀缺的资源。营销、distribution 和品牌会成为壁垒。以前觉得产品和技术才是壁垒、做完产品才顺便想怎么发布，现在反过来了。\n",
+      "queries": [
+        {
+          "id": "8421c855-da91-4f4c-848b-0eb95cd8eabd"
+        },
+        {
+          "id": "c56ec499-250d-4c1f-95ea-a271e5412054"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D5:3",
+      "session_key": "session_5",
+      "status": "polished",
+      "created_at": "2026-04-21T15:17:46.092458"
+    },
+    {
+      "id": "9d044e59-8ee5-415c-ab14-bc67e762cccb",
+      "content": "现在硅谷 AI 公司流行在线下办 Pop-up。Cursor 包下旧金山一家咖啡厅叫 Cafe Cursor，团队核心成员全天在场；Anthropic 在纽约发一顶帽子写着\"thinking\"——Thinking Cap，成本极低但社交媒体上非常火。巧妙之处在于它不是说 Claude 多厉害，而是说\"用 Claude 的人很酷\"。使用产品变成了一种身份认同，营销最高境界不是推广自己而是推广你的用户。\n",
+      "queries": [
+        {
+          "id": "8421c855-da91-4f4c-848b-0eb95cd8eabd"
+        },
+        {
+          "id": "c56ec499-250d-4c1f-95ea-a271e5412054"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D7:4",
+      "session_key": "session_7",
+      "status": "polished",
+      "created_at": "2026-04-21T15:17:51.285670"
+    },
+    {
+      "id": "7db41dfe-6cc3-4855-8a60-7a1b205b61af",
+      "content": "还有个很火的产品 Poke，它的 onboarding 是你和 AI 发短信谈判——AI 会 challenge 你\"你为什么想用我们？你有多 special？\"甚至会\"骂\"你两句，价格也是真的弹性谈判。每个人都把砍价过程截图分享。这本质上不是 marketing 决策而是产品决策——把产品本身做得足够有传播属性，最好的营销还是产品本身的体验。\n",
+      "queries": [
+        {
+          "id": "8421c855-da91-4f4c-848b-0eb95cd8eabd"
+        },
+        {
+          "id": "c56ec499-250d-4c1f-95ea-a271e5412054"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D18:4",
+      "session_key": "session_18",
+      "status": "polished",
+      "created_at": "2026-04-21T15:17:57.059483"
+    },
+    {
+      "id": "cb173bb1-49cc-43a4-ac32-56e6bdb43e4e",
+      "content": "\"Idea is expensive again\"——好的 Idea 源于对特定人群的独特洞察，不是随便做几个访谈就能得到的，往往你自己就是这类人。但同时实现成本和抄袭成本都降低了，光有 Idea 不够，必须落地、获客、基于反馈迭代，这个循环转得越快竞争力越强。\n",
+      "queries": [
+        {
+          "id": "8421c855-da91-4f4c-848b-0eb95cd8eabd"
+        },
+        {
+          "id": "c56ec499-250d-4c1f-95ea-a271e5412054"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D28:5",
+      "session_key": "session_28",
+      "status": "polished",
+      "created_at": "2026-04-21T15:18:02.406372"
+    },
+    {
+      "id": "00dd4801-db46-49b6-b6f5-125385d62d41",
+      "content": "以前我在互联网行业总有\"不配得感\"，觉得行业由技术主导，话语权都在研究员和工程师手里。后来我想通了：技术只有变成产品、发布给用户并被使用才产生价值。我发过一条 Twitter：\"code is cheap, show me the talk\"——写代码变得不那么贵和神秘了，关键问题是做什么和怎么分发。\n",
+      "queries": [
+        {
+          "id": "5f994dfb-3b3c-42f3-8319-a366354fc540"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D4:21",
+      "session_key": "session_4",
+      "status": "polished",
+      "created_at": "2026-04-21T15:19:04.745973"
+    },
+    {
+      "id": "a7aeb8bc-e379-43a2-9773-43eb4f7462ca",
+      "content": "\"Non-Technical\"这个定义不好，我喜欢一个词叫\"technically curious\"——对新技术有好奇心和了解意愿。这跟是不是学 CS 没关系。我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我一个不搞技术的，每天在 Twitter 看新模型新 API，一出来就用。新技术浪潮来临时一切归零，所有人回到同一个起跑线。\n",
+      "queries": [
+        {
+          "id": "5f994dfb-3b3c-42f3-8319-a366354fc540"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D18:16",
+      "session_key": "session_18",
+      "status": "polished",
+      "created_at": "2026-04-21T15:19:12.918774"
+    },
+    {
+      "id": "94b76afe-15d5-488a-aac2-cc0aa728512c",
+      "content": "文科生本身对人性和用户洞察更深，沟通和分发能力更强。硅谷最近流行招\"Head of Storytelling\"——文科生变 Hot 了。很多华人创业者产研能力极强但常问我怎么做 Go-to-market，Branding 和 Storytelling 往往是短板。这就是文科生的价值：把产品的故事讲好。\n",
+      "queries": [
+        {
+          "id": "5f994dfb-3b3c-42f3-8319-a366354fc540"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D28:31",
+      "session_key": "session_28",
+      "status": "polished",
+      "created_at": "2026-04-21T15:19:18.323129"
+    },
+    {
+      "id": "f1019981-434d-4220-8337-328ca38846db",
+      "content": "即使以前不会编程，现在也可以通过自然语言用 AI 编程工具落地想法，甚至在 idea 和 distribution 层面超过很多程序员。我学做产品主要是 AI 帮我学会的——不是传授知识，而是降低了实操门槛。AI 之前想做产品非常难，得招团队有研发融资，现在有想法就直接打开 Cursor。\n",
+      "queries": [
+        {
+          "id": "5f994dfb-3b3c-42f3-8319-a366354fc540"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D30:17",
+      "session_key": "session_30",
+      "status": "polished",
+      "created_at": "2026-04-21T15:19:25.327226"
+    },
+    {
+      "id": "7f9e050d-779f-4bf0-b8ad-42d9b1cac874",
+      "content": "我的年度精神导师之一是 Lulu Cheng Meservey，硅谷的\"PR 教主\"。她之前在好几家知名公司做 Comms 或 PR 负责人，现在出来自己开公司专门帮硅谷 founder 做对外沟通。\n",
+      "queries": [
+        {
+          "id": "412d7845-1761-426b-a5d4-3bb214a1f3f4"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D1:34",
+      "session_key": "session_1",
+      "status": "polished",
+      "created_at": "2026-04-21T15:20:01.764707"
+    },
+    {
+      "id": "614cedee-1928-4530-aeb6-ba9ce15b7a84",
+      "content": "Lulu 有一个核心观点叫\"go direct\"——创业者要自己直接跟受众产生影响，不要找 TechCrunch 发稿或打广告。她认为 AI 时代最好的沟通就是活人感、就是 human，创始人直接出来说人话比 PR 团队写的稿子有效得多。\n",
+      "queries": [
+        {
+          "id": "412d7845-1761-426b-a5d4-3bb214a1f3f4"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D13:4",
+      "session_key": "session_13",
+      "status": "polished",
+      "created_at": "2026-04-21T15:20:06.456553"
+    },
+    {
+      "id": "1805bf8d-4e69-4f5d-85e6-bb2ca2bc6f50",
+      "content": "Lulu 有一个理论：你的个人定位是三个圈的交集——\"你想说的\"、\"受众想听的\"、\"对你有好处的\"。对 founder 来说目标不是成为网红，而是让你真正想影响的人被你影响。\"Who is more important than how many\"——触达正确人群比流量多少更重要。\n",
+      "queries": [
+        {
+          "id": "412d7845-1761-426b-a5d4-3bb214a1f3f4"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D16:5",
+      "session_key": "session_16",
+      "status": "polished",
+      "created_at": "2026-04-21T15:20:10.779166"
+    },
+    {
+      "id": "cf525bcd-ab15-4d58-ae64-1ea753b4d2bd",
+      "content": " Lulu 还有一个有趣的观点：大家都喜欢推广被低估的产品（underrated product）。比如 ChatGPT 最火时你出来说\"我就觉得 Gemini 好\"，你就会显得很有洞察，大家想转发。大家都想帮那个 underdog，觉得是\"宝藏\"想让更多人看见。这是新品牌早期能用的红利。\n",
+      "queries": [
+        {
+          "id": "412d7845-1761-426b-a5d4-3bb214a1f3f4"
+        },
+        {
+          "id": "c56ec499-250d-4c1f-95ea-a271e5412054"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D28:25",
+      "session_key": "session_28",
+      "status": "polished",
+      "created_at": "2026-04-21T15:20:15.600786"
+    },
+    {
+      "id": "6ba007b2-5991-4f17-ab61-69b870e19717",
+      "content": "做内容最重要的不是做得多 fancy，不是特效和视觉那些花里胡哨的东西。大家关注知识类博主一定是因为内容本身和洞察。很多观众喜欢我的内容恰恰是因为我不加修饰、非常 raw、很有活人感。我对设备场地没有任何要求，一般随便找个地方就开始讲。\n",
+      "queries": [
+        {
+          "id": "3c34a083-4aee-4dd3-8f5c-37095b57b92c"
+        },
+        {
+          "id": "6f6aedb8-7317-4ac1-84e8-291908287eea"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D9:16",
+      "session_key": "session_9",
+      "status": "polished",
+      "created_at": "2026-04-21T15:20:52.048328"
+    },
+    {
+      "id": "acf7f826-f59a-4424-8346-514e6a323a55",
+      "content": "社交媒体充斥着大量 AI 生成的内容，一看就不真诚。脱颖而出的关键词是\"活人感\"——背后有活生生的人、能跟用户产生连接。我经常出镜录视频，一是最快，二是希望大家感受到背后有一个活人。用 AI 辅助创作没问题，但写出来没有真实感、没有独特观点、甚至懒得改成\"人\"话，这种内容有问题。\n",
+      "queries": [
+        {
+          "id": "3c34a083-4aee-4dd3-8f5c-37095b57b92c"
+        },
+        {
+          "id": "6f6aedb8-7317-4ac1-84e8-291908287eea"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D11:14",
+      "session_key": "session_11",
+      "status": "polished",
+      "created_at": "2026-04-21T15:20:58.059685"
+    },
+    {
+      "id": "0e956794-f161-4c79-b4ea-3d331500c630",
+      "content": "做内容对我来说就像玩一样，是正反馈很强、给我能量的事，不是消耗能量的。我今年的关键词是\"有松弛感的成长\"——没有逼自己去做，而是把这些无缝融入了生活。当你做的事都是自己喜欢的，你也不会去想什么时间管理。纳瓦尔说过\"Find what feels like play to you, but looks like work to others\"，做内容对我来说就是这样。\n",
+      "queries": [
+        {
+          "id": "3c34a083-4aee-4dd3-8f5c-37095b57b92c"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D27:10",
+      "session_key": "session_27",
+      "status": "polished",
+      "created_at": "2026-04-21T15:21:04.664667"
+    },
+    {
+      "id": "28c5c7f8-6d25-48dd-a08d-9298621daee5",
+      "content": "定位不是想出来的是折腾出来的。先别想那么多先去发，发几十一百篇后通过反馈就有感觉了。定位不是你想出来的，是观众觉得你是谁才是你的定位。我的定位——从非技术背景从业者视角分享 AI 趋势见解——和一开始想的不太一样。\n",
+      "queries": [
+        {
+          "id": "6f6aedb8-7317-4ac1-84e8-291908287eea"
+        },
+        {
+          "id": "7339ebd4-b86d-448b-9934-9850991e4fa5"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D15:7",
+      "session_key": "session_15",
+      "status": "polished",
+      "created_at": "2026-04-21T15:22:41.411416"
+    },
+    {
+      "id": "9025fe77-f5d7-4fa8-95c0-a4c8d562bcfa",
+      "content": "有几类内容让我惊讶居然有人看。一是\"文科生怎么进 AI 行业\"——绝大部分讲 AI 的人是技术背景，但世界上绝大部分人不是，他们需要这个视角。二是资源推荐——把看的 5 个 YouTube 视频截图就发了，没想到效果很好。这也是\"活人感\"：你是谁、在讲什么、为什么觉得它好。\n",
+      "queries": [
+        {
+          "id": "6f6aedb8-7317-4ac1-84e8-291908287eea"
+        },
+        {
+          "id": "7339ebd4-b86d-448b-9934-9850991e4fa5"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D18:6",
+      "session_key": "session_18",
+      "status": "polished",
+      "created_at": "2026-04-21T15:22:47.577348"
+    },
+    {
+      "id": "01e6ec87-5ea9-4a0a-a2e7-3856c8e02aa0",
+      "content": "很多朋友问我小红书有没有变现、产品有没有赚钱，都没有，也不是以盈利为目的。做内容有 short game 和 long game：短期是积累粉丝立马接广告；长期是通过平台和 distribution 认识优秀的人、连接资源。未来发产品时冷启动流量问题就直接解决了。所有内容都是服务于我未来事业的，它本身不是目的，我也不想成为全职博主。\n",
+      "queries": [
+        {
+          "id": "0e8180d0-341f-4df6-a79c-b92f22670b83"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D5:7",
+      "session_key": "session_5",
+      "status": "polished",
+      "created_at": "2026-04-21T15:23:31.244553"
+    },
+    {
+      "id": "2c0626e8-f40c-45ed-8abc-a657df06aace",
+      "content": "我今天涨的每一个粉丝都是未来省下的 marketing 成本。我把这想象成佛教里的 Karma——不求回报地帮人，积累的功德总有一天会回来。就像往银行存钱，存得越久复利越多。很多小红书粉丝线下见我时会带礼物，虽然第一次见面，就是因为觉得我帮到了他。\n",
+      "queries": [
+        {
+          "id": "0e8180d0-341f-4df6-a79c-b92f22670b83"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D17:6",
+      "session_key": "session_17",
+      "status": "polished",
+      "created_at": "2026-04-21T15:23:35.981881"
+    },
+    {
+      "id": "69437756-6293-4be1-9035-57e11e1a9fcc",
+      "content": "纳瓦尔说世界上有两种不需要别人许可的杠杆：code 和 media。都可以让你在睡觉时赚钱，有长期复利，不需要任何人许可。但你反问自己：有谁拦着你吗？没人拦着你。不需要辞职才能做内容，不需要名校标签才能开始。\n",
+      "queries": [
+        {
+          "id": "0e8180d0-341f-4df6-a79c-b92f22670b83"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D27:4",
+      "session_key": "session_27",
+      "status": "polished",
+      "created_at": "2026-04-21T15:23:40.488474"
+    },
+    {
+      "id": "82cce2dc-54ea-4093-8d9d-1fa9aa272973",
+      "content": "小红书从 2 万到 18 万，但更值得关注的数字是总共发了将近 500 篇。最开始给自己定的目标就是\"连续日更半年\"，一天没断过。大家没必要一上来就设目标要涨多少粉丝。\n",
+      "queries": [
+        {
+          "id": "7339ebd4-b86d-448b-9934-9850991e4fa5"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D6:18",
+      "session_key": "session_6",
+      "status": "polished",
+      "created_at": "2026-04-21T15:24:35.994649"
+    },
+    {
+      "id": "9014bfe8-5d1c-4b81-8010-257ce844466b",
+      "content": "冷启动不知道讲什么？回想你最常被周围人问的三个问题。如果大家经常问同一个问题，说明那是你最有趣的点。我的冷启动就是讲这些——\"为什么离开 VC\"、\"文科生怎么进 AI 行业\"——在我看来理所当然的事恰恰是大家感兴趣的。\n",
+      "queries": [
+        {
+          "id": "7339ebd4-b86d-448b-9934-9850991e4fa5"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D16:13",
+      "session_key": "session_16",
+      "status": "polished",
+      "created_at": "2026-04-21T15:24:55.264510"
+    },
+    {
+      "id": "2b450dce-c8b9-4381-b02f-416a2548dd28",
+      "content": "之前买了灯和三脚架想拍视频，设备落灰一年也没拍，一直迈不过心里那个坎。后来有一天想通了不管那么多，拿着手机就开始讲。门槛降到足够低才能启动。Learn in public 很重要——不仅学还要把学习心得分享出来，可以用\"学生\"角度而不是\"教别人\"的姿态，这种内容很利他也不会被觉得不专业。\n",
+      "queries": [
+        {
+          "id": "7339ebd4-b86d-448b-9934-9850991e4fa5"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D29:14",
+      "session_key": "session_29",
+      "status": "polished",
+      "created_at": "2026-04-21T15:25:10.764043"
+    },
+    {
+      "id": "49c8ac6f-673f-44bf-b30e-68a61b4da42b",
+      "content": "一两年前，作为非技术背景的从业者，我在互联网行业有很强的\"不配得感\"（Imposter Syndrome）。总觉得行业由技术主导，尤其 AI 刚兴起时话语权都在研究员和工程师手里，我感觉被 left out，觉得自己没学过 CS 就没法真正参与进来。",
+      "queries": [
+        {
+          "id": "ee2f120a-3fe5-4f2a-a654-e3afe8a539f0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D6:6",
+      "session_key": "session_6",
+      "status": "polished",
+      "created_at": "2026-04-21T15:27:29.047062"
+    },
+    {
+      "id": "97a2a987-0ba2-4b78-9b8f-bc28bee58db8",
+      "content": "现在我的看法完全不一样了。我发过一条 Twitter：\"code is cheap, show me the talk\"。写代码变得不那么贵和神秘了，关键问题是\"做什么\"和\"怎么分发\"。文科生对人性和用户洞察更深、沟通分发能力更强。硅谷最近流行招 Head of Storytelling，文科生变 Hot 了。这不是文科生的好时代，而是\"technically curious\"的人的好时代——跟你学没学过 CS 没关系。\n",
+      "queries": [
+        {
+          "id": "ee2f120a-3fe5-4f2a-a654-e3afe8a539f0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D18:16",
+      "session_key": "session_18",
+      "status": "polished",
+      "created_at": "2026-04-21T15:27:37.247055"
+    },
+    {
+      "id": "8c518e66-95a2-44f9-b429-641dcb3aa9e6",
+      "content": "我后来想通一件事：新技术浪潮来临时一切归零，所有人回到同一个起跑线。即使本科就学 AI 的，现在也得重新学。我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我一个不搞技术的每天在 Twitter 看新模型一出来就用。所以这不是能力问题，更是心态和意愿问题。\n",
+      "queries": [
+        {
+          "id": "ee2f120a-3fe5-4f2a-a654-e3afe8a539f0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D28:5",
+      "session_key": "session_28",
+      "status": "polished",
+      "created_at": "2026-04-21T15:27:43.611770"
+    },
+    {
+      "id": "660efc94-39c9-4035-842a-5cb999a6a58d",
+      "content": "这个认知变化最终让我完成了从非技术背景到 AI 产品经理的职业转型，还发布了自己的第一个 AI 产品。AI 帮我降低了实操门槛——以前做产品得招团队有研发融资，现在有想法直接打开 Cursor 就能做。我学做产品主要是 AI 帮我学会的，不是传授知识而是让我能直接上手。\n",
+      "queries": [
+        {
+          "id": "ee2f120a-3fe5-4f2a-a654-e3afe8a539f0"
+        }
+      ],
+      "speaker": null,
+      "constraints": [],
+      "target_dia_id": "D31:5",
+      "session_key": "session_31",
+      "status": "polished",
+      "created_at": "2026-04-21T15:27:48.971557"
+    }
+  ],
+  "polished_messages": [
+    {
+      "sample_id": 0,
+      "dia_id": "D13:6",
+      "session_key": "session_13",
+      "original_text": "奥利弗太搞笑了！有一次他把骨头藏在我的拖鞋里！可爱吧？几乎和我喂马吃胡萝卜时一样傻。",
+      "final_polished_text": "奥利弗太搞笑了！有一次他把骨头藏在我的拖鞋里！可爱吧？几乎和我喂马吃胡萝卜时一样傻。说到“傻”，我最近工作中也多了两个比较特别的AI同事：一个叫Miss Creative，专门帮我做发散创意；另一个叫“批评家”，它最近才开始用，会用比较严厉的方式审视我每天是否在关注最主要的事情——这倒让我想起，我们团队虽然人不多，但关键是把核心十几二十个人的生产力推到最大。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "0f2069a9-20d1-49d4-bc3b-b44b82d39aab",
+            "content": "另外还有两个比较特别的 AI 同事：一个叫 Miss Creative，专门做发散创意；一个叫\"批评家\"，最近才开始用，会用比较严厉的方式审视我每天是否在关注最主要的事情。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "58d8a71f-4342-4fa8-9dd1-26934095ab0c",
+            "content": "这和 KoBold Metals 的做法很不一样。KoBold 用贝叶斯决策帮矿企优化钻孔——告诉你下一钻在哪里打可以最大概率定位矿体，或者消除最多不确定性。但他们没法告诉你地下到底有多少吨铜多少盎司黄金。我们的目标是比他们再深一层，用更少的钻孔和更强大的数据，提早知道地下的具体资源量，让矿企能更好地评估一个矿的经济价值。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "689dac47-12f5-417a-afe8-4e7a248028ea",
+            "content": "人才方面，我们目前主要在招募地球科学、AI 合成数据和大型模型这三个方向的人才。团队现在还不大，但我觉得二三十人就够了——有了 AI 技术，关键是能不能找到最核心的十几二十个人，把他们的生产力推到最大。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "18d85df3-99a3-4b6e-82ff-0658cfb5e924",
+            "content": "一旦涉及物理层面，无论地球物理还是量子物理，很多原理都是相通的。做地球物理要解偏微分方程，用到的分析和解题方法跟我们在量子物理、波动光学里用的方法非常相通。所以对我来说，从量子光学到矿业其实是一个比较自然的过渡，不是跨行，是同一套物理语言在不同领域的应用。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T06:51:46.373834"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D1:1",
+      "session_key": "session_1",
+      "original_text": "嘿，苏梅！见到你真高兴！你最近怎么样？",
+      "final_polished_text": "嘿，苏梅！见到你真高兴！我最近还挺充实的，上周刚去我朋友 Koji 那儿录了一期他的十字路口播客，专门聊了 Moxt，那是我第一次对外完整介绍它。Koji 也是我们早期做播客推广比较重要的一个渠道。你最近怎么样？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "fc8a376e-6644-485a-9bcd-0e58db8ffb7d",
+            "content": "Koji 是十字路口播客的主理人，我们是朋友。上周我刚去他那儿录了一期播客专门聊 Moxt，那期是我第一次对外完整介绍 Moxt。Koji 也是我们早期做播客推广比较重要的一个渠道。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T13:41:33.933034"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D2:4",
+      "session_key": "session_2",
+      "original_text": "我完全同意，苏梅。照顾好自己非常重要——即使这并不总是容易的。你能优先考虑自我关爱，这太棒了。",
+      "final_polished_text": "我完全同意，苏梅。照顾好自己非常重要——即使这并不总是容易的。你能优先考虑自我关爱，这太棒了。说到优先和打开方式，这让我想起之前跟 Koji 聊过的一句话，我说“AGI 已经来了，只是大家缺少一个打开方式”，他当时还挺震惊的。其实不管是技术还是生活，有时候我们都需要找到那个适合自己的“打开方式”吧。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "d23d1ab2-e6df-42d5-ab46-cd2750df3b54",
+            "content": "我跟 Koji 讲过一句让他印象很深的话——\"AGI 已经来了，只是大家缺少一个打开方式\"。最早是给他私下展示 Moxt 内测版本时说的，后来录播客时又顺着这句话展开聊了一整期。Koji 当时很震惊，说这句话甚至比黄仁勋说得还早。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:23.646002"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D1:7",
+      "session_key": "session_1",
+      "original_text": "这个支持小组让我感到被接纳，并给了我拥抱自我的勇气。",
+      "final_polished_text": "这个支持小组让我感到被接纳，并给了我拥抱自我的勇气。说起来，我最近在用的Moxt也是这样，它给我安排的第一个AI同事就叫momo，据说是强制设定。这个momo就像贴身助理一样，知道我的所有信息，还能按我的习惯调整风格，和其他AI同事的定位完全不同，这种被完全理解和陪伴的感觉，也让我更敢于做自己。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "c108ed3c-7335-473a-98d1-2e35c74e2573",
+            "content": "在 Moxt 里每个人的第一个 AI 同事都必须叫 momo，这是我们的一个强制设定。momo 是贴身助理级别的存在，知道你的所有信息，可以按你的习惯设定它的风格，和其他 AI 同事的定位不一样。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T13:41:42.367428"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D1:11",
+      "session_key": "session_1",
+      "original_text": "我对心理咨询或心理健康领域的工作很感兴趣——我很乐意帮助那些有类似困扰的人。",
+      "final_polished_text": "我对心理咨询或心理健康领域的工作很感兴趣——我很乐意帮助那些有类似困扰的人。其实，我最近在尝试用 Moxt 来整理一些心理学相关的学习笔记，它和飞书、Notion 很不一样，坚持只用 AI 容易读写的格式，比如文档是 Markdown，表格是 CSV，可视化用 HTML，数据库结构是 JSON，感觉像在给新时代的 Doc、Excel 和 PPT 打基础。我的 AI 同事 Ryan manager（头像是只凶狠的小猫咪）还帮我用这个工具同步项目进展，现在团队里有些同事都习惯通过他和我沟通了。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "8fc9d6d2-8348-4004-aad6-a9055067953e",
+            "content": "我有一个叫 Ryan manager 的 AI 同事（Ryan 是我的英文名），头像是只凶狠的小猫咪。他负责帮我处理所有项目进度同步和管理信息相关的事，会主动定期去找相关同学 check 进展。现在我们团队有些同事已经不直接跟我沟通了，都是经 Ryan manager 转达。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "08bd9e37-9713-496a-bea7-6decc5e00889",
+            "content": "Moxt 跟飞书 Notion 最本质的区别是\"原教旨主义\"——只用 AI 易于阅读和创作的格式。文档是 Markdown，表格是 CSV，可视化一切都是 HTML，数据库结构是 JSON。这些是新时代的 Doc、Excel 和 PPT。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:29.203070"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D3:3",
+      "session_key": "session_3",
+      "original_text": "谢谢，苏梅！你的支持真的意义重大。演讲时我感到无比强大。我分享了自己的历程、经历的挣扎以及出柜后的成长。看到观众对我的话产生共鸣并受到激励成为更好的盟友，真是太棒了。关于性别认同和包容性的对话非常必要，我很感激能为跨性别群体发声。",
+      "final_polished_text": "谢谢，苏梅！你的支持真的意义重大。演讲时我感到无比强大。我分享了自己的历程、经历的挣扎以及出柜后的成长。看到观众对我的话产生共鸣并受到激励成为更好的盟友，真是太棒了。这让我想起我朋友Koji，他做“十字路口”播客总强调创业要亲力亲为——就像我们做矿业AI，也得把手弄脏，今年内得在澳大利亚、南美和非洲这些核心矿区完成模型验证，明年上半年还要推出第一版泛化的矿业世界模型。其实，关于性别认同和包容性的对话同样需要这种扎实的推进，我很感激能为跨性别群体发声。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "51b42f1a-9a6a-431c-9483-a4ebb97f4724",
+            "content": "我有一个叫 golden sales 的 AI 同事，目标是为 Moxt 找到 1000 个付费用户。我只给目标不给动作，他自己出了一份详尽的计划，还主动做了一个 CRM——一开始是表格我嫌丑，他就改成了 HTML 看板。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "2c2d1678-e506-42c1-a824-6f8996816161",
+            "content": "我最近看了 YC 的 Garry Tan 的分享，以及 Anthropic 增长负责人的分享——他一个人管理着一个由成百上千个 AI Agents 组成的增长部门。他们都给出了一个一致的建议：分工要细。原因是分工细则目标单一、context 不容易混乱、skill 和 memory 也更稳定。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "33a017df-eb92-4ec9-ab32-013a029ec1bb",
+            "content": "我们今年内的目标是在几个核心成矿区——澳大利亚、南美和非洲——完成模型验证。预计到明年上半年某个时候，推出第一版泛化的矿业世界模型。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "27bc0a0e-c172-405d-a864-e390b873ff13",
+            "content": "Koji 是十字路口播客的主理人，也是我朋友。之前我去他节目上录过一期，专门聊了 DeepOptica 怎么用 AI 做矿业。他当时穿了一件播客周边卫衣，上面写着\"hands dirty club\"，说创业要 get your hands dirty，我们做矿业可能是最名副其实的。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:06.441155"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D3:7",
+      "session_key": "session_3",
+      "original_text": "你的话对我意义重大。我很感激有机会分享我的故事，给他人带来希望。我们都有独特的道路，通过共同努力，我们可以建立一个更包容、更理解的世界。我会继续用我的声音去做出改变，激励他人。而你也是其中的一部分！",
+      "final_polished_text": "你的话对我意义重大。我很感激有机会分享我的故事，给他人带来希望。我们都有独特的道路，通过共同努力，我们可以建立一个更包容、更理解的世界。我会继续用我的声音去做出改变，激励他人。而你也是其中的一部分！其实，为了更好地推动这些改变，我还借助了一位做深度思考的AI同事。我把团队这季度的目标详细输入给他，他每隔两三天就会给我做一次汇报，以一页一页PPT的形式，涵盖空间内部的新思考和外部竞品动向。这让我能更持续、更系统地吸收信息，也帮助我把我们的声音和行动融入更广阔的视野中。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "d4fc1f38-a7f8-456d-955f-45ac03e00eab",
+            "content": "我还有一个做深度思考的 AI 同事。我把团队这季度的 OKR 详细输入给他，他每隔两三天给我做一次汇报，汇报形式是一页一页的 PPT，涵盖空间内部新思考和外部竞品动向。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T13:41:59.739384"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D3:9",
+      "session_key": "session_3",
+      "original_text": "是的，苏梅，让我们传递爱与理解！感谢你的支持和鼓励。我们可以共同应对生活的挑战！我们能做到！",
+      "final_polished_text": "是的，苏梅，让我们传递爱与理解！感谢你的支持和鼓励。我们都可以借助身边的力量共同应对生活的挑战——比如我最近开始用一位叫“批评家”的AI同事，它会用比较严厉的方式提醒我关注最主要的事；还有另一位叫Miss Creative的AI伙伴，专门帮我做发散创意。这些特别的“同事”也让我更专注、更有创造力。我们可以做到的！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "b976f22b-f38a-4201-a93e-fbaee885e9bc",
+            "content": "另外还有两个比较特别的 AI 同事：一个叫 Miss Creative，专门做发散创意；一个叫\"批评家\"，最近才开始用，会用比较严厉的方式审视我每天是否在关注最主要的事情。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T13:42:04.151403"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D1:5",
+      "session_key": "session_1",
+      "original_text": "那些跨性别的故事太鼓舞人心了！我真的很开心，也很感激所有的支持。",
+      "final_polished_text": "那些跨性别的故事太鼓舞人心了！我真的很开心，也很感激所有的支持。其实我们团队现在大概四五十人都在做 Moxt 这件事，它也是春节前一个周三晚上临时决定做的，周四就开始动工，用了差不多三周时间做出了第一个可用版本，到现在产品才正式上线一周。这种从零开始快速行动、共同创造的感觉，和我在支持小组里感受到的集体力量很像，都让我特别受鼓舞。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "f8b359ca-9b51-4798-86f0-f5ae8cba7472",
+            "content": "我们团队现在大概四五十人都在做 Moxt 这件事。Moxt 是春节前一个周三晚上临时决定做的，周四就开始动工，用了差不多三周时间做出了第一个可用版本，到现在产品才正式上线一周。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T13:52:42.706776"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D2:14",
+      "session_key": "session_2",
+      "original_text": "我很激动能为需要家庭的孩子组建一个家庭。作为单亲父母会很艰难，但我准备好迎接挑战了！",
+      "final_polished_text": "我很激动能为需要家庭的孩子组建一个家庭。作为单亲父母会很艰难，但我准备好迎接挑战了！这让我想起之前团队转向 Moxt 项目的经历——那种所有人一致决定、毫无眷恋向前迈进的突然一致性，真是我职业生涯里很奇妙的一次体验，现在我也带着同样的决心来迎接这个新角色。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "f2781292-b792-4d5d-8b10-c1ecdef95d95",
+            "content": "春节后第五天，我们所有人坐下来聊了一次，没有人对之前在做的 Paraflow 项目有任何眷恋，所有人一致决定转向 Moxt。这种一致性来得非常突然，是我职业生涯里很奇妙的一次经历。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:09.581318"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D4:9",
+      "session_key": "session_4",
+      "original_text": "太棒了，苏梅！这样的家庭时光真是太特别了。真高兴你们玩得这么开心。",
+      "final_polished_text": "太棒了，苏梅！这样的家庭时光真是太特别了。真高兴你们玩得这么开心。说到创造美好体验，我最近也在思考产品层面的设计——下个季度我准备重点投入语音输入，让日常场景里的语音交互能更自然地渗透进来。比如按一下说几句话就能起草文档，我觉得这件事在产品里应该有一等公民的地位，虽然现在还没动工。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "e268771f-d09b-45b1-90b1-5d51dc05e49a",
+            "content": "下个季度我准备重点投入语音输入，现在还没动工。日常场景里语音交互已经渗透很深，按一下语音说几句话就能起草文档，这件事在产品里应该有一等公民的地位。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T13:57:36.211028"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D5:5",
+      "session_key": "session_5",
+      "original_text": "哇，苏梅！我也在发挥创意，刚学钢琴。是什么让你想尝试陶艺的？",
+      "final_polished_text": "哇，苏梅！我也在发挥创意，刚学钢琴。其实物理的底层逻辑都是相通的，就像我从量子光学转到矿业，用的都是同一套物理语言——解偏微分方程、分析波动，方法上特别相似。这种跨领域的应用让我觉得，探索不同事物其实很自然。对了，我最近还在琢磨要不要做一个硬件，能放在会议室里自己听大家聊、自己参与发言。Koji 也说想要一个开会时能伴他左右的 AI Agent，这个需求很真实。话说回来，是什么让你想尝试陶艺的？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "4be9d4ce-4e7f-47ba-9dac-36eaf224d4d5",
+            "content": "一旦涉及物理层面，无论地球物理还是量子物理，很多原理都是相通的。做地球物理要解偏微分方程，用到的分析和解题方法跟我们在量子物理、波动光学里用的方法非常相通。所以对我来说，从量子光学到矿业其实是一个比较自然的过渡，不是跨行，是同一套物理语言在不同领域的应用。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "e3f0d683-9eda-4f3b-89eb-c4740be13f27",
+            "content": "我最近还在琢磨要不要做一个硬件，能放在会议室里自己听大家聊、自己参与发言。Koji 也说想要一个开会时能伴他左右的 AI Agent，这个需求很真实。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:21.744409"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D6:3",
+      "session_key": "session_6",
+      "original_text": "自从我们上次聊天后，我一直在更多地了解咨询或心理健康方面的工作。我热衷于帮助他人并产生积极影响。这很难，但也真的很有意义。你最近有什么新动态吗？",
+      "final_polished_text": "自从我们上次聊天后，我一直在更多地了解咨询或心理健康方面的工作。我热衷于帮助他人并产生积极影响。这很难，但也真的很有意义。说到专注投入，我们团队最近也把“一键搬家”功能定为下一步重点投入的方向——因为用户迁移到 Moxt 最大的阻力就是导入已有资料，而 Moxt 的核心就是“更多上下文”（连名字都来源于此），所以这个功能优先级最高。你最近有什么新动态吗？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "14fffde9-e048-4b62-bf2b-1d1af69f3ccd",
+            "content": "一键搬家功能是下一步我们要重点投入的。因为用户迁移到 Moxt 最大的阻力就是把已有资料导进来，围绕 more context 这个核心（Moxt 这个名字就是 more context 来的），这个功能优先级最高。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T13:57:41.787516"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D1:17",
+      "session_key": "session_1",
+      "original_text": "完全同意，苏梅。放松和表达自我是关键。好啦，我得去做些研究了。",
+      "final_polished_text": "完全同意，苏梅。放松和表达自我是关键。说到这个，我最近研究一些工具时也在想，真正的知识管理应该像我们熟悉的文件系统那样直观，而不是变成 Notion 那种对 AI 来说都像迷宫的结构。好啦，我得继续去做些研究了。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "b84705d8-69fe-43f3-bae8-12efe0578953",
+            "content": "第二个原教旨是文件结构——左侧目录树虽然形似知识库，但本质就是一个文件系统，像 OS、Windows、Mac、Git 一样，可以用命令行熟悉。Notion 那种知识库结构对 AI 来说其实是个迷宫。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "776a2c5d-9d9c-4b87-93e4-237dc12f3755",
+            "content": "我们集团有一位同事在做线下咖啡品牌业务。他之前特别激动地来找我分享——他在 Moxt 里创建了一个 AI 同事，专门帮他做爆款预测和分析。这在我们早期内部用户 case 里很有代表性，因为他完全不是互联网创业场景。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:32.525846"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D2:16",
+      "session_key": "session_2",
+      "original_text": "谢谢，苏梅！你的善意话语真的意义重大。我会尽我所能，确保这些孩子拥有一个安全、充满爱的家。",
+      "final_polished_text": "谢谢，苏梅！你的善意话语真的意义重大。就像我之前观察用户时意识到的，最好的实践往往得由用户自己构建，你永远无法想象他们会在什么场景下放大原有的思维模式。这也让我想到，为什么有些平台难以突破——比如飞书和Notion为什么做不到彻底革新？因为它们面临典型的“创新者的窘境”：旧世界有大量客户愿意为现有产品上的AI改造付费，这个诱惑很难抵抗，另起炉灶真的需要非常大的决心。但我会像坚持自己的路一样，尽我所能，确保这些孩子拥有一个安全、充满爱的家。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "a83e87ee-c21e-4928-8a37-171ebf1774af",
+            "content": "飞书和 Notion 为什么做不到这件事？它们面临典型的\"创新者的窘境\"——旧世界有大量客户愿意为现有产品上的 AI 改造付费，这个诱惑很难抵抗。另起炉灶需要非常大的决心。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "02fb5abd-8e0b-45f9-aeac-7f440c2e8ce2",
+            "content": "他当时的反馈让我意识到两件事：一是我原本没想到线下消费品业务的同事会这么快用起来；二是最好的 practice 往往得由用户自己构建，你永远无法想象用户会在什么场景下放大他原来的思维模式。我后来在观察这类用户时会特别留意他们用的方式。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:38.732076"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D3:11",
+      "session_key": "session_3",
+      "original_text": "谢谢你，苏梅！我的朋友、家人和导师是我的支柱——他们激励着我，给予我前进的力量。这是我们上周见面时拍的照片！",
+      "final_polished_text": "谢谢你，苏梅！我的朋友、家人和导师是我的支柱——他们激励着我，给予我前进的力量。说到激励，其实我最近也从用户身上获得了很多能量。我们内部现在已经有一些很狂热的用户，有人半夜12点给我发企业微信说“能不能给我再充点积分”。这是我之前做Motiff和Paraflow时从没遇到过的用户状态。我现在会把这些狂热用户，尤其是来自非互联网背景的，当作产品判断的重要信号源。他们的热情也成了我前进的动力之一。对了，这是我们上周见面时拍的照片！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "53ba6b2a-ea56-4081-88fe-61acc38ee154",
+            "content": "我们内部现在已经有一些很狂热的用户，有人半夜 12 点给我发企业微信说\"能不能给我再充点积分\"。这是我之前做 Motiff 和 Paraflow 时从没遇到过的用户状态。我现在会把这些狂热用户当作产品判断的重要信号源，尤其是来自非互联网背景的。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:44.531787"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D4:3",
+      "session_key": "session_4",
+      "original_text": "谢谢，苏梅！这条项链对我来说非常特别——是我在祖国瑞典的奶奶送给我的礼物。她在我小时候给我的，它代表着爱、信仰和力量。它就像是对我的根源以及家人给予我的所有爱与支持的提醒。",
+      "final_polished_text": "谢谢，苏梅！这条项链对我来说非常特别——是我在祖国瑞典的奶奶送给我的礼物。她在我小时候给我的，它代表着爱、信仰和力量。它就像是对我的根源以及家人给予我的所有爱与支持的提醒。说到珍视的事物，其实我对待文字创作也很类似。上次我写那篇公众号文章介绍 Moxt，就是完全手搓的，一字一字敲的。写完之后我甚至很刻意地没让 AI 帮我 review 找错别字，连错别字都没让 AI 看一遍。因为我觉得，有些东西的“手作感”和纯粹的个人痕迹，本身也是一种情感的承载。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "a3ff3810-ff48-47ac-b993-cd51e7b85896",
+            "content": "上次我写那篇公众号文章介绍 Moxt，是完全手搓的，一字一字敲的。写完之后我甚至很刻意地没让 AI 帮我 review 找错别字，连错别字都没让 AI 看一遍。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:07.427254"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D4:7",
+      "session_key": "session_4",
+      "original_text": "听起来很棒，苏梅。很高兴你们创造了新的家庭回忆。怎么样？有什么好玩的事吗？",
+      "final_polished_text": "听起来很棒，苏梅。很高兴你们创造了新的家庭回忆。其实我最近也在想类似的事——我对Moxt项目这件事想得很清楚：我希望有生之年回头看时，无论它后来怎样，我知道那个瞬间的感受是我自己写出来的，而不是被效率化生产出来的。这算是我的一个底线吧。对了，你们这次露营怎么样？有什么好玩的事吗？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "db1f8314-4d81-4e92-b17e-e062f74191b2",
+            "content": "我对这件事想得很清楚：我希望有生之年回头看这篇文章时，无论 Moxt 项目后来怎样，我知道当年那个瞬间我的感受是我自己写出来的，没有被以效率的方式生产出来。这算是我的一个底线。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:11.330710"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D11:6",
+      "session_key": "session_11",
+      "original_text": "太鼓舞人心了，苏梅！看看这人群。各种各样的人都在庆祝爱与接纳——这真的激励我继续为LGBTQ权利而奋斗。",
+      "final_polished_text": "太鼓舞人心了，苏梅！看看这人群。各种各样的人都在庆祝爱与接纳——这真的激励我继续为LGBTQ权利而奋斗。说到坚持和改变，就像我们团队的工作方式一样：我们以前是JIRA的十年老用户，但现在已经完全转向Moxt了。我们把所有项目进度、PRD和产品计划都放在空间里交互完成，甚至把Moxt连入了代码仓库，让它能追踪每一次提交——这种彻底的转变，其实也需要一种信念和行动力呢。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "0ca75d43-50c5-45a0-8496-353aec22332d",
+            "content": "我们以前是 JIRA 的十年老用户，但现在已经完全不用了。核心原因是我们把所有项目进度都通过 Moxt 交互完成，PRD 和产品计划都在空间里，我们还把 Moxt 连入了代码仓库，它知道每一次代码提交。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:14.592925"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D4:11",
+      "session_key": "session_4",
+      "original_text": "最近，我一直在考虑将心理咨询和心理健康作为职业方向。我想帮助那些经历过和我类似困境的人。",
+      "final_polished_text": "最近，我一直在考虑将心理咨询和心理健康作为职业方向。我想帮助那些经历过和我类似困境的人。其实，我最近在Moxt空间的agents.md文档里看到一句话，让我更加坚定了这个想法——里面提到“无论何时你都不该去创作一些内容让AI可以取代人，你更好的作用还是放大于人”。这让我觉得，像心理咨询这样需要深度共情和理解的工作，正是发挥人的独特价值的地方。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "206e4a74-3b0f-47bc-b1ad-32bb396e54c1",
+            "content": "我在 Moxt 空间的 agents.md 文档里（这个文档权限极高，所有 AI 都把它当价值观来 follow）还专门写了一句话：无论何时你都不该去创作一些内容让 AI 可以取代人，你更好的作用还是放大于人。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:24.106600"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D2:2",
+      "session_key": "session_2",
+      "original_text": "苏梅，那个慈善赛听起来太棒了！为心理健康做出改变并提高意识真的非常有意义——我真为你参与其中感到骄傲！",
+      "final_polished_text": "苏梅，那个慈善赛听起来太棒了！为心理健康做出改变并提高意识真的非常有意义——我真为你参与其中感到骄傲！说起来，我最近看到一些 AI Agents 产品的定价界面，左边列 AI 员工价格、右边列人类员工价格，下面还强调一堆 AI 更强的地方。我觉得很多人会这么做，因为这确实是个很大的诱惑。但我非常清楚一件事：我不希望这种事发生在我们产品上。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "c338030d-9aa8-477b-9ac7-b4f8ad586730",
+            "content": "我最近看到一些 AI Agents 产品的 Pricing 界面就是这么做的——左边是 AI 员工价格、右边是人类员工价格，下面列一堆 AI 更强的地方。我觉得很多人会做，因为这是一个很大的诱惑。但我非常清楚一件事：我不希望这件事发生在我们产品上。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:18.991126"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D11:8",
+      "session_key": "session_11",
+      "original_text": "那张图太酷了！在我的艺术中体现包容性和多样性对我来说很重要。我也用它为LGBTQ+群体发声，推动社会接纳。这是我最近的一幅画！",
+      "final_polished_text": "那张图太酷了！在我的艺术中体现包容性和多样性对我来说很重要。我也用它为LGBTQ+群体发声，推动社会接纳。其实这让我想到我们团队最近的一个经历——我们转向 Moxt 后，很快就有研发同学在里面手搓看板替代了 JIRA。我们发现核心工具本身不是重点，关键是如何同步信息和进度，就像艺术的核心不是某种特定技法，而是传递包容与理解。这是我最近的一幅画，也想通过它连接更多人。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "938ccb25-eeb5-4e33-acd0-41cd41daef66",
+            "content": "我们决定转向 Moxt 之后的第三天，就有一个研发同学在 Moxt 里手搓了一个看板来替代 JIRA。我们发现核心 UI 并不重要，JIRA 的价值是同步产品和研发的所有信息和进度，但现在这个需求已经被 Moxt 原生满足了。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:20.226068"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D12:15",
+      "session_key": "session_12",
+      "original_text": "我永远都在你身边，苏梅！去年在骄傲节我们玩得太开心了。那些支持我们的朋友绝对让一切都值得！",
+      "final_polished_text": "我永远都在你身边，苏梅！去年在骄傲节我们玩得太开心了。那些支持我们的朋友绝对让一切都值得！说到支持，我甚至觉得“为什么还要用看板”这件事本身值得反思。看板在解决站会时的信息同步问题，但信息同步完全可以有更好的呈现形式——你有HTML，理论上可以让AI给你做成任何你想要的样子。就像我们的友谊，总能找到最适合彼此的方式。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "7470a5df-bd82-4d71-8899-949aa1c047c7",
+            "content": "我甚至觉得\"为什么还要用看板\"这件事本身值得反思。看板在解决站会时的信息同步问题，但信息同步完全可以有更好的呈现形式——你有 HTML，理论上可以让 AI 给你做成任何你想要的样子。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:25.243523"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D4:5",
+      "session_key": "session_4",
+      "original_text": "有的，苏梅！我还有其他一些有情感价值的物品，比如我的手绘碗。一个朋友十年前为我18岁生日做的。图案和颜色都很棒——它让我想起艺术和自我表达。",
+      "final_polished_text": "有的，苏梅！我还有其他一些有情感价值的物品，比如我的手绘碗。一个朋友十年前为我18岁生日做的。图案和颜色都很棒——它让我想起艺术和自我表达。其实说到“分工”和“各司其职”，我最近对AI员工数量的看法也有点类似。两周前我还觉得AI员工不宜过多，甚至觉得每增加一个都应该收点钱——倒不是商业考虑，而是觉得这样用户会主动做筛选和精简。那时候我可明确反对分太多AI同事呢，但现在从实际体验看，分工细的AI同事各司其职，产出质量确实比大杂烩好多了。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "5b865dd9-f95a-4dc5-9409-a536896d0585",
+            "content": "我挺认同他们的这个方向。从我自己用下来的实际体感看，分工细的 AI 同事各司其职、产出质量比大杂烩好。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "f8f68b25-b183-4726-b3a2-0c05134f6bfd",
+            "content": "两周前我对 AI 员工数量的观点是不宜过多。我甚至觉得每增加一个 AI 员工都应该收点钱——倒不是从商业角度，而是觉得这样用户会主动做熵减。当时我对分太多 agent 是明确反对的。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:20:08.789239"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D10:5",
+      "session_key": "session_10",
+      "original_text": "谢谢你，苏梅！能有一个让我们做自己、支持他人权利的自己的平台，真是太棒了。我们的团体叫‘联结LGBTQ行动者’，由各种各样致力于积极改变的人组成。我们有定期会议，策划活动和宣传，聚在一起互相支持。",
+      "final_polished_text": "谢谢你，苏梅！能有一个让我们做自己、支持他人权利的自己的平台，真是太棒了。我们的团体叫‘联结LGBTQ行动者’，由各种各样致力于积极改变的人组成。我们有定期会议，策划活动和宣传，聚在一起互相支持。其实这让我想到，专注在自己擅长和认同的领域真的很重要。就像之前有人问我要不要自己去拿矿当矿主，我很明确地说不考虑。我们是做技术和模型的，自己去拿矿权风险太大，资金需求也完全不一样。我当时觉得我们应该专注在产品和模型本身，先把技术做扎实再说。现在做倡导团体也是一样的道理，我们聚焦在社区支持和权益推动上，把这一块做深做透。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "e327d5bf-7d5b-427d-ba80-ec829ef5e210",
+            "content": "之前有人问我要不要自己拿矿当矿主，我很明确地说不考虑。我们是做技术和模型的，自己去拿矿权风险太大，资金需求也完全不一样。我当时觉得我们应该专注在产品和模型本身，先把技术做扎实再说。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "42f97012-6a64-4bb2-af08-6f44ec6a4347",
+            "content": "但我最近看了 YC 的 Garry Tan，还有 Anthropic 增长负责人（他一个人管理着成百上千个 AI Agents 组成的增长部门）的分享，他们都给出了一个一致的建议——分工要细。原因是分工细则目标单一、AI 的 context 不容易混乱、它的 skill 和 memory 也更稳定。看完之后我已经不坚持\"宜少\"的观点了。"
+          }
+        },
+        {
+          "evidence": {
+            "id": "6d8e2952-dc47-4c7a-95c7-a08dfebd8ab2",
+            "content": "我最近对 AI 和人的关系稍微乐观了一些。我觉得可能像工业革命时代一样，那时的纺织工人无法想象今天的世界是什么样子，我们今天也无法想象生产关系重组后的下一个时代。但我始终觉得应该用放大人的方式去做，而不是反向。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:13:14.265368"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D16:5",
+      "session_key": "session_16",
+      "original_text": "看到我的工作为LGBTQ+群体带来改变，这让我深受鼓舞。知道自己正在帮助创造一个更有爱的世界，这种感觉太棒了。我非常感谢朋友、家人和导师们的支持。这也激励我继续创作艺术。",
+      "final_polished_text": "看到我的工作为LGBTQ+群体带来改变，这让我深受鼓舞。知道自己正在帮助创造一个更有爱的世界，这种感觉太棒了。这让我想起Lulu的一个理论，她说个人定位是三个圈的交集——“你想说的”、“受众想听的”、“对你有好处的”。对我来说，目标不是成为网红，而是让我真正想影响的社群能被触动和赋能。“触达正确人群比流量多少更重要”——这句话让我更坚定地专注于服务与联结。我非常感谢朋友、家人和导师们的支持，这也激励我继续创作艺术。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "1805bf8d-4e69-4f5d-85e6-bb2ca2bc6f50",
+            "content": "Lulu 有一个理论：你的个人定位是三个圈的交集——\"你想说的\"、\"受众想听的\"、\"对你有好处的\"。对 founder 来说目标不是成为网红，而是让你真正想影响的人被你影响。\"Who is more important than how many\"——触达正确人群比流量多少更重要。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "9099e2e1-d0d2-4649-87a3-17ae77b046e9",
+            "content": "还有一个我认可的观点来自广密老师——他对数字世界 AGI 的定义是\"在 90% 的行业中 90% 的人的 90% 的工作 AI 都可以胜任\"。我基本是按这个标准判断 AGI 是否到来的。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "5e7d4085-884f-48b5-b9fa-db83b71faefd",
+            "content": "我自己对这件事其实没有最终定论，觉得人们在实践中会有偏好，最终也可能会涌现出一些更好的 best practice。但就现阶段的建议而言，我更倾向于听从那些管理过大规模 agent 组织的人的经验。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:39.783988"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D17:5",
+      "session_key": "session_17",
+      "original_text": "你朋友的消息真棒！领养可能不容易，但绝对值得。这是扩大家庭、表达爱意的好方法。如果你真打算行动，记得告诉我——我很乐意帮忙。",
+      "final_polished_text": "你朋友的消息真棒！领养可能不容易，但绝对值得。这是扩大家庭、表达爱意的好方法。说到真正确信一件事，我最近深有体会——就像很多人用先进模型写代码时感受到变化一样，让我“头皮发麻”的是，这种变革不只发生在某个领域，而是正在一个更大的范围发生，整个社会都可能面临新的生产关系和分工模式。领养或许也是这种深刻变化的一部分吧。如果你真打算行动，记得告诉我——我很乐意帮忙。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "20c992b1-001e-40d1-93e5-7bd9b0b67ae0",
+            "content": "让我真正确信这件事的经验是用 Moxt 的体感。很多人早就用过 Claude Code 或其他先进模型，在 Coding 领域感觉到变化，但我的头皮发麻在于两点——这件事不只发生在 Coding 领域、正在一个更大的领域发生；以及整个社会面临一种新的生产关系和分工模式。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:34.931799"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D17:25",
+      "session_key": "session_17",
+      "original_text": "是的，苏梅！做自己感觉太棒了。这是一段不断学习和成长的持续冒险。",
+      "final_polished_text": "是的，苏梅！做自己感觉太棒了。这是一段不断学习和成长的持续冒险。就像我最近思考的，其实AGI的到来也一样——关键在于打开方式。如果我们能为AI创造一个更适宜的工作环境，把信息以它易读的方式组织好，现有模型涌现出的能力会比在杂乱无章的模式下强大得多。这本身也是一种学习和成长呢。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "a4f24334-4a99-40ec-a7c2-527f2d57dbb5",
+            "content": "我的核心论点是 AGI 来了但打开方式不对——你需要为 AI 创造一个更适宜它的工作环境。当你把 context 以 AI 易读的方式给它，现有模型涌现出的能力会比在不规整模式下大得多。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:17:39.576900"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D1:3",
+      "session_key": "session_1",
+      "original_text": "我昨天参加了一个LGBTQ支持小组，感觉太震撼了。",
+      "final_polished_text": "我昨天参加了一个LGBTQ支持小组，感觉太震撼了。说起来，最近变化确实挺快的，就像我们团队之前做的Paraflow——那是一款Vibe Coding工具，定位是从ideas到App的差异化Lovable产品。本来今年计划在它上面大搞特搞，没想到春节前后突然就转向了Moxt这件事，计划赶不上变化啊。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "cfb74283-fdf0-4b46-b2f3-9cdbd17cea23",
+            "content": "Paraflow 是我们之前在做的一款 Vibe Coding 工具，一个差异化的 Lovable，定位是从 ideas 到 App。本来今年的计划是在 Paraflow 上大搞特搞，没想到变化这么快，春节前后就发生了 Moxt 这件事。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:18:59.912407"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D1:9",
+      "session_key": "session_1",
+      "original_text": "我打算继续学业，并探索职业选择，这很令人兴奋！",
+      "final_polished_text": "我打算继续学业，并探索职业选择，这很令人兴奋！说起来，我最近还受到一个现象的启发——发现越来越多群里大家在发MD文件，感觉好不容易进入协同办公时代，结果又开始互传文件了。这让我想到，有时候一个具体的痛点就能触发新的方向，就像我听说有个团队在春节前三天，一个周三晚上决定做一个叫Moxt的项目来解决这个问题，周四就启动了。这种从观察到行动的快速转变，也激励我更主动地去探索自己的职业路径。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "48fdcb29-8a88-43c3-92cf-1e419998acee",
+            "content": "启动 Moxt 的触发点很具体：我们观察到一个很反常的现象——越来越多的群里大家在发 MD 文件。好不容易进入协同办公时代，结果又开始互传文件了。于是春节前三天一个周三晚上，我们决定做 Moxt，周四就开始。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:05.539695"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D4:17",
+      "session_key": "session_4",
+      "original_text": "谢谢，苏梅！你的善意话语对我意义重大。",
+      "final_polished_text": "谢谢，苏梅！你的善意话语对我意义重大。说到成长和创造空间，其实我最近在工作上也有类似的感悟。后来我们想清楚了，Paraflow 和 Moxt 可以顺其自然地连在一起——Paraflow 的 Vibe Coding 版本本来还没上线，把它嵌进 Moxt 的空间里反而更顺。因为所有数据都在 Moxt 里，用 HTML 就可以可视化一切，不需要专门为内部工具再造一个 Paraflow。这种顺势而为、让事物自然融合的感觉，和我在咨询中追求的“创造安全成长空间”的理念还挺像的。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "2d0e3e7d-134d-45cb-abc2-9c717fc94381",
+            "content": "后来我们想清楚了，Paraflow 和 Moxt 可以顺其自然地连在一起——Paraflow 的 Vibe Coding 版本本来还没上线，把它嵌进 Moxt 的空间里反而更顺。因为所有数据都在 Moxt 里，用 HTML 就可以可视化一切，不需要专门为内部工具再造一个 Paraflow。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:15.093541"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D17:3",
+      "session_key": "session_17",
+      "original_text": "谢谢，苏梅！我超级兴奋能开始这个新篇章。收养孩子，为需要帮助的孩子们提供一个安全、充满爱的家，一直是我的梦想。你对收养有经验吗，或者认识经历过这个过程的人吗？",
+      "final_polished_text": "谢谢，苏梅！我超级兴奋能开始这个新篇章。收养孩子，为需要帮助的孩子们提供一个安全、充满爱的家，一直是我的梦想。其实关于“迁移”这件事我想得很清楚——无论是生活还是工作，关键都是让新体验足够有吸引力，同时把转换成本降下来。就像我们做产品，下一步会重点投入“一键搬家”功能，让用户能轻松把已有资料导进来，更快适应新环境。你对收养有经验吗，或者认识经历过这个过程的人吗？我总觉得多了解一些，准备得更充分，这个过渡就会更顺畅。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9bec2d13-67de-494b-8bad-365417a900d9",
+            "content": "迁移门槛这件事我想得很清楚。用\"新体验 - 旧体验 - 迁移成本\"这个公式看，关键是让新体验足够大，以及把迁移成本降下来。所以我们下一步会重点投一键搬家功能，围绕 more context 让用户更快把已有资料导进来。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:19:50.055443"
+    },
+    {
+      "sample_id": 0,
+      "dia_id": "D19:5",
+      "session_key": "session_19",
+      "original_text": "谢谢，苏梅。我的梦想是为这些孩子创造一个安全、充满爱的家。爱与接纳应该是每个人的权利，我希望他们能体验到这一点。",
+      "final_polished_text": "谢谢，苏梅。我的梦想是为这些孩子创造一个安全、充满爱的家。爱与接纳应该是每个人的权利，我希望他们能体验到这一点。其实这种“分工明确”的理念在我自己的实践中也得到了印证——就像我目前除了momo之外，还拥有5位职责不重合的AI同事，比如Ryan manager、golden sales、做深度思考的、Miss Creative和批评家。这种细分并没有让我感到混乱，反而让每个“同事”的产出质量都比大杂烩式的方式更好。所以我相信，专注和清晰的角色能为这些孩子提供更稳定、更高品质的关爱与支持。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "7ff9a839-b101-4368-9cbd-057ea03a443b",
+            "content": "从我自己的实践看也是支持细分那一派——我目前除了 momo 之外自己有 5 个 AI 同事，分别是 Ryan manager、golden sales、做深度思考的、Miss Creative、批评家，各自职责不重合。实际用下来这种分工没让我觉得混乱，反而每个同事的产出质量都比大杂烩好。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:20:27.327198"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D7:2",
+      "session_key": "session_7",
+      "original_text": "哇，李强！等不及要看了。一定感觉很解放吧！你现在感觉如何？",
+      "final_polished_text": "哇，李强！等不及要看了。一定感觉很解放吧！说起来，最近我们团队也感觉特别振奋——我们刚融完种子轮，还是个纯华人团队，但连巴西最大的地质咨询公司GE21都成了我们的大客户。就是因为早期做了很多proof of concept，我们的模型和数据处理能力在他们项目上得到了验证，现在数据和产品层面的合作都已经展开了。这种突破的感觉真棒！你现在感觉如何？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "f7e71de4-e4d7-4635-9a8a-fb320b937c0b",
+            "content": "我们现在最大的客户之一是巴西的 GE21，南美最大的地质咨询公司。我们是一个纯华人团队，才融完种子轮，但 GE21 这么大的公司愿意和我们合作，就是因为早期做了很多 proof of concept，我们的模型能力和数据处理能力在他们的项目上得到了验证。目前我们和 GE21 在数据及产品层面都已展开合作。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:11:18.459435"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D7:6",
+      "session_key": "session_7",
+      "original_text": "太棒了，李强！你的大胆真让我深受鼓舞。这让我想起了前几天徒步时看到的绚丽日落。它让我意识到向世界展现真实自我的重要性。",
+      "final_polished_text": "太棒了，李强！你的大胆真让我深受鼓舞。这让我想起了前几天徒步时看到的绚丽日落，也让我畅想未来——就像我畅想过5年后DeepOptica成功的样子：我们的模型会在世界范围内有影响力，成为一个AlphaFold级别的存在，可能会有一个基础开源版和一个商用版。我仿佛能看到很多矿企用我们的模型在自己的矿区实践，真正理解那里的地质特征。这让我意识到，向世界展现真实自我、并坚持深挖下去的重要性，就像我们的目标是要比KoBold Metals再深一层，用更少的钻孔和更强大的数据，提早知道地下的具体资源量。除了巴西，我们在蒙古和中东也有验证成果。昨天刚和中东客户开会开到很晚，最后一个call是9点多。我开口第一句就说“你们昨天发的需求，我们已经做了初步分析”，当时对方项目经理跟他的合伙人说：“See, I told you this team can manage a lot of stuff.”",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "0f934639-6fe8-49e7-8a84-225e50e163e1",
+            "content": "我畅想过 5 年后 DeepOptica 成功的样子：我们的模型一定在世界范围内有影响力，是一个 AlphaFold 级别的模型，可能会有一个基础开源版和一个商用版。很多矿企能用我们的模型在自己的矿区进行实践，理解那里的地质特征。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "f1a16eb0-7f9b-43b5-a4f4-56eac1c655b7",
+            "content": "除了巴西，我们在蒙古和中东也有验证成果。昨天刚和中东客户开会开到很晚，最后一个 call 是 9 点多。我开口第一句就说\"你们昨天发的需求，我们已经做了初步分析\"，当时对方项目经理跟他的合伙人说：\"See, I told you this team can manage a lot of stuff.\"\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "bfefe9ea-0d84-4183-9ff4-a19cffb85080",
+            "content": "这和 KoBold Metals 的做法很不一样。KoBold 用贝叶斯决策帮矿企优化钻孔——告诉你下一钻在哪里打可以最大概率定位矿体，或者消除最多不确定性。但他们没法告诉你地下到底有多少吨铜多少盎司黄金。我们的目标是比他们再深一层，用更少的钻孔和更强大的数据，提早知道地下的具体资源量，让矿企能更好地评估一个矿的经济价值。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:52.311174"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D7:10",
+      "session_key": "session_7",
+      "original_text": "干杯，李强！你的支持对我意义重大。我一定会随时向你汇报最新进展。",
+      "final_polished_text": "干杯，李强！你的支持对我意义重大。说到进展，我们刚签下约550万人民币的订单，目前收入已将近100万人民币，而且下半年close了种子轮融资，由百度风投领投。我一定会随时向你汇报更多好消息！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "014a6f18-4599-4af9-a36e-88aad279cdbb",
+            "content": "我们刚签下约 550 万人民币的订单，目前收入将近 100 万人民币。下半年 close 了种子轮融资，百度风投领投。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T14:58:20.658800"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D2:3",
+      "session_key": "session_2",
+      "original_text": "哇！我终于完成了我的第一个完整剧本，上周五打印出来了。我为此忙了好一阵子，现在全部完成，真是松了一口气！",
+      "final_polished_text": "哇！我终于完成了我的第一个完整剧本，上周五打印出来了。我为此忙了好一阵子，现在全部完成，真是松了一口气！说起来，创作过程中我一直在思考如何真正理解用户——就像我的年度精神导师之一、Granola 的创始人 Chris Pedregal 说的，他在竞争那么激烈的赛道里不仅活下来，还获得超棒的用户反馈，关键就在于对用户群体的深刻理解带来了UX的创新。这让我更意识到，就像我们团队的CFO Jesse，他在矿业十几年，最清楚客户要什么结果一样，好的作品也得扎根于对受众的深刻洞察。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "823b9e81-1737-43f2-834d-94b16dc4f295",
+            "content": "我的年度精神导师之一是 Granola 的创始人 Chris Pedregal。Granola 在一个竞争激烈的赛道里不仅活下来了，用户反馈还非常好。他对 UX 的创新本质上来自对用户群体的深刻理解。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "3a567e6c-89a5-4bdf-909b-d96e233ab026",
+            "content": "Jesse 是我们的 CFO，曾经是赤峰黄金的副总裁，在那之前是精品投行拉扎德的大中华区 staffer 和矿业负责人。他在矿业领域待了十几年，在我们团队里扮演的是用户角色——他最清楚客户需要什么结果。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:21.505643"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D3:6",
+      "session_key": "session_3",
+      "original_text": "超级棒！口感浓郁顺滑——这可能要成为我最爱的新零食了！",
+      "final_polished_text": "超级棒！口感浓郁顺滑——这可能要成为我最爱的新零食了！说起来，最近工作上也像在尝试新配方，我们重点优化的合成数据引擎，在斑岩型矿带上效果已经不错了，但矿体结构还有很多类型，比如铁氧化型、矽卡岩型这些，都需要持续投入。现在合成数据占训练比例大概50%，还得继续深挖呢。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9e82cccf-36de-4fc2-938e-48d3c5682533",
+            "content": "合成数据引擎是我们目前在重点优化的。它在一些典型的成矿带比如斑岩型矿带上性能已经比较好了，但矿体结构远不止一种，还有铁氧化型、矽卡岩型、沉积岩型等等，这些方面都需要持续投入。目前合成数据在我们训练里占比大概 50%，还会继续深挖。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:11.095401"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D5:3",
+      "session_key": "session_5",
+      "original_text": "谢谢李强！这段经历太疯狂了。我一直在调整状态，但很难完全放松。心里总在希望和怀疑之间拉扯。",
+      "final_polished_text": "谢谢李强！这段经历太疯狂了。我一直在调整状态，但很难完全放松。心里总在希望和怀疑之间拉扯，就像传统探矿一样——地质学家靠地表露头找矿，后来有了地球物理和遥感卫星，能测磁场、重力场，但数据多解性太强，一个测量值可能对应地下十万种不同的矿体结构。我的剧本未来会怎样，感觉也充满了这种不确定性。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "1c6c7684-5af9-48b8-bd91-e631dd90bbce",
+            "content": "传统探矿靠地质学家实地踏勘、地质填图，看地表有没有矿物露头（地下矿物经过风化跑到地表可以直接看见的那种）。后来有了地球物理和遥感卫星，可以看磁场、重力场、电磁电阻率的变化。但这些方法的问题是多解性很强——同一个地表测量值，可能对应地下 10 万种不同的三维矿体结构。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:12.696306"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D9:5",
+      "session_key": "session_9",
+      "original_text": "是啊，我敢说那种紧张和兴奋感一定很刺激！我记得我第一次演话剧时，紧张得忘了台词。虽然很尴尬，但它教会了我准备和专注当下有多重要。",
+      "final_polished_text": "是啊，我敢说那种紧张和兴奋感一定很刺激！我记得我第一次演话剧时，紧张得忘了台词。虽然很尴尬，但它教会了我准备和专注当下有多重要——其实做项目团队建设也是类似的道理。我们现在团队规模不大，主要在招募地球科学、AI合成数据和大型模型这些方向的人才，我觉得二三十人就够了。关键就像演话剧一样，得找到最核心的十几二十个人，把他们的生产力推到最大。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "22236a37-f694-4e6d-836d-04e9686ceb57",
+            "content": "人才方面，我们目前主要在招募地球科学、AI 合成数据和大型模型这三个方向的人才。团队现在还不大，但我觉得二三十人就够了——有了 AI 技术，关键是能不能找到最核心的十几二十个人，把他们的生产力推到最大。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:16.160533"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D4:4",
+      "session_key": "session_4",
+      "original_text": "看起来真好吃！可惜我不能吃乳制品，所以没法吃冰淇淋。你碰巧有没有不含乳制品的食谱可以让我试试？",
+      "final_polished_text": "看起来真好吃！可惜我不能吃乳制品，所以没法吃冰淇淋。说起来，我最近在做我的第一个AI产品叫LongCut——名字就是Shortcut的反义词，理念是学习不要走捷径。它能让大模型读取视频逐字稿，提取精华观点并在时间轴上高亮标注，点击标题就能跳转到原视频观看，鼓励大家即使跳着看也要看原视频。另外还有一键Explain、Take notes和去口水词的功能。对了，你碰巧有没有不含乳制品的食谱可以让我试试？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "cdcc5b8b-1c92-46ec-8272-7dcb6c9647c2",
+            "content": "我博士读的是量子光学，研究的是量子传感技术。量子传感两个最大的应用领域就是量子重力计和量子磁力计，而矿业探测最常用的物理量恰好就是重力和磁场。读博的时候我就已经开始接触矿业和油气勘探企业了，因为它们就是量子传感最大的应用方。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "da849115-499d-4c85-babb-ffc37ec8ee19",
+            "content": "LongCut 是我的第一个 AI 产品，名字是 Shortcut 的反义词——学习不要走捷径。它的做法是大模型读取视频逐字稿，提取最精华最有独特观点的部分，在时间轴上 highlight 出来给标题，你点标题跳转到原视频看。理念是一定要看原视频，即使跳着看。另外还有一键 Explain（选中术语结合上下文讲解）、Take notes 和一键去口水词。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:22.127609"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D3:5",
+      "session_key": "session_3",
+      "original_text": "看起来很好吃！真高兴你尝试了新东西而且很成功。你觉得味道怎么样？",
+      "final_polished_text": "看起来很好吃！真高兴你尝试了新东西而且很成功。说到尝试新事物，我和我们CTO方博的创业结合也是个有趣的例子——他之前是英国最大金融机构的AI负责人，而我主要做遥感卫星项目，在欧空局和英国航天局做过技术负责人。我偏重勘探技术，他专注AI，我们俩结合起来就能探索AI与最新勘探技术结合的新思路。不过还是先说说你的冰淇淋吧，你觉得味道怎么样？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "e78b13a8-84e7-4dc0-bd2f-cd9b07b809ea",
+            "content": "我们 CTO 方博之前和我一起做过一家遥感 startup，再之前他是英国最大金融机构的 AI leader。我自己创业前主要做遥感卫星相关项目，更早之前是欧洲航天局和英国航天局一些项目的技术负责人。我偏重勘探技术，方博偏重 AI，我们俩结合起来就能看到哪些 AI 领域结合最新的勘探技术可以提供新思路。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:15.998579"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D8:6",
+      "session_key": "session_8",
+      "original_text": "也许哪天我得说服你跟我一起去！",
+      "final_polished_text": "也许哪天我得说服你跟我一起去！正好我们公司现在有了AI技术加成，做项目不像传统咨询那样需要堆人力了，效率高很多。像野外考察这种任务，需要的话就去现场完成，带回来数据一起分析就行。未来这种模式说不定能替代不少传统咨询服务呢，咱们徒步的时候我还能跟你细聊聊。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "2cf67956-1658-45fe-83a2-394d6f327461",
+            "content": "有了 AI 技术加成，我们每个服务项目上不需要像传统咨询公司那样投入大量人力了。如果需要野外考察就去完成具体任务，带回来一起分析。未来这种模式会在某种程度上替代很多传统的咨询服务。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:29.011577"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D6:4",
+      "session_key": "session_6",
+      "original_text": "谢谢，李强！还算顺利。心情复杂——当然很兴奋，但也有点焦虑。请为我祈祷好运吧！",
+      "final_polished_text": "谢谢，李强！还算顺利。心情复杂——当然很兴奋，但也有点焦虑。请为我祈祷好运吧！其实我最近也在跟进一个挺有意思的项目，我们做的是构建一个\"矿业世界模型\"，通过 AI 把地质、地球物理和遥感卫星的多模态数据集成起来，真正揭示地下的三维矿体结构，甚至能判断其经济价值。目标不只是告诉矿企\"下一钻打哪里\"，而是直接回答\"这里有多少吨铜、多少盎司黄金\"。所以除了试镜，这边也在忙这些，希望都能有好结果。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "e2e72281-65ec-4996-a3c6-e7f1056ad943",
+            "content": "我们做的是构建一个\"矿业世界模型\"——通过 AI 把地质、地球物理和遥感卫星的多模态数据集成起来，真正揭示地下的三维矿体结构，甚至能判断其经济价值。不只是告诉矿企\"下一钻打哪里\"，而是直接回答\"这里有多少吨铜、多少盎司黄金\"。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:18.567339"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D4:6",
+      "session_key": "session_4",
+      "original_text": "当然要！我很想试试你的食谱。我一直都喜欢甜点。",
+      "final_polished_text": "当然要！我很想试试你的食谱。我一直都喜欢甜点，而且我觉得创新往往来自不同领域的结合——就像地球科学和计算机科学之间原本有巨大鸿沟，能弥补它的团队需要真正扎根在交叉领域，用数据和技术驱动思考，而不是被传统局限。这种突破的思路其实也适用于烹饪，换个角度也许就能做出惊喜的甜点呢！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "be1a4e4e-b748-4f3e-a553-b353ab968930",
+            "content": "恰恰是像我们这样 profile 的团队才能真正改变这个行业。如果是一个在矿业公司工作了 50 年的地质学家，很可能会被自己的思想局限，而不是从数据和技术驱动的角度去思考。地球科学和计算机科学之间有一道巨大的鸿沟——不像物理与计算机、生物与计算机已经有了交叉学科，地质统计学这类学科存在的时间并不长。能弥补这个鸿沟的团队，需要在这个交叉领域扎根。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:20.668005"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D12:4",
+      "session_key": "session_12",
+      "original_text": "哇，他太可爱了！你养他多久了？看得出你为什么这么兴奋！",
+      "final_polished_text": "哇，他太可爱了！你养他多久了？看得出你为什么这么兴奋！说到关注点，其实就像我对DeepOptica的期待一样——我不在乎它是不是个大公司，我更看重能不能找到最核心的十几二十个人，用AI把他们的生产力推到最大，让大家真正享受每天做的事。我觉得这种质量比单纯的人头数重要得多。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9a3ee528-f5fe-4c39-b56c-910bd0dd6f45",
+            "content": "我不希望 DeepOptica 是一个体量很大的公司。我更关注的是：能不能找到最核心的十几二十个人？能不能用 AI 把这些人的生产力推到最大？能不能让大家真正享受自己每天做的事？我觉得这比人头数重要得多。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:21.922475"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D7:8",
+      "session_key": "session_7",
+      "original_text": "是啊！天空美得令人窒息！真希望有个假期在等着我，但现在写作完全占据了我的时间。希望很快能有好消息！",
+      "final_polished_text": "是啊！天空美得令人窒息！真希望有个假期在等着我，但现在写作完全占据了我的时间。说起来，我最近在写的这个矿业AI项目也挺有意思的——虽然现在很多模型都是基于开源架构，但我们的矿业模型是完全从零自己搭建的，更像AI for science赛道的那种，比如AI制药或AI材料。护城河主要在于两方面：一是独有的行业数据，二是要有能打通从矿业合成数据到完整世界模型的全链条团队。这让我想起之前提到的，我们和KoBold Metals创始团队的背景非常像，都是跨界组合，用新工具闯进传统领域。希望这个项目很快能有好消息！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "72f08b51-56f6-409f-bec6-89b7df1ead0e",
+            "content": "但目前我们的矿业模型不是在开源基础上搭建的。通用世界模型架构和我们做的矿业世界模型架构差别非常大，我们是自己搭建的，更像 AI for science 赛道的其他模型比如 AI 制药、AI 材料那种。护城河在两点：一是你的数据，二是你是否有团队能支持从矿业合成数据到矿业世界模型的整套体系。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "c3a16716-da66-4c7b-bdb8-cc39180d4b06",
+            "content": "有个有趣的事实——我们和 KoBold Metals 创始团队的背景非常像。他们团队里有一位科学家是做量子计算的，一位做地球科学，还有一位金融出身。我们创始人的背景和他们不谋而合。掌握 AI 的人成了传统行业门口的野蛮人，颠覆传统行业的往往不是内部人，而是带着新工具和新视角闯进来的门外汉。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:58.920012"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D6:2",
+      "session_key": "session_6",
+      "original_text": "嘿，李强！真是段不寻常的经历——往好的方面说——昨天参加了一个写作职位的试镜。",
+      "final_polished_text": "嘿，李强！真是段不寻常的经历——往好的方面说——昨天参加了一个写作职位的试镜，面试官还问起我博士期间的研究方向。我提到我们 AI 模型的核心技术栈，比如多解性反演的收敛问题，其实和我读博时研究的东西密切相关。就像地表一个地球物理测量值可能对应地下 10 万种矿体结构，AI 通过学习大量数据来收敛这个多解性。这和医学 CT 把二维图像匹配三维器官结构、AlphaFold 把序列匹配蛋白质三维结构，底层逻辑是相通的——巧的是，我们团队里就有医学背景的成员在做这件事，所以聊得还挺投缘。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "ab482283-4eda-492a-8f0d-503b75786709",
+            "content": "我们 AI 模型的核心技术栈——多解性反演的收敛问题——其实和我读博时研究的东西密切相关。地表一个地球物理测量值可能对应地下 10 万种矿体结构，AI 通过学习大量数据来收敛这个多解性。这和医学 CT 把二维图像匹配三维器官结构、AlphaFold 把序列匹配蛋白质三维结构，底层逻辑是相通的。我们团队里就有医学背景的成员在做这件事。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:29.101237"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D10:3",
+      "session_key": "session_10",
+      "original_text": "哇，李强！我为你所做的感到骄傲。你的游戏室看起来很棒——你最近经常玩游戏吗？",
+      "final_polished_text": "哇，李强！我为你所做的感到骄傲。你的游戏室看起来很棒——你最近经常玩游戏吗？说到节奏把控，我最近也在思考创业公司的事，就像DeepOptica如果失败，问题很可能出在节奏上，无论是融资还是获取客户，都得在特定时间点完成目标，一旦错过那个节点，企业可能就开始走下坡路了。你玩游戏时会不会也特别注重节奏和时机？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "130cd372-6367-45af-9057-9826e0298a2f",
+            "content": "我觉得如果 DeepOptica 失败，最大的问题很可能出在节奏上——没有把握好融资节奏和获取客户的节奏。无论哪个环节，都必须在某个时间点内完成相应的任务。如果到了那个时间点你没有管理好、没有完成，企业就很可能开始走下坡路。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:51.844754"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D10:9",
+      "session_key": "session_10",
+      "original_text": "除了剧本，没什么新鲜事。一直在忙一些项目，并为朋友和家人测试一些无乳甜点食谱。这是我最近做的一个蛋糕的照片！",
+      "final_polished_text": "除了剧本，没什么新鲜事。一直在忙一些项目，其中一个是为了应对风险，我们做了一套非常详细的计划：包括三年的长期规划和18个月的中期规划，再把18个月拆解成以每三个月为节点的短期目标，明确每个阶段技术和商业化的要求。这不是简单拆题，而是由长线愿景引导，落实到每个人都能执行的小目标。此外，我也在抽空为朋友和家人测试一些无乳甜点食谱。这是我最近做的一个蛋糕的照片！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9588de7b-8f9e-4f2a-bb5f-ecadcf6ee785",
+            "content": "为了应对这个风险，我们做了一套非常详细的计划：一个三年的长期规划和一个 18 个月的中期规划，再把 18 个月拆解成以每三个月为节点的短期规划，里面明确了技术在三个月内要达到什么状态、商业化需要什么样的支撑。不是小镇做题家式的拆题，而是由长线 vision 引导中线 vision，再拆解成每个人都能执行的小目标。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:57.328415"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D4:18",
+      "session_key": "session_4",
+      "original_text": "谢谢，李强！感谢你的支持。希望我的剧本能被注意到并搬上银幕。祈祷好运！",
+      "final_polished_text": "谢谢，李强！感谢你的支持。其实就像我在剑桥读博时带领赛艇队一样，一开始也有人质疑我这个华人队长，但通过争取资源、带队拼搏，最后我们拿到了优胜。所以我相信只要坚持行动，总有机会被看到。希望我的剧本也能这样，被注意到并搬上银幕。祈祷好运！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "524a1273-143a-4724-a373-6b253a6f7d31",
+            "content": "我在剑桥读博期间划了四年赛艇，最后一年做到了学院赛艇队的主席兼大队长，是学院史上第一位华人大队长。一开始也有人质疑——欧洲人占 90% 的队伍为什么是个华人队长——但我用行动去证明：争取更好的教练和设备，带大家去参加以前不会参加的比赛，最后拿了优胜。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:12:57.546926"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D21:5",
+      "session_key": "session_21",
+      "original_text": "干得好，李强！祝贺你的烹饪节目，我一定会收看的！你节目里最喜欢的菜是什么？",
+      "final_polished_text": "干得好，李强！祝贺你的烹饪节目，我一定会收看的！说起来，我2021年也有过一次创业经历，PhD刚毕业就自己投钱做，结果完全失败了，打击特别大。但正是这种挫折让我学会了管理压力和预期，现在反而更乐观了。所以看到你能勇敢尝试新事物，真的很佩服！你节目里最喜欢的菜是什么？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "d3de223b-429b-4fda-87f0-cf102b9ea100",
+            "content": "2021 年我有过一次完全不成功的创业经历。一个 PhD 刚毕业，放弃了很多东西，自己投钱创业，最后失败了，打击非常大。但正是经历过几次这样的打击，才能更好地管理压力、管理预期，碰到挫折时变得更乐观。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:13:01.860874"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D12:2",
+      "session_key": "session_12",
+      "original_text": "嘿，李强！刚忙完一件事——真是段疯狂的旅程！",
+      "final_polished_text": "嘿，李强！刚忙完一件事——真是段疯狂的旅程！最近在带团队，我越来越觉得领导力不是表面上很 sharp 的那种，更多是用行动去慢慢感化。关键得看队员能不能在这件事上获得幸福感和满足感。如果我作为 leader 让他很开心，他自然会信任我——即使不 100% 喜欢一个人，但愿意一起成长，我觉得那就是好的 leader。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "caac318a-fffb-428f-b87a-8eed66d1710b",
+            "content": "我的领导风格不是表面上很 sharp 的那种，更多是用行动去慢慢感化。我觉得领导力和别人是否喜欢你并没有必然关联。关键是：队员能不能在这件事上获得幸福感和满足感。如果我作为 leader 让他很开心，他为什么不信任我呢？即使不 100% 喜欢一个人，但信任他、愿意和他一起成长——那就是好的 leader。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:13:01.988612"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D26:5",
+      "session_key": "session_26",
+      "original_text": "谢谢李强！你的支持和鼓励对我意义重大。写作并不总是容易的，但这样的时刻让我更加珍惜它。我非常感激所有的机会。上周，我找到了这些旧笔记本，里面是我早期的作品——看到自己的进步真的很酷。",
+      "final_polished_text": "谢谢李强！你的支持和鼓励对我意义重大。写作并不总是容易的，但这样的时刻让我更加珍惜它。说到与人交流，其实我有个很深的感触——就像我和国际客户打交道时的哲学一样，我觉得先建立 heart to heart 的连接，再去谈具体的事，这特别重要。很多华人在国际场合要么很害羞要么急于表达，但真正的人际交流，更重要的是先有那种真诚的连接。我们团队也是这个氛围——靠谱、真诚、国际化。这让我在展示作品时也更注重先建立这种真诚的互动。我非常感激所有的机会。上周，我找到了这些旧笔记本，里面是我早期的作品——看到自己的进步真的很酷。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "7387ec1e-c66c-4496-827f-c04a238e1306",
+            "content": "和国际客户打交道时，我的哲学是先建立 heart to heart 的连接，再去谈具体的事。很多华人在国际场合要么很害羞要么急于表达，但真正的人际交流，更重要的是先有那种真诚的连接。我们团队也是这个氛围——靠谱、真诚、国际化。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:13:09.274668"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D18:5",
+      "session_key": "session_18",
+      "original_text": "是的。上周，有人读了我网上关于人生艰难时刻的博客文章后，给我写了一封信。他们的话触动了我；他们说我的故事给他们带来了安慰。意识到我的文字有这种力量真是太棒了。这提醒了我为什么热爱写作。",
+      "final_polished_text": "是的。上周，有人读了我网上关于人生艰难时刻的博客文章后，给我写了一封信。他们的话触动了我；他们说我的故事给他们带来了安慰。意识到我的文字有这种力量真是太棒了。这提醒了我为什么热爱写作。其实这种“顺其自然”的转变我最近在别处也感受到了——就像我们团队做地质项目，原本只专注技术分析，但合作久了发现，客户已有矿区周边常藏着高潜力靶区。我们分析完数据，对那片地的理解比谁都深，所以现在想法变了：与其等模型能力完全泛化，不如顺势和矿企一起去拿矿权，以技术入股的方式参与进去。每做一个项目，就像“占山头”一样，把周围的矿权合作起来，这件事做起来反而水到渠成。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "593d4ac7-8161-4a59-a2e1-dd1b911a0dde",
+            "content": "但最近我想法变了。我们在做项目的过程中发现，合作客户已有矿区的周围经常存在高潜力靶区。我们拿到数据做完分析后，对那些地方的理解比任何人都深。所以现在我觉得可以和矿企一起去拿矿权，以技术入股的方式成为矿企。这件事不一定非要等模型能力泛化得很强才去做，而是顺理成章的——我们做了一个项目，就以\"占山头\"的方式把周围的矿权合作起来。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:13:22.154716"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D24:4",
+      "session_key": "session_24",
+      "original_text": "宠物总有办法照亮我们的日子。我还留着那只你送我的毛绒玩具狗呢！我叫她蒂莉，我写作时她总是陪着我。",
+      "final_polished_text": "宠物总有办法照亮我们的日子。我还留着那只你送我的毛绒玩具狗呢！我叫她蒂莉，我写作时她总是陪着我。其实我现在的想法也类似，无论未来会不会成为矿主，都必须先把模型和产品做好。产品可以服务小型矿企，同时当我们在一个地区有了更强的理解力后，也可以顺理成章地成为一家矿业企业。运营方法有很多，但目前我只关注产品和模型本身，看它能在多大程度上解决客户的问题。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "39275680-47d1-4e2d-9b2b-a4d9546047da",
+            "content": "我现在的想法是，无论未来会不会成为矿主，都必须先把模型和产品做好。产品可以服务小型矿企，同时当我们在一个地区有了更强的理解力后，也可以顺理成章地成为一家矿业企业。运营方法有很多，但目前只关注产品和模型本身，看它能在多大程度上解决客户的问题。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:13:27.686208"
+    },
+    {
+      "sample_id": 3,
+      "dia_id": "D29:5",
+      "session_key": "session_29",
+      "original_text": "有位演员走过来告诉我她有多喜欢我的剧本！那一刻我太激动了——简直让我起鸡皮疙瘩！",
+      "final_polished_text": "有位演员走过来告诉我她有多喜欢我的剧本！那一刻我太激动了——简直让我起鸡皮疙瘩！这让我想到，就像我对电影的热情一样，我对DeepOptica也有一个清晰的愿景：五年后我设想它一定是一个集技术、矿业运营和矿业金融于一体的结合体。我们可以通过自己的模型和估值系统进行矿业权益金的投资，甚至入股一些矿权。不只是一家纯技术公司，而是有实际矿业资产参与的综合体。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "a9277a73-5b45-4074-bf12-11a6a92eec44",
+            "content": "五年后我设想 DeepOptica 一定是一个集技术、矿业运营和矿业金融于一体的结合体。我们可以通过自己的模型和估值系统进行矿业权益金的投资，甚至入股一些矿权。不只是一家纯技术公司，而是有实际矿业资产参与的综合体。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:13:32.603369"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D3:4",
+      "session_key": "session_3",
+      "original_text": "哇，看起来不错！你打鼓多久了？",
+      "final_polished_text": "哇，看起来不错！你打鼓多久了？说到坚持原汁原味，这让我想起我最近做 LongCut 的出发点——我特别不喜欢 summary，因为故事、例子和金句这些精华往往在总结里就流失了，光看文字摘要根本吸收不到原本的观点。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "284e99d1-157c-46f5-bc8c-d96dfc74a8c3",
+            "content": "我非常不喜欢 summary。一个东西被变成 summary 之后，原汁原味的故事、例子和金句都没了——而这些往往才是最精华的。不要以为看了一个文字 summary 就吸收了原来的观点。这是我做 LongCut 这个产品的核心出发点。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:16.367831"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D2:5",
+      "session_key": "session_2",
+      "original_text": "是啊，游戏是我们共同的语言和热情。在艰难时期，它一直是我的避风港。",
+      "final_polished_text": "是啊，游戏是我们共同的语言和热情。在艰难时期，它一直是我的避风港。其实就像现在很多AI产品，比如AI Coding工具都有十几种，功能上可能很难说清区别，但用起来就是感觉不同。我们选游戏也一样，往往不是比较具体功能，而是看它带来的整体感受、社区氛围或者设计风格——越来越像选择一种契合自己的消费品了。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "bc523920-0e93-48e7-9b83-019e343f2663",
+            "content": "AI 产品很难在功能层面做差异化。AI Coding 产品至少 10 个，普通人讲不出功能差别，但能明显感觉到 Vibe 不同。作为小白用户我不愿花时间对比，只挑大家讨论多、气场契合、或网站好看的。区分它们的往往不是功能而是品牌、设计、Storytelling 和整体感受——越来越像消费品。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:22.099786"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D4:21",
+      "session_key": "session_4",
+      "original_text": "角色扮演游戏和多人在线战术竞技游戏能让你体验引人入胜的故事或参与史诗般的多人对战，非常棒。记得告诉我你的感受！",
+      "final_polished_text": "角色扮演游戏和多人在线战术竞技游戏能让你体验引人入胜的故事或参与史诗般的多人对战，非常棒。其实我以前在互联网行业也常有类似感觉，总觉得技术主导一切，话语权都在工程师手里。后来想通了，技术只有变成产品、被用户使用才真正产生价值——就像游戏一样，核心不仅是代码，更是“做什么”和“怎么让玩家玩到”。记得告诉我你的感受！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "00dd4801-db46-49b6-b6f5-125385d62d41",
+            "content": "以前我在互联网行业总有\"不配得感\"，觉得行业由技术主导，话语权都在研究员和工程师手里。后来我想通了：技术只有变成产品、发布给用户并被使用才产生价值。我发过一条 Twitter：\"code is cheap, show me the talk\"——写代码变得不那么贵和神秘了，关键问题是做什么和怎么分发。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:25.196063"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D14:5",
+      "session_key": "session_14",
+      "original_text": "祝贺你的编程之旅！你那边还有什么新鲜事吗？",
+      "final_polished_text": "祝贺你的编程之旅！说到学习，我最近和 Chris 聊了聊，他关于产品经理的一些观点让我很受启发。他说用户访谈其实是为了提升自己的直觉，最终决策还是要靠直觉和 sense，而这些直觉正是来自无数次的用户交流。他还提到在应用层不必和模型层竞争，比如上下文窗口的问题模型公司会解决，不需要过度投入。你那边还有什么新鲜事吗？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "163523ad-2499-4940-b62b-6d81e02da4b7",
+            "content": "Chris 有几句话让我印象很深。他说产品经理当然要做用户访谈，但不是用户说什么你就做什么——每一个用户说的东西其实都是在提升你自己的直觉，最后还是要靠直觉和 sense 做决策，但你的直觉来自无数次的用户访谈。另外他认为在应用层不要跟模型层竞争，比如 context window 的问题模型公司会解决，他不会花过多时间在上面。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:26.529003"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D6:6",
+      "session_key": "session_6",
+      "original_text": "谢谢，我很高兴你能感受到这种氛围。这个灵感来自两周前我和狗狗们的一次散步。我们在社区附近遛弯时，一个陌生人朝我们走来。我以前从未在附近见过她。她的眼睛和样貌让我惊叹不已，仿佛一见钟情。可惜我没有上前认识她，但至少我记住了她的样貌，并在游戏中呈现了出来。",
+      "final_polished_text": "谢谢，我很高兴你能感受到这种氛围。这个灵感来自两周前我和狗狗们的一次散步。我们在社区附近遛弯时，一个陌生人朝我们走来。我以前从未在附近见过她。她的眼睛和样貌让我惊叹不已，仿佛一见钟情。可惜我没有上前认识她，但至少我记住了她的样貌，并在游戏中呈现了出来。其实，这种从个人经历中汲取灵感并转化为创作的过程，也让我联想到自己一两年前的状态。那时作为非技术背景的从业者，我在互联网行业有很强的“不配得感”，总觉得行业由技术主导，尤其AI刚兴起时话语权都在研究员和工程师手里，我感觉被排除在外，觉得自己没学过CS就没法真正参与进来。但现在我意识到，理解并表达自我——就像我用NotebookLM上传个人资料来更好地认识自己的竞争力一样——本身就是一种强大的参与方式。它的slogan是“understand anything”，而我想补一句：“understand anything, including yourself.” 从现实中的惊鸿一瞥到虚拟世界的角色创造，也正是这种“理解自己”的延伸。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9505298c-bcd4-47d4-8861-32a511f50e57",
+            "content": "我推荐 NotebookLM，但我推荐的用法跟大部分人不一样。大部分人用它来学习信息，我会用它来理解自己——把非常个人化的东西传上去，比如简历，生成一段播客让两个 AI 夸你 20 分钟，你会更好地理解自己的竞争力。NotebookLM 的 slogan 是\"understand anything\"，我给它补一句：\"understand anything, including yourself.\"\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "49c8ac6f-673f-44bf-b30e-68a61b4da42b",
+            "content": "一两年前，作为非技术背景的从业者，我在互联网行业有很强的\"不配得感\"（Imposter Syndrome）。总觉得行业由技术主导，尤其 AI 刚兴起时话语权都在研究员和工程师手里，我感觉被 left out，觉得自己没学过 CS 就没法真正参与进来。"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:30:58.280246"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D1:34",
+      "session_key": "session_1",
+      "original_text": "我试过——感觉太真实了，简直疯狂！你试过吗？",
+      "final_polished_text": "我试过——感觉太真实了，简直疯狂！说起来，我最近还听我的年度精神导师之一 Lulu Cheng Meservey 聊过，她是硅谷的\"PR 教主\"，之前在很多知名公司负责 Comms 或 PR，现在自己开公司专门帮硅谷创始人做对外沟通。她好像也提过科技体验真实感的话题。你试过吗？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "7f9e050d-779f-4bf0-b8ad-42d9b1cac874",
+            "content": "我的年度精神导师之一是 Lulu Cheng Meservey，硅谷的\"PR 教主\"。她之前在好几家知名公司做 Comms 或 PR 负责人，现在出来自己开公司专门帮硅谷 founder 做对外沟通。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:29.732733"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D18:16",
+      "session_key": "session_18",
+      "original_text": "别担心，这只是常规检查。另外，小狗还接种了疫苗，以防它感染季节性犬类疾病。",
+      "final_polished_text": "别担心，这只是常规检查。另外，小狗还接种了疫苗，以防它感染季节性犬类疾病。说到变化，我最近对技术的看法也完全不一样了。就像我发过的一条推文说的：\"code is cheap, show me the talk\"——现在写代码不那么贵和神秘了，关键变成了\"做什么\"和\"怎么分发\"。其实文科生对人性和用户洞察更深、沟通分发能力更强，所以硅谷最近流行招 Head of Storytelling，文科生反而变热了。这让我更觉得，这不是文科生的好时代，而是\"technically curious\"的人的好时代——跟你学没学过 CS 没关系。就像我之前说的，我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我这个不搞技术的，每天在 Twitter 上看新模型新 API，一出来就用。新技术浪潮来临时一切归零，所有人又回到同一个起跑线了。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "a7aeb8bc-e379-43a2-9773-43eb4f7462ca",
+            "content": "\"Non-Technical\"这个定义不好，我喜欢一个词叫\"technically curious\"——对新技术有好奇心和了解意愿。这跟是不是学 CS 没关系。我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我一个不搞技术的，每天在 Twitter 看新模型新 API，一出来就用。新技术浪潮来临时一切归零，所有人回到同一个起跑线。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "97a2a987-0ba2-4b78-9b8f-bc28bee58db8",
+            "content": "现在我的看法完全不一样了。我发过一条 Twitter：\"code is cheap, show me the talk\"。写代码变得不那么贵和神秘了，关键问题是\"做什么\"和\"怎么分发\"。文科生对人性和用户洞察更深、沟通分发能力更强。硅谷最近流行招 Head of Storytelling，文科生变 Hot 了。这不是文科生的好时代，而是\"technically curious\"的人的好时代——跟你学没学过 CS 没关系。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:37.338451"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D30:3",
+      "session_key": "session_30",
+      "original_text": "那真是个好消息。你做了什么？",
+      "final_polished_text": "那真是个好消息。你做了什么？说起来，我最近在信息获取上也有个新体会，我找内容有一个核心原则：Follow builders, not influencers。最高质量的信息往往来自行业内的实际从业者。我甚至养成了一个习惯：会从头到尾看完一些 YouTube 长视频，感觉就像跟硅谷最 top 的从业者免费开了一场视频会议。因为 builder 讲的东西来自实战经验，而 influencer 很多时候只是转述，还可能接赞助推广自己没用过的产品。所以看到你取得成就，我也特别好奇你具体是怎么做到的？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "7ca10ab0-1685-478f-8dd4-6c8081fefabc",
+            "content": "我找内容有一个核心原则：Follow builders, not influencers。最高质量的信息来自行业内的实际从业者。我养成了一个习惯：从头到尾看完 YouTube 长视频，感觉就像跟硅谷最 top 的从业者免费开了一场视频会议。builder 讲的东西来自实战经验，而 influencer 很多时候只是转述，而且可能接赞助推广自己没用过的产品。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:32.069997"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D13:4",
+      "session_key": "session_13",
+      "original_text": "哇，周杰！恭喜你获得理想工作。我为你感到超级兴奋。你什么时候开始上班？",
+      "final_polished_text": "哇，周杰！恭喜你获得理想工作。我为你感到超级兴奋。说起来，最近我听Lulu分享了一个“go direct”的观点，她强调创业者要直接和受众沟通，活人感和说人话在AI时代特别重要。我觉得这思路对你新工作也挺有启发的——保持真实直接的交流可能比任何正式宣传都有效。你什么时候开始上班？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "614cedee-1928-4530-aeb6-ba9ce15b7a84",
+            "content": "Lulu 有一个核心观点叫\"go direct\"——创业者要自己直接跟受众产生影响，不要找 TechCrunch 发稿或打广告。她认为 AI 时代最好的沟通就是活人感、就是 human，创始人直接出来说人话比 PR 团队写的稿子有效得多。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:34.235884"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D7:4",
+      "session_key": "session_7",
+      "original_text": "是的，我有一个。那太棒了！他们很喜欢——有那么多小径可以探索，景色也很美。真有趣！",
+      "final_polished_text": "是的，我有一个。那太棒了！他们很喜欢——有那么多小径可以探索，景色也很美。真有趣！说起来，这让我想起最近硅谷AI公司的线下Pop-up，比如Cursor包下旧金山一家咖啡厅，团队全天都在那儿；还有Anthropic在纽约发的那顶“Thinking Cap”帽子，成本不高却在社交媒体上爆火。最妙的是，它们不直接说产品多厉害，而是让“使用产品的人看起来很酷”——把产品变成一种身份认同，这才是营销的最高境界吧。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9d044e59-8ee5-415c-ab14-bc67e762cccb",
+            "content": "现在硅谷 AI 公司流行在线下办 Pop-up。Cursor 包下旧金山一家咖啡厅叫 Cafe Cursor，团队核心成员全天在场；Anthropic 在纽约发一顶帽子写着\"thinking\"——Thinking Cap，成本极低但社交媒体上非常火。巧妙之处在于它不是说 Claude 多厉害，而是说\"用 Claude 的人很酷\"。使用产品变成了一种身份认同，营销最高境界不是推广自己而是推广你的用户。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:35.759160"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D28:31",
+      "session_key": "session_28",
+      "original_text": "非常感谢，我一定会记住这一点！",
+      "final_polished_text": "非常感谢，我一定会记住这一点！其实这让我想到，就像好的游戏需要讲好故事一样，创业中把产品的故事讲好也特别关键。我听说硅谷最近流行招“Head of Storytelling”，文科生的价值越来越被看到了——他们往往更懂人性、擅长沟通和品牌叙事，而这正是很多技术背景创业者的短板。所以无论是游戏还是产品，讲好故事真的能改变走向。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "94b76afe-15d5-488a-aac2-cc0aa728512c",
+            "content": "文科生本身对人性和用户洞察更深，沟通和分发能力更强。硅谷最近流行招\"Head of Storytelling\"——文科生变 Hot 了。很多华人创业者产研能力极强但常问我怎么做 Go-to-market，Branding 和 Storytelling 往往是短板。这就是文科生的价值：把产品的故事讲好。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:36.552334"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D18:4",
+      "session_key": "session_18",
+      "original_text": "哇，周杰，这听起来真的很勇敢。我希望它能给你带来快乐和满足感。",
+      "final_polished_text": "哇，周杰，这听起来真的很勇敢。就像最近很火的产品 Poke，它的 onboarding 设计成你和 AI 发短信谈判——AI 会 challenge 你“你为什么想用我们？你有多 special？”，甚至会“骂”你两句，价格也是真的弹性谈判，结果每个人都把砍价过程截图分享。这让我觉得，最好的改变往往来自那些本身就有传播力的体验。我希望你的新旅程也能给你带来这样的快乐和满足感。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "7db41dfe-6cc3-4855-8a60-7a1b205b61af",
+            "content": "还有个很火的产品 Poke，它的 onboarding 是你和 AI 发短信谈判——AI 会 challenge 你\"你为什么想用我们？你有多 special？\"甚至会\"骂\"你两句，价格也是真的弹性谈判。每个人都把砍价过程截图分享。这本质上不是 marketing 决策而是产品决策——把产品本身做得足够有传播属性，最好的营销还是产品本身的体验。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:41.068223"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D30:17",
+      "session_key": "session_30",
+      "original_text": "好主意！希望它容易控制。",
+      "final_polished_text": "好主意！希望它容易控制。说到上手门槛，现在AI真是降低了很多领域的实操难度，比如我以前完全不会编程，但现在用Cursor这种AI工具靠自然语言就能把想法实现出来，甚至在创意和分发层面能超过不少程序员。我做产品主要就是靠AI学会的——不是靠它教知识，而是它让动手变简单了。以前没团队没融资根本做不了产品，现在有想法直接打开AI工具就能开工。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "f1019981-434d-4220-8337-328ca38846db",
+            "content": "即使以前不会编程，现在也可以通过自然语言用 AI 编程工具落地想法，甚至在 idea 和 distribution 层面超过很多程序员。我学做产品主要是 AI 帮我学会的——不是传授知识，而是降低了实操门槛。AI 之前想做产品非常难，得招团队有研发融资，现在有想法就直接打开 Cursor。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:41.799977"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D28:25",
+      "session_key": "session_28",
+      "original_text": "哦，当然！我小时候玩得可开心了。那是我的第一台游戏机，我会一连几个小时玩《超级马里奥》和《塞尔达传说》。它完全点燃了我对游戏的热爱。",
+      "final_polished_text": "哦，当然！我小时候玩得可开心了。那是我的第一台游戏机，我会一连几个小时玩《超级马里奥》和《塞尔达传说》。它完全点燃了我对游戏的热爱。这让我想起现在很多人喜欢推广那些被低估的产品，就像如果大家都在夸ChatGPT时，有人站出来说“其实我觉得Gemini更好”，就会显得很有洞察力，大家也愿意转发这种观点。人们总想支持那个underdog，觉得发现了“宝藏”就想让更多人知道。这种心态其实也是新品牌早期能利用的一种红利呢。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "cf525bcd-ab15-4d58-ae64-1ea753b4d2bd",
+            "content": " Lulu 还有一个有趣的观点：大家都喜欢推广被低估的产品（underrated product）。比如 ChatGPT 最火时你出来说\"我就觉得 Gemini 好\"，你就会显得很有洞察，大家想转发。大家都想帮那个 underdog，觉得是\"宝藏\"想让更多人看见。这是新品牌早期能用的红利。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:28:46.156616"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D28:5",
+      "session_key": "session_28",
+      "original_text": "哎呀，这确实打乱了我的进度。因为忘记保存，我丢了一部分内容。真让人沮丧，不过现在我知道要更频繁地保存了！",
+      "final_polished_text": "哎呀，这确实打乱了我的进度。因为忘记保存，我丢了一部分内容。真让人沮丧，不过现在我知道要更频繁地保存了！说到这个，我后来想通一件事：新技术浪潮来临时一切归零，所有人回到同一个起跑线。即使本科就学 AI 的，现在也得重新学。我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我一个不搞技术的每天在 Twitter 看新模型一出来就用。所以这不是能力问题，更是心态和意愿问题。就像之前说的，\"Idea is expensive again\"——好的 Idea 源于对特定人群的独特洞察，不是随便做几个访谈就能得到的，往往你自己就是这类人。但同时实现成本和抄袭成本都降低了，光有 Idea 不够，必须落地、获客、基于反馈迭代，这个循环转得越快竞争力越强。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "cb173bb1-49cc-43a4-ac32-56e6bdb43e4e",
+            "content": "\"Idea is expensive again\"——好的 Idea 源于对特定人群的独特洞察，不是随便做几个访谈就能得到的，往往你自己就是这类人。但同时实现成本和抄袭成本都降低了，光有 Idea 不够，必须落地、获客、基于反馈迭代，这个循环转得越快竞争力越强。\n"
+          }
+        },
+        {
+          "evidence": {
+            "id": "8c518e66-95a2-44f9-b429-641dcb3aa9e6",
+            "content": "我后来想通一件事：新技术浪潮来临时一切归零，所有人回到同一个起跑线。即使本科就学 AI 的，现在也得重新学。我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我一个不搞技术的每天在 Twitter 看新模型一出来就用。所以这不是能力问题，更是心态和意愿问题。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:30:20.073736"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D9:16",
+      "session_key": "session_9",
+      "original_text": "我的宠物、电脑游戏、旅行和披萨，这些都是我生活中的快乐源泉。",
+      "final_polished_text": "我的宠物、电脑游戏、旅行和披萨，这些都是我生活中的快乐源泉。其实做内容也一样，对我来说，最重要的不是把视频做得多 fancy，加一堆特效和视觉上花里胡哨的东西。就像很多观众喜欢我的内容，恰恰是因为那种不加修饰、非常 raw 的活人感——我对设备场地都没要求，随便找个地方就能开讲，关键还是内容本身和洞察。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "6ba007b2-5991-4f17-ab61-69b870e19717",
+            "content": "做内容最重要的不是做得多 fancy，不是特效和视觉那些花里胡哨的东西。大家关注知识类博主一定是因为内容本身和洞察。很多观众喜欢我的内容恰恰是因为我不加修饰、非常 raw、很有活人感。我对设备场地没有任何要求，一般随便找个地方就开始讲。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:10.081277"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D11:14",
+      "session_key": "session_11",
+      "original_text": "有很多地方可以让你施展才华！我相信你一定能找到一个最适合你、能让你有所作为的平台。",
+      "final_polished_text": "有很多地方可以让你施展才华！尤其是在现在社交媒体充斥着大量一看就不真诚的AI生成内容时，真正能脱颖而出的往往是那种有“活人感”、能跟用户产生真实连接的组织。就像我经常出镜录视频，也是希望大家能感受到背后是个活生生的人。用AI辅助创作没问题，但若内容没有真实感、没有独特观点，甚至懒得改成“人”话，那就很难打动人。所以我相信你一定能找到一个最适合你、能让你用真诚和热情有所作为的平台。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "acf7f826-f59a-4424-8346-514e6a323a55",
+            "content": "社交媒体充斥着大量 AI 生成的内容，一看就不真诚。脱颖而出的关键词是\"活人感\"——背后有活生生的人、能跟用户产生连接。我经常出镜录视频，一是最快，二是希望大家感受到背后有一个活人。用 AI 辅助创作没问题，但写出来没有真实感、没有独特观点、甚至懒得改成\"人\"话，这种内容有问题。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:07.752348"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D27:10",
+      "session_key": "session_27",
+      "original_text": "我真的很期待创造更多愉快的体验！",
+      "final_polished_text": "我真的很期待创造更多愉快的体验！对我来说，做内容就像玩一样，是正反馈很强、给我能量的事，而不是消耗。这让我想到今年的关键词——“有松弛感的成长”，我没有逼自己去做，而是把这些无缝融入了生活。当你做的事都是自己喜欢的，你也不会去想什么时间管理。就像纳瓦尔说的，“Find what feels like play to you, but looks like work to others”，做内容对我来说正是这样。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "0e956794-f161-4c79-b4ea-3d331500c630",
+            "content": "做内容对我来说就像玩一样，是正反馈很强、给我能量的事，不是消耗能量的。我今年的关键词是\"有松弛感的成长\"——没有逼自己去做，而是把这些无缝融入了生活。当你做的事都是自己喜欢的，你也不会去想什么时间管理。纳瓦尔说过\"Find what feels like play to you, but looks like work to others\"，做内容对我来说就是这样。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:12.612061"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D15:7",
+      "session_key": "session_15",
+      "original_text": "明白了，周杰。找到一种产生影响的方式很重要。你有没有想过具体怎么做？",
+      "final_polished_text": "明白了，周杰。找到一种产生影响的方式很重要。其实我觉得定位不是想出来的是折腾出来的，你先别想那么多，去实际做做看。比如发些内容、做些志愿项目，做上几十上百次，通过反馈你自然就有感觉了。毕竟定位不是你自己想出来的，是别人觉得你是谁，那才是你的定位。就像我，现在从非技术背景从业者视角分享AI趋势见解，这也和一开始想的不太一样。所以，你有没有想过具体怎么开始呢？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "28c5c7f8-6d25-48dd-a08d-9298621daee5",
+            "content": "定位不是想出来的是折腾出来的。先别想那么多先去发，发几十一百篇后通过反馈就有感觉了。定位不是你想出来的，是观众觉得你是谁才是你的定位。我的定位——从非技术背景从业者视角分享 AI 趋势见解——和一开始想的不太一样。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:15.668922"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D5:7",
+      "session_key": "session_5",
+      "original_text": "这游戏肯定还不完善。我宁愿等到漏洞完全修复后再尝试。",
+      "final_polished_text": "这游戏肯定还不完善。我宁愿等到漏洞完全修复后再尝试。其实做内容也一样，就像我常说的，有 short game 和 long game：短期可能急着变现或快速收获，但长期是通过平台连接资源和优秀的人，为未来铺路。我做内容也不是以盈利为目的，所有内容都是服务于我未来事业的，它本身不是目的。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "01e6ec87-5ea9-4a0a-a2e7-3856c8e02aa0",
+            "content": "很多朋友问我小红书有没有变现、产品有没有赚钱，都没有，也不是以盈利为目的。做内容有 short game 和 long game：短期是积累粉丝立马接广告；长期是通过平台和 distribution 认识优秀的人、连接资源。未来发产品时冷启动流量问题就直接解决了。所有内容都是服务于我未来事业的，它本身不是目的，我也不想成为全职博主。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:20.879444"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D18:6",
+      "session_key": "session_18",
+      "original_text": "冒险是值得的！你真勇敢。我为你感到骄傲！",
+      "final_polished_text": "冒险是值得的！你真勇敢。我为你感到骄傲！说到追随内心，这让我想起一些让我惊讶的内容方向——比如“文科生怎么进AI行业”，其实世界上大部分人不是技术背景，他们正需要这样的视角；还有那种带着“活人感”的资源推荐，就像有人分享自己真正在看的、觉得好的东西。这种真实分享往往效果很好，因为它传递了“你是谁、在讲什么、为什么觉得它好”。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9025fe77-f5d7-4fa8-95c0-a4c8d562bcfa",
+            "content": "有几类内容让我惊讶居然有人看。一是\"文科生怎么进 AI 行业\"——绝大部分讲 AI 的人是技术背景，但世界上绝大部分人不是，他们需要这个视角。二是资源推荐——把看的 5 个 YouTube 视频截图就发了，没想到效果很好。这也是\"活人感\"：你是谁、在讲什么、为什么觉得它好。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:21.005365"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D17:6",
+      "session_key": "session_17",
+      "original_text": "哇，看起来战况很激烈！是什么激发了你对国际象棋的兴趣？",
+      "final_polished_text": "哇，看起来战况很激烈！是什么激发了你对国际象棋的兴趣？我最近也在思考类似的事情——就像我今天涨的每一个粉丝，其实都是未来省下的 marketing 成本。我把这想象成佛教里的 Karma，不求回报地帮人，积累的功德总有一天会回来，就像往银行存钱，存得越久复利越多。很多小红书粉丝线下见我时会带礼物，虽然第一次见面，就是因为他们觉得我帮到了他。所以我觉得，像国际象棋这样需要长期投入和策略的事情，可能也是类似的道理吧。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "2c0626e8-f40c-45ed-8abc-a657df06aace",
+            "content": "我今天涨的每一个粉丝都是未来省下的 marketing 成本。我把这想象成佛教里的 Karma——不求回报地帮人，积累的功德总有一天会回来。就像往银行存钱，存得越久复利越多。很多小红书粉丝线下见我时会带礼物，虽然第一次见面，就是因为觉得我帮到了他。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:26.851621"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D27:4",
+      "session_key": "session_27",
+      "original_text": "看到玩家们沉浸在我创造的游戏世界里，确实让我非常有成就感。我真的很高兴他们能在我投入这么多心血的作品中找到乐趣。",
+      "final_polished_text": "看到玩家们沉浸在我创造的游戏世界里，确实让我非常有成就感。我真的很高兴他们能在我投入这么多心血的作品中找到乐趣。这让我想起纳瓦尔说过，code 和 media 是两种不需要别人许可的杠杆，能带来长期复利，甚至在你睡觉时都在创造价值。其实想想，有谁拦着我们去做这些事呢？不需要辞职才能做内容，也不需要名校标签才能开始——就像我做这个游戏，也就是从动手尝试开始的。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "69437756-6293-4be1-9035-57e11e1a9fcc",
+            "content": "纳瓦尔说世界上有两种不需要别人许可的杠杆：code 和 media。都可以让你在睡觉时赚钱，有长期复利，不需要任何人许可。但你反问自己：有谁拦着你吗？没人拦着你。不需要辞职才能做内容，不需要名校标签才能开始。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:31.906096"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D6:18",
+      "session_key": "session_6",
+      "original_text": "太好了，那我开始寻找我们可以去的国家了！",
+      "final_polished_text": "太好了，那我开始寻找我们可以去的国家了！对了，说到坚持，我最近看到有人分享做自媒体的经验，他小红书从2万粉涨到18万，但更值得关注的数字是总共发了将近500篇。他最开始给自己定的目标就是“连续日更半年”，一天没断过。我觉得咱们规划旅行也可以借鉴这种思路，大家没必要一上来就设目标要涨多少粉丝，重要的是先保持探索和记录的习惯。",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "82cce2dc-54ea-4093-8d9d-1fa9aa272973",
+            "content": "小红书从 2 万到 18 万，但更值得关注的数字是总共发了将近 500 篇。最开始给自己定的目标就是\"连续日更半年\"，一天没断过。大家没必要一上来就设目标要涨多少粉丝。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:45.670947"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D31:5",
+      "session_key": "session_31",
+      "original_text": "我可以想象，看到你的想法在游戏中变成现实，你一定感到非常自豪。它已经发布供其他人试玩了吗？",
+      "final_polished_text": "我可以想象，看到你的想法在游戏中变成现实，你一定感到非常自豪。这让我想起我自己的经历——从非技术背景转型做AI产品经理，也是靠AI降低了实操门槛，让我能直接上手把想法做出来，甚至发布了第一个AI产品。你的游戏已经发布供其他人试玩了吗？",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "660efc94-39c9-4035-842a-5cb999a6a58d",
+            "content": "这个认知变化最终让我完成了从非技术背景到 AI 产品经理的职业转型，还发布了自己的第一个 AI 产品。AI 帮我降低了实操门槛——以前做产品得招团队有研发融资，现在有想法直接打开 Cursor 就能做。我学做产品主要是 AI 帮我学会的，不是传授知识而是让我能直接上手。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:50.437490"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D16:13",
+      "session_key": "session_16",
+      "original_text": "我计划7月20日回来，一定会给你带纪念品的！",
+      "final_polished_text": "我计划7月20日回来，一定会给你带纪念品的！对了，说到计划，其实我最近也在琢磨内容创作的事。就像有人建议的，冷启动不知道讲什么，就回想自己最常被问的三个问题——比如我总被问“为什么离开VC”、“文科生怎么进AI行业”，这些自己觉得理所当然的事，反而大家最感兴趣。我准备也试试这个思路，回来可以跟你聊聊我的旅行见闻，说不定就是很好的素材呢！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "9014bfe8-5d1c-4b81-8010-257ce844466b",
+            "content": "冷启动不知道讲什么？回想你最常被周围人问的三个问题。如果大家经常问同一个问题，说明那是你最有趣的点。我的冷启动就是讲这些——\"为什么离开 VC\"、\"文科生怎么进 AI 行业\"——在我看来理所当然的事恰恰是大家感兴趣的。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:50.985307"
+    },
+    {
+      "sample_id": 6,
+      "dia_id": "D29:14",
+      "session_key": "session_29",
+      "original_text": "谢谢，周杰！我一定会及时向你汇报。非常感谢你的支持。保重！",
+      "final_polished_text": "谢谢，周杰！我一定会及时向你汇报。其实我最近也迈过了一个坎，就像之前买齐了设备却拖了一年没拍视频，后来想通了，直接拿手机就开始讲。把门槛降到足够低才能真正启动，而且我觉得 Learn in public 很重要——用“学生”的姿态分享心得，既利他又不会显得不专业。非常感谢你的支持，保重！",
+      "evidence_items": [
+        {
+          "evidence": {
+            "id": "2b450dce-c8b9-4381-b02f-416a2548dd28",
+            "content": "之前买了灯和三脚架想拍视频，设备落灰一年也没拍，一直迈不过心里那个坎。后来有一天想通了不管那么多，拿着手机就开始讲。门槛降到足够低才能启动。Learn in public 很重要——不仅学还要把学习心得分享出来，可以用\"学生\"角度而不是\"教别人\"的姿态，这种内容很利他也不会被觉得不专业。\n"
+          }
+        }
+      ],
+      "updated_at": "2026-04-21T15:29:55.806007"
+    }
+  ]
+}

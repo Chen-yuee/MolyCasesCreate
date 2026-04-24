@@ -12,7 +12,6 @@ services:
       # --- 配置文件与数据挂载 ---
       - ./config.json:/app/config.json
       - ./data:/app/data
-      - ./web/backend/queries_store.json:/app/web/backend/queries_store.json
       # --- 代码热更新挂载 ---
       # 【同步后端代码】将本地后端的代码直接挂载给容器，实现自动同步
       - ./web/backend:/app/web/backend

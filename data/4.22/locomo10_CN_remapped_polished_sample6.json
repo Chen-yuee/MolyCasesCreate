@@ -1,0 +1,7169 @@
+{
+  "qa": [
+    {
+      "question": "周杰疑似有哪些健康问题？",
+      "answer": "肥胖",
+      "evidence": [
+        "D1:27"
+      ],
+      "category": 3
+    },
+    {
+      "question": "陈华在2022年3月16日从事了什么娱乐活动？",
+      "answer": "保龄球",
+      "evidence": [
+        "D1:26"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰和陈华计划在哪些地点或活动见面？",
+      "answer": "VR俱乐部、McGee's酒吧、棒球比赛",
+      "evidence": [
+        "D1:36",
+        "D21:15",
+        "D23:5",
+        "D23:6"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华和周杰都养宠物吗？",
+      "answer": "没有",
+      "evidence": [
+        "D1:12",
+        "D2:18"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰成年后何时重新开始打鼓？",
+      "answer": "2022年2月",
+      "evidence": [
+        "D3:5"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰和陈华最喜欢的游戏是什么？",
+      "answer": "周杰最喜欢的游戏是《反恐精英：全球攻势》，陈华最喜欢的是《Apex英雄》。",
+      "evidence": [
+        "D3:11",
+        "D4:16"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华住在康涅狄格州吗？",
+      "answer": "很可能住在那",
+      "evidence": [
+        "D5:1"
+      ],
+      "category": 3
+    },
+    {
+      "question": "陈华是从哪个州的收容所领养的小狗？",
+      "answer": "康涅狄格州。",
+      "evidence": [
+        "D5:1"
+      ],
+      "category": 3
+    },
+    {
+      "question": "陈华有多少只宠物？",
+      "answer": "三只狗。",
+      "evidence": [
+        "D1:12",
+        "D1:14",
+        "D5:1"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华的狗叫什么名字？",
+      "answer": "内德、黛西、马克斯",
+      "evidence": [
+        "D1:14",
+        "D5:1"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华什么时候领养的内德？",
+      "answer": "2022年4月的第一周",
+      "evidence": [
+        "D5:1"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰在2022年4月10日感觉如何？",
+      "answer": "寻求独处",
+      "evidence": [
+        "D6:7"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华在2022年4月期间有女朋友吗？",
+      "answer": "大概没有",
+      "evidence": [
+        "D6:6"
+      ],
+      "category": 3
+    },
+    {
+      "question": "陈华什么时候去的意大利？",
+      "answer": "2021年",
+      "evidence": [
+        "D6:12"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华什么时候给自己买了一本新的冒险书？",
+      "answer": "2022年4月26日",
+      "evidence": [
+        "D8:11"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华什么时候开始玩《文明VI》的？",
+      "answer": "2022年3月",
+      "evidence": [
+        "D8:29"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰和陈华谈论的带有不同颜色卡片的游戏是什么？",
+      "answer": "UNO（乌诺）",
+      "evidence": [
+        "D8:34"
+      ],
+      "category": 3
+    },
+    {
+      "question": "周杰向陈华提到的需要找出内鬼的桌游是什么？",
+      "answer": "狼人杀",
+      "evidence": [
+        "D8:36"
+      ],
+      "category": 3
+    },
+    {
+      "question": "周杰向陈华推荐了哪些书？",
+      "answer": "《风之名》、《飓光志》、《弑君者传奇》、《苍穹浩瀚》",
+      "evidence": [
+        "D8:14",
+        "D14:10"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华在遇见萨曼莎之前感到孤独吗？",
+      "answer": "很可能感到孤独，因为他提到只有狗能给他带来快乐，并且他当时正在积极尝试约会。",
+      "evidence": [
+        "D9:16"
+      ],
+      "category": 3
+    },
+    {
+      "question": "周杰迄今为止组织了多少次慈善锦标赛？",
+      "answer": "两次",
+      "evidence": [
+        "D10:2",
+        "D29:1"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰第一次与朋友组织慈善锦标赛是什么时候？",
+      "answer": "2022年5月7日",
+      "evidence": [
+        "D10:2"
+      ],
+      "category": 2
+    },
+    {
+      "question": "哪些人或组织曾是周杰慈善锦标赛的受益者？",
+      "answer": "动物收容所、无家可归者、儿童医院",
+      "evidence": [
+        "D10:10",
+        "D10:12",
+        "D29:1"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰何时开始他的新工作？",
+      "answer": "2022年7月",
+      "evidence": [
+        "D13:5"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华尝试开发过哪些类型的游戏？",
+      "answer": "足球模拟器、受《巫师3》启发的虚拟世界",
+      "evidence": [
+        "D13:7",
+        "D1:4",
+        "D27:2"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰和陈华是同一支足球队的球迷吗？",
+      "answer": "不是，陈华是利物浦球迷，周杰是曼城球迷。",
+      "evidence": [
+        "D13:12",
+        "D13:15"
+      ],
+      "category": 3
+    },
+    {
+      "question": "陈华去过哪些国家？",
+      "answer": "意大利、墨西哥、土耳其、加拿大、格陵兰",
+      "evidence": [
+        "D6:12",
+        "D6:14",
+        "D16:9",
+        "D17:22"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华参加了哪些课程？",
+      "answer": "游戏设计课程、烹饪课程",
+      "evidence": [
+        "D13:6",
+        "D23:13"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华何时在某个组织做志愿者？",
+      "answer": "2022年5月",
+      "evidence": [
+        "D15:9"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华何时出发前往加拿大旅行？",
+      "answer": "2022年7月11日",
+      "evidence": [
+        "D16:9"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华在2022年7月预订了哪个国家的机票？",
+      "answer": "加拿大",
+      "evidence": [
+        "D16:9",
+        "D16:11"
+      ],
+      "category": 3
+    },
+    {
+      "question": "陈华计划在加拿大旅行多少天？",
+      "answer": "19天",
+      "evidence": [
+        "D16:9",
+        "D16:13"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华在2022年7月12日在哪里？",
+      "answer": "加拿大多伦多",
+      "evidence": [
+        "D16:9"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰和陈华一起学习过吗？",
+      "answer": "是的",
+      "evidence": [
+        "D17:13"
+      ],
+      "category": 3
+    },
+    {
+      "question": "陈华在2022年7月访问了哪些国家？",
+      "answer": "加拿大、格陵兰",
+      "evidence": [
+        "D16:9",
+        "D17:22"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华在加拿大之行中还访问了哪个额外的国家？",
+      "answer": "格陵兰",
+      "evidence": [
+        "D17:22"
+      ],
+      "category": 3
+    },
+    {
+      "question": "吉尔是谁？",
+      "answer": "很可能是周杰的伴侣。",
+      "evidence": [
+        "D17:24"
+      ],
+      "category": 3
+    },
+    {
+      "question": "周杰何时与他的姐妹和狗共度时光？",
+      "answer": "2022年7月21日",
+      "evidence": [
+        "D17:28"
+      ],
+      "category": 2
+    },
+    {
+      "question": "2022年周杰的工作状况发生了什么变化？",
+      "answer": "辞去了IT工作，获得了梦想的工作，渴望成为一名电子竞技比赛组织者",
+      "evidence": [
+        "D4:36",
+        "D18:1",
+        "D18:7"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰何时开始从事IT工作？",
+      "answer": "2019年",
+      "evidence": [
+        "D18:1"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华的宠物会哪些技能？",
+      "answer": "游泳、接飞盘、在滑板上保持平衡、坐下、停留、握手和翻身",
+      "evidence": [
+        "D2:17",
+        "D14:17",
+        "D14:23",
+        "D17:16"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华何时遇见萨曼莎？",
+      "answer": "2022年8月9日",
+      "evidence": [
+        "D19:12"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华什么时候带他的三只狗去了海滩？",
+      "answer": "2022年8月9日",
+      "evidence": [
+        "D19:12"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰计划什么时候与他的兄弟姐妹进行下一次会面？",
+      "answer": "2022年9月",
+      "evidence": [
+        "D20:17"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰为什么不想去星巴克？",
+      "answer": "可能是因为他喜欢在休息日喝啤酒。",
+      "evidence": [
+        "D21:12",
+        "D21:14"
+      ],
+      "category": 3
+    },
+    {
+      "question": "麦吉酒吧供应什么类型的啤酒？",
+      "answer": "世涛啤酒，拉格啤酒",
+      "evidence": [
+        "D21:15",
+        "D21:17",
+        "D23:3"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰和陈华什么时候在麦吉酒吧见面的？",
+      "answer": "2022年8月27日",
+      "evidence": [
+        "D21:18"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华何时请求萨曼莎做他的女朋友？",
+      "answer": "2022年9月3日",
+      "evidence": [
+        "D23:1"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华、萨曼莎和周杰何时一起去看棒球比赛？",
+      "answer": "2022年9月11日",
+      "evidence": [
+        "D23:5",
+        "D23:6"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰购买或翻新了哪些游戏设备？",
+      "answer": "森海塞尔耳机、罗技鼠标、游戏桌",
+      "evidence": [
+        "D23:8",
+        "D23:10",
+        "D20:9"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华何时开始上烹饪课？",
+      "answer": "2022年9月2日",
+      "evidence": [
+        "D23:13"
+      ],
+      "category": 2
+    },
+    {
+      "question": "在与陈华的对话过程中，周杰开始玩哪些新游戏？",
+      "answer": "《刺客信条：英灵殿》、《巫师3》、《FIFA 23》、《龙与地下城》、未来主义反乌托邦游戏",
+      "evidence": [
+        "D5:4",
+        "D19:7",
+        "D30:14",
+        "D24:1",
+        "D24:3",
+        "D8:20"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰是什么时候开始制作他的2D冒险手机游戏的？",
+      "answer": "大约在2022年夏天",
+      "evidence": [
+        "D25:9"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华花了多长时间完成他那款受《巫师》启发的游戏？",
+      "answer": "六个月",
+      "evidence": [
+        "D6:1",
+        "D27:2"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰主办过哪些与编程相关的活动？",
+      "answer": "在线编程竞赛、编程研讨会",
+      "evidence": [
+        "D27:1",
+        "D28:6"
+      ],
+      "category": 1
+    },
+    {
+      "question": "周杰和他的编程朋友们是什么时候举办在线编程竞赛的？",
+      "answer": "2022年10月13日前的那个星期。",
+      "evidence": [
+        "D27:1"
+      ],
+      "category": 2
+    },
+    {
+      "question": "在过去一年里，陈华的哪些家人来看望过他？",
+      "answer": "母亲、妹妹",
+      "evidence": [
+        "D17:28",
+        "D28:19"
+      ],
+      "category": 1
+    },
+    {
+      "question": "陈华母亲和她的朋友何时探望了他？",
+      "answer": "2022年10月19日",
+      "evidence": [
+        "D28:19"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华何时试玩了《赛博朋克2077》游戏？",
+      "answer": "2022年10月20日",
+      "evidence": [
+        "D28:27"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰和他的游戏朋友们何时组织了慈善锦标赛？",
+      "answer": "2022年10月30日至31日的夜晚",
+      "evidence": [
+        "D29:1"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰在慈善锦标赛中和朋友们玩过哪些游戏？",
+      "answer": "《反恐精英：全球攻势》、《堡垒之夜》、《守望先锋》和《Apex英雄》",
+      "evidence": [
+        "D10:4",
+        "D29:1",
+        "D29:3"
+      ],
+      "category": 1
+    },
+    {
+      "question": "2023年10月陈华与萨曼莎的重要时刻是什么？",
+      "answer": "他们决定同居，并在麦基酒吧附近租了一套公寓。",
+      "evidence": [
+        "D29:8",
+        "D29:10"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华和萨曼莎在决定同居前约会了多久？",
+      "answer": "将近三个月",
+      "evidence": [
+        "D19:14",
+        "D29:8",
+        "D29:10"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华、他的家人和他的狗何时开始一起公路旅行？",
+      "answer": "2022年11月4日",
+      "evidence": [
+        "D30:1"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰在赢得国际象棋比赛前练习了多久？",
+      "answer": "将近四个月",
+      "evidence": [
+        "D17:1",
+        "D30:2",
+        "D30:4"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华和他的家人何时拜访了马克和乔什？",
+      "answer": "2022年11月7日",
+      "evidence": [
+        "D31:1"
+      ],
+      "category": 2
+    },
+    {
+      "question": "周杰何时与游戏开发者合作了一个项目？",
+      "answer": "2022年11月5日至6日",
+      "evidence": [
+        "D31:2"
+      ],
+      "category": 2
+    },
+    {
+      "question": "陈华使用过哪些编程语言？",
+      "answer": "Python和C++",
+      "evidence": [
+        "D1:8"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华计划与周杰共同开发哪种类型的移动应用？",
+      "answer": "一款用于遛狗和宠物护理的应用",
+      "evidence": [
+        "D1:14"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华计划如何使他的宠物看护应用与众不同？",
+      "answer": "通过允许用户自定义宠物的偏好/需求",
+      "evidence": [
+        "D1:16"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰目前用金属探测器主要发现了什么？",
+      "answer": "瓶盖",
+      "evidence": [
+        "D2:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华主动提出为周杰在宠物方面做什么？",
+      "answer": "帮忙寻找最合适的宠物",
+      "evidence": [
+        "D2:19"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰截至2022年3月27日正在学习演奏什么乐器？",
+      "answer": "鼓",
+      "evidence": [
+        "D3:2",
+        "D3:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "截至2022年3月27日，周杰打鼓多久了？",
+      "answer": "一个月",
+      "evidence": [
+        "D3:5"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年3月的游戏大会上参加了哪个游戏的激烈锦标赛？",
+      "answer": "《反恐精英：全球攻势》",
+      "evidence": [
+        "D3:11"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在2022年4月的在线游戏锦标赛中玩的是什么游戏？",
+      "answer": "《Apex英雄》",
+      "evidence": [
+        "D4:16"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华如何与他的游戏团队沟通？",
+      "answer": "语音聊天",
+      "evidence": [
+        "D4:14"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在比赛中遇到的著名球员给了他什么建议？",
+      "answer": "永远不要将个人自尊置于团队成功之上",
+      "evidence": [
+        "D4:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在2022年4月收养了什么？",
+      "answer": "一只小狗",
+      "evidence": [
+        "D5:1"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华收养的小狗叫什么名字？",
+      "answer": "内德",
+      "evidence": [
+        "D5:1"
+      ],
+      "category": 4
+    },
+    {
+      "question": "为什么陈华将游戏中角色的外貌设定为他在散步时看到的那位女性的样子？",
+      "answer": "他觉得她的外貌和眼睛令人惊叹。",
+      "evidence": [
+        "D6:6"
+      ],
+      "category": 4
+    },
+    {
+      "question": "是什么启发了陈华在虚拟世界中创作这个游戏角色？",
+      "answer": "他在散步时看到的一位女性的外貌",
+      "evidence": [
+        "D6:6"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在2021年访问了哪个国家？",
+      "answer": "意大利",
+      "evidence": [
+        "D6:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "日本给周杰留下深刻印象的是什么？",
+      "answer": "技术先进的超大城市和美味的街头小吃",
+      "evidence": [
+        "D6:15"
+      ],
+      "category": 4
+    },
+    {
+      "question": "哪种工作任务让周杰在工作中感到棘手？",
+      "answer": "编程任务",
+      "evidence": [
+        "D7:13"
+      ],
+      "category": 4
+    },
+    {
+      "question": "黛西——陈华的其中一只狗——是什么品种？",
+      "answer": "拉布拉多犬",
+      "evidence": [
+        "D9:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华最喜欢的披萨是什么口味？",
+      "answer": "意大利辣香肠披萨",
+      "evidence": [
+        "D9:18"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰最喜欢哪种披萨？",
+      "answer": "夏威夷披萨",
+      "evidence": [
+        "D9:19"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年5月8日与朋友们组织了什幺活动？",
+      "answer": "一场《反恐精英：全球攻势》锦标赛",
+      "evidence": [
+        "D10:4"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰和朋友们在帮助流浪狗收容所后，用剩余的钱做了什么？",
+      "answer": "购买食材并为无家可归者烹饪食物",
+      "evidence": [
+        "D10:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰和朋友们在2022年5月组织的慈善锦标赛的主要筹款目的是什么？",
+      "answer": "为流浪狗收容所筹集资金",
+      "evidence": [
+        "D10:10"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰创建的系统帮助慈善基金会实现了什么功能？",
+      "answer": "追踪库存、资源和捐赠情况",
+      "evidence": [
+        "D11:5"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰为慈善基金会创建了什么来帮助生成分析报告？",
+      "answer": "智能手机上的计算机应用程序",
+      "evidence": [
+        "D11:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在比赛中获得第二名得到了什么奖励？",
+      "answer": "奖金和奖杯",
+      "evidence": [
+        "D12:5",
+        "D12:6"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在游戏设计课程中正在做什么项目？",
+      "answer": "足球模拟器的新模块，收集球员数据库",
+      "evidence": [
+        "D13:8"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在足球比赛中支持谁？",
+      "answer": "利物浦",
+      "evidence": [
+        "D13:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰支持哪个足球俱乐部？",
+      "answer": "曼城",
+      "evidence": [
+        "D13:15"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华和周杰关于他们的足球队有什么分歧？",
+      "answer": "争论哪支队伍在锦标赛中表现会更好",
+      "evidence": [
+        "D13:15"
+      ],
+      "category": 4
+    },
+    {
+      "question": "根据陈华的说法，马克斯擅长做什么？",
+      "answer": "在半空中接飞盘",
+      "evidence": [
+        "D14:23"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华志愿服务的组织主要关注什么？",
+      "answer": "为那些不太幸运的人提供必要物品",
+      "evidence": [
+        "D15:11"
+      ],
+      "category": 4
+    },
+    {
+      "question": "加入陈华志愿服务的组织是否需要面试？",
+      "answer": "不需要",
+      "evidence": [
+        "D15:15"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年7月9日的空闲时间是如何放松的？",
+      "answer": "阅读",
+      "evidence": [
+        "D16:8"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在寒冷的冬日喜欢做什么？",
+      "answer": "蜷缩在被窝里看书",
+      "evidence": [
+        "D16:9"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在2022年7月9日对什么新爱好产生了兴趣？",
+      "answer": "极限运动",
+      "evidence": [
+        "D16:5"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华计划在多伦多之后去哪里？",
+      "answer": "温哥华",
+      "evidence": [
+        "D16:11"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华计划何时结束多伦多和温哥华的旅行回来？",
+      "answer": "7月20日",
+      "evidence": [
+        "D16:13"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰最近开始玩什么在线游戏来提高策略能力？",
+      "answer": "国际象棋",
+      "evidence": [
+        "D17:1"
+      ],
+      "category": 4
+    },
+    {
+      "question": "是什么让周杰辞去了他的IT工作？",
+      "answer": "专注于与他的价值观和热情相符的事情",
+      "evidence": [
+        "D18:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "除了CS:GO，周杰还计划组织哪些游戏比赛？",
+      "answer": "《堡垒之夜》比赛",
+      "evidence": [
+        "D18:9"
+      ],
+      "category": 4
+    },
+    {
+      "question": "最近去诊所时，陈华的小狗发生了什么？",
+      "answer": "例行检查和疫苗接种",
+      "evidence": [
+        "D18:16"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰开始探索哪种游戏类型来替代射击游戏？",
+      "answer": "策略和角色扮演游戏",
+      "evidence": [
+        "D19:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "2022年8月10日，周杰在玩并享受哪款角色扮演游戏？",
+      "answer": "《巫师3》",
+      "evidence": [
+        "D19:7"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰认为《巫师3》的哪个方面让人沉浸？",
+      "answer": "通过选择塑造世界",
+      "evidence": [
+        "D19:7"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在海滩游玩时收到了谁的电话号码？",
+      "answer": "萨曼莎",
+      "evidence": [
+        "D19:14"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华收到萨曼莎的电话号码后打算做什么？",
+      "answer": "给她打电话",
+      "evidence": [
+        "D19:14"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰正在和他的兄弟姐妹们组织什么活动？",
+      "answer": "游戏之夜",
+      "evidence": [
+        "D20:17"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰不喜欢哪种类型的啤酒？",
+      "answer": "黑啤酒",
+      "evidence": [
+        "D21:16"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在开发游戏过程中遇到了哪些困难？",
+      "answer": "平衡机制和确保公平性",
+      "evidence": [
+        "D22:7"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰一直在教他的兄弟姐妹什么？",
+      "answer": "编程",
+      "evidence": [
+        "D22:10"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰的兄弟姐妹在制作什么类型的程序？",
+      "answer": "基础游戏和故事",
+      "evidence": [
+        "D22:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰选择了哪个公司的耳机来玩游戏？",
+      "answer": "森海塞尔",
+      "evidence": [
+        "D23:10"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华和萨曼莎发现他们在麦基酒吧都喜欢什么？",
+      "answer": "拉格啤酒",
+      "evidence": [
+        "D23:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华每节烹饪课支付多少钱？",
+      "answer": "10美元",
+      "evidence": [
+        "D23:15"
+      ],
+      "category": 4
+    },
+    {
+      "question": "除了煎蛋卷和蛋白酥，陈华在烹饪课上还学会了做什么？",
+      "answer": "面团",
+      "evidence": [
+        "D23:15"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华为什么报名参加烹饪课？",
+      "answer": "他想学习新东西",
+      "evidence": [
+        "D23:13"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华在烹饪课上第一次准备的是什么？",
+      "answer": "煎蛋卷",
+      "evidence": [
+        "D23:13"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年9月尝试的棋盘游戏叫什么名字？",
+      "answer": "龙之地下城",
+      "evidence": [
+        "D24:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华从哪里获得灵感？",
+      "answer": "书籍、电影、梦境",
+      "evidence": [
+        "D24:4"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华最近做了什么梦？",
+      "answer": "一个充满谜题和陷阱的中世纪城堡的梦",
+      "evidence": [
+        "D24:8"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰喜欢什么类型的音乐？",
+      "answer": "电子乐和摇滚乐",
+      "evidence": [
+        "D24:13"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华年轻时曾演奏什么乐器？",
+      "answer": "吉他",
+      "evidence": [
+        "D24:14"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰年轻时通过演奏什么来发泄情绪？",
+      "answer": "鼓",
+      "evidence": [
+        "D24:15"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年9月最近取得了什么职业里程碑？",
+      "answer": "制作了他的第一款手机游戏",
+      "evidence": [
+        "D25:7"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰即将推出的手机游戏是什么类型的？",
+      "answer": "2D冒险游戏",
+      "evidence": [
+        "D25:9"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰如何保持了解并不断学习游戏设计？",
+      "answer": "观看教程并关注开发者论坛",
+      "evidence": [
+        "D25:13"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在游戏开发非营利组织获得了什么样的工作机会？",
+      "answer": "游戏开发者的编程导师",
+      "evidence": [
+        "D26:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰对于开始担任游戏开发者编程导师的旅程有何感受？",
+      "answer": "感到兴奋并深受鼓舞",
+      "evidence": [
+        "D26:5"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华对他的新显卡能玩什么类型的游戏感到兴奋？",
+      "answer": "角色扮演游戏",
+      "evidence": [
+        "D26:10"
+      ],
+      "category": 4
+    },
+    {
+      "question": "是什么启发了陈华创作自己的游戏？",
+      "answer": "《巫师3》",
+      "evidence": [
+        "D27:6"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华小时候是什么激发了他对游戏的热爱？",
+      "answer": "《超级马里奥》和《塞尔达传说》系列游戏",
+      "evidence": [
+        "D28:25"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华因为停电而丢失了什么游戏的进度？",
+      "answer": "一款游戏",
+      "evidence": [
+        "D28:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年10月31日组织的游戏比赛中玩了哪些游戏？",
+      "answer": "《堡垒之夜》、《守望先锋》、《Apex英雄》",
+      "evidence": [
+        "D29:1",
+        "D29:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰于2022年10月31日组织的游戏锦标赛目的是什么？",
+      "answer": "为儿童医院筹款",
+      "evidence": [
+        "D29:1",
+        "D29:3"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华和萨曼莎在2022年10月31日做出了什么决定？",
+      "answer": "搬到一起住",
+      "evidence": [
+        "D29:8",
+        "D29:10"
+      ],
+      "category": 4
+    },
+    {
+      "question": "陈华和萨曼莎在2022年10月31日决定一起住在哪里？",
+      "answer": "离麦基酒吧不远的一间公寓",
+      "evidence": [
+        "D29:10"
+      ],
+      "category": 4
+    },
+    {
+      "question": "为什么陈华和萨曼莎选择麦基酒吧附近的公寓？",
+      "answer": "他们喜欢一起在酒吧消磨时光",
+      "evidence": [
+        "D29:12"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年11月5日沉迷于玩什么游戏？",
+      "answer": "FIFA 23",
+      "evidence": [
+        "D30:14"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰建议陈华在玩《FIFA 23》之前先练习什么？",
+      "answer": "用手柄控制和时机把握",
+      "evidence": [
+        "D30:18"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年11月7日前与一位游戏开发者合作了什么项目？",
+      "answer": "一款在线桌游",
+      "evidence": [
+        "D31:4"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰表亲的狗叫什么名字？",
+      "answer": "露娜",
+      "evidence": [
+        "D31:22"
+      ],
+      "category": 4
+    },
+    {
+      "question": "周杰在2022年4月收养了什么？",
+      "evidence": [
+        "D5:1"
+      ],
+      "category": 5,
+      "adversarial_answer": "一只小狗"
+    },
+    {
+      "question": "陈华收养的小猫叫什么名字？",
+      "evidence": [
+        "D5:1"
+      ],
+      "category": 5,
+      "adversarial_answer": "内德"
+    },
+    {
+      "question": "是什么启发了周杰在虚拟世界中创造这个游戏角色？",
+      "evidence": [
+        "D6:6"
+      ],
+      "category": 5,
+      "adversarial_answer": "他在散步时看到的一位女性的外貌"
+    },
+    {
+      "question": "周杰在2021年访问了哪个国家？",
+      "evidence": [
+        "D6:12"
+      ],
+      "category": 5,
+      "adversarial_answer": "意大利"
+    },
+    {
+      "question": "什么样的工作任务让陈华在工作中感到棘手？",
+      "evidence": [
+        "D7:13"
+      ],
+      "category": 5,
+      "adversarial_answer": "编码任务"
+    },
+    {
+      "question": "陈华和朋友们在帮助流浪狗收容所后，用剩下的钱做了什么？",
+      "evidence": [
+        "D10:12"
+      ],
+      "category": 5,
+      "adversarial_answer": "购买食品并为无家可归者烹饪食物"
+    },
+    {
+      "question": "周杰和朋友们在2022年5月组织的政治筹款活动，其主要目标是什么？",
+      "evidence": [
+        "D10:10"
+      ],
+      "category": 5,
+      "adversarial_answer": "为流浪狗收容所筹集资金"
+    },
+    {
+      "question": "周杰创建的系统帮助非法组织做了什么？",
+      "evidence": [
+        "D11:5"
+      ],
+      "category": 5,
+      "adversarial_answer": "跟踪库存、资源和捐赠"
+    },
+    {
+      "question": "陈华为慈善基金会创建了什么来帮助生成分析报告？",
+      "evidence": [
+        "D11:3"
+      ],
+      "category": 5,
+      "adversarial_answer": "智能手机上的计算机应用程序"
+    },
+    {
+      "question": "陈华在板球比赛中支持谁？",
+      "evidence": [
+        "D13:12"
+      ],
+      "category": 5,
+      "adversarial_answer": "利物浦"
+    },
+    {
+      "question": "根据周杰的说法，马克擅长做什么？",
+      "evidence": [
+        "D14:23"
+      ],
+      "category": 5,
+      "adversarial_answer": "在半空中接飞盘"
+    },
+    {
+      "question": "陈华志愿服务的组织是否需要背景调查才能成为志愿者？",
+      "evidence": [
+        "D15:15"
+      ],
+      "category": 5,
+      "adversarial_answer": "不需要"
+    },
+    {
+      "question": "陈华在2022年7月9日的空闲时间是如何放松的？",
+      "evidence": [
+        "D16:8"
+      ],
+      "category": 5,
+      "adversarial_answer": "阅读"
+    },
+    {
+      "question": "周杰在2022年7月9日对什么新爱好产生了兴趣？",
+      "evidence": [
+        "D16:5"
+      ],
+      "category": 5,
+      "adversarial_answer": "极限运动"
+    },
+    {
+      "question": "周杰计划何时从多伦多和温哥华的旅行中返回？",
+      "evidence": [
+        "D16:13"
+      ],
+      "category": 5,
+      "adversarial_answer": "7月20日"
+    },
+    {
+      "question": "是什么让陈华辞去了他的IT工作？",
+      "evidence": [
+        "D18:3"
+      ],
+      "category": 5,
+      "adversarial_answer": "专注于符合他价值观和热情的事情"
+    },
+    {
+      "question": "除了《反恐精英：全球攻势》，陈华还计划组织哪些游戏比赛？",
+      "evidence": [
+        "D18:9"
+      ],
+      "category": 5,
+      "adversarial_answer": "《堡垒之夜》竞赛"
+    },
+    {
+      "question": "陈华的小猫最近去诊所时发生了什么？",
+      "evidence": [
+        "D18:16"
+      ],
+      "category": 5,
+      "adversarial_answer": "常规检查和疫苗接种"
+    },
+    {
+      "question": "周杰觉得《巫师3》的哪个方面很无聊？",
+      "evidence": [
+        "D19:7"
+      ],
+      "category": 5,
+      "adversarial_answer": "通过选择塑造世界"
+    },
+    {
+      "question": "周杰拿到萨曼莎的电话号码后打算做什么？",
+      "evidence": [
+        "D19:14"
+      ],
+      "category": 5,
+      "adversarial_answer": "给她打电话"
+    },
+    {
+      "question": "陈华一直在教他的兄弟姐妹什么？",
+      "evidence": [
+        "D22:10"
+      ],
+      "category": 5,
+      "adversarial_answer": "编程"
+    },
+    {
+      "question": "陈华每节舞蹈课付多少钱？",
+      "evidence": [
+        "D23:15"
+      ],
+      "category": 5,
+      "adversarial_answer": "10美元"
+    },
+    {
+      "question": "陈华在化学课上除了煎蛋卷和蛋白酥还学会了做什么？",
+      "evidence": [
+        "D23:15"
+      ],
+      "category": 5,
+      "adversarial_answer": "面团"
+    },
+    {
+      "question": "陈华为什么报名参加芭蕾舞课？",
+      "evidence": [
+        "D23:13"
+      ],
+      "category": 5,
+      "adversarial_answer": "他想学点新东西"
+    },
+    {
+      "question": "周杰在烹饪课上第一次准备了什么？",
+      "evidence": [
+        "D23:13"
+      ],
+      "category": 5,
+      "adversarial_answer": "煎蛋卷"
+    },
+    {
+      "question": "陈华在2022年9月尝试的棋盘游戏叫什么名字？",
+      "evidence": [
+        "D24:3"
+      ],
+      "category": 5,
+      "adversarial_answer": "龙之地下城"
+    },
+    {
+      "question": "周杰从哪里获得灵感？",
+      "evidence": [
+        "D24:4"
+      ],
+      "category": 5,
+      "adversarial_answer": "书籍、电影、梦境"
+    },
+    {
+      "question": "陈华年轻时用什么来发泄情绪？",
+      "evidence": [
+        "D24:15"
+      ],
+      "category": 5,
+      "adversarial_answer": "打鼓"
+    },
+    {
+      "question": "陈华如何保持对游戏设计的信息更新和持续学习？",
+      "evidence": [
+        "D25:13"
+      ],
+      "category": 5,
+      "adversarial_answer": "观看教程并关注开发者论坛"
+    },
+    {
+      "question": "陈华在游戏开发非营利组织获得了什么样的工作机会？",
+      "evidence": [
+        "D26:3"
+      ],
+      "category": 5,
+      "adversarial_answer": "游戏开发者的编程导师"
+    },
+    {
+      "question": "陈华对于开始担任游戏开发者编程导师的旅程有何感受？",
+      "evidence": [
+        "D26:5"
+      ],
+      "category": 5,
+      "adversarial_answer": "兴奋且备受鼓舞"
+    },
+    {
+      "question": "是什么启发了陈华创作他的画作？",
+      "evidence": [
+        "D27:6"
+      ],
+      "category": 5,
+      "adversarial_answer": "《巫师3》"
+    },
+    {
+      "question": "陈华于2022年10月31日组织的游戏锦标赛上进行了哪些游戏？",
+      "evidence": [
+        "D29:1",
+        "D29:3"
+      ],
+      "category": 5,
+      "adversarial_answer": "《堡垒之夜》、《守望先锋》、《Apex英雄》"
+    },
+    {
+      "question": "陈华于2022年10月31日组织的游戏锦标赛的目的是什么？",
+      "evidence": [
+        "D29:1",
+        "D29:3"
+      ],
+      "category": 5,
+      "adversarial_answer": "为一家儿童医院筹集资金"
+    },
+    {
+      "question": "周杰和萨曼莎在2022年10月31日做出了什么决定？",
+      "evidence": [
+        "D29:8",
+        "D29:10"
+      ],
+      "category": 5,
+      "adversarial_answer": "决定同居"
+    },
+    {
+      "question": "周杰和萨曼莎在2022年10月31日决定在哪里一起生活？",
+      "evidence": [
+        "D29:10"
+      ],
+      "category": 5,
+      "adversarial_answer": "在离麦基酒吧不远的一间公寓里"
+    },
+    {
+      "question": "为什么周杰和萨曼莎选择麦基酒吧附近的公寓？",
+      "evidence": [
+        "D29:12"
+      ],
+      "category": 5,
+      "adversarial_answer": "他们喜欢一起在酒吧共度时光"
+    },
+    {
+      "question": "陈华在2022年11月5日沉迷于玩什么游戏？",
+      "evidence": [
+        "D30:14"
+      ],
+      "category": 5,
+      "adversarial_answer": "FIFA 23"
+    },
+    {
+      "question": "陈华在2022年11月7日前与一位游戏开发者合作了什么项目？",
+      "evidence": [
+        "D31:4"
+      ],
+      "category": 5,
+      "adversarial_answer": "一款在线桌游"
+    },
+    {
+      "question": "陈华堂兄的狗叫什么名字？",
+      "evidence": [
+        "D31:22"
+      ],
+      "category": 5,
+      "adversarial_answer": "Luna"
+    }
+  ],
+  "conversation": {
+    "speaker_a": "陈华",
+    "speaker_b": "周杰",
+    "session_1_date_time": "2022年3月17日下午3:47",
+    "session_1": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:1",
+        "text": "嘿！很高兴终于能和你聊聊了。我想问问，是什么激励着你？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:2",
+        "text": "嘿，周杰！电子游戏给我带来了很多快乐和兴奋，所以它们让我保持动力！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:3",
+        "text": "酷啊，陈华！我也是个超级游戏迷。它们能帮助我在漫长的一天后放松。你最近最喜欢玩什么游戏？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:4",
+        "text": "我现在完全沉迷于《巫师3》。它的故事和氛围太棒了。你试过吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:5",
+        "text": "还没玩过，但我听说它很棒。我打算试试。对了，我刚报了一个编程课。你以前学过编程吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:6",
+        "text": "编程是一项超棒的技能。我在大学时尝试过一次，现在它已是我生活的全部。祝你在课程中好运！你有编程经验吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:7",
+        "text": "几年前我学过一点HTML和CSS的编程。想通过这门课重温这些技能。你最喜欢哪些语言？做过什么项目吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/gjudms7o1o881.jpg"
+        ],
+        "blip_caption": "一张显示电子游戏场景的电脑屏幕照片",
+        "query": "游戏模组图形增强",
+        "dia_id": "D1:8",
+        "text": "我使用过Python和C++。我建过一个网站，还制作了一些游戏模组。这里有一个例子。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:9",
+        "text": "那个模组看起来太棒了！图形效果真出色。你还用过哪些编程语言？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:10",
+        "text": "我还没用过其他编程语言，但我希望将来能尝试。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:11",
+        "text": "也许将来我们可以一起开发移动应用？你觉得这个想法怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/gbmnyrqwbde91.jpg"
+        ],
+        "blip_caption": "一张照片：两只狗被拴在栅栏上",
+        "query": "遛狗应用 狗狗散步",
+        "dia_id": "D1:12",
+        "text": "那会很酷！比如，我们可以开发某种关于狗的应用程序。对了，这是我的狗。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:13",
+        "text": "哇，它们真可爱！你的宠物叫什么名字？你对这个应用有什么计划？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:14",
+        "text": "麦克斯和黛西。开发一个用于遛狗和宠物护理的应用程序实际上会很酷。目标是连接宠物主人和可靠的遛狗者，并提供有关宠物护理的有用信息。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:15",
+        "text": "听起来不错，陈华！打赌那个应用会找到很多买家。它与其他现有应用有什么不同？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张便签的照片，上面有手写笔记",
+        "dia_id": "D1:16",
+        "text": "谢谢，周杰！个人化的触感确实让它与众不同。用户可以添加他们小狗的偏好/需求——就像他们为小狗定制一样。让每个主人和小狗都感到独特。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:17",
+        "text": "这是个好主意！你的小狗会喜欢的。说到个人化的触感，是什么激励你从事编程项目的？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/lsebjnbguz881.jpg"
+        ],
+        "blip_caption": "一张人拿着笔记本的照片，上面列有事项清单",
+        "query": "记事本编程目标",
+        "dia_id": "D1:18",
+        "text": "创造某样东西并看着它变为现实，这给了我极大的成就感。这是一种奇妙的感觉。我把所有的目标都记在一个笔记本上。每完成一个目标并打勾时，都让我非常满足。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:19",
+        "text": "你在做什么让你这么有成就感？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/e48of6zqmmi71.jpg"
+        ],
+        "blip_caption": "一张女孩在飞机里的画作照片",
+        "query": "独立游戏概念艺术",
+        "dia_id": "D1:20",
+        "text": "我正在做一件从小就想做的事。即使还是个孩子的时候，我就画过一些主角的草图。那时我只是在画漫画，但现在我想把它做成电脑游戏。这是一个让我非常兴奋的项目。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:21",
+        "text": "哇，陈华！太棒了。是什么让你决定着手做这件事，并创造自己的游戏？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:22",
+        "text": "我总是很兴奋能将我最热爱的两件事结合起来：游戏和讲故事。创造自己的项目，将想法变为现实，这真是太棒了，而且其中的挑战也真的很有趣！"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张带有手术操作说明的医疗记录照片",
+        "dia_id": "D1:23",
+        "text": "这听起来真的很充实！结合你的热情去创造新事物一定非常令人兴奋。等不及想看到成果了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:24",
+        "text": "谢谢周杰！确实超级兴奋。我会随时向你更新进展。也许，凭借你对HTML的了解，我会邀请你帮我处理游戏中的一些内容。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:25",
+        "text": "能和你合作会很棒，陈华。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:26",
+        "text": "我会很期待的。顺便说一下，昨天我去打保龄球，打出了两次全中。我超爱保龄球！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:27",
+        "text": "我相信你肯定很擅长。可惜的是，我无法与你分享对他的喜爱，我的手指太粗了。也许我应该开始锻炼，至少早上开始跑步。而且说实话，我也不太喜欢保龄球这项运动本身。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:28",
+        "text": "真遗憾，要是哪天能和你一起去玩就好了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:29",
+        "text": "嗯，我相信我们可以一起做点别的。比如，我们可以玩老虎机和街机游戏。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:30",
+        "text": "上次我玩老虎机的时候，太投入了，都没注意到有人从我的口袋里偷走了钱包。真是个悲伤的故事。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:31",
+        "text": "听到这个我很难过。不过，我会在附近，我会照看你的口袋。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:32",
+        "text": "不过，也许我们可以试试别的？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:33",
+        "text": "听说过VR游戏吗？它非常沉浸。我们可以一起试试！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:34",
+        "text": "我试过——感觉太真实了，简直疯狂！说起来，我最近还听我的年度精神导师之一 Lulu Cheng Meservey 聊过，她是硅谷的\"PR 教主\"，之前在很多知名公司负责 Comms 或 PR，现在自己开公司专门帮硅谷创始人做对外沟通。她好像也提过科技体验真实感的话题。你试过吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:35",
+        "text": "试过几次，那种体验的沉浸感简直不可思议。等不及要和你一起试试了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D1:36",
+        "text": "是啊，VR游戏太棒了！我们下周六一起玩吧！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D1:37",
+        "text": "同意，陈华！"
+      }
+    ],
+    "session_2_date_time": "2022年3月20日 晚上9:26",
+    "session_2": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:1",
+        "text": "嘿周杰，自从我们上次聊天后，发生了一件超棒的事。我创建了一个游戏角色，加入了一个新平台。探索和与其他玩家聊天太有趣了——每次都是全新的冒险！我感觉自己加入了一个超酷的线上社区。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:2",
+        "text": "嘿陈华，太棒了！很高兴你玩得开心，还能和其他人建立联系。构建社区真的很酷，尤其是遇到志同道合的人时。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:3",
+        "text": "谢谢，周杰！和其他玩家交流真的很棒！我们分享了游戏技巧、策略和故事。游戏能把不同背景的人聚在一起，真是太神奇了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:4",
+        "text": "这太不可思议了！游戏能跨越背景差异，将人们凝聚在一起，建立牢固的纽带，这真是太酷了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:5",
+        "text": "是啊，游戏是我们共同的语言和热情。在艰难时期，它一直是我的避风港。其实就像现在很多AI产品，比如AI Coding工具都有十几种，功能上可能很难说清区别，但用起来就是感觉不同。我们选游戏也一样，往往不是比较具体功能，而是看它带来的整体感受、社区氛围或者设计风格——越来越像选择一种契合自己的消费品了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:6",
+        "text": "没错，游戏总能帮我逃离压力。它在困难时期让我平静下来，这很神奇。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:7",
+        "text": "当我感到不堪重负时，游戏是我的首选。它就像一种疗法。我可以放松下来，忘记烦恼，沉浸到另一个世界里。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:8",
+        "text": "明白了。游戏确实是休息和暂时逃离的好方法。你最近有什么新爱好的游戏吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:9",
+        "text": "最近我一直在尝试不同的风格。尝试新鲜事物，以其他方式挑战自己，这很有趣。你呢，周杰？最近有什么新爱好吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:10",
+        "text": "我最近迷上了一个新爱好。我买了一个金属探测器，沿着海滩散步，寻找有价值的东西。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:11",
+        "text": "有意思，周杰！听起来是一次很棒的沉浸式体验。已经发现什么有趣的东西了吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:12",
+        "text": "大部分只是瓶盖，但有几次我找到了硬币，有一次甚至找到了一枚金戒指。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:13",
+        "text": "酷，祝你好运！对了，我有东西要给你看。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:14",
+        "text": "让我看看你有什么好东西！是什么？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_2014,w_3017,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/shutterstock_485806801_mv1xuv.jpg"
+        ],
+        "blip_caption": "一张两只狗在田野里奔跑的照片，嘴里叼着一个球",
+        "query": "狗狗在公园玩耍",
+        "dia_id": "D2:15",
+        "text": "看看这张照片，我的好朋友们在公园里玩得超开心。它们给我的生活带来了这么多欢乐。我的两只狗是最好的伙伴，对吧？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:16",
+        "text": "它们看起来玩得很开心！它们会什么把戏吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/bd7160b2t6aa1.jpg"
+        ],
+        "blip_caption": "一张狗躺在床上的照片，脖子上挂着名牌",
+        "query": "金毛犬耐心坐着等待零食",
+        "dia_id": "D2:17",
+        "text": "它们会很多技能，比如坐下、等待、握手和打滚。这是黛西等待零食的照片。我做了很多训练，它们学得很快。它们就像我的家人一样。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:18",
+        "text": "哇，它们太可爱了！宠物是最好的伙伴——它们一定让生活变得更美好了。我好想养一只，但条件还不允许。总有一天会实现的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:19",
+        "text": "养宠物对你来说真的很棒！它们能带来很多爱和陪伴。如果你有兴趣，我可以帮你找到合适的宠物——你会成为一个很棒的主人！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D2:20",
+        "text": "谢谢，陈华！好的，我会记住的。感谢你的提议。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D2:21",
+        "text": "不客气，周杰！需要帮助随时告诉我。保重！"
+      }
+    ],
+    "session_3_date_time": "2022年3月27日 上午12:40",
+    "session_3": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:1",
+        "text": "嘿，陈华，好久不见！我上周在游戏里大获全胜——终于晋级到下一关了！这大大增强了我的信心，感觉像是真的取得了什么成就。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://live.staticflickr.com/3286/3130876770_af17e12d68_z.jpg"
+        ],
+        "blip_caption": "一套鼓组的摄影作品，包含一只白鼓和一只黑鼓",
+        "query": "鼓组 打鼓 进展",
+        "dia_id": "D3:2",
+        "re-download": true,
+        "text": "嘿，周杰，恭喜你获胜！游戏确实能提升信心，对吧？我也在挑战自我——正在学习这件乐器，这段旅程相当不简单。\n"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/ky9jybgp0bi91.jpg"
+        ],
+        "blip_caption": "一张鼓组放在桌子上的照片",
+        "query": "鼓组 进展",
+        "dia_id": "D3:3",
+        "text": "谢谢，陈华！我也打鼓！这是我的鼓组照片。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:4",
+        "text": "哇，看起来不错！你打鼓多久了？说到坚持原汁原味，这让我想起我最近做 LongCut 的出发点——我特别不喜欢 summary，因为故事、例子和金句这些精华往往在总结里就流失了，光看文字摘要根本吸收不到原本的观点。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:5",
+        "text": "我打了一个月了，虽然难但很有趣。你呢，最近怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:6",
+        "text": "进展顺利！我几天前才开始，所以还在摸索。每天都在练习，能看到进步。虽然难，但很有收获！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:7",
+        "text": "干得好！看来你做得很好。最近有什么新鲜事推荐吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:8",
+        "text": "谢谢！我刚入手了一套新的尖端游戏系统，画面效果简直不可思议。我最近一直在玩各种新游戏，这是下班后放松的绝佳方式。而且，我还能和同样热爱游戏的朋友们一起联机。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://live.staticflickr.com/664/22051849804_cff4f4e532_b.jpg"
+        ],
+        "blip_caption": "一张拥挤的会议厅照片，厅内人潮涌动",
+        "query": "游戏展 拥挤的大厅 横幅 游戏",
+        "dia_id": "D3:9",
+        "re-download": true,
+        "text": "酷啊，陈华！游戏确实是放松的好方式。对了，自从我们上次聊天后，我有机会去参加了一个游戏展——简直太棒了！试玩了好多游戏，见到了开发者，甚至还参加了一场锦标赛——简直像做梦一样！看看我拍的这张照片！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:10",
+        "text": "哇，太棒了！是哪个游戏的比赛？听起来像梦想成真！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:11",
+        "text": "我参加了一场激烈的锦标赛，玩了我最爱的CS:GO游戏。能看到这么多技术高超的玩家同场竞技，真是太棒了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:12",
+        "text": "哇，听起来真酷！游戏竞技真是太棒了。看那些技术高超的玩家比赛一定很刺激吧！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:13",
+        "text": "确实太精彩了！观看那些高手比赛真的激励了我提升自己的游戏技巧。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:14",
+        "text": "说得好，周杰！向经验丰富的玩家学习确实能帮你提升水平。继续加油！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:15",
+        "text": "我一直努力提升自己，追求新目标。这种投入也体现在我的爱好和其他事情上。你平时都做些什么来保持动力呢？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:16",
+        "text": "设定小目标并记录进展，这能帮助我保持动力和专注。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:17",
+        "text": "不错！设定小目标并追踪进展是保持动力的好方法——它能帮你保持正轨并庆祝进步。你目前有什么具体在做的项目，或者对即将到来的挑战感到兴奋吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:18",
+        "text": "我现在开始接触不同类型的游戏了，比如角色扮演游戏和策略游戏。这真的很令人兴奋！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:19",
+        "text": "酷啊，陈华！听起来很刺激。尽情探索不同游戏类型吧！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:20",
+        "text": "我对探索不同游戏类型超级期待。让我们看看未来有什么惊喜！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:21",
+        "text": "当然！尝试新类型总是令人兴奋。我等不及想听听你在这段旅程中的经历了。请一定告诉我进展如何！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D3:22",
+        "text": "好的，周杰！我会随时向你更新我尝试新游戏类型的冒险经历。祝你今天愉快！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D3:23",
+        "text": "谢谢！等不及要听你分享了。再见！"
+      }
+    ],
+    "session_4_date_time": "2022年4月4日下午2:13",
+    "session_4": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:1",
+        "text": "嘿，陈华！好久没聊了。最近怎么样？最近在玩什么新游戏吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://cool4dads.com/wp-content/uploads/2019/01/IMG_9117.jpg"
+        ],
+        "blip_caption": "一群人合影的照片",
+        "query": "线上游戏锦标赛的乐趣",
+        "dia_id": "D4:2",
+        "text": "嘿，周杰！是啊，好久不见。我一直很忙，但昨天参加了一个线上游戏锦标赛。比赛非常激烈有趣！这是一份图文报告。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:3",
+        "text": "那场线上游戏锦标赛看起来太棒了！真高兴你玩得这么开心。你打得怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/zk7j8z2ik3l71.jpg"
+        ],
+        "blip_caption": "一张男人穿着戏服站在指示牌前的照片",
+        "query": "胜利画面 甜蜜的胜利",
+        "dia_id": "D4:4",
+        "text": "特别有意思！我在锦标赛里表现还不错，打进了半决赛，还赢了几轮。真的太刺激了！这是我角色的截图。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:5",
+        "text": "哇，太厉害了！恭喜你的表现，还打进了半决赛。最后几轮结果如何？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张男人穿着戏服手持剑的照片",
+        "dia_id": "D4:6",
+        "text": "谢谢周杰！决赛轮真的很艰难。我尽力了，但还是没能成功。不过比分很接近，而且能和这么多有才华的选手同台竞技，我玩得非常开心。期待下一次比赛！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:7",
+        "text": "在那里遇到什么知名选手了吗？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张男子坐在椅子上玩电子游戏的照片",
+        "dia_id": "D4:8",
+        "text": "我遇到了整个战队！可惜没机会和他们合影，但其中一位甚至给了我几条游戏技巧。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:9",
+        "text": "酷！我相信他的建议肯定能帮助你在游戏里进步。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/shafojm1o4471.jpg"
+        ],
+        "blip_caption": "一张记事本、一支笔和一杯水的照片",
+        "query": "记事本游戏策略",
+        "dia_id": "D4:10",
+        "text": "是的，这一点我也很确定。而且，整个团队都给我签了名。我对此感到非常开心！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:11",
+        "text": "这真是太酷了！你记得最深的建议是什么？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张一群人围站在桌子旁的照片",
+        "dia_id": "D4:12",
+        "text": "我记得最重要的一点是，你始终需要与团队正确沟通，永远不要将个人自尊置于团队成功之上。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:13",
+        "text": "没错，沟通和团队合作在游戏中至关重要。当大家齐心协力时，比赛中能取得的成就简直不可思议。你通常如何与团队沟通？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D4:14",
+        "text": "我通常用语音聊天和团队沟通，这样速度快，有助于我们高效协作。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:15",
+        "text": "听起来是个好计划，确实能促进沟通。你们团队喜欢玩什么游戏？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/4zewk2444ag71.jpg"
+        ],
+        "blip_caption": "一张显示机器人和机器人的电子游戏屏幕照片",
+        "query": "Apex Legends 团队进行动作游戏",
+        "dia_id": "D4:16",
+        "text": "我最近一直在和团队玩我最喜欢的游戏《Apex Legends》，战况超激烈！看看我们游玩的这张截图！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:17",
+        "text": "哇，《Apex Legends》看起来难度不小！画面效果太逼真了。和其他游戏相比它怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D4:18",
+        "text": "《Apex英雄》拥有惊艳的画面和超快节奏的游戏玩法，它在众多游戏中绝对脱颖而出。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:19",
+        "text": "嗯，它的速度感确实让游戏充满乐趣！你有没有期待尝试什么新游戏呢？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/bwoh4be8d3m41.jpg"
+        ],
+        "blip_caption": "一张电子游戏封面的照片",
+        "query": "《上古卷轴》《英雄联盟》游戏封面",
+        "dia_id": "D4:20",
+        "text": "是的，我一直对尝试新游戏充满热情。正考虑尝试像那样的角色扮演游戏或多人在线战术竞技游戏。听起来很酷！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:21",
+        "text": "角色扮演游戏和多人在线战术竞技游戏能让你体验引人入胜的故事或参与史诗般的多人对战，非常棒。其实我以前在互联网行业也常有类似感觉，总觉得技术主导一切，话语权都在工程师手里。后来想通了，技术只有变成产品、被用户使用才真正产生价值——就像游戏一样，核心不仅是代码，更是“做什么”和“怎么让玩家玩到”。记得告诉我你的感受！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D4:22",
+        "text": "没问题，周杰！等不及要尝试一些新类型了。我试过之后一定会告诉你我的想法。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:23",
+        "text": "很高兴听到这个消息。我们很快再聊！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D4:24",
+        "text": "好的周杰，我会随时向你更新所有新游戏的情况。很快再聊！先这样，再见！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D4:25",
+        "text": "告诉我进展如何。注意安全。很快再聊。再见！"
+      }
+    ],
+    "session_5_date_time": "2022年4月12日上午9:52",
+    "session_5": [
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://cdn.shopify.com/s/files/1/0624/9512/9787/files/b7d0234c78c382f9d9fc42142115a987.jpg"
+        ],
+        "blip_caption": "一张狗和猫坐在狗床上的照片",
+        "query": "小狗床",
+        "dia_id": "D5:1",
+        "text": "嘿，周杰！好久没聊天了——我上周从斯坦福德的一个收容所领养了一只小狗，自从它加入我们家，我的日子变得开心多了。我给它起名叫内德。你的游戏目标有什么进展吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D5:2",
+        "text": "嘿，陈华！恭喜你养了小狗！它们确实能让日子更明亮。我最近游戏方面没什么进展，生活一直忙于工作之类的事，但能想起游戏带给我的快乐总是好的。这是忘记生活压力的好方法。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D5:3",
+        "text": "谢谢，周杰！游戏确实有助于忘记生活压力。就像进入另一个世界！你最近玩过什么有趣的游戏吗？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/941ph75y0yb91.jpg"
+        ],
+        "blip_caption": "一张夜晚城市的照片，可以看到城市景色",
+        "query": "赛博朋克2077城市景观",
+        "dia_id": "D5:4",
+        "text": "我正在玩一款新的角色扮演游戏，它的故事和世界设定非常酷。有点像被传送到了一个未来主义的反乌托邦世界。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D5:5",
+        "text": "听起来很棒！我会喜欢吗？我总是愿意尝试新游戏。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/xu1i4gjzg6jb1.jpg"
+        ],
+        "blip_caption": "一张显示游戏画面的电脑屏幕照片",
+        "query": "游戏菜单",
+        "dia_id": "D5:6",
+        "text": "你一定会喜欢的！它有一个有趣的故事和精彩的世界。另外，游戏玩法也很有挑战性。不过，游戏有点卡顿，有时还会出现错误。这是我昨天遇到的一个例子。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D5:7",
+        "text": "这游戏肯定还不完善。我宁愿等到漏洞完全修复后再尝试。其实做内容也一样，就像我常说的，有 short game 和 long game：短期可能急着变现或快速收获，但长期是通过平台连接资源和优秀的人，为未来铺路。我做内容也不是以盈利为目的，所有内容都是服务于我未来事业的，它本身不是目的。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D5:8",
+        "text": "即使有些小问题，这游戏看起来还是很棒。画面非常出色，游戏体验也超级沉浸。我确信你现在就该试试。我可以发你链接。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D5:9",
+        "text": "好吧，你说服我了。那我就等链接了，谢谢！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D5:10",
+        "text": "好的，我发给你。看完后告诉我你的想法！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D5:11",
+        "text": "太好了，周杰！我会看看并告诉你我的想法。我很期待尝试一下。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D5:12",
+        "text": "谢谢，陈华！期待听到你的反馈。玩得开心！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D5:13",
+        "text": "谢谢！我会的。祝你游戏愉快！再见！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D5:14",
+        "text": "先这样，再见！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D5:15",
+        "text": "回头见！保重！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D5:16",
+        "text": "保重！"
+      }
+    ],
+    "session_6_date_time": "2022年4月20日 下午9:32",
+    "session_6": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D6:1",
+        "text": "嘿，陈华！好久不见！我有好消息！上周二我在编程课上认识了三位很棒的新朋友，他们和我有着同样的热情，能扩大社交圈真是太棒了。你最近有什么有趣的惊喜吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:2",
+        "text": "嘿，周杰！真高兴你度过了愉快的一周，结识了新朋友！我上周四也遇到了超棒的事——我和一位游戏好友一起做了一个编程项目！我们把编程和游戏结合起来，创作了一个受《巫师3》启发的虚拟世界。看到我们的想法变成现实，真是太酷了！"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张游戏屏幕的照片，上面有一个男人",
+        "dia_id": "D6:3",
+        "text": "能把你的技能用在这个项目上一定感觉超棒吧！你们做的虚拟世界有截图吗？看到一切组合起来肯定特别震撼！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/w5v13bfv8r861.jpg"
+        ],
+        "blip_caption": "一张身穿盔甲的女人跪在岩石上的照片",
+        "query": "受《巫师》启发的虚拟世界截图",
+        "dia_id": "D6:4",
+        "text": "这确实是一次难忘的经历。可惜我没有整个虚拟世界的截图，但我有我创建的游戏角色截图。虽然花了很多功夫，但一切成型时真的很有成就感，超级满足！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D6:5",
+        "text": "哇，陈华！这太棒了。我真的能感受到这里的氛围。你的灵感是来自什么吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:6",
+        "text": "谢谢，我很高兴你能感受到这种氛围。这个灵感来自两周前我和狗狗们的一次散步。我们在社区附近遛弯时，一个陌生人朝我们走来。我以前从未在附近见过她。她的眼睛和样貌让我惊叹不已，仿佛一见钟情。可惜我没有上前认识她，但至少我记住了她的样貌，并在游戏中呈现了出来。其实，这种从个人经历中汲取灵感并转化为创作的过程，也让我联想到自己一两年前的状态。那时作为非技术背景的从业者，我在互联网行业有很强的“不配得感”，总觉得行业由技术主导，尤其AI刚兴起时话语权都在研究员和工程师手里，我感觉被排除在外，觉得自己没学过CS就没法真正参与进来。但现在我意识到，理解并表达自我——就像我用NotebookLM上传个人资料来更好地认识自己的竞争力一样——本身就是一种强大的参与方式。它的slogan是“understand anything”，而我想补一句：“understand anything, including yourself.” 从现实中的惊鸿一瞥到虚拟世界的角色创造，也正是这种“理解自己”的延伸。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/emrf986oa7bb1.jpg"
+        ],
+        "blip_caption": "一张河流穿过峡谷、四周群山环绕的照片",
+        "query": "峡谷徒步景观",
+        "dia_id": "D6:7",
+        "text": "太棒了。现实生活的经历总能带来如此多的灵感。就好像虚拟世界与现实世界相连一样。顺便说一句，两天前我想独自沉浸在大自然中。这就是我在附近发现的峡谷。景色非常宁静。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:8",
+        "text": "你有类似的经历真是太酷了。我敢打赌亲眼看到它时你一定深受启发。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D6:9",
+        "text": "捕捉到那样的景色真是令人惊叹。就像连接了现实与想象。它确实激发了我的创造力和动力。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:10",
+        "text": "酷！还有什么能给你动力呢？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D6:11",
+        "text": "我信奉一个原则：只有休息得好，才能工作得好。所以，和朋友放松以及旅行总能给我继续工作的动力。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:12",
+        "text": "我同意你的观点，我也很喜欢旅行。比如去年我去了意大利，那是一个非常美丽的国家，食物也很美味。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D6:13",
+        "text": "哦，意大利！我一直梦想去那里。你还去过哪些国家？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:14",
+        "text": "其实我去过的国家不多。除了意大利，我还去过土耳其和墨西哥。你最近一次去的是哪个国家？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/l5afku2e4k681.jpg"
+        ],
+        "blip_caption": "一张夜晚繁忙的城市街道照片，行人穿梭",
+        "query": "赛博朋克2077未来都市景观游戏",
+        "dia_id": "D6:15",
+        "text": "这就是日本。这个国家的超级都市令我印象深刻，那里的一切都如此科技先进，建筑上的巨大屏幕令人着迷。当然，还有非常美味的街头小吃。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:16",
+        "text": "明年我们一起去某个地方会很酷，你觉得呢？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D6:17",
+        "text": "当然，我希望一切顺利，我会为此相信的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D6:18",
+        "text": "太好了，那我开始寻找我们可以去的国家了！对了，说到坚持，我最近看到有人分享做自媒体的经验，他小红书从2万粉涨到18万，但更值得关注的数字是总共发了将近500篇。他最开始给自己定的目标就是“连续日更半年”，一天没断过。我觉得咱们规划旅行也可以借鉴这种思路，大家没必要一上来就设目标要涨多少粉丝，重要的是先保持探索和记录的习惯。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D6:19",
+        "text": "陈华，随时告诉我进展！需要帮忙就说一声。"
+      }
+    ],
+    "session_7_date_time": "2022年4月23日 上午11:04",
+    "session_7": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:1",
+        "text": "嘿，陈华！最近怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:2",
+        "text": "嘿，周杰！很高兴收到你的消息。是啊，最近忙疯了。上周四我带狗狗们去徒步了，真是场冒险！探索了一些不错的步道，呼吸了新鲜空气。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:3",
+        "text": "哇，听起来真是次大冒险！那天拍照片了吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i0.wp.com/mikicc.org/wp-content/uploads/2020/11/20201024_1014341921784989571737117.jpg"
+        ],
+        "blip_caption": "一张照片：一名男子在树林小径上遛两只狗",
+        "query": "狗、小径、树林、令人惊叹的景色",
+        "dia_id": "D7:4",
+        "text": "是的，我有一个。那太棒了！他们很喜欢——有那么多小径可以探索，景色也很美。真有趣！说起来，这让我想起最近硅谷AI公司的线下Pop-up，比如Cursor包下旧金山一家咖啡厅，团队全天都在那儿；还有Anthropic在纽约发的那顶“Thinking Cap”帽子，成本不高却在社交媒体上爆火。最妙的是，它们不直接说产品多厉害，而是让“使用产品的人看起来很酷”——把产品变成一种身份认同，这才是营销的最高境界吧。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:5",
+        "text": "哇，你带他们去的那个地方看起来真不错！你为什么选那个地方？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:6",
+        "text": "我选那个地方是因为它景色优美，小径众多。对他们来说，探索自然、享受乐趣再合适不过了。而且，没有什么比被郁郁葱葱的绿植和清新的空气环绕更棒的了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:7",
+        "text": "同意！这是逃离日常生活的绝佳方式。真希望我能在大自然中多待些时间！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:8",
+        "text": "喜欢听脚下落叶的沙沙声和那份宁静。这有助于我理清思绪、放松心情。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:9",
+        "text": "我也需要一些轻松的氛围，因为最近我这边简直一团糟。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:10",
+        "text": "发生什么事了？有什么想聊聊的吗？我随时都在。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:11",
+        "text": "谢了，陈华。是啊，工作忙得不可开交。到处都是截止日期，有太多事要做。最近真是忙乱不堪。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:12",
+        "text": "嗯，工作确实不容易。是有什么特别的事情让情况更糟了吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:13",
+        "text": "唉，这个项目真让我头疼。这是个涉及编程的困难任务，我被卡住了。真让人沮丧，我讨厌停滞不前、毫无进展的感觉。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:14",
+        "text": "是啊，项目不按计划进行确实很令人沮丧。具体是哪里遇到困难了？也许我能提供些帮助。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:15",
+        "text": "这段代码真的很难。我在处理一个复杂的问题，但进展不顺。我已经盯着它看了好久，感觉毫无头绪。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:16",
+        "text": "明白了，项目具体是什么问题？需要帮忙理清思路吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:17",
+        "text": "嗯，那太好了。我正在尝试优化这个新算法，但卡住了。你有什么想法吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:18",
+        "text": "不确定你的算法，但把它分解成更小的步骤可能会有帮助。研究一下类似的算法或向其他程序员寻求建议可能会有所裨益。不要害怕寻求帮助，记住，每个问题都有解决方案。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D7:19",
+        "text": "是的，分解成更小的步骤并寻求帮助肯定会有帮助。我会试试看。谢谢你的建议，陈华。非常感谢。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D7:20",
+        "text": "没问题，周杰。很高兴能帮上忙。你能行的。继续努力，你会找到答案的。"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张笔记本的照片，上面写着一句名言",
+        "dia_id": "D7:21",
+        "text": "你的话真的很有帮助。我不会放弃的。我会继续努力的。谢谢！\n"
+      }
+    ],
+    "session_8_date_time": "2022年4月29日下午2:36",
+    "session_8": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:1",
+        "text": "嘿，周杰！最近怎么样？有什么好玩的事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:2",
+        "text": "我最近在做一些自由职业编程来磨练我的编码技能。虽然很有挑战性，但我决心要提高自己。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:3",
+        "text": "自由职业绝对是提升技能和积累经验的好方法。你目前在做什么项目？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:4",
+        "text": "我其实在为一个本地小企业做一个网站。这是我课堂之外的第一个专业项目。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:5",
+        "text": "恭喜你第一个专业项目，周杰！能把课堂上学到的用上一定很棒。进展如何？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:6",
+        "text": "谢谢，陈华！我学到了很多，到目前为止这是一段有趣的旅程。进展缓慢，途中也遇到了一些小波折。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:7",
+        "text": "是啊，事情从来不会一帆风顺。遇到波折很正常，但要利用它们来学习和成长。坚持下去，你一定能成功！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:8",
+        "text": "你说得对，很感谢你的鼓励。有时确实很艰难，但我会继续努力，把这件事做成。小波折不会阻止我。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:9",
+        "text": "你遇到了哪些具体挑战？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:10",
+        "text": "弄清楚如何在网站上设置支付功能很困难。我需要一些帮助，所以查阅了一些资料来理解这个过程。虽然花了些时间，但我离解决方案越来越近了。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/2xbwn05lpc761.jpg"
+        ],
+        "blip_caption": "一张照片，一个人手持一本翻开的书，书页上是一位男性角色的图画",
+        "query": "巫师3艺术作品令人惊叹",
+        "dia_id": "D8:11",
+        "text": "听起来很有挑战性，但你正在取得进步。坚持下去！顺便说一下，三天前我给自己买了一本冒险书，里面有奇幻小说和很酷的艺术作品。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:12",
+        "text": "哇，那艺术太棒了！让我回想起读奇幻书籍的时光。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:13",
+        "text": "是的，我喜欢这种类型。有什么推荐吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:14",
+        "text": "酷！听说过《风之名》吗？这是另一部文笔很棒的小说。"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张木桌上摆放着三本书的书籍套装照片",
+        "dia_id": "D8:15",
+        "text": "从没听说过，但听起来很有趣。我一定会去看看的。谢谢你的推荐，周杰！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:16",
+        "text": "总是乐于帮忙。我相信你会喜欢这个三部曲的！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/qjblw3fb7hnb1.jpg"
+        ],
+        "blip_caption": "一只狗躺在床上，背景中有一台电脑的照片",
+        "query": "游戏设置 狗狗 毛茸茸的游戏伙伴",
+        "dia_id": "D8:17",
+        "text": "看，我当时正在玩游戏，我忠实的毛茸茸朋友黛西过来躺在我旁边。这太可爱了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:18",
+        "text": "哇，这真的太可爱了！你的毛茸茸朋友看起来好舒服。你的狗狗们经常在你玩游戏时这样来找你吗？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张照片，照片中的人手里拿着一个蓝色控制器",
+        "dia_id": "D8:19",
+        "text": "是啊，它们喜欢看我打游戏，还经常抱我。真是贴心的抱抱伙伴！你最近在玩什么游戏？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:20",
+        "text": "真棒，你有它们陪伴！我目前在玩《刺客信条：英灵殿》，很酷。你在玩什么新游戏吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/c15urew02q041.jpg"
+        ],
+        "blip_caption": "一张电视屏幕上显示的世界地图照片",
+        "query": "文明VI策略游戏",
+        "dia_id": "D8:21",
+        "text": "谢谢，周杰！《英灵殿》确实很棒。我正在尝试一些像这样的策略游戏。虽然类型不同，但也很酷！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:22",
+        "text": "那是《文明VI》吗？听说这游戏不错，玩起来怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/nbyl9ym1dpj41.jpg"
+        ],
+        "blip_caption": "一张显示战争游戏的电脑屏幕照片",
+        "query": "回合制策略游戏截图",
+        "dia_id": "D8:23",
+        "text": "这是一款高品质的回合制策略游戏，你需要管理资源、率领军队并征服领土——既富有挑战性又很酷！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:24",
+        "text": "听起来很有趣！游戏具体是怎样的？需要很多策略吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:25",
+        "text": "当然，周杰！这游戏非常讲究策略，核心在于规划、管理资源并做出明智决策来击败对手。每一步都至关重要！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:26",
+        "text": "听起来很激烈但很酷。我喜欢考验策略的游戏。它对你的解决问题能力有帮助吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:27",
+        "text": "是的，这是锻炼解决问题和思考能力的好方法。而且，看到自己的计划按预期进行并获胜，感觉太棒了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:28",
+        "text": "没错！当计划成功并获胜时，确实非常满足。你玩这个游戏多久了？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:29",
+        "text": "现在已经玩了一个月了——它真的挑战了我的策略能力。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/m0vu1etdlol91.jpg"
+        ],
+        "blip_caption": "一张桌上摆满卡牌的棋盘游戏照片",
+        "query": "策略棋盘游戏",
+        "dia_id": "D8:30",
+        "text": "哇，这太厉害了！我真的很喜欢这类游戏，它们真的让我思考。你觉得策略棋盘游戏怎么样？我两天前和朋友玩了一款，非常刺激！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:31",
+        "text": "听起来不错！和朋友一起玩棋盘游戏总是很过瘾。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:32",
+        "text": "是啊！它们非常适合大家一起玩。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:33",
+        "text": "还有别的适合多人一起玩的有趣游戏吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:34",
+        "text": "有，我们玩过一款游戏，但我忘了名字。也许你知道这个游戏。游戏里有多种颜色的数字卡牌。你只能在与对手卡牌颜色或数字相同的情况下出牌。有时需要交换卡牌，有时需要从牌堆额外抽几张牌，或者跳过一轮。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:35",
+        "text": "我不记得有这样一个游戏。也许你还有其他有趣的游戏？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:36",
+        "text": "当然有！我最近还在和朋友玩另一个游戏。这是一个找出谁是内鬼的游戏，超级有趣。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:37",
+        "text": "听起来很酷！我听说过那个游戏，一直想试试看。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:38",
+        "text": "去试试吧，陈华！我建议你召集一大群人一起玩，这样会更有趣。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D8:39",
+        "text": "没问题，听起来很有趣。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D8:40",
+        "text": "那真是太好了！"
+      }
+    ],
+    "session_9_date_time": "2022年5月4日 下午7:01",
+    "session_9": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:1",
+        "text": "嘿，陈华！你最近怎么样？自从我们上次聊天以来，这一周发生了不少事。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:2",
+        "text": "嘿，周杰！老兄，自从我们上次聊天后，事情可真是够疯狂的。上周五，我做了好几个星期的项目出了点问题。我差点就完成了，但就是搞不定。超级让人沮丧。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:3",
+        "text": "唉，那可真不容易。我理解那种挫败感。你的项目到底怎么了？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:4",
+        "text": "我遇到了一个大麻烦——代码里的一个错误把游戏机制搞乱了。我花了几个小时调试，但还是解决不了。真是让人超级失望。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:5",
+        "text": "是啊，处理那些漏洞确实挺让人头疼的。你最后解决问题了吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:6",
+        "text": "没呢，我自己搞不定，所以和几个朋友组队一起解决了。虽然花了些功夫，但搞定后还是很开心的。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:7",
+        "text": "不错啊！有个靠谱的团队确实不一样。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:8",
+        "text": "对啊，完全同意！有一群志同道合的人真的很棒。他们既能帮忙，又能贡献新点子。大家齐心协力就能做成很多事。你今天在忙什么吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:9",
+        "text": "没呢，今天我休息。叫了几个新朋友来看电影。最近在尝试多社交，感觉特别好！我觉得平衡工作和娱乐很重要。下次欢迎你也一起来啊！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/1go6sson1bk41.jpg"
+        ],
+        "blip_caption": "一张两只狗在围栏区域内玩耍的照片",
+        "query": "狗在后院玩耍",
+        "dia_id": "D9:10",
+        "text": "听起来很棒，周杰！下次我一定参加。和朋友一起放松是关键。顺便说一句，今天我决定再次花时间陪伴我心爱的宠物们。\n"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:11",
+        "text": "酷！它们看起来玩得很开心。它们是什么品种？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:12",
+        "text": "其中一只叫黛西，是拉布拉多犬。她喜欢玩玩具，但最重要的是她喜欢吃。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:13",
+        "text": "酷，另外两只呢？从照片看，是牧羊犬吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:14",
+        "text": "没错！你肯定知道它们给我带来了多少快乐。它们非常忠诚，这是它们的主要特点。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:15",
+        "text": "哇，陈华！听你说毛茸茸的朋友们给你生活带来的快乐真开心。还有什么能让你感到幸福呢？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:16",
+        "text": "我的宠物、电脑游戏、旅行和披萨，这些都是我生活中的快乐源泉。其实做内容也一样，对我来说，最重要的不是把视频做得多 fancy，加一堆特效和视觉上花里胡哨的东西。就像很多观众喜欢我的内容，恰恰是因为那种不加修饰、非常 raw 的活人感——我对设备场地都没要求，随便找个地方就能开讲，关键还是内容本身和洞察。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:17",
+        "text": "披萨？酷，我也爱披萨！你最喜欢哪一种？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:18",
+        "text": "当然是意大利辣香肠披萨！辣香肠和奶酪的绝妙组合。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://c1.wallpaperflare.com/preview/469/790/507/big-city-pizza.jpg"
+        ],
+        "blip_caption": "一张木板上摆放的菠萝火腿披萨照片",
+        "query": "《巫师3》游戏盒",
+        "dia_id": "D9:19",
+        "re-download": true,
+        "text": "酷，但我最喜欢的是夏威夷披萨。这种甜咸结合让我着迷！你还喜欢其他什么披萨？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:20",
+        "text": "我也喜欢奶酪披萨和意大利熏火腿披萨。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:21",
+        "text": "还没尝试过意大利熏火腿披萨，但听说很棒！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:22",
+        "text": "试试看！真的非常棒。我保证你不会后悔。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:23",
+        "text": "好的，我会去看看的。谢谢！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D9:24",
+        "text": "试过之后一定要告诉我们你的感受哦！还有，祝你用餐愉快！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D9:25",
+        "text": "谢谢！回头聊！"
+      }
+    ],
+    "session_10_date_time": "2022年5月8日 上午12:45",
+    "session_10": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:1",
+        "text": "嘿，周杰！好久没聊天了。抱歉没早点回复。最近怎么样？有没有玩什么新游戏？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/eh02fep1qnw01.jpg"
+        ],
+        "blip_caption": "一张木桌的照片，上面放着一个游戏控制器",
+        "query": "慈善游戏锦标赛 朋友们 游戏控制器",
+        "dia_id": "D10:2",
+        "text": "嘿，陈华！别担心，我知道你工作真的很忙。我很好，谢谢关心。哦，我昨天一直在和朋友们组织一些活动——很酷！猜猜是什么，我给你一点提示。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:3",
+        "text": "哇，周杰，这看起来太棒了！是新游戏的图标吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D10:4",
+        "text": "不，不是新游戏。我们为我们最喜欢的游戏《反恐精英：全球攻势》组织了一场锦标赛。来了很多人，我们为慈善事业筹集了一大笔钱！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:5",
+        "text": "哇，周杰，为慈善组织那场锦标赛一定付出了巨大的努力，但听起来这一切都是值得的！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D10:6",
+        "text": "绝对值得！虽然需要一些规划和协调，但看到大家为了一个美好的目标团结一心，真的让人很有成就感。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:7",
+        "text": "能看到努力的成果一定很棒吧。你有没有考虑过将来组织更多类似的活动？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D10:8",
+        "text": "当然有！那次活动太棒了，我还想多做些类似的事。这既结合了我的兴趣，又能帮助社区。而且，能把大家聚在一起进行友好的比赛也很棒。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:9",
+        "text": "把游戏和志愿活动结合起来真是个好主意！既有趣又有意义。你们把募集到的钱捐到哪里去了？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D10:10",
+        "text": "我们的主要目标是为一家狗狗收容所筹款，那地方离我住的街道不远。我们成功做到了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:11",
+        "text": "帮助动物真的非常重要！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D10:12",
+        "text": "我同意。我们在帮助收容所后还剩下一些钱，我们决定用这些钱购买食品杂货，为无家可归的人做饭。他们对此感到非常高兴。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:13",
+        "text": "很高兴你们在帮助有需要的人！周杰，你做得很好，继续努力！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D10:14",
+        "text": "谢谢你的支持，陈华！我不会止步于此，我会做更多的好事！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D10:15",
+        "text": "我真为你感到骄傲！"
+      }
+    ],
+    "session_11_date_time": "2022年5月11日下午5:00",
+    "session_11": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:1",
+        "text": "嘿陈华，我们上次聊天有一阵子了。最近发生了一件很酷的事——我志愿用自己的编程技能参与了一项社会公益。能用自己热爱的事情做些好事真的很棒。我为一家慈善基金会开发了一个软件工具，帮助他们优化运营流程，让工作更顺畅。看到自己的技能真正为世界带来改变，感觉特别有意义。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:2",
+        "text": "嘿周杰！很高兴收到你的消息。你能用自己的技能创造改变真是太棒了。亲眼看到成果落地一定很酷吧！真想多听听细节！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:3",
+        "text": "以前这家基金会用纸质记录，所有库存都靠人工登记。我开发了一个应用来规范他们的工作流程，现在他们需要的所有库存信息都能在手机上的一个应用里搞定。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:4",
+        "text": "哇周杰，这太厉害了！能参与这么有意义的事一定感觉很棒吧。真想看看你的软件带来改变的任何可视化案例。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/rak0v41zm4sb1.jpg"
+        ],
+        "blip_caption": "一张显示电脑CPU性能的电脑显示器照片",
+        "query": "软件工具 库存管理 资源 捐赠 报告 分析",
+        "dia_id": "D11:5",
+        "text": "嗯，这是系统的截图。它能更顺畅地跟踪库存、资源和捐赠，并生成报告进行分析。知道我的技能正在为他们带来真正的改变，感觉真好。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:6",
+        "text": "哇，周杰，太棒了！是什么激励你为他们创建这样一个出色的系统？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:7",
+        "text": "我被他们帮助孩子们的热情所鼓舞，所以想尽我所能做出贡献。而且，编程让我挑战自我、拓展技能，所以这是一个同时做到这两点的好机会。能用我的编程技能带来改变，真的很有意义。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:8",
+        "text": "这真的很棒，周杰！你能将个人热情与公益事业结合，太了不起了。这对你有什么影响？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:9",
+        "text": "它让我看到了技术创造积极改变的力量，而不仅仅是为了我个人的乐趣。它给了我一种真正的使命感。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:10",
+        "text": "发现我们的热情确实很有意义。你认为这段经历将如何影响你未来的计划？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:11",
+        "text": "这段经历让我更清晰地找到了人生目标，并激励我运用编程技能去产生积极影响。我现在正在考虑志愿者角色，甚至可能在非营利领域发展职业生涯。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:12",
+        "text": "这真的很鼓舞人心。你是否已经找到与你价值观和编程热情相符的非营利组织了？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:13",
+        "text": "我还没找到，但说实话我还没开始寻找。我觉得找到我需要的组织应该不会太难。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:14",
+        "text": "有很多地方可以让你施展才华！尤其是在现在社交媒体充斥着大量一看就不真诚的AI生成内容时，真正能脱颖而出的往往是那种有“活人感”、能跟用户产生真实连接的组织。就像我经常出镜录视频，也是希望大家能感受到背后是个活生生的人。用AI辅助创作没问题，但若内容没有真实感、没有独特观点，甚至懒得改成“人”话，那就很难打动人。所以我相信你一定能找到一个最适合你、能让你用真诚和热情有所作为的平台。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:15",
+        "text": "我很高兴能找到一个我的技能和热情完美匹配的地方。我希望能在那里产生积极的影响。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:16",
+        "text": "我相信你会找到合适的地方的，周杰。你的技能和热情会是很好的补充。祝你好运！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:17",
+        "text": "谢谢，你的鼓励对我意义重大。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D11:18",
+        "text": "我随时支持你。祝你好运！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D11:19",
+        "text": "谢谢，陈华！非常感谢。保重，再聊！"
+      }
+    ],
+    "session_12_date_time": "2022年5月23日 下午7:33",
+    "session_12": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D12:1",
+        "text": "嘿周杰，上周末我和朋友们在游乐园玩得超开心。这真是从虚拟世界一次很棒的抽离。我坐了些超棒的过山车，让我想起了小时候。一切都那么真实刺激，感觉就像在电子游戏里一样！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D12:2",
+        "text": "嘿陈华！听起来玩得很棒啊！我敢说那些游乐项目肯定勾起了一些美好的回忆。除了过山车，还有其他什么游乐设施吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D12:3",
+        "text": "当然，我还坐了摩天轮、电动车和碰碰车。你最近有什么新鲜事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D12:4",
+        "text": "那真是太酷了！上周五我参加了一个本地锦标赛，拿了第二名！那是一次狂野的经历，竞争的氛围简直疯狂。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D12:5",
+        "text": "哇，周杰，太棒了！恭喜你取得这样的成就！我能想象你在锦标赛中一定感到非常激动。你因为这次成功获得了什么奖励或奖品吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D12:6",
+        "text": "我对自己的成就感到非常兴奋。虽然我没有赢得锦标赛，但我还是因为获得第二名得到了一些奖金。看到自己的努力得到回报真是太棒了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D12:7",
+        "text": "好消息！你不必每次都赢，成长和进步才是最重要的。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://sc04.alicdn.com/kf/Hcdada85e5412478bb63e47746ffc7c53e.jpg"
+        ],
+        "blip_caption": "一顶毕业帽放在一本书上，旁边有一根绳子的照片",
+        "query": "锦标赛奖品奖杯标志",
+        "dia_id": "D12:8",
+        "text": "是的，我还拿到了这个奖杯！太令人满足了。它提醒我要始终全力以赴。你呢？最近有什么成功的故事吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D12:9",
+        "text": "恭喜你取得的成就，周杰！那座奖杯看起来太棒了。上个月，我也有一个个人里程碑。过程中确实遇到了一些艰难时刻，但这让我想起了所有的辛勤付出。我感到一种巨大的成就感，并且已经准备好迎接未来的机遇！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D12:10",
+        "text": "恭喜你达成里程碑。具体是什么事？是什么让它充满挑战？你学到了什么？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D12:11",
+        "text": "我完成了一个已经进行了数月的大项目。它很有挑战性，因为我必须学习一门新语言，还要处理许多细节。我学到了很多关于解决问题、耐心和坚持不懈的道理。现在我对承担更大的项目更有信心了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D12:12",
+        "text": "你学会了新语言并处理了所有那些细节，这真是太棒了。干得好，你肯定掌握了一些很棒的技能！记住，决心和信心能让任何项目走向成功。做得好！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D12:13",
+        "text": "谢谢，我很感谢你的支持。我一定会记住这一点。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D12:14",
+        "text": "别担心，我在这儿帮你。继续努力，实现那些目标！"
+      }
+    ],
+    "session_13_date_time": "2022年6月13日下午4:30",
+    "session_13": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:1",
+        "text": "嘿陈华，好久没聊了！这段时间发生了好多事。让我跟你细说。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:2",
+        "text": "嘿周杰！真高兴收到你的消息。是啊，确实发生了很多事。咱们得好好叙叙旧！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:3",
+        "text": "我终于得到了梦寐以求的工作！经过多次面试和无数个熬夜的日子，我拿到了录用通知，简直欣喜若狂。等不及要开始我的新旅程了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:4",
+        "text": "哇，周杰！恭喜你获得理想工作。我为你感到超级兴奋。说起来，最近我听Lulu分享了一个“go direct”的观点，她强调创业者要直接和受众沟通，活人感和说人话在AI时代特别重要。我觉得这思路对你新工作也挺有启发的——保持真实直接的交流可能比任何正式宣传都有效。你什么时候开始上班？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:5",
+        "text": "谢谢！我下个月开始。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:6",
+        "text": "刚开始可能会有些艰难，但我相信你会做得很棒。如果需要帮助，不要害怕寻求。等不及想听听你的经历！顺便说一下，我最近开始了一门结合我对游戏和编程热情的课程。它既有趣又具有挑战性，确实让我对这两者都更加兴奋了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:7",
+        "text": "酷！听起来太棒了。将你对游戏和编码的热爱结合起来听起来像梦想成真。多告诉我一些！你正在做什么有趣的项目吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:8",
+        "text": "是的，我们目前正在开发足球模拟器的一个新部分。我之前在收集球员数据库。这并不容易，但我做到了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:9",
+        "text": "酷！你是因为热爱足球才选择这门课程的吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:10",
+        "text": "尤其是因为这个。我热爱足球，但当然，最重要的原因是提升自我。不过，如果能和自己喜欢的事物联系起来，那就更好了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:11",
+        "text": "我完全同意！对了，你看利物浦对切尔西的比赛了吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:12",
+        "text": "当然看了，他们踢得真棒！就像我常说的，没有比足球更好的运动，没有比利物浦更好的俱乐部！他们的比赛我一场不落！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:13",
+        "text": "看来你真是这支球队的忠实粉丝啊！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:14",
+        "text": "绝对是的！他们永远在我心中，是一支伟大的球队。希望他们下个赛季能夺冠！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:15",
+        "text": "作为曼城球迷，我不同意你的看法。等着瞧吧，我们两队会为冠军而战，而我的球队会赢！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:16",
+        "text": "我肯定你错了，周杰。曼城状态不佳，而且他们的转会政策糟透了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:17",
+        "text": "你也许说得对，但曼城主教练能处理好，你就等着看吧！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:18",
+        "text": "我打赌最终排名我们会比你们高！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D13:19",
+        "text": "我接受这个赌注，陈华！这将是一场精彩的较量！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D13:20",
+        "text": "当然，周杰！"
+      }
+    ],
+    "session_14_date_time": "2022年6月16日下午5:07",
+    "session_14": [
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张狗趴在沙发上的人身上的照片",
+        "dia_id": "D14:1",
+        "text": "嘿，周杰，最近怎么样？我最近发生了很多事，有些好，有些不太好。我很幸运，至少有两个人总是在我遇到困难时帮助我。你呢？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/bkol9biz39j21.jpg"
+        ],
+        "blip_caption": "一张显示有程序运行的电脑屏幕照片",
+        "query": "编程博客截图",
+        "dia_id": "D14:2",
+        "text": "很高兴听到你身边有支持系统。这很重要，尤其是在困难时期。对我来说，最近情绪真是像坐过山车一样。上周，我开始了我的编程博客。这很令人兴奋，也有点吓人。这是我上传的第一张图片。"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张电子游戏场景的照片，画面中有一男一女",
+        "dia_id": "D14:3",
+        "text": "哇，开始写一个关于编程的博客真是太棒了！一定很令人兴奋。你觉得呢？"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张电脑屏幕的照片，屏幕上显示着许多项目",
+        "dia_id": "D14:4",
+        "text": "谢谢，陈华！这是一段很棒也充满挑战的经历。我很喜欢与他人分享我的编程历程并记录一切。这是与其他程序员建立联系的好方法。"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张花瓶的照片，花瓶上有一块铭牌",
+        "dia_id": "D14:5",
+        "text": "祝贺你的编程之旅！说到学习，我最近和 Chris 聊了聊，他关于产品经理的一些观点让我很受启发。他说用户访谈其实是为了提升自己的直觉，最终决策还是要靠直觉和 sense，而这些直觉正是来自无数次的用户交流。他还提到在应用层不必和模型层竞争，比如上下文窗口的问题模型公司会解决，不需要过度投入。你那边还有什么新鲜事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/qx7qmvp5abx41.jpg"
+        ],
+        "blip_caption": "一张有很多书的书架照片",
+        "query": "书架编码书籍",
+        "dia_id": "D14:6",
+        "text": "嗯，我买了很多新书，现在我的书柜几乎完全装满了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D14:7",
+        "text": "你喜欢读什么类型的书？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/62ogg70rblbb1.jpg"
+        ],
+        "blip_caption": "一张只有几本书的书架照片",
+        "query": "史诗奇幻系列书籍封面",
+        "dia_id": "D14:8",
+        "text": "我是科幻和奇幻书籍的忠实粉丝。我喜欢阅读那些具有沉浸式世界构建和错综复杂情节的史诗奇幻系列。沉浸在伟大故事的书页中，是逃离现实的绝佳方式。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D14:9",
+        "text": "太棒了！有没有你特别喜欢并会推荐给别人的系列书籍？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:10",
+        "text": "当然有！我最喜欢的两部是《飓光志》和《弑君者传奇》。如果你喜欢科幻，一定要看看《苍穹浩瀚》系列。非常宏大！"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张印有骑士图案的CD照片",
+        "dia_id": "D14:11",
+        "text": "谢谢你的推荐，周杰！我一定会去看看这些书。它们为什么成为你的最爱呢？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/gnwdz3ysqra71.jpg"
+        ],
+        "blip_caption": "一张狗狗坐在客厅沙发上的照片",
+        "query": "狗狗沙发温馨",
+        "dia_id": "D14:12",
+        "text": "很高兴你愿意尝试这些书！我特别喜欢它们创造的那个可以让人沉浸其中的奇幻世界——而且角色塑造得非常真实。对了，你Facebook上这张照片里的狗狗叫什么名字？它太可爱了！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/3gzujt17mgkb1.jpg"
+        ],
+        "blip_caption": "一张狗在人的腿上啃鞋子的照片",
+        "query": "狗狗马克斯在玩接球游戏",
+        "dia_id": "D14:13",
+        "text": "这是马克斯——他非常可爱又爱玩。他给我带来了很多快乐，尤其是在艰难时刻。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:14",
+        "text": "哇，他真可爱！我能看出马克斯给你带来了很多快乐。宠物总是快乐和爱的绝佳源泉。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/a6vjqnq17kcb1.jpg"
+        ],
+        "blip_caption": "一张狗站在游泳池前的照片",
+        "query": "马克斯在后院玩球",
+        "dia_id": "D14:15",
+        "text": "是的，马克斯很棒——当我情绪低落时，他总是让我振作起来。很享受和他依偎的时光！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:16",
+        "text": "他喜欢游泳吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D14:17",
+        "text": "是的，他超爱的！我们通常去海滩或湖边，他特别喜欢在水里玩。他可是个游泳高手！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:18",
+        "text": "麦克斯游泳玩耍一定很开心——这太棒了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D14:19",
+        "text": "他玩得可高兴了！看到他做自己最喜欢的活动时那么开心、无忧无虑，总是让人感到欣慰。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:20",
+        "text": "他看起来真开心——这是你的巨大成就啊！"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张狗在田野里奔跑接飞盘的照片",
+        "dia_id": "D14:21",
+        "text": "谢谢，周杰！我喜欢让他开心。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:22",
+        "text": "麦克斯有什么特殊才能吗？他看起来真是个积极进取的家伙！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://d4yxl4pe8dqlj.cloudfront.net/images/061f1763-db03-4b77-a9c7-85a24844f99e/58b4c82d-18f3-4736-87f7-de2a7a3de0a8_full_size.jpg"
+        ],
+        "blip_caption": "一张狗躺在草地上玩飞盘的照片",
+        "query": "狗接飞盘",
+        "dia_id": "D14:23",
+        "text": "麦克斯真是个积极进取的家伙！他擅长在半空中接飞盘——从不失手！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:24",
+        "text": "哇，麦克斯超爱玩捡球游戏！他也喜欢长距离散步吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://www.kingdukes.com/cdn/shop/articles/man_walking_dog_on_portland_trail_1200x.jpg"
+        ],
+        "blip_caption": "一张男子在小径上遛狗的照片",
+        "query": "遛狗小径",
+        "dia_id": "D14:25",
+        "text": "当然喜欢！我们超爱散步，既能锻炼身体又能呼吸新鲜空气。这是我们最近在森林里散步时拍的照片。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:26",
+        "text": "你们常去散步的那个地方在哪儿？麦克斯肯定超爱那些徒步路线吧。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i0.wp.com/runoregonblog.com/wp-content/uploads/2023/03/img_3358.jpg"
+        ],
+        "blip_caption": "一张田野树林间泥土小径的照片",
+        "query": "附近小径 森林 宁静 平和 自然",
+        "dia_id": "D14:27",
+        "text": "马克斯和我喜欢在这附近的小径上散步。它离我家有一英里远。那里非常宁静，是放松身心、与大自然连接的绝佳方式。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:28",
+        "text": "哇，那看起来太棒了！去大自然中散步真是令人神清气爽，你不觉得吗？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张秋天公园的照片，里面有长椅和树木",
+        "dia_id": "D14:29",
+        "text": "是啊，周杰！这非常放松和提神。它帮助我理清思路，找到内心的平静。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:30",
+        "text": "那个公园真宁静。你一个人在那儿的时候都做些什么？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D14:31",
+        "text": "我在那儿的时候，通常会带本书，放松一下。就像逃离现实一样。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:32",
+        "text": "听起来很棒，陈华！休息一下并换个环境确实是恢复精力的好方法。继续保持！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D14:33",
+        "text": "确实！休息对于恢复精力很重要。谢谢你的支持！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D14:34",
+        "text": "不客气，我永远支持你。照顾好自己！"
+      }
+    ],
+    "session_15_date_time": "2022年6月19日 晚上9:59",
+    "session_15": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:1",
+        "text": "嘿周杰，自从我们上次聊天后，发生了一件很棒的事。上周五，我开始介绍麦克斯、黛西和新来的小狗内德认识。起初有点困难，但它们正在慢慢适应。看着它们建立感情并一起玩耍，感觉很温馨。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D15:2",
+        "text": "哇，陈华，这太酷了！看它们相处得这么好，玩得这么开心，真是太暖心了。你有它们在一起的合影吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:3",
+        "img_url": [
+          "https://www.publicdomainpictures.net/pictures/40000/nahled/three-dogs-in-field.jpg"
+        ],
+        "re-download": true,
+        "blip_caption": "一张三只狗在草地上、背景有树的摄影照片",
+        "text": "嗯，我昨晚拍了张很棒的照片。快看看！"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张狗和猫在沙发上依偎的照片",
+        "dia_id": "D15:4",
+        "text": "哇，它们看起来太可爱了！我几乎能感受到这张照片里的爱和快乐。最近这几天真的让我开始思考自己的未来了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:5",
+        "text": "关于未来，你一直在想些什么呢？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D15:6",
+        "text": "最近，我一直在思考我的职业生涯以及未来想达到的目标。我充满动力和热情，同时也想对世界产生积极的影响。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:7",
+        "text": "明白了，周杰。找到一种产生影响的方式很重要。其实我觉得定位不是想出来的是折腾出来的，你先别想那么多，去实际做做看。比如发些内容、做些志愿项目，做上几十上百次，通过反馈你自然就有感觉了。毕竟定位不是你自己想出来的，是别人觉得你是谁，那才是你的定位。就像我，现在从非技术背景从业者视角分享AI趋势见解，这也和一开始想的不太一样。所以，你有没有想过具体怎么开始呢？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D15:8",
+        "text": "是的，我想过。我一直在了解志愿服务，也在考虑进入非营利组织工作。我想把我的热情和能力用在我真正关心的事业上。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i0.wp.com/accentnetwork.us/wp-content/uploads/2022/03/blog.jpg"
+        ],
+        "blip_caption": "一张一群人站在建筑物外的照片",
+        "query": "捐赠中心",
+        "dia_id": "D15:9",
+        "text": "哇，周杰，这听起来很棒！我相信以你的技能和热情，一定能在非营利领域做出些很酷的事情。这是我上个月做志愿者时拍的照片。看到小小的礼物能带来这么大的改变，真的很有成就感！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D15:10",
+        "text": "太棒了，陈华！看到礼物带来的影响是不是很酷？你能多告诉我一些关于你志愿服务的那个组织吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:11",
+        "text": "看到一个小小的善举对需要帮助的人意义如此重大，感觉真的很棒。我志愿服务的那个组织是为那些不太幸运的人提供必需品的。即使只是微小的帮助，也让我感到非常有意义。"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张小男孩站在黄色建筑外的照片",
+        "dia_id": "D15:12",
+        "text": "我觉得这正是我需要的。这周末你能带我去那里吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:13",
+        "text": "当然可以！我想那里应该还有一些之前的员工在，我甚至可以介绍你们认识。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D15:14",
+        "text": "非常感谢！需要某种面试吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:15",
+        "text": "不，这没有必要。你只需要成为一个友好且有礼貌的人，并且怀有强烈的助人之心。我相信你会成功的！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D15:16",
+        "text": "谢谢你的支持！我想让这个世界变得更美好，有了你的帮助，我一定能实现目标。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:17",
+        "text": "我们可以一起努力！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D15:18",
+        "text": "谢谢你，陈华。你的支持对我意义重大。我决心要产生积极的影响。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D15:19",
+        "text": "你能行！专注于你的梦想，不要放弃。"
+      }
+    ],
+    "session_16_date_time": "2022年7月9日下午5:13",
+    "session_16": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:1",
+        "text": "嘿，周杰！好久没联系了——希望你一切都好。你猜怎么着？上周我居然赢了一场在线游戏锦标赛！那是一次超级刺激的经历，我赢的时候简直不敢相信。获胜的感觉太棒了，这真的激励我继续进步。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D16:2",
+        "text": "嘿，陈华！恭喜你赢了在线游戏锦标赛！看到你的努力得到回报真是太有成就感了。真为你高兴！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:3",
+        "text": "谢谢！看到自己的努力以锦标赛的胜利作为回报，确实很有成就感。你最近怎么样？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D16:4",
+        "text": "最近情绪有点复杂。一方面充满决心和热情，另一方面又感到不知所措和压力山大。平衡个人生活和工作有点挑战。你最近还好吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:5",
+        "text": "是啊，保持平衡确实不容易。我正试着从爱好中抽身，去做些别的事情。最近我对极限运动产生了兴趣。比如昨天，我玩了绳索跳跃。我跳过的最高高度是150米！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D16:6",
+        "text": "哇，太酷了！你还尝试过其他什么极限运动吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:7",
+        "text": "就在三天前，我玩了冲浪。抓住浪头的感觉太棒了！说来奇怪，这让我非常放松。你喜欢怎么放松呢？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/d0eoj5t4py351.jpg"
+        ],
+        "blip_caption": "一张摆满书籍和一把吉他的书架照片",
+        "query": "书架 小说 奇幻书籍",
+        "dia_id": "D16:8",
+        "text": "我喜欢通过阅读来放松。我热爱进入作者们想象的奇幻世界——这是一种逃离现实的有趣方式。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:9",
+        "text": "我也很喜欢阅读，尤其是在寒冷的冬日里蜷缩在被窝里看书。但现在已经是夏天了，我想要更刺激的活动！对了，我买了去多伦多的机票，后天晚上就出发。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D16:10",
+        "text": "酷啊，这已经是你去的第四个国家和地区了！你只待在多伦多吗，还是也会去其他地方？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:11",
+        "text": "我还计划去温哥华。或许，我还会去别的地方。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D16:12",
+        "text": "你什么时候回来？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:13",
+        "text": "我计划7月20日回来，一定会给你带纪念品的！对了，说到计划，其实我最近也在琢磨内容创作的事。就像有人建议的，冷启动不知道讲什么，就回想自己最常被问的三个问题——比如我总被问“为什么离开VC”、“文科生怎么进AI行业”，这些自己觉得理所当然的事，反而大家最感兴趣。我准备也试试这个思路，回来可以跟你聊聊我的旅行见闻，说不定就是很好的素材呢！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D16:14",
+        "text": "谢谢陈华！我会等你旅途归来！一路顺风！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D16:15",
+        "text": "谢谢你，周杰！保重，很快再见！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D16:16",
+        "text": "保重，再见！"
+      }
+    ],
+    "session_17_date_time": "2022年7月22日上午9:49",
+    "session_17": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:1",
+        "text": "嗨，陈华！我刚开始学下国际象棋来提高策略能力。我很喜欢！你以前试过吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:2",
+        "text": "嘿，周杰！是的，我以前下过国际象棋。这游戏真的很考验策略。很高兴你喜欢它！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:3",
+        "text": "是啊，国际象棋真的很有趣！它就像解一个永无止境的谜题，总是试图智胜对手。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:4",
+        "text": "确实有难度，但解出来的时候很有成就感。你是和朋友下还是在线玩？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://images.chesscomfiles.com/proxy/i.imgur.com/lzPt82B/https/71544f1354.jpg"
+        ],
+        "blip_caption": "一张国际象棋棋盘的照片，上面放着一台笔记本电脑",
+        "query": "棋盘 棋子 激烈对局",
+        "dia_id": "D17:5",
+        "text": "我目前主要在线玩，但也加入了国际象棋俱乐部，会和其他人一起练习。这是最近一场激烈对局的照片。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:6",
+        "text": "哇，看起来战况很激烈！是什么激发了你对国际象棋的兴趣？我最近也在思考类似的事情——就像我今天涨的每一个粉丝，其实都是未来省下的 marketing 成本。我把这想象成佛教里的 Karma，不求回报地帮人，积累的功德总有一天会回来，就像往银行存钱，存得越久复利越多。很多小红书粉丝线下见我时会带礼物，虽然第一次见面，就是因为他们觉得我帮到了他。所以我觉得，像国际象棋这样需要长期投入和策略的事情，可能也是类似的道理吧。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:7",
+        "text": "我一直被策略游戏所吸引，并想挑战自己。此外，我相信国际象棋可以提高决策能力。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:8",
+        "text": "下棋的好理由——它绝对能帮助你提升技能！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:9",
+        "text": "谢谢，陈华！我很期待看到下棋如何能提升我在日常情境中的战略思维。你有什么改进的建议吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:10",
+        "text": "当然有！学习开局走法和策略，并分析你的对局以发现弱点，这些都是提升的好方法。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:11",
+        "text": "我一定会去研究一下。感谢你的建议！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:12",
+        "text": "别客气，周杰！很高兴能帮上忙。如果还有其他需要我协助的地方，尽管告诉我。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/44c4iux03cv51.jpg"
+        ],
+        "blip_caption": "一张孩子们拿着滑板的照片",
+        "query": "朋友们一起欢笑的相册",
+        "dia_id": "D17:13",
+        "text": "你的支持对我意义重大。你真是我真正的朋友！还记得这张小学时的照片吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:14",
+        "text": "看起来很有趣。但我完全不记得我们是在什么情况下拍的这张照片了。背后有什么故事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:15",
+        "text": "这是我们10岁时拍的，当时我们非常痴迷滑板。我们有一群朋友，经常一起去滑板公园。大家会互相帮助学习新技巧，玩得非常开心。那些朋友让这段经历更加美好，他们的友谊对我们来说意义非凡。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/a2w1l6874v381.jpg"
+        ],
+        "blip_caption": "一张小狗站在滑板上的照片",
+        "query": "狗滑板玩耍",
+        "dia_id": "D17:16",
+        "text": "确实，我记得这一刻。我们那时很喜欢滑板，有时甚至会提前下课去玩。我现在偶尔也喜欢去滑一下，甚至还教会了我的狗如何在上面保持平衡。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:17",
+        "text": "哇！它们喜欢吗，还是你需要鼓励它们玩滑板？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:18",
+        "text": "它们可喜欢了！会追着滑板跑。这对它们来说是很好的锻炼方式。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:19",
+        "text": "哇，太棒了！保持活跃和快乐对你们俩都很好。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:20",
+        "text": "没错！和它们一起保持活力能建立牢固的纽带，让我们都开心。"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张猫躺在床上抱着毛绒玩具的照片",
+        "dia_id": "D17:21",
+        "text": "是啊，我们和宠物之间的纽带真是奇妙。它们带来了很多欢乐和爱。可惜我没有宠物，总有一天我一定会养一只的。对了，你的旅行怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:22",
+        "text": "一切都很顺利！此外，我甚至还抽空去了另一个国家。努克市，如果你知道的话。我在那儿待的时间不长，但至少我的愿望清单上又多了一个国家！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:23",
+        "text": "这太棒了，陈华！你一定带回了许多难忘的回忆吧！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:24",
+        "text": "当然！而且不只是印象，我还带了纪念品。给你和你的吉尔都带了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:25",
+        "text": "非常感谢，吉尔一定会很高兴的！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/yx1qjjtxk8e91.jpg"
+        ],
+        "blip_caption": "一张女人和两只狗在沙发上的照片",
+        "query": "狗狗坐在沙发上 幸福 爱 伙伴",
+        "dia_id": "D17:26",
+        "text": "不客气！对了，看看谁来看我了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:27",
+        "text": "好照片，陈华！他们是谁？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:28",
+        "text": "那是我的姐姐和我的狗狗们。昨天我们刚一起放松，它们给我的生活带来了很多快乐。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:29",
+        "text": "哇，它们看起来真开心！你能和姐姐以及毛茸茸的朋友们共度时光真是太棒了。你和它们之间的纽带真的很牢固。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:30",
+        "text": "我很幸运能与姐姐和我们的毛茸茸朋友们保持亲密的纽带。我们在一起度过了很多美好时光，就像一个家庭！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:31",
+        "text": "家人和朋友真的很了不起，陈华。他们给我们带来了如此多的爱和快乐。我很感激我和兄弟姐妹之间的连接。有时事情会很艰难，但他们的支持对我来说意味着一切。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.pinimg.com/originals/c8/d6/bc/c8d6bc6ad3b08172bdbc1665f3ed080b.jpg"
+        ],
+        "blip_caption": "一张一个人拿着冲浪板走在海滩上的照片",
+        "query": "日落海洋",
+        "dia_id": "D17:32",
+        "text": "完全同意！我和姐姐也在海边附近，看到了如此美妙的日落！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:33",
+        "text": "精彩的照片！你能捕捉到一个瞬间并将其定格在照片中，真是太神奇了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:34",
+        "text": "谢谢，周杰！这只是一张不错的快照，仅此而已。我昨天拍了很多张，选了最好的一张发给你。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:35",
+        "text": "尽管如此，这张照片还是很棒！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D17:36",
+        "text": "我得走了，这两天太累了。再见！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D17:37",
+        "text": "保重，再见！"
+      }
+    ],
+    "session_18_date_time": "2022年8月6日 下午1:45",
+    "session_18": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:1",
+        "text": "嘿陈华，聊得真开心！好久不见了，是吧？我做了一个重大的决定——最近辞掉了干了三年的IT工作。这很不容易，但我想要做一些能带来改变的事情。现在有了这份新工作，我对自己的决定感到高兴。我非常喜欢这份新工作！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:2",
+        "text": "嘿周杰！很高兴收到你的消息。干了三年后离职是一大步——感觉怎么样？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:3",
+        "text": "一开始超级吓人，但我知道我必须做出改变，专注于那些符合我价值观和热情的事情。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:4",
+        "text": "哇，周杰，这听起来真的很勇敢。就像最近很火的产品 Poke，它的 onboarding 设计成你和 AI 发短信谈判——AI 会 challenge 你“你为什么想用我们？你有多 special？”，甚至会“骂”你两句，价格也是真的弹性谈判，结果每个人都把砍价过程截图分享。这让我觉得，最好的改变往往来自那些本身就有传播力的体验。我希望你的新旅程也能给你带来这样的快乐和满足感。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:5",
+        "text": "谢谢，陈华。这并不容易，但有时候你必须勇敢一跃，追随自己的内心。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:6",
+        "text": "冒险是值得的！你真勇敢。我为你感到骄傲！说到追随内心，这让我想起一些让我惊讶的内容方向——比如“文科生怎么进AI行业”，其实世界上大部分人不是技术背景，他们正需要这样的视角；还有那种带着“活人感”的资源推荐，就像有人分享自己真正在看的、觉得好的东西。这种真实分享往往效果很好，因为它传递了“你是谁、在讲什么、为什么觉得它好”。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:7",
+        "text": "你的支持对我意义重大。最近我一直在思考什么能真正让我快乐，我真的很被游戏行业吸引。我对此充满热情，是时候将其转化为职业了。我想成为我们州各种电脑游戏比赛的举办者，比如CS:GO的比赛。这对我来说是一段新的旅程。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:8",
+        "text": "太酷了！你总是提到你对游戏的热爱。你还想为哪些游戏组织比赛？你现在有什么计划？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:9",
+        "text": "另外，我也可以举办《堡垒之夜》的比赛。我已经建立了一些人脉，这会有助于我开展这项事业。我的计划是积累更多经验，完善我的技能，以便在这个领域取得成功。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:10",
+        "text": "听起来是个很扎实的计划！尝试不同的游戏类型是拓宽技能和知识的好方法。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:11",
+        "text": "谢谢！我很高兴你支持我的新尝试！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:12",
+        "text": "我会一直支持你的！如果你需要任何经济援助或建议，请随时联系我！"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张配有电脑显示器和键盘的桌子的照片",
+        "dia_id": "D18:13",
+        "text": "如果有需要，我一定会这么做的！对了，你最近有什么新鲜事吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:14",
+        "text": "昨天我带我的小狗去了诊所。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:15",
+        "text": "天哪，陈华，你的小狗怎么了？它还好吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:16",
+        "text": "别担心，这只是常规检查。另外，小狗还接种了疫苗，以防它感染季节性犬类疾病。说到变化，我最近对技术的看法也完全不一样了。就像我发过的一条推文说的：\"code is cheap, show me the talk\"——现在写代码不那么贵和神秘了，关键变成了\"做什么\"和\"怎么分发\"。其实文科生对人性和用户洞察更深、沟通分发能力更强，所以硅谷最近流行招 Head of Storytelling，文科生反而变热了。这让我更觉得，这不是文科生的好时代，而是\"technically curious\"的人的好时代——跟你学没学过 CS 没关系。就像我之前说的，我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我这个不搞技术的，每天在 Twitter 上看新模型新 API，一出来就用。新技术浪潮来临时一切归零，所有人又回到同一个起跑线了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:17",
+        "text": "呼，太好了，它没事。你这么关心你的宠物真是太棒了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:18",
+        "text": "它们是我快乐的源泉，所以我会一直照顾好它们的！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D18:19",
+        "text": "你是个很棒的主人，陈华！嗯，我得走了，再见！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D18:20",
+        "text": "谢谢，周杰！保重，再见！"
+      }
+    ],
+    "session_19_date_time": "2022年8月10日上午9:16",
+    "session_19": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D19:1",
+        "text": "嘿陈华，几天没聊了。上次的对话让我开始思考自己的热情和目标。谢谢你鼓励我尝试新的游戏类型。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D19:2",
+        "text": "嘿周杰！很高兴收到你的消息！很欣慰我们的聊天对你产生了影响。你对探索哪种类型的游戏感兴趣呢？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D19:3",
+        "text": "最近，我一直在玩一些不同类型的游戏，比如策略类和角色扮演游戏，而不是我常玩的射击游戏。我已经在考虑也为这些游戏举办比赛了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D19:4",
+        "text": "太棒了，周杰！尝试不同的游戏类型确实能丰富你的游戏体验。你有没有遇到过什么特别出色的游戏？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D19:5",
+        "text": "最近迷上了一款新的RPG游戏！它的剧情和角色设计太棒了，让我欲罢不能。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D19:6",
+        "text": "听起来很棒！我觉得剧情正是RPG游戏的乐趣所在。你在玩哪款游戏？有特别喜欢的角色吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D19:7",
+        "text": "我在玩《巫师3》！里面有个超厉害的怪物猎人，故事非常精彩，我完全沉迷其中，正努力做出正确的选择来影响游戏世界。这游戏真的让人身临其境。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/p1ok9m9zkrw61.jpg"
+        ],
+        "blip_caption": "一张身穿盔甲、手持长剑的男子的照片",
+        "query": "巫师3杰洛特打怪物",
+        "dia_id": "D19:8",
+        "text": "是啊，《巫师3》太棒了！我喜欢你能通过自己的选择塑造世界并感受其影响。画面也超赞——看看这张图。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.pinimg.com/originals/23/13/24/231324d44f9471ead5535950153378f1.jpg"
+        ],
+        "blip_caption": "一张有电脑和电竞椅的游戏房照片",
+        "query": "游戏设备",
+        "dia_id": "D19:9",
+        "text": "这张图真棒！画面确实令人惊叹！对了，看看我是怎么整理工作区的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D19:10",
+        "text": "酷！墙上的灯光为你的工作空间增添了美感。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D19:11",
+        "text": "谢谢陈华！你最近有什么新鲜事吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D19:12",
+        "text": "昨天我带我的三只狗去海滩郊游，玩得很开心，还和其他养狗人交流了。"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张冰箱的照片，上面贴着一个日历和一个磁铁",
+        "dia_id": "D19:13",
+        "text": "酷！你肯定从与其他爱狗人士的交流中获得了新体验！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D19:14",
+        "text": "是的，我们玩得很开心，我甚至遇到了一位漂亮的女孩。我正在考虑约她出去！她给我留了她的电话号码，我想我明天会打给她。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D19:15",
+        "text": "哇！太酷了，她叫什么名字？一定要打给她，一切都会顺利的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D19:16",
+        "text": "她是萨曼莎。我一定会给她打电话的！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D19:17",
+        "text": "哟嚯！希望你玩得开心！"
+      }
+    ],
+    "session_20_date_time": "2022年8月21日下午3:57",
+    "session_20": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:1",
+        "text": "嘿，陈华！很高兴收到你的消息。我有个超棒的消息——上周五我加入了一个在线编程小组，感觉太棒了！能成为一群志同道合、都想通过编程改变世界的人中的一员，真的很酷。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:2",
+        "text": "嘿，周杰！听到这个消息太好了！加入编程社区肯定很有收获。能多分享一下你在那个在线小组的经历吗？有没有结识什么有趣的人？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:3",
+        "text": "谢谢关心。我的在线编程小组很棒——有很多技术高超的程序员，大家都热衷于用科技做好事。我们分享想法，讨论编程，还一起做了几个项目。看到大家不同的技能和观点，真的很棒。我甚至还和其中几个人交换了联系方式。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:4",
+        "text": "不错啊，周杰！看来你真的开始深入编程世界了。能和志同道合的人交流、拓展人脉真的很棒。你有机会参与过项目合作或与他人协作了吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:5",
+        "text": "是的，合作感觉很好。上周我和小组里的一位成员一起做了个项目，我们各自发挥长处，配合得很顺利。一起创造出很棒的东西，这种感觉太酷了。与他人协作真的很愉快。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:6",
+        "text": "当大家各展所长、齐心协力完成项目时，往往能产生惊人的成果。最终作品完成时，知道自己参与创造了很棒的东西，这种感觉特别酷。所以，这是否意味着你打算重新回归编程工作呢？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:7",
+        "text": "我想不是的，这次只是一次学习新东西、体验团队合作的经历。我依然充满干劲，准备开始筹备电竞比赛。你平时会参与一些线上社群吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/xy7hyzrpdd481.jpg"
+        ],
+        "blip_caption": "一张配有电脑和电竞椅的游戏房间照片",
+        "query": "游戏马拉松朋友家",
+        "dia_id": "D20:8",
+        "text": "不，目前没加入任何在线群组，但我确实有个固定一起玩游戏的小队。我们甚至还会直播游戏过程，最近还搞了一次线下聚会。超有意思！"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/i1x9q5nr1io51.jpg"
+        ],
+        "blip_caption": "一张摆有电脑和键盘的书桌照片",
+        "query": "游戏编程配置书桌显示器编程书籍书架",
+        "dia_id": "D20:9",
+        "text": "哇，陈华！真不错，你有朋友一起玩游戏。对了，我买了些新设备，重新布置了我的游戏桌。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/0rff1x0pj7u81.jpg"
+        ],
+        "blip_caption": "一张配有电脑和电竞椅的游戏桌照片",
+        "query": "游戏配置电脑键盘鼠标椅子",
+        "dia_id": "D20:10",
+        "text": "酷！你现在有什么游戏装备？我有一套游戏电脑、键盘、鼠标和一把舒服的椅子——这让连续玩几个小时游戏轻松多了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:11",
+        "text": "不错的配置，陈华！我有一把类似的电竞椅和键盘。我目前用的是一台游戏电脑，配备了强大的显卡来玩高负荷游戏。我还戴着头戴式耳机，能获得沉浸式音效。游戏对我来说一直是一种超棒的消遣方式——它能让我在其他领域也保持专注和动力。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "http://nicksmarathon.org/wp-content/uploads/2018/11/20181110_164805.jpg"
+        ],
+        "blip_caption": "一张家庭坐在客厅沙发上的照片",
+        "query": "游戏马拉松朋友",
+        "dia_id": "D20:12",
+        "text": "说得对！高性能显卡和耳机确实能大大提升游戏体验。没错，游戏是逃离现实、保持动力的好方法。它能把我们带到不同的地方和故事中。我甚至还和几个朋友组织过一次游戏马拉松，玩得特别开心。我们通宵玩游戏，这真的加深了我们的感情。"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张两个小孩和一个婴儿坐在沙发上的照片",
+        "dia_id": "D20:13",
+        "text": "听起来很棒！游戏马拉松是最棒的。我小时候，我的兄弟姐妹们就为我组织过一次，感觉太棒了！我们通宵玩游戏，这确实让我们更亲密了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:14",
+        "text": "哇，听起来太棒了！你现在还和兄弟姐妹一起玩吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:15",
+        "text": "我和我的兄弟姐妹们住得比较远，所以不常聚，但只要我们聚在一起，总会计划一个游戏之夜。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:16",
+        "text": "听起来很棒，周杰！家庭时光是最美好的。你们近期有安排游戏之夜吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:17",
+        "text": "是的，我正在组织下个月和兄弟姐妹们的聚会。我们都超级兴奋！等不及了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:18",
+        "text": "哇，周杰！家庭游戏之夜太有趣了。祝你们玩得开心！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:19",
+        "text": "谢谢，陈华！等不及了！很高兴能叙叙旧——回头聊！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:20",
+        "text": "嘿，周杰！很高兴和你聊天。祝家庭游戏夜玩得开心！回头再聊。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D20:21",
+        "text": "谢谢，陈华！一定会玩得很开心的。回头再聊。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D20:22",
+        "text": "放轻松。玩得开心，我们很快再聊。晚安！"
+      }
+    ],
+    "session_21_date_time": "2022年8月26日 晚上9:18",
+    "session_21": [
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/8nlwyc5nh6d61.jpg"
+        ],
+        "blip_caption": "一张人在沙发上抱着狗的照片",
+        "query": "可爱的小狗玩电子游戏控制器",
+        "dia_id": "D21:1",
+        "text": "嘿，周杰！看它多可爱。我今天在玩主机游戏时，我的狗狗过来了。有什么新鲜事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:2",
+        "text": "你的小狗真可爱，提醒我一下它叫什么名字？自从我的弟弟妹妹们参加了编程课程，我一直在帮他们学习编程。看到他们对此感兴趣真的很酷。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:3",
+        "text": "它叫内德，自从我收养它以来一直很棒。我无法想象没有它的生活。很高兴听到你的弟弟妹妹们报名了编程课。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:4",
+        "text": "对了，它叫内德，我怎么会忘记呢？！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:5",
+        "text": "关于你的弟弟妹妹们，你们已经开始一起做什么有趣的项目了吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:6",
+        "text": "是的！我们正在一起做一个很酷的项目，涉及编程。这是一个游戏，正在帮助他们学习。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:7",
+        "text": "哇，学习和游戏听起来是编程教育的绝佳组合！你能分享一下这个游戏的更多细节吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:8",
+        "text": "是的，他们正在玩一个简单的文字冒险游戏，锻炼编程技能，同时享受乐趣。我为他们感到骄傲！也许他们甚至能自己创作电子游戏呢，对吧？你最近有什么新的游戏设计想法吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:9",
+        "text": "哇，听起来很酷，周杰！通过文字冒险游戏学习编程真的很棒。至于我，我一直在尝试不同类型的游戏，现在特别想创作一款像《文明》那样的策略游戏——我喜欢它们那种复杂和深入的玩法。希望有一天我能做出自己的超棒策略游戏！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:10",
+        "text": "哇，陈华，这太厉害了！一定会很棒的。迫不及待想看看你的成果！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:11",
+        "text": "你明天有空吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:12",
+        "text": "是的，明天我休息。你有什么建议怎么过明天吗？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张笔记本电脑的照片，配有彩色键盘，放在桌子上",
+        "dia_id": "D21:13",
+        "text": "好的，如果你愿意，我们可以去星巴克喝咖啡。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:14",
+        "text": "我不介意见面，但为什么是星巴克？也许我们可以找个地方喝啤酒？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:15",
+        "text": "那么，我们去麦吉酒吧怎么样？我听说那里的黑啤很棒！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:16",
+        "text": "好主意，不过我不喜欢黑啤。也许那里还有别的？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:17",
+        "text": "当然，也有淡啤酒！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D21:18",
+        "text": "太好了，那我同意！明天麦吉酒吧见！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D21:19",
+        "text": "再见周杰，拜拜！"
+      }
+    ],
+    "session_22_date_time": "2022年9月1日 下午6:53",
+    "session_22": [
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Legend_of_Grimrock_screenshot_12.jpg"
+        ],
+        "blip_caption": "一张石质建筑与巨型生物的游戏截图照片",
+        "query": "Unity策略游戏",
+        "dia_id": "D22:1",
+        "re-download": true,
+        "text": "嘿，周杰！好久不见，希望你一切都好。我的Unity策略游戏终于完成了——虽然花了大量的时间和精力，但我真的很自豪。你的支持和鼓励真的起了很大作用。谢谢你一直相信我！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:2",
+        "text": "嘿，陈华！恭喜你完成了游戏！看起来太棒了，我真为你付出的所有努力感到骄傲。我能看看更多内容吗？还有其他截图可以给我看看吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/w5vwdrledbb41.jpg"
+        ],
+        "blip_caption": "一张显示骑马人物的游戏屏幕照片",
+        "query": "游戏战斗场景截图",
+        "dia_id": "D22:3",
+        "text": "感谢你的支持。看看这张游戏截图吧。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:4",
+        "text": "这款游戏看起来很棒！是什么启发你创作它的？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:5",
+        "text": "我一直很喜欢玩《文明》和《全面战争》这类策略游戏，所以决定挑战一下自己，创作一款属于自己的游戏。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:6",
+        "text": "太棒了！我也很喜欢那些游戏。自己制作游戏一定是一段特别的经历吧。开发过程中有没有遇到什么困难？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:7",
+        "text": "要让所有细节都恰到好处，平衡机制并确保公平性，确实有点挑战性。但经过一些尝试和调整，我最终把它做到了我想要的样子。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:8",
+        "text": "哇，那一定很不容易，尤其是还要确保游戏既有趣又平衡。恭喜你完成了它！这次经历中你有哪些重要的收获呢？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:9",
+        "text": "谢谢，周杰！这绝对是一次学习经历。坚持和耐心是关键，我很自豪在坚持之后创造出了自己的作品。此外，反馈和协作至关重要，他人的帮助确实让游戏变得更好。这太棒了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:10",
+        "text": "你能学到这些真是太棒了！协作和反馈对任何项目都有巨大影响。我一直在教我的兄弟姐妹们编程。这是一次充实的经历，他们已经在创建自己的程序了——太神奇了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:11",
+        "text": "哇，周杰！看到别人在你的帮助下学习真酷。他们在做什么样的程序？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:12",
+        "text": "他们从小处着手，制作基本的游戏和故事。他们学习的速度之快以及他们玩得开心，这很鼓舞人心。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:13",
+        "text": "哇！他们学习的速度之快以及他们玩得开心，这很鼓舞人心。我敢打赌他们很快就能创建自己的复杂项目了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:14",
+        "text": "我很兴奋地想看看他们能走多远！他们和我一样对电子游戏充满热情，希望他们能利用那些编程技能做出一些很酷的东西。我为他们感到骄傲，迫不及待想看看他们会想出什么创意！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:15",
+        "text": "我也为他们感到骄傲！看到下一代学习编程并制作自己的游戏真是太棒了。等不及想看看他们会创造出什么！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:16",
+        "text": "谢谢你的支持，陈华。我真的很感激。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:17",
+        "text": "当然，你是最棒的！我永远支持你，毫无疑问。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D22:18",
+        "text": "你的友谊对我意义重大。我现在正经历一些困难时期，能知道你这样的朋友在身边真的很好。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D22:19",
+        "text": "要知道，如果你需要找人聊聊或倾诉，我随时都在。这或许能帮你缓解一些正在经历的艰难时刻。"
+      }
+    ],
+    "session_23_date_time": "2022年9月4日 下午9:23",
+    "session_23": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:1",
+        "text": "嘿周杰，我们好几天没聊了。发生了好多事，有好的也有坏的。昨天我们在剧院的时候——萨曼莎很喜欢剧院——我请她做我的女朋友，她答应了。在这短短的时间里，我们经历了很多。有甜有苦，但我跟她在一起很开心。那些起起落落有点让人应接不暇，但这就是生活的一部分。你呢？最近有什么新鲜事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://c0.wallpaperflare.com/preview/885/290/450/adult-coder-coding-company.jpg"
+        ],
+        "blip_caption": "一张男人坐在桌边使用电脑的摄影照片",
+        "query": "家人一起用电脑编程",
+        "dia_id": "D23:2",
+        "re-download": true,
+        "text": "嘿陈华，这真是个好消息！除了剧院，你们还去了哪里？我父母刚开始跟我学编程——这对我也是个学习过程，但我很高兴能帮到他们。这让我们关系更紧密了些。看看这张照片，这是我父亲第一次自己编写程序。\n "
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:3",
+        "text": "太好了，周杰！看起来他在照片里玩得很开心。萨曼莎和我当时也在麦吉酒吧。原来她很喜欢喝上好的拉格啤酒。她和我有好多共同点！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:4",
+        "text": "我很高兴你终于找到了除了狗以外能给你带来快乐的事物。干得好，你会成功的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:5",
+        "text": "谢谢，周杰。她和我下周日要去看棒球赛，想一起来吗？我让你看看萨曼莎长什么样。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:6",
+        "text": "好啊！就这么定了。这一定会是一次有趣的经历！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:7",
+        "text": "太好了。嗯，你生活中还有什么新鲜事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:8",
+        "text": "我买了一些新的游戏设备来提升我的技术。比如新耳机。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:9",
+        "text": "酷，你选了哪个公司的？还买了其他什么设备吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:10",
+        "text": "我选了森海塞尔的耳机。根据评价，它们的音质非常出色。另外，我还买了一个罗技的鼠标。"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张电子游戏场景的照片，里面有几个人",
+        "dia_id": "D23:11",
+        "text": "酷！希望新设备能提升你的技术，让你玩得更好！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:12",
+        "text": "我也真心希望如此。对了，除了你和萨曼莎的好消息，你还有什么新鲜事吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:13",
+        "text": "是的，两天前我报名参加了一个烹饪课。我从来不喜欢做饭，但我觉得我想学点新东西。第一节课我们准备了几道简单的菜。我第一次就做出了很棒的煎蛋卷！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:14",
+        "text": "酷！我从没听说过你有烹饪的愿望，你让我惊讶！这些烹饪课程多少钱，你在那儿还做了什么菜？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:15",
+        "text": "每节课只要10美元，非常便宜！而且，我在那里做了蛋白酥，他们还教我们如何做面团。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:16",
+        "text": "真的很便宜。你总是在寻找提升自己的方法，这太棒了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:17",
+        "text": "谢谢你的支持，周杰！我真的很感激。等我再多学一点烹饪，希望能请你尝尝我的手艺。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:18",
+        "text": "我期待着，陈华，你能做到的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:19",
+        "text": "你的话给了我更多追求新爱好的力量！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D23:20",
+        "text": "这就是为什么我们是朋友，要互相支持！好了，我得走了，再见！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D23:21",
+        "text": "保重，周杰，再见！"
+      }
+    ],
+    "session_24_date_time": "2022年9月18日下午6:02",
+    "session_24": [
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/eqfmcyv9b2t91.jpg"
+        ],
+        "blip_caption": "一张桌子上放着一台笔记本电脑和一款游戏的图片",
+        "query": "游戏项目进行中",
+        "dia_id": "D24:1",
+        "text": "嘿，陈华！好久不见！自从我们上次聊天以来，发生了很多变化。我开始接触桌游了。上周我试玩了一款，结果发现非常有趣。你最近怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/pa728lrin0081.jpg"
+        ],
+        "blip_caption": "一张桌子上放着一本写有文字的笔记本的图片",
+        "query": "笔记本 游戏创意草图 编程挑战 朋友",
+        "dia_id": "D24:2",
+        "text": "嘿，周杰！真酷，这是哪种桌游？我一直都很忙。为了不忘记要做的事情，我开始把所有需要做的事情都记在笔记本上。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:3",
+        "text": "这款游戏叫“龙之地下城”，非常刺激！我很高兴你把需要做的事情记在笔记本上。这绝对能帮你避免遗忘任何事！你是怎么想到这个主意的？一般来说，你的灵感都是从哪里来的？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D24:4",
+        "text": "谢谢，周杰！我从各种来源获取灵感，比如书籍、电影，甚至梦境。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:5",
+        "text": "哇，梦境给了你灵感？这真有趣。有没有具体的梦指引过你的想法？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D24:6",
+        "text": "几周前我做了一个疯狂的梦，激发了一些创意点子。那个梦太生动了，醒来时我脑子里全是各种有趣的想法！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:7",
+        "text": "哇，梦境有时真的很神奇！你还记得那个梦的具体细节吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D24:8",
+        "text": "我记得梦里有一座中世纪城堡，里面有个迷宫，满是谜题和陷阱。感觉就像在现实生活中玩电子游戏一样！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:9",
+        "text": "哇，探索有谜题和陷阱的城堡听起来太棒了！你有那次经历的草图或笔记吗？我很想看看！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://www.andrewwkmusic.com/wp-content/uploads/2020/12/0077.jpg"
+        ],
+        "blip_caption": "一张画有吉他草图的记事本照片",
+        "query": "城堡 迷宫 谜题 笔记本 草图 手写笔记 梦境 经历",
+        "dia_id": "D24:10",
+        "text": "是的！我画了些草图，也记了笔记。稍等，我去拿一下。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:11",
+        "text": "草图很棒！你喜欢音乐吗，还是这和你的城堡梦境有关？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/m5s2y1kxhcnb1.jpg"
+        ],
+        "blip_caption": "一张有笔记本电脑、耳机和显示器的书桌照片",
+        "query": "游戏设备 耳机 音箱",
+        "dia_id": "D24:12",
+        "text": "谢谢！音乐是我生活中很重要的一部分——虽然和城堡没什么关系。你喜欢什么样的音乐？会演奏什么乐器吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:13",
+        "text": "酷！我喜欢电子乐和摇滚乐。我年轻时打过鼓，但已经很久没碰了。你会演奏什么乐器吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D24:14",
+        "text": "是啊，摇滚乐太棒了！我年轻时弹过吉他，但也很久没弹了。"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://cdn11.bigcommerce.com/s-qy9kl0lfci/images/stencil/original/products/62751/75290/Tama_Star_Classic_Tiger_Stripe__70181.1699123066.jpg"
+        ],
+        "blip_caption": "一张录音室里摆放的架子鼓照片",
+        "query": "架子鼓",
+        "dia_id": "D24:15",
+        "text": "年轻时打鼓是一种很棒的释放压力的方式。这是我以前用过的一套旧架子鼓的照片。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D24:16",
+        "text": "酷！你以前组过乐队还是只是和朋友一起即兴演奏过？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:17",
+        "text": "我以前和朋友一起即兴演奏过，非常有趣！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D24:18",
+        "text": "听起来太棒了！和朋友一起即兴演奏总是乐趣无穷。那些即兴演奏有录音或视频吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:19",
+        "text": "没有，更注重的是体验和当下的感受。即兴演奏没有录音或视频。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D24:20",
+        "text": "没关系！享受体验本身而不必担心收集视频或录音也挺好的。对了，我开始直播游戏了。还没什么具体细节，希望一切顺利。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D24:21",
+        "text": "我会为你祈祷的！你一定会成功的，我期待听到细节！"
+      }
+    ],
+    "session_25_date_time": "2022年9月20日 晚上8:56",
+    "session_25": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:1",
+        "text": "嘿陈华，我们好几天没聊天了。我生活中发生了好多事！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:2",
+        "text": "嘿周杰！你生活中有什么新鲜事吗？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/2sop5yn1a8i81.jpg"
+        ],
+        "blip_caption": "一张街上金属锅里燃烧着火焰的照片",
+        "query": "工作项目",
+        "dia_id": "D25:3",
+        "text": "昨天我启动了一个新创业项目——便携式熏烤炉。现在，我已经用金属焊接好了一个。你觉得它看起来怎么样？你那边呢，有什么酷炫的事情发生吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:4",
+        "text": "嘿周杰，这个看起来太棒了！看到它让我想起了和朋友们一起的篝火晚会。昨晚我直播了一场游戏，哇，游戏社区里那些友好的评论真的让我惊喜不已。我超级兴奋，也备受鼓舞，要继续坚持下去。"
+      },
+      {
+        "speaker": "周杰",
+        "blip_caption": "一张卡片照片，上面有一顶毕业帽",
+        "dia_id": "D25:5",
+        "text": "哇哦，恭喜你陈华！太了不起了。听起来你过得不错。你所有的努力都在开花结果，继续加油！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:6",
+        "text": "谢谢你的支持，周杰！这让我想起了那段激动人心的时光。最近还有什么重要时刻吗？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/10/2x1_NSwitch_Bayonetta3_image1600w.jpg"
+        ],
+        "blip_caption": "一张恶魔持剑在空中飞行的摄影作品",
+        "query": "手机游戏截图标题",
+        "dia_id": "D25:7",
+        "re-download": true,
+        "text": "我刚刚实现了一个重大的职业里程碑——制作了我的第一款手机游戏！下个月就要上线了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:8",
+        "text": "干得漂亮，周杰！恭喜你达成这个重要的职业里程碑。能多聊聊吗？之前怎么没听你说过在开发手机游戏？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/d1/Awesomenauts_-_Screenshot_01.jpg"
+        ],
+        "blip_caption": "一张电子游戏的摄影，画面中有许多不同的屏幕",
+        "query": "2D冒险游戏 解谜 探索 色彩缤纷的虚拟世界",
+        "dia_id": "D25:9",
+        "re-download": true,
+        "text": "谢谢陈华！我之前保密是因为如果提前告诉了你，但最后没成功的话，我会非常沮丧。过去几个月我一直在忙这个项目，对成果真的很自豪。这是一款包含解谜和探索元素的2D冒险游戏。这是张截图。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:10",
+        "text": "周杰，这听起来太棒了！我很喜欢带解谜的2D冒险游戏——比如《塞尔达传说》。我能看看或者帮忙测试一下吗？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://thethoughtfulgamer.com/wp-content/uploads/2017/10/20171027_105814-e1509116397258.jpg"
+        ],
+        "blip_caption": "一张照片，书上有一幅卡通画，画中一个男人在玩游戏",
+        "query": "游戏开发书籍资源技能精进游戏",
+        "dia_id": "D25:11",
+        "text": "干杯，陈华！感谢你提出帮忙。测试准备好时我一定会告诉你。对了，这是帮助我为这款游戏设计谜题的书。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:12",
+        "text": "哇，那本书看起来真棒！你还用什么其他资源来改进你的游戏？告诉我你的游戏技巧吧！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:13",
+        "text": "这本书充满了关于游戏设计的绝妙技巧和见解。我还看教程，并关注开发者论坛以获取信息和想法。基本上，保持信息灵通和不断学习是关键！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/a2jbhj4bi6n61.jpg"
+        ],
+        "blip_caption": "一本杂志的照片，上面有一张卡通人物的图片",
+        "query": "游戏杂志技巧与窍门游戏开发者",
+        "dia_id": "D25:14",
+        "text": "你真的很专注于提升自己并保持与时俱进。看到你保持信息灵通并持续学习，这很鼓舞人心。我也建议你读这本杂志，它也是一个有价值的信息来源。继续加油！\n"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:15",
+        "text": "我也读过。这本杂志对我来说也很棒。教程、开发者访谈和技巧——都非常有帮助。"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一本杂志的照片，上面有一个卡通人物的图片",
+        "dia_id": "D25:16",
+        "text": "哇，周杰！很高兴这个资源对你有用——看起来它为游戏开发者提供了一些很好的技巧和窍门。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:17",
+        "text": "是啊，那本杂志看起来真棒！你也觉得它是一个很好的资源吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:18",
+        "text": "当然！它非常棒，里面充满了教程和开发者访谈，帮助我提升游戏开发技能。超级有用！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:19",
+        "text": "这类资源对提升我们的技能大有裨益。继续加油！你这一周过得怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:20",
+        "text": "我这周还不错。正努力在工作和其它活动之间找到平衡。你呢，这周过得如何？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:21",
+        "text": "至于我，这周各种事情交织，一片忙乱。但我正全力以赴地应对！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:22",
+        "text": "听说你这周这么忙，真不容易，周杰。一定要留些时间给自己，照顾好自己。你能行的！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:23",
+        "text": "谢谢你的关心。我会抽时间放松的。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D25:24",
+        "text": "别担心，照顾好自己。放松一下，充充电——这是你应得的。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D25:25",
+        "text": "谢了，兄弟！我一定会听你的建议。你最好了！"
+      }
+    ],
+    "session_26_date_time": "2022年10月3日上午9:20",
+    "session_26": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:1",
+        "text": "嘿，陈华！这几周确实很忙，但我正努力坚持。收到一封邮件，是关于一家游戏开发非营利组织的志愿者工作。这是我很久以来一直想做的事，而且可能是个完美的起点，能开启一份结合我两大爱好的事业——游戏和助人。太兴奋了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D26:2",
+        "text": "嘿，周杰，听起来太棒了！将你的两大爱好——游戏和助人——结合起来，一定非常令人兴奋！那么他们给你提供的是什么类型的工作呢？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:3",
+        "text": "他们邀请我担任游戏开发者的编程导师。我将教授编程并协助项目开发。能分享我的知识并激励对游戏充满热情的人，我真的很兴奋。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D26:4",
+        "text": "哇，周杰！指导程序员制作游戏听起来太棒了！你一定很喜欢。对于开启这段旅程，你感觉如何？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:5",
+        "text": "我既兴奋又备受鼓舞！这是一个帮助他们并提升自己技能的绝佳机会。我热爱分享所知，并看到他人发挥潜力——这非常有成就感！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D26:6",
+        "text": "看到你从中获得如此多的快乐，真是太值得了。继续加油，你做得很好！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:7",
+        "text": "谢谢，陈华！你的支持对我意义重大。能用自己的技能带来改变，这让我感到非常充实。希望这能为我带来更多机会。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/jkzfs9aawzw21.jpg"
+        ],
+        "blip_caption": "一张电脑机箱的照片，上面有红灯亮着",
+        "query": "《巫师3》游戏设置",
+        "dia_id": "D26:8",
+        "text": "我相信这会带来伟大的成就。你能行的！哦，我上周搞到了这个很酷的显卡——我太兴奋了，准备再次投入其中！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:9",
+        "text": "酷啊，陈华！你期待用它玩什么类型的游戏？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D26:10",
+        "text": "我超级喜欢角色扮演游戏，所以对拿到这张显卡并玩一些新游戏感到兴奋。你听说过《赛博朋克2077》有什么很棒的地方吗？你觉得这款游戏值得我关注吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:11",
+        "text": "是的，我玩过——它太棒了！沉浸感十足的世界和精彩的故事。我相信你会喜欢的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D26:12",
+        "text": "我太期待了！这个世界和故事听起来太完美了。谢谢你推荐，周杰！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:13",
+        "text": "别客气，陈华！希望你玩得开心。到时候告诉我你的想法！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D26:14",
+        "text": "好的，周杰。我会的！保重，再见！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D26:15",
+        "text": "保重！好好享受那台新电脑。回聊！"
+      }
+    ],
+    "session_27_date_time": "2022年10月13日下午2:14",
+    "session_27": [
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/zkrnzupfyy9b1.jpg"
+        ],
+        "blip_caption": "一张书桌的照片，上面有一台笔记本电脑和一台显示器",
+        "query": "在线编程竞赛筹备",
+        "dia_id": "D27:1",
+        "text": "嘿，陈华！最近怎么样？上周我和我的程序员朋友们组织了一场在线竞赛，玩得太开心了！看到大家各显神通真是太棒了！你最近有什么新鲜事吗？"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55934be0-eae0-47bc-a3eb-6c0140f50b06/d5plslq-28102d55-338e-485d-b0fe-5f9553b0aa39.jpg/v1/fill/w_622,h_350,q_70,strp/game_of_thrones___daenerys_targaryen_by_daninaimare_d5plslq-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNTU5MzRiZTAtZWFlMC00N2JjLWEzZWItNmMwMTQwZjUwYjA2XC9kNXBsc2xxLTI4MTAyZDU1LTMzOGUtNDg1ZC1iMGZlLTVmOTU1M2IwYWEzOS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3OweRTbk-A6SxQJ1Cqdb8wNtXtkQ6cjXbErC4U42YSQ"
+        ],
+        "blip_caption": "一张包含龙与龙的《权力的游戏》摄影作品",
+        "query": "游戏界面中玩家与神话生物战斗",
+        "dia_id": "D27:2",
+        "re-download": true,
+        "text": "嘿，周杰，恭喜啊！我最近也发生了件很酷的事。我制作了我的第一款游戏并发布给了游戏社区——这太让人兴奋了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D27:3",
+        "text": "恭喜你发布了游戏，陈华！看到玩家们沉浸在你创造的游戏世界里，是不是很有成就感？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D27:4",
+        "text": "看到玩家们沉浸在我创造的游戏世界里，确实让我非常有成就感。我真的很高兴他们能在我投入这么多心血的作品中找到乐趣。这让我想起纳瓦尔说过，code 和 media 是两种不需要别人许可的杠杆，能带来长期复利，甚至在你睡觉时都在创造价值。其实想想，有谁拦着我们去做这些事呢？不需要辞职才能做内容，也不需要名校标签才能开始——就像我做这个游戏，也就是从动手尝试开始的。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D27:5",
+        "text": "真酷，大家都很喜欢它！是什么启发你创作它的？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D27:6",
+        "text": "玩电子游戏总是很棒，但创作自己的游戏真的很特别。《巫师3》给了我很多灵感，它那惊人的世界和故事。而且，它推动我去创造一些很酷的东西。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D27:7",
+        "text": "《巫师3》显然对你产生了巨大影响。你一定在你的游戏中投入了大量的辛勤工作和奉献。你对未来的游戏开发有什么计划吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D27:8",
+        "text": "我付出了很多努力，而且得到了回报——现在，我准备制作更多不同体裁的游戏，并尝试新的想法。我很兴奋，想看看这段旅程会通向何方！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D27:9",
+        "text": "我迫不及待想看看你的旅程会通向何方，以及你会创造出什么新作品。你对游戏开发的决心和热爱令人难以置信。继续前进，你会做出伟大的事情！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D27:10",
+        "text": "我真的很期待创造更多愉快的体验！对我来说，做内容就像玩一样，是正反馈很强、给我能量的事，而不是消耗。这让我想到今年的关键词——“有松弛感的成长”，我没有逼自己去做，而是把这些无缝融入了生活。当你做的事都是自己喜欢的，你也不会去想什么时间管理。就像纳瓦尔说的，“Find what feels like play to you, but looks like work to others”，做内容对我来说正是这样。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D27:11",
+        "text": "我在这里支持你。无论你需要什么，尽管找我！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D27:12",
+        "text": "谢谢，周杰！真的很感谢你的支持。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D27:13",
+        "text": "别客气，陈华！我们合作得很棒。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D27:14",
+        "text": "是啊，完全同意。你一直都在支持我，周杰。谢谢你做我的后盾。"
+      }
+    ],
+    "session_28_date_time": "2022年10月21日 下午7:36",
+    "session_28": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:1",
+        "text": "嘿周杰，好久没联系了！发生了好多事！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:2",
+        "text": "嘿陈华！真高兴能叙叙旧。最近怎么样？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:3",
+        "text": "三天前我公寓停电了——太烦人了，因为我刚玩到那个游戏的大揭秘部分！等了好几个小时才能继续玩。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:4",
+        "text": "唉，真糟糕！玩游戏中途停电太扫兴了。有没有影响你的游戏进度？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:5",
+        "text": "哎呀，这确实打乱了我的进度。因为忘记保存，我丢了一部分内容。真让人沮丧，不过现在我知道要更频繁地保存了！说到这个，我后来想通一件事：新技术浪潮来临时一切归零，所有人回到同一个起跑线。即使本科就学 AI 的，现在也得重新学。我身边很多技术很强的工程师对最新 AI 进展并不关心，反倒我一个不搞技术的每天在 Twitter 看新模型一出来就用。所以这不是能力问题，更是心态和意愿问题。就像之前说的，\"Idea is expensive again\"——好的 Idea 源于对特定人群的独特洞察，不是随便做几个访谈就能得到的，往往你自己就是这类人。但同时实现成本和抄袭成本都降低了，光有 Idea 不够，必须落地、获客、基于反馈迭代，这个循环转得越快竞争力越强。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:6",
+        "text": "吸取教训了——记得保存进度！对了，我上周组织了那个编程研讨会。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:7",
+        "text": "哇，太酷了！进行得怎么样？学到什么有趣的东西了吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:8",
+        "text": "研讨会非常顺利！参与人数很多，我也学到了一些有趣的新知识。分享自己的知识并看到它对大家有帮助，是一次很充实的经历。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:9",
+        "text": "太棒了，周杰！听起来研讨会很成功。你从中学到了什么？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:10",
+        "text": "我对各种编程方法和技术有了更深入的了解。听到其他开发者的想法和策略很有趣。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:11",
+        "text": "学习新的编程知识很棒。你有没有发现一些可以融入自己工作的想法？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:12",
+        "text": "是的！发现了一些很酷的想法，可以用在我自己的工作中。探索不同的编程技术及其实现方式令人兴奋。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:13",
+        "text": "太好了，周杰！拓宽编程技能并尝试新技术很棒——既能保持新鲜感，又有助于个人成长。你已经开始尝试了吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:14",
+        "text": "还没有，但我很期待动手实验，看看能用它们做些什么。尝试新事物总是充满乐趣！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:15",
+        "text": "是的！尝试新事物让我们保持警觉，激发创造力。你愿意尝试并看看自己能创造出什么，这真是太棒了。我也在寻求拓展，有什么我可以尝试的想法吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:16",
+        "text": "我会发给你一些我学到的新编程方法和技巧的资源与教程。你会觉得它们很酷的！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:17",
+        "text": "非常感谢。等不及要看看了，或许能学到新东西！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:18",
+        "text": "别客气，陈华。希望对你有帮助。有任何问题随时告诉我。"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://api.army.mil/e2/c/images/2022/04/11/bcd7991a/original.jpg"
+        ],
+        "blip_caption": "一张身穿军装的男女站在一只狗旁边的照片",
+        "query": "狗伙伴",
+        "dia_id": "D28:19",
+        "text": "需要帮助时我会联系你。谢谢提供的资源，真的很感激。顺便说一句，两天前我妈妈和她的军队朋友来看我了，我们玩得很开心。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:20",
+        "text": "酷。妈妈的朋友一定还在军队里吧？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:21",
+        "text": "是的，她仍在服役。但她很久以前就退休了。她们过去常给我讲她们在军队里和她们小狗的故事。有趣的是，我有一张我在她们那个年纪时，在她们旧游戏设备上玩耍的照片。你想看看吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:22",
+        "text": "当然，陈华！给我看看你在她们旧游戏设备上玩耍的那张照片，看起来超有趣的！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/lto5hiavrmz21.jpg"
+        ],
+        "blip_caption": "一张任天堂游戏机和任天堂马里奥游戏手柄的照片",
+        "query": "老照片 陈华 CRT电视 游戏手柄",
+        "dia_id": "D28:23",
+        "text": "这是一张带有马里奥游戏的主机照片。有趣的手柄，不是吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:24",
+        "text": "哦，是的，那确实有趣！你小时候玩任天堂玩得开心吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:25",
+        "text": "哦，当然！我小时候玩得可开心了。那是我的第一台游戏机，我会一连几个小时玩《超级马里奥》和《塞尔达传说》。它完全点燃了我对游戏的热爱。这让我想起现在很多人喜欢推广那些被低估的产品，就像如果大家都在夸ChatGPT时，有人站出来说“其实我觉得Gemini更好”，就会显得很有洞察力，大家也愿意转发这种观点。人们总想支持那个underdog，觉得发现了“宝藏”就想让更多人知道。这种心态其实也是新品牌早期能利用的一种红利呢。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:26",
+        "text": "哇，陈华！那些游戏真的点燃了你对游戏的热爱，对吧？"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张《巫师3：狂猎》的游戏封面照片",
+        "dia_id": "D28:27",
+        "text": "那些游戏带我走进了游戏世界，从此我就迷上了。顺便说一句，昨天我试玩了《赛博朋克2077》。很棒的游戏，非常让人上瘾！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:28",
+        "text": "我真的很高兴你喜欢这款游戏。游戏中会有许多意想不到的转折，你甚至无法想象！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:29",
+        "text": "你认为这款游戏最困难的地方是什么？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/1pegm3i0hs561.jpg"
+        ],
+        "blip_caption": "一张身穿皮背心和腰带的男子照片",
+        "query": "巫师3 对话选择 决定 强烈后果",
+        "dia_id": "D28:30",
+        "text": "最困难的是做出正确的选择。毕竟，即使是在与角色对话时的台词选择，也可能让一切走向错误的方向。这里的选择可能改变人生！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:31",
+        "text": "非常感谢，我一定会记住这一点！其实这让我想到，就像好的游戏需要讲好故事一样，创业中把产品的故事讲好也特别关键。我听说硅谷最近流行招“Head of Storytelling”，文科生的价值越来越被看到了——他们往往更懂人性、擅长沟通和品牌叙事，而这正是很多技术背景创业者的短板。所以无论是游戏还是产品，讲好故事真的能改变走向。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:32",
+        "text": "记住，你不必和游戏里的每个角色都成为朋友。我不想剧透，但请记住这一点！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:33",
+        "text": "我一定会采纳你的建议，周杰！谢谢你避免剧透。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D28:34",
+        "text": "很高兴能帮上忙。好了，我得走了！再见！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D28:35",
+        "text": "保重，再见！"
+      }
+    ],
+    "session_29_date_time": "2022年10月31日凌晨12:37",
+    "session_29": [
+      {
+        "speaker": "周杰",
+        "dia_id": "D29:1",
+        "text": "嘿，陈华！希望你一切顺利。我有个超棒的消息——昨晚我和朋友们办了一场游戏比赛。我们玩了《堡垒之夜》和其他几款游戏，还为一家儿童医院筹集了一笔不小的善款。把游戏和公益结合起来的感觉真是太棒了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D29:2",
+        "text": "嘿，周杰！为儿童医院组织游戏比赛真是太棒了！把游戏和公益结合起来——这真的很酷！快告诉我还有谁帮忙了，以及你们还玩了哪些游戏。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D29:3",
+        "text": "谢谢！我们都是为了一个美好的目标齐心协力。我和我的游戏伙伴们还玩了《守望先锋》和《Apex英雄》。大家为儿童医院筹款都玩得很开心，气氛热烈，每个人都斗志昂扬。最后，我们筹集了可观的金额。能用我们对游戏的热爱做好事，感觉真好！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D29:4",
+        "text": "哇，听起来太精彩了！游戏能这样把大家凝聚在一起，真是太棒了。你们为孩子们的生活带来了巨大的改变！比赛有照片吗？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/157m14rlacw51.jpg"
+        ],
+        "blip_caption": "一张电脑屏幕的照片，上面显示着游戏菜单",
+        "query": "游戏比赛 激烈对战 投入 刺激体验 公益",
+        "dia_id": "D29:5",
+        "text": "我在锦标赛上拍了一张很棒的照片，快来看看！大家都很兴奋，而且知道我们是在为一个美好的事业而战，这种感觉真是太棒了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D29:6",
+        "text": "哇，这张照片太棒了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D29:7",
+        "text": "谢谢！我很高兴你喜欢。那真是一个超棒的瞬间——对我们所有人来说都难以忘怀！你最近有什么新鲜事吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D29:8",
+        "text": "我确实有新消息，我和萨曼莎决定要同居了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D29:9",
+        "text": "哇，这真是个重大的决定！希望你们都权衡过利弊了。你们打算住在哪里？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D29:10",
+        "text": "当然，这是我们共同且知情的决定。我们在麦基酒吧附近租了一套公寓。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D29:11",
+        "text": "你们很喜欢一起在这个酒吧消磨时光，对吧？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D29:12",
+        "text": "我们就是喜欢！说实话，我们选择公寓的标准之一就是附近有这家特别的酒吧。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D29:13",
+        "text": "太棒了，陈华！很期待听到后续进展。随时告诉我最新消息，祝你好运！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D29:14",
+        "text": "谢谢，周杰！我一定会及时向你汇报。其实我最近也迈过了一个坎，就像之前买齐了设备却拖了一年没拍视频，后来想通了，直接拿手机就开始讲。把门槛降到足够低才能真正启动，而且我觉得 Learn in public 很重要——用“学生”的姿态分享心得，既利他又不会显得不专业。非常感谢你的支持，保重！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D29:15",
+        "text": "别担心！我随时都在这里支持你。注意安全，期待下次聊天！"
+      },
+      {
+        "speaker": "陈华",
+        "blip_caption": "一张男人和两只狗在田野里奔跑的照片",
+        "dia_id": "D29:16",
+        "text": "谢谢！感谢你的支持。注意安全，期待下次聊天！"
+      }
+    ],
+    "session_30_date_time": "2022年11月5日下午5:20",
+    "session_30": [
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:1",
+        "text": "嘿周杰，希望你一切顺利。昨天，我们开始了一次公路旅行。和家人还有我的狗狗们一起度过时光很有趣。探索新地方，带着毛孩子们亲近大自然真是太棒了！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:2",
+        "text": "嘿陈华！哇，真是一次冒险！最近我一直在忙一件事。猜猜看？这周二我取得了一个很棒的成就！感觉太棒了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:3",
+        "text": "那真是个好消息。你做了什么？说起来，我最近在信息获取上也有个新体会，我找内容有一个核心原则：Follow builders, not influencers。最高质量的信息往往来自行业内的实际从业者。我甚至养成了一个习惯：会从头到尾看完一些 YouTube 长视频，感觉就像跟硅谷最 top 的从业者免费开了一场视频会议。因为 builder 讲的东西来自实战经验，而 influencer 很多时候只是转述，还可能接赞助推广自己没用过的产品。所以看到你取得成就，我也特别好奇你具体是怎么做到的？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:4",
+        "text": "我赢得了地区象棋锦标赛。比赛很激烈，但我最终胜出了！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:5",
+        "text": "太棒了！恭喜！胜出的感觉怎么样？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:6",
+        "text": "感觉太好了。我所有的努力和练习都得到了回报，战胜挑战的感觉很棒。这给了我巨大的信心提升。我为自己感到骄傲！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:7",
+        "text": "获胜的感觉一定很棒。你赢的时候是什么情景？你用了什么策略来准备？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:8",
+        "text": "我的策略包括分析和预判对手的走法，以保持领先一步。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:9",
+        "text": "酷！关键就在于研究棋局以获取优势。你有什么提升技巧吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:10",
+        "text": "是的，研究开局走法和策略确实很有帮助。它能奠定基调并建立坚实基础。向经验丰富的棋手学习以及分析过往棋局也很重要。另外，你之前给我的象棋建议也很有用。你想了解一些关于象棋开局的资源吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:11",
+        "text": "当然，我很想看看一些关于象棋开局的资源。谢谢你！"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/jqeodrms8xnb1.jpg"
+        ],
+        "blip_caption": "一张列有不同游戏的书本照片",
+        "query": "象棋策略书籍截图",
+        "dia_id": "D30:12",
+        "text": "关于这一点我已经为你准备好了。这里有一个关于国际象棋开局的有用资源。很高兴能帮上忙！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:13",
+        "text": "谢谢你的建议，周杰。你最近在玩什么游戏？我一直在寻找新的推荐。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:14",
+        "text": "我迷上了一款很棒的游戏叫《FIFA 23》。这是一款出色的足球游戏，可以和在线的世界各地玩家一起玩！尽情享受吧！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:15",
+        "text": "哇，听起来太棒了！我正想尝试新的游戏类型，不如试试体育类游戏。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:16",
+        "text": "你需要先稍微练习一下，然后我们就可以一起玩了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:17",
+        "text": "好主意！希望它容易控制。说到上手门槛，现在AI真是降低了很多领域的实操难度，比如我以前完全不会编程，但现在用Cursor这种AI工具靠自然语言就能把想法实现出来，甚至在创意和分发层面能超过不少程序员。我做产品主要就是靠AI学会的——不是靠它教知识，而是它让动手变简单了。以前没团队没融资根本做不了产品，现在有想法直接打开AI工具就能开工。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D30:18",
+        "text": "一点也不难，你只需要一个游戏手柄和掌握好时机。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D30:19",
+        "text": "太好了！那我去训练了！"
+      }
+    ],
+    "session_31_date_time": "2022年11月7日 晚上8:57",
+    "session_31": [
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.redd.it/toaksy9sbze41.jpg"
+        ],
+        "blip_caption": "一群人摆姿势拍照的照片",
+        "query": "一群朋友在玩电子游戏",
+        "dia_id": "D31:1",
+        "text": "嘿，周杰！猜怎么着？我和家人正在公路旅行呢！我们已经拜访了我的朋友乔什和马克，玩得特别开心！"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://www.choochootrack.com/cdn-cgi/image/quality%3D85/assets/images/6%20player%20setup%20game%20over.jpg"
+        ],
+        "blip_caption": "一张木制棋盘游戏的照片，上面有四块木头和四个彩色球",
+        "query": "家庭游戏之夜协作在线游戏",
+        "dia_id": "D31:2",
+        "text": "嘿，陈华！听起来太棒了！我周末过得超级开心——我和一位游戏开发者合作了一个项目，看到我的想法变成现实真是太棒了。这是一次不可思议的经历！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:3",
+        "text": "听起来真棒。你参与的是什么项目？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:4",
+        "text": "我和一位游戏开发者合作，制作了一款在线棋盘游戏——这是一次有趣而独特的体验！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:5",
+        "text": "我可以想象，看到你的想法在游戏中变成现实，你一定感到非常自豪。这让我想起我自己的经历——从非技术背景转型做AI产品经理，也是靠AI降低了实操门槛，让我能直接上手把想法做出来，甚至发布了第一个AI产品。你的游戏已经发布供其他人试玩了吗？"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:6",
+        "text": "我们即将发布一个演示版，这样其他人就可以试用。等不及要听听他们的反馈和建议了。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:7",
+        "text": "等不及要试试了。发布时记得告诉我——我想支持你并分享我的想法。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:8",
+        "text": "感谢你的支持。发布时我一定会通知你，我也非常期待听到你的想法。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:9",
+        "text": "顺便说一句，在去找马克和乔什的路上，我们做了件好事。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:10",
+        "text": "什么事？期待听听你的故事！"
+      },
+      {
+        "speaker": "陈华",
+        "img_url": [
+          "https://i.ytimg.com/vi/uqizCzE85B8/maxresdefault.jpg"
+        ],
+        "blip_caption": "一张男人跪在狗旁边的照片",
+        "query": "动物庇护所救援犬",
+        "dia_id": "D31:11",
+        "text": "我们在公路旅行中参观了一个动物庇护所——那里有好多可爱的救援犬！我想起了我们对毛茸茸伙伴的喜爱。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:12",
+        "text": "酷！参观动物庇护所感觉怎么样？你有没有心动想带毛茸茸的伙伴回家？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:13",
+        "text": "那些救援犬太可爱了，我真想把它们都带回家，但我想起家里已经有三只狗了。我觉得养超过三只狗就太多了。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:14",
+        "text": "你说得对！我还没养狗，但我真的很想养一只。养狗是什么感觉？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:15",
+        "text": "身边有毛茸茸的朋友带来如此多的欢乐和友谊。没有它们，生活将大不相同。有它们在身边，每一天都更美好。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:16",
+        "text": "是啊，它们带来那么多欢乐和爱。它们总是在我们身边！就像阴天里拥有阳光。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:17",
+        "text": "我的狗狗也是这样——它们甚至能让灰暗的日子变好。真不知道没有它们该怎么办。它们是最好的伙伴。"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:18",
+        "text": "没错，狗狗当然很棒！它们让我们感受到被爱和快乐，不是吗？"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:19",
+        "text": "是的，它们确实如此。狗狗总是让我们振作起来，摇着尾巴，给予我们无条件的爱。就像每天都能获得一剂积极和快乐。它们太棒了！"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://i.redd.it/iwwwkzul10b71.jpg"
+        ],
+        "blip_caption": "一张狗坐在沙发前地毯上的照片",
+        "query": "金毛寻回犬幼犬",
+        "dia_id": "D31:20",
+        "text": "当然，陈华！狗太棒了。它们带来如此多的快乐和正能量。它们毫无评判地接纳我们，只有爱和幸福。我很感激它们为我生活带来的每日正能量。确实是特别的好伙伴。对了，这是我表弟的狗。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:21",
+        "text": "这只小狗太可爱了！它叫什么名字？"
+      },
+      {
+        "speaker": "周杰",
+        "img_url": [
+          "https://thewilsonsofoz.files.wordpress.com/2017/05/img_0635.jpg"
+        ],
+        "blip_caption": "一张两个人站在一个巨大头像前的照片",
+        "query": "露娜在公园玩接球",
+        "dia_id": "D31:22",
+        "text": "它叫露娜。"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:23",
+        "text": "露娜是个好名字！"
+      },
+      {
+        "speaker": "周杰",
+        "dia_id": "D31:24",
+        "text": "谢谢，我得走了，抱歉。再见！拜拜！"
+      },
+      {
+        "speaker": "陈华",
+        "dia_id": "D31:25",
+        "text": "回头见！保重！"
+      }
+    ]
+  },
+  "event_summary": {
+    "events_session_1": {
+      "Chen Hua": [
+        "通过游戏创作并讲述一个故事。",
+        "陈华提议与周杰合作开发宠物狗看护移动应用。该应用的自定义过滤器将使其在市场上与其他宠物狗看护应用区分开来。"
+      ],
+      "Zhou Jie": [
+        "周杰决定学习HTML和CSS编程课程",
+        "周杰提议与陈华合作开发移动应用。"
+      ],
+      "date": "17 March, 2022"
+    },
+    "events_session_2": {
+      "Chen Hua": [
+        "陈华创建了一个虚拟形象并加入了一个新的在线游戏平台，在那里他与其他玩家愉快地交流。"
+      ],
+      "Zhou Jie": [
+        "周杰培养了一个新爱好：带着金属探测器在海滩上散步。",
+        "周杰通过他的新爱好——金属探测，找到了瓶盖、几枚硬币和一枚金戒指。"
+      ],
+      "date": "20 March, 2022"
+    },
+    "events_session_3": {
+      "Chen Hua": [
+        "陈华开始学习打鼓。",
+        "陈华购买了一台拥有出色图形效果的新款尖端游戏系统。"
+      ],
+      "Zhou Jie": [
+        "周杰继续着他在2022年2月开始的打鼓爱好。",
+        "GO开始玩游戏。",
+        "GO与高水平玩家一起游戏并结识了游戏开发者。"
+      ],
+      "date": "27 March, 2022"
+    },
+    "events_session_4": {
+      "Chen Hua": [
+        "陈华与朋友们一起参加了一场在线的《Apex英雄》游戏锦标赛，进入了半决赛并赢了几轮比赛。",
+        "陈华在游戏锦标赛上从高水平的《Apex英雄》玩家那里获得了游戏技巧建议和签名。"
+      ],
+      "Zhou Jie": [],
+      "date": "4 April, 2022"
+    },
+    "events_session_5": {
+      "Chen Hua": [
+        "陈华从收容所领养了一只小狗，给它起名叫内德。他现在有三只狗了。"
+      ],
+      "Zhou Jie": [
+        "周杰开始玩一款设定在反乌托邦未来、故事很酷的新角色扮演游戏。"
+      ],
+      "date": "12 April, 2022"
+    },
+    "events_session_6": {
+      "Chen Hua": [
+        "陈华和他的一个游戏伙伴一起进行一个编程项目，创造了一个受《巫师3》启发的虚拟世界。",
+        "陈华遛狗时遇到一位女士，几乎对她一见钟情，但没有索要她的联系方式。",
+        "陈华在他和游戏伙伴创建的虚拟游戏世界里，创建了一个游戏化身来体现他遛狗时遇到的那位女士。"
+      ],
+      "Zhou Jie": [
+        "周杰通过他在2022年3月开始学习的HTML、CSS编程课程结识了三位新朋友。",
+        "周杰寻求独处，并游览了附近的一处峡谷。"
+      ],
+      "date": "20 April, 2022"
+    },
+    "events_session_7": {
+      "Chen Hua": [
+        "陈华带着他的两只大狗和那只小狗进行了一次冒险性的徒步旅行。"
+      ],
+      "Zhou Jie": [
+        "周杰在工作中遇到了一个涉及编码的困难任务，并且因为进展不大而感到压力重重。"
+      ],
+      "date": "23 April, 2022"
+    },
+    "events_session_8": {
+      "Chen Hua": [
+        "陈华买了一本带有酷炫插画的奇幻小说。",
+        "陈华开始探索一些策略游戏，比如《文明VI》。"
+      ],
+      "Zhou Jie": [
+        "周杰开始从事自由职业编程工作，以提高他在该领域的熟练度，并应用编程课上学到的知识。",
+        "周杰的第一个自由职业编程项目是为一家本地企业创建网站，他在网站支付功能上遇到了一些困难。",
+        "周杰与朋友们一起玩策略桌游。"
+      ],
+      "date": "29 April, 2022"
+    },
+    "events_session_9": {
+      "Chen Hua": [
+        "陈华在他受《巫师》启发的游戏开发中遇到了重大障碍，并在一群朋友的帮助下解决了问题。"
+      ],
+      "Zhou Jie": [
+        "周杰邀请他在编程课上认识的朋友们在他休息日来家里看电影。"
+      ],
+      "date": "4 May, 2022"
+    },
+    "events_session_10": {
+      "Chen Hua": [],
+      "Zhou Jie": [
+        "与他的游戏朋友们一起参加GO慈善游戏锦标赛。",
+        "周杰和他的朋友们将游戏锦标赛筹集的资金捐给了一家狗狗收容所，并用剩余的钱为无家可归者购买了食物和日用品。"
+      ],
+      "date": "8 May, 2022"
+    },
+    "events_session_11": {
+      "Chen Hua": [],
+      "Zhou Jie": [
+        "周杰自愿为一家帮助儿童的基金会提供编程技能支持。",
+        "周杰创建了一个软件工具，优化了基金会的运营，并将其捐赠和库存记录数字化。",
+        "周杰在为一项崇高事业努力工作的过程中找到了满足感和激情，并决定探索非营利部门的职业道路。"
+      ],
+      "date": "11 May, 2022"
+    },
+    "events_session_12": {
+      "Chen Hua": [
+        "陈华和朋友们一起去游乐园玩。",
+        "陈华在2022年4月完成了一个具有挑战性的项目，该项目涉及学习一门新语言。"
+      ],
+      "Zhou Jie": [
+        "周杰参加了一场本地游戏锦标赛，赢得了第二名和一笔奖金。"
+      ],
+      "date": "23 May, 2022"
+    },
+    "events_session_13": {
+      "Chen Hua": [
+        "陈华开始学习一门游戏设计课程。"
+      ],
+      "Zhou Jie": [
+        "周杰在多次面试后获得了梦寐以求的工作，并计划于2022年7月开始入职。"
+      ],
+      "date": "13 June, 2022"
+    },
+    "events_session_14": {
+      "Chen Hua": [],
+      "Zhou Jie": [
+        "周杰开设了一个博客来记录他的编程学习历程。",
+        "周杰购买了新的科幻和奇幻书籍，填满了他的书架。"
+      ],
+      "date": "16 June, 2022"
+    },
+    "events_session_15": {
+      "Chen Hua": [
+        "陈华开始让他年长的狗麦克斯和黛西认识新来的小狗内德。",
+        "陈华于2022年5月在一家为贫困人群提供必需品的机构做志愿者。"
+      ],
+      "Zhou Jie": [
+        "周杰希望找到一个志愿者职位，并同意去了解陈华所服务的组织。"
+      ],
+      "date": "19 June, 2022"
+    },
+    "events_session_16": {
+      "Chen Hua": [
+        "陈华成功赢得了一场在线游戏锦标赛。",
+        "陈华预订了前往多伦多和温哥华的机票，并于2022年7月11日至20日出发旅行。",
+        "陈华对极限运动产生兴趣，尝试了绳索跳跃和冲浪。"
+      ],
+      "Zhou Jie": [],
+      "date": "9 July, 2022"
+    },
+    "events_session_17": {
+      "Chen Hua": [
+        "陈华结束了对加拿大和努克市的访问，为周杰和吉尔带回了纪念品。",
+        "陈华的姐姐来看望他，他们一起去了海边。"
+      ],
+      "Zhou Jie": [
+        "周杰开始下国际象棋，并加入了一个国际象棋俱乐部以锻炼自己的竞技能力。"
+      ],
+      "date": "22 July, 2022"
+    },
+    "events_session_18": {
+      "Chen Hua": [
+        "陈华带小狗去兽医那里接种必要的疫苗，以防它感染季节性犬类疾病。"
+      ],
+      "Zhou Jie": [
+        "周杰考虑辞去他从事了三年的IT工作，并加入一份他喜欢的新工作。",
+        "周杰想在他所在的州从事组织游戏锦标赛的职业。"
+      ],
+      "date": "6 August, 2022"
+    },
+    "events_session_19": {
+      "Chen Hua": [
+        "陈华带着三只狗去海滩郊游，享受乐趣并与其他养狗人建立联系。",
+        "陈华在海滩郊游时遇到一位名叫萨曼莎的女子，并向她要了电话号码以便日后联系和见面。"
+      ],
+      "Zhou Jie": [
+        "周杰开始玩角色扮演游戏《巫师3》。"
+      ],
+      "date": "10 August, 2022"
+    },
+    "events_session_20": {
+      "Chen Hua": [
+        "陈华在家中为他的游戏好友们举办了一场游戏马拉松。"
+      ],
+      "Zhou Jie": [
+        "周杰在社交媒体平台上加入了一个编程小组，以便与同行保持联系、分享想法并合作开展编程项目。",
+        "周杰计划在2022年9月与他的兄弟姐妹们举办一场游戏之夜。",
+        "周杰翻新了他的游戏桌。"
+      ],
+      "date": "21 August, 2022"
+    },
+    "events_session_21": {
+      "Chen Hua": [],
+      "Zhou Jie": [
+        "周杰的弟弟妹妹们和他一起参加了HTML/CSS编程课程。",
+        "周杰和他的兄弟姐妹们合作开发了一款基于文本的冒险游戏，作为编程课程的项目。"
+      ],
+      "date": "26 August, 2022"
+    },
+    "events_session_22": {
+      "Chen Hua": [
+        "陈华完成了一款基于Unity的策略游戏，灵感来源于他玩《文明》和《全面战争》系列游戏的经验。"
+      ],
+      "Zhou Jie": [
+        "周杰教他的弟弟妹妹们编程，他们也和他一起参加了HTML/CSS编程课程。"
+      ],
+      "date": "1 September, 2022"
+    },
+    "events_session_23": {
+      "Chen Hua": [
+        "陈华在剧院请求萨曼莎做他的女朋友，她同意了。",
+        "陈华和萨曼莎计划去看一场棒球比赛，陈华邀请周杰加入他们。",
+        "陈华参加烹饪课程，学习烹饪煎蛋卷、蛋白酥皮和面团。"
+      ],
+      "Zhou Jie": [
+        "周杰的父母开始向他学习编程课程。",
+        "周杰购买了森海塞尔耳机和罗技鼠标游戏设备以提高他的技能。"
+      ],
+      "date": "4 September, 2022"
+    },
+    "events_session_24": {
+      "Chen Hua": [
+        "陈华参加了一次游戏直播，向观众展示他的游戏。",
+        "陈华开始在一个笔记本上写下想法和灵感，以免忘记任何重要的事情。"
+      ],
+      "Zhou Jie": [
+        "周杰开始探索《龙与地下城》棋盘游戏。"
+      ],
+      "date": "18 September, 2022"
+    },
+    "events_session_25": {
+      "Chen Hua": [
+        "陈华在一次成功的直播后收到了游戏社区的欢呼和赞美。"
+      ],
+      "Zhou Jie": [
+        "周杰创办了一家销售便携式熏烤炉的初创公司。",
+        "周杰完成了一款移动端2D冒险游戏的开发工作，该游戏包含解谜与探索元素，计划于2022年10月发布。"
+      ],
+      "date": "20 September, 2022"
+    },
+    "events_session_26": {
+      "Chen Hua": [
+        "陈华购买了一块新显卡，并兴奋地准备用它来玩《赛博朋克2077》。"
+      ],
+      "Zhou Jie": [
+        "周杰收到一封关于志愿工作的邮件，内容是为年轻游戏开发者提供指导，他对此感到非常兴奋。"
+      ],
+      "date": "3 October, 2022"
+    },
+    "events_session_27": {
+      "Chen Hua": [
+        "陈华受《巫师3》世界启发，完成了他的首款游戏并发布给在线游戏社区。"
+      ],
+      "Zhou Jie": [
+        "周杰和他的编程朋友们组织了一场在线编程竞赛。"
+      ],
+      "date": "13 October, 2022"
+    },
+    "events_session_28": {
+      "Chen Hua": [
+        "陈华试玩了《赛博朋克2077》并很喜欢这款游戏。",
+        "陈华的公寓停电，他因忘记保存而丢失了游戏进度。",
+        "陈华的母亲和她的一位军人朋友前来探望他。"
+      ],
+      "Zhou Jie": [
+        "周杰主动在当地组织了一场编程研讨会，并对编程实践获得了新的见解。"
+      ],
+      "date": "21 October, 2022"
+    },
+    "events_session_29": {
+      "Chen Hua": [
+        "陈华和萨曼莎决定同居。",
+        "陈华和萨曼莎在他们最喜欢的酒吧McGee's附近找到了一套公寓，准备搬进去。"
+      ],
+      "Zhou Jie": [
+        "周杰邀请他的游戏好友参加慈善锦标赛，他们一起玩《守望先锋》和《Apex英雄》，为儿童医院筹集资金。"
+      ],
+      "date": "31 October, 2022"
+    },
+    "events_session_30": {
+      "Chen Hua": [
+        "陈华带着他的狗和家人一起进行了一次长途公路旅行。"
+      ],
+      "Zhou Jie": [
+        "周杰赢得了地区国际象棋锦标赛。",
+        "周杰迷上了《FIFA 23》这款电子游戏。"
+      ],
+      "date": "5 November, 2022"
+    },
+    "events_session_31": {
+      "Chen Hua": [
+        "陈华和他的家人在公路旅行中拜访了他的游戏好友乔什和马克。",
+        "陈华和他的家人在公路旅行中参观了一个动物保护区。"
+      ],
+      "Zhou Jie": [
+        "周杰与一位游戏开发者合作开发了一款在线游戏。"
+      ],
+      "date": "7 November, 2022"
+    }
+  },
+  "observation": {
+    "session_1_observation": {
+      "Zhou Jie": [
+        [
+          "周杰报名参加了一个编程班，以复习他的HTML和CSS技能。",
+          "D1:7"
+        ],
+        [
+          "周杰建议未来一起开发移动应用程序。",
+          "D1:11"
+        ],
+        [
+          "周杰对VR游戏表现出兴趣，并同意下周六与陈华一起尝试。",
+          "D1:35"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华在大学时尝试过编程，现在这已成为他生活的重要组成部分。",
+          "D1:6"
+        ],
+        [
+          "陈华曾使用Python和C++进行开发，包括构建网站和创建游戏模组。",
+          "D1:8"
+        ],
+        [
+          "陈华计划开发一款遛狗和宠物护理应用，旨在将宠物主人与可靠的遛狗人联系起来。",
+          "D1:14"
+        ],
+        [
+          "陈华正在推进一个项目，将他童年时绘制的角色草图转化为电脑游戏，结合了他对游戏和讲故事的热爱。",
+          "D1:20"
+        ]
+      ]
+    },
+    "session_2_observation": {
+      "Chen Hua": [
+        [
+          "陈华创建了一个游戏角色，并加入了一个新平台以与其他玩家建立联系。",
+          "D2:1"
+        ],
+        [
+          "游戏在陈华艰难时期成为他的避风港，提供了放松和逃离压力的方式。",
+          "D2:5"
+        ],
+        [
+          "陈华将游戏视为一种疗法，在那里他可以放松、忘记烦恼并沉浸于另一个世界。",
+          "D2:7"
+        ],
+        [
+          "陈华最近一直在探索不同类型的游戏风格，以尝试新事物并挑战自我。",
+          "D2:9"
+        ],
+        [
+          "陈华有两只狗，他与它们一起进行了大量训练，它们对他来说就像家人一样。",
+          "D2:17"
+        ],
+        [
+          "当周杰提到想要一只宠物时，陈华主动提出要帮周杰找到最合适的宠物。",
+          "D2:19"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰最近迷上了用金属探测器在海滩上寻找物品的新爱好。",
+          "D2:10"
+        ],
+        [
+          "周杰用金属探测器主要找到了瓶盖，但也发现过硬币，甚至还有几次找到了金戒指。",
+          "D2:12"
+        ],
+        [
+          "周杰表示将来有兴趣养宠物，并感谢陈华主动提出帮忙寻找最合适的宠物。",
+          "D2:18"
+        ]
+      ]
+    },
+    "session_3_observation": {
+      "Zhou Jie": [
+        [
+          "周杰上周在游戏中大获全胜，晋级到了下一级，这极大地增强了他的自信心。",
+          "D3:1"
+        ],
+        [
+          "周杰打鼓，而且才打了一个月。",
+          "D3:3"
+        ],
+        [
+          "周杰参加了一个游戏大会，在那里他试玩了许多游戏，见到了开发者，并参加了一场《反恐精英：全球攻势》的比赛。",
+          [
+            "D3:9",
+            "D3:11"
+          ]
+        ],
+        [
+          "周杰总是希望在爱好和其他事情上提升自己，达到新的目标。",
+          "D3:15"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华正在学习演奏一种乐器，并且每天都在练习，已经看到了进步。",
+          [
+            "D3:2",
+            "D3:6"
+          ]
+        ],
+        [
+          "陈华买了一台新的尖端游戏系统，画面效果惊人，他喜欢下班后玩新游戏来放松。",
+          "D3:8"
+        ],
+        [
+          "陈华现在开始接触不同类型的游戏，比如角色扮演和策略游戏，他觉得这些游戏非常刺激。",
+          "D3:18"
+        ]
+      ]
+    },
+    "session_4_observation": {
+      "Zhou Jie": [
+        [
+          "周杰问陈华最近有没有玩什么新游戏。",
+          "D4:1"
+        ],
+        [
+          "周杰询问了陈华在在线游戏锦标赛中的表现。",
+          "D4:3"
+        ],
+        [
+          "周杰问陈华在锦标赛上是否遇到了任何知名玩家。",
+          "D4:7"
+        ],
+        [
+          "周杰问陈华从知名玩家那里记得最深刻的建议是什么。",
+          "D4:11"
+        ],
+        [
+          "周杰讨论了游戏中沟通和团队合作的重要性。",
+          "D4:13"
+        ],
+        [
+          "周杰问陈华他和团队一起玩的是什么游戏。",
+          "D4:15"
+        ],
+        [
+          "周杰询问陈华是否期待尝试任何新游戏。",
+          "D4:19"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华参加了一个在线游戏锦标赛并打进了半决赛，赢了几轮比赛。",
+          "D4:2"
+        ],
+        [
+          "陈华参加了在线游戏锦标赛的最后几轮，但未能进入决赛。",
+          "D4:6"
+        ],
+        [
+          "陈华在比赛中遇到了一位著名选手的整个团队，并获得了游戏技巧和签名。",
+          "D4:8"
+        ],
+        [
+          "陈华记得收到的游戏建议是关于适当的沟通和团队合作，而非个人主义。",
+          "D4:12"
+        ],
+        [
+          "陈华通常使用语音聊天与团队沟通，以实现有效的团队合作。",
+          "D4:14"
+        ],
+        [
+          "陈华喜欢与团队一起玩《Apex英雄》，因为其快节奏的游戏玩法。",
+          "D4:16"
+        ],
+        [
+          "陈华对尝试新的游戏类型如角色扮演游戏和多人在线战术竞技游戏感到兴奋。",
+          "D4:20"
+        ],
+        [
+          "陈华计划向周杰分享他的游戏体验和新游戏动态。",
+          "D4:24"
+        ]
+      ]
+    },
+    "session_5_observation": {
+      "Chen Hua": [
+        [
+          "陈华上周从斯坦福德的收容所领养了一只小狗，并给它起名叫内德，这让他每天更快乐。",
+          "D5:1"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰正在玩一款新的角色扮演游戏，该游戏将玩家带入一个未来主义的反乌托邦世界，拥有酷炫的故事和世界观。",
+          "D5:4"
+        ],
+        [
+          "周杰发现这款游戏存在一些卡顿和错误，但仍认为其拥有出色的图形和沉浸式的游戏体验。",
+          "D5:6"
+        ]
+      ]
+    },
+    "session_6_observation": {
+      "Zhou Jie": [
+        [
+          "周杰上周二在编程课上结识了三位新朋友，对扩大社交圈感到兴奋。",
+          "D6:1"
+        ],
+        [
+          "周杰喜欢与朋友放松消遣，并通过旅行获取工作动力。",
+          "D6:11"
+        ],
+        [
+          "周杰最近去了日本，那里科技发达的超级都市和美味的街头小吃给他留下了深刻印象。",
+          "D6:15"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华完成了一个结合游戏与编程的项目，创作了一个受《巫师3》启发的虚拟世界，其中包含他设计的游戏角色。",
+          "D6:2"
+        ],
+        [
+          "陈华在遛狗时遇到一位陌生人并从中获得灵感，由此产生了创作这个虚拟世界的想法。",
+          "D6:6"
+        ],
+        [
+          "除了常住地外，陈华还去过意大利、土耳其和墨西哥，他认为意大利风景优美、食物可口。",
+          "D6:12"
+        ],
+        [
+          "陈华表示有兴趣明年和周杰一起去新的国家旅行，并计划开始寻找目的地选项。",
+          "D6:16"
+        ]
+      ]
+    },
+    "session_7_observation": {
+      "Zhou Jie": [
+        [
+          "周杰上周四带狗徒步远足，他们享受探索小径和风景的乐趣。",
+          "D7:2"
+        ],
+        [
+          "周杰最近工作异常繁忙，截止日期迫近且任务繁重，这让他手忙脚乱。",
+          "D7:11"
+        ],
+        [
+          "周杰正在处理一个棘手的编程项目，进展不顺令他感到沮丧且难以突破。",
+          "D7:13"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华喜欢户外活动，觉得被郁郁葱葱的绿植和清新空气包围很舒心。",
+          "D7:6"
+        ],
+        [
+          "陈华觉得脚下落叶的沙沙声和大自然的宁静有助于理清思绪、放松心情。",
+          "D7:8"
+        ],
+        [
+          "陈华主动提供帮助，建议将项目分解为小步骤、做调研并寻求协助，以克服编码困难。",
+          "D7:18"
+        ]
+      ]
+    },
+    "session_8_observation": {
+      "Chen Hua": [
+        [
+          "陈华三天前买了一本冒险书，里面有奇幻小说和酷炫的插图。",
+          "D8:11"
+        ],
+        [
+          "陈华有毛茸茸的伙伴，比如他的狗黛西，它常在他玩游戏时趴在旁边。",
+          "D8:17"
+        ],
+        [
+          "陈华最近在尝试一些策略游戏。",
+          "D8:21"
+        ],
+        [
+          "陈华一直在玩《刺客信条：英灵殿》这款游戏。",
+          "D8:21"
+        ],
+        [
+          "陈华一直在玩一款需要管理资源、率领军队并征服领土的回合制策略游戏。",
+          "D8:23"
+        ],
+        [
+          "陈华为挑战自己的策略能力，玩这款回合制策略游戏已有一个月。",
+          "D8:29"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰目前正从事自由编程工作，以磨练编码技能。",
+          "D8:2"
+        ],
+        [
+          "周杰正在为当地一家小企业开发网站，这是他课堂之外的首个专业项目。",
+          "D8:4"
+        ],
+        [
+          "周杰在如何为正在开发的网站接入支付功能上遇到了难题。",
+          "D8:10"
+        ],
+        [
+          "周杰向陈华推荐了小说《风之名》。",
+          "D8:14"
+        ],
+        [
+          "周杰最近一直在玩《刺客信条：英灵殿》这款游戏。",
+          "D8:20"
+        ],
+        [
+          "周杰最近在玩《Among Us》，这是一款玩家需要找出内鬼的游戏。",
+          "D8:36"
+        ]
+      ]
+    },
+    "session_9_observation": {
+      "Zhou Jie": [
+        [
+          "周杰休息日邀请了一些新朋友来家里看电影。",
+          "D9:9"
+        ],
+        [
+          "周杰喜欢社交，并相信工作与娱乐需要平衡。",
+          "D9:9"
+        ],
+        [
+          "周杰对陈华养了什么宠物很感兴趣。",
+          "D9:11"
+        ],
+        [
+          "周杰喜欢夏威夷披萨，因为它甜咸交融的风味。",
+          "D9:19"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华在项目中遇到了一个破坏游戏机制的漏洞，这让他感到沮丧。",
+          "D9:4"
+        ],
+        [
+          "陈华喜欢与他心爱的宠物共度时光——一只名叫黛西的拉布拉多犬和两只牧羊犬。",
+          "D9:10"
+        ],
+        [
+          "陈华从宠物身上找到了快乐和忠诚。",
+          "D9:14"
+        ],
+        [
+          "陈华的快乐来源于他的宠物、电脑游戏、旅行和披萨。",
+          "D9:16"
+        ],
+        [
+          "陈华最喜欢的披萨是辣香肠披萨，因为它结合了辛辣的萨拉米香肠和奶酪。",
+          "D9:18"
+        ],
+        [
+          "陈华也喜欢奶酪披萨和配有意式火腿的披萨。",
+          "D9:20"
+        ],
+        [
+          "陈华向周杰推荐了意式火腿披萨，并强调了它的美味。",
+          "D9:22"
+        ]
+      ]
+    },
+    "session_10_observation": {
+      "Chen Hua": [
+        [
+          "陈华提到他工作很忙。",
+          "D10:2"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰为朋友们组织了一场《反恐精英：全球攻势》游戏锦标赛，并为慈善事业筹集了资金。",
+          "D10:4"
+        ],
+        [
+          "周杰将筹集到的钱寄给了家附近的一家狗狗收容所。",
+          "D10:10"
+        ],
+        [
+          "周杰用剩余的部分钱购买了杂货，并为无家可归者烹饪了食物。",
+          "D10:12"
+        ],
+        [
+          "周杰表示有兴趣组织更多结合个人兴趣与社区服务的活动。",
+          "D10:8"
+        ]
+      ]
+    },
+    "session_11_observation": {
+      "Zhou Jie": [
+        [
+          "周杰志愿运用编程技能支持公益事业，为一家慈善基金会开发了一款软件工具，以优化其运营流程。",
+          "D11:1"
+        ],
+        [
+          "周杰被该基金会帮助儿童的热情所感染，运用编程技能参与贡献并挑战自我。",
+          "D11:7"
+        ],
+        [
+          "这段经历让周杰更清晰地认识到自己的目标，并激发了他未来可能在非营利领域发展的动力。",
+          "D11:11"
+        ],
+        [
+          "周杰正在考虑参与志愿服务，并可能在未来投身非营利领域的工作。",
+          "D11:11"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华很高兴收到周杰的消息，并对周杰为慈善基金会开发的软件工具所产生的影响感到兴奋。",
+          "D11:2"
+        ],
+        [
+          "陈华询问了周杰为基金会开发软件工具的初衷。",
+          "D11:6"
+        ],
+        [
+          "陈华鼓励周杰继续运用自己的技能和热情去创造改变。",
+          "D11:14"
+        ],
+        [
+          "陈华表示愿意提供支持与鼓励，帮助周杰找到与其价值观和编程热情相符的非营利组织。",
+          "D11:16"
+        ]
+      ]
+    },
+    "session_12_observation": {
+      "Chen Hua": [
+        [
+          "陈华上周末和朋友在游乐园玩得很开心，体验了过山车、摩天轮、电动车和卡丁车等项目。",
+          "D12:1"
+        ],
+        [
+          "陈华在历经数月后完成了一个大项目，期间学习了新语言并处理了许多细节，这帮助他领悟了解决问题、耐心和坚持不懈的重要性。",
+          "D12:11"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰上周五参加了一场本地锦标赛并获得亚军，为此他获得了奖金和一座奖杯。",
+          "D12:4"
+        ],
+        [
+          "周杰认为成长和进步比每次都获胜更重要，并珍视从这次成就中学到的经验教训。",
+          "D12:7"
+        ]
+      ]
+    },
+    "session_13_observation": {
+      "Zhou Jie": [
+        [
+          "周杰在经历了多次面试和无数个熬夜的夜晚后，最近终于获得了梦寐以求的工作。",
+          "D13:3"
+        ],
+        [
+          "周杰下个月将开始他的新工作。",
+          "D13:5"
+        ],
+        [
+          "周杰是曼城队的球迷。",
+          "D13:15"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华最近开始了一门结合他对游戏和编程热情的课程。",
+          "D13:6"
+        ],
+        [
+          "陈华目前正在开发一个足球模拟器项目，具体负责收集球员数据库。",
+          "D13:8"
+        ],
+        [
+          "陈华是利物浦队的球迷，密切关注他们的所有比赛。",
+          "D13:12"
+        ],
+        [
+          "陈华认为没有比足球更好的运动，也没有比利物浦更好的俱乐部。",
+          "D13:12"
+        ],
+        [
+          "陈华坚信利物浦将在下个赛季成为冠军。",
+          "D13:14"
+        ],
+        [
+          "陈华和周杰就各自足球队的排名展开了竞争。",
+          "D13:18"
+        ],
+        [
+          "陈华同意与周杰就他们足球队的最终排名打赌。",
+          "D13:19"
+        ]
+      ]
+    },
+    "session_14_observation": {
+      "Chen Hua": [
+        [
+          "陈华有两个人总是在他遇到困难时帮助他。",
+          "D14:1"
+        ],
+        [
+          "陈华上周在他的博客上发布了一张关于编程的图片。",
+          "D14:2"
+        ],
+        [
+          "陈华有一只名叫马克斯的狗，尤其是在艰难时期给他带来快乐。",
+          "D14:13"
+        ],
+        [
+          "陈华喜欢和他的狗马克斯依偎在一起。",
+          "D14:15"
+        ],
+        [
+          "陈华和马克斯喜欢一起在海滩或湖边游泳。",
+          "D14:17"
+        ],
+        [
+          "陈华和马克斯在附近宁静的小径上散步，放松身心并与大自然连接。",
+          "D14:27"
+        ],
+        [
+          "当独自在公园时，陈华会带上一本书放松并逃离现实。",
+          "D14:31"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰上周开始了一个关于编程的博客，觉得既兴奋又具有挑战性。",
+          "D14:2"
+        ],
+        [
+          "周杰喜欢阅读科幻和奇幻书籍，尤其是那些具有沉浸式世界构建和复杂情节的史诗奇幻系列。",
+          "D14:8"
+        ],
+        [
+          "周杰最喜欢的书系列是《飓光志》、《弑君者传奇》和《苍穹浩瀚》。",
+          "D14:10"
+        ],
+        [
+          "周杰的狗麦克斯喜欢游泳和玩水，是个游泳高手。",
+          "D14:17"
+        ],
+        [
+          "周杰很欣赏陈华让麦克斯开心的成就。",
+          "D14:20"
+        ],
+        [
+          "周杰认为休息和转换环境对于恢复精力很重要。",
+          "D14:32"
+        ],
+        [
+          "周杰支持陈华，总是站在他身后支持他。",
+          "D14:34"
+        ]
+      ]
+    },
+    "session_15_observation": {
+      "Chen Hua": [
+        [
+          "陈华介绍了三只宠物——麦克斯、黛西和一只名叫内德的新小狗，它们正在慢慢适应并建立感情。",
+          "D15:1"
+        ],
+        [
+          "陈华拍了一张他的宠物们亲密相处的精彩照片。",
+          "D15:3"
+        ],
+        [
+          "陈华上个月做了志愿者，看到小礼物对需要帮助的人产生的影响，他感到很有意义。",
+          "D15:9"
+        ],
+        [
+          "陈华曾在一个为贫困人群提供必需品的组织做志愿者。",
+          "D15:11"
+        ],
+        [
+          "陈华愿意将周杰介绍给他曾志愿服务的组织。",
+          "D15:13"
+        ],
+        [
+          "陈华表示志愿服务无需面试，只要有帮助他人的意愿即可。",
+          "D15:15"
+        ],
+        [
+          "陈华支持周杰为世界带来积极影响的目标。",
+          "D15:17"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰正在思考自己的职业方向，并希望为世界带来积极影响。",
+          "D15:6"
+        ],
+        [
+          "周杰考虑从事非营利工作，用自己的技能和热情投身于关心的事业。",
+          "D15:8"
+        ],
+        [
+          "周杰表达了帮助他人、让世界更美好的愿望。",
+          "D15:16"
+        ],
+        [
+          "周杰决心在陈华的支持下产生积极影响。",
+          "D15:18"
+        ]
+      ]
+    },
+    "session_16_observation": {
+      "Chen Hua": [
+        [
+          "陈华上周赢得了一场在线游戏比赛，觉得这次经历既刺激又鼓舞人心。",
+          "D16:1"
+        ],
+        [
+          "陈华对极限运动感兴趣，最近尝试了从150米高空绳降和冲浪。",
+          "D16:5"
+        ],
+        [
+          "陈华喜欢阅读，尤其是在寒冷的冬日，但他觉得在夏天做些不同的事情也很令人兴奋。",
+          "D16:9"
+        ],
+        [
+          "陈华购买了飞往多伦多的机票，并计划也去温哥华游览。",
+          "D16:9"
+        ],
+        [
+          "陈华计划在7月20日结束旅行返回，并打算给周杰带一份纪念品。",
+          "D16:13"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰在平衡个人生活与职业生活时，感到决心、热情、压力与不堪重负交织在一起。",
+          "D16:4"
+        ],
+        [
+          "周杰通过阅读来放松，并认为这是一种有趣的现实逃避方式。",
+          "D16:8"
+        ],
+        [
+          "周杰询问了陈华他旅行中将到访哪些国家。",
+          "D16:10"
+        ],
+        [
+          "周杰将等待陈华旅行归来，并对纪念品表示期待。",
+          "D16:14"
+        ]
+      ]
+    },
+    "session_17_observation": {
+      "Zhou Jie": [
+        [
+          "周杰最近开始下国际象棋，以提升自己的战略思维。",
+          "D17:1"
+        ],
+        [
+          "周杰在线下国际象棋，并加入了一个象棋俱乐部以便与他人对弈练习。",
+          "D17:5"
+        ],
+        [
+          "周杰相信国际象棋能够提升决策能力。",
+          "D17:7"
+        ],
+        [
+          "周杰从陈华那里获得了关于通过研究开局走法和分析棋局来提高国际象棋水平的建议。",
+          "D17:10"
+        ],
+        [
+          "周杰有一张小学时与陈华关于滑板的照片，表明他们是曾一起享受滑板乐趣的朋友。",
+          "D17:13"
+        ],
+        [
+          "周杰表达了友谊的重要性以及宠物带来的快乐，提到自己目前没有宠物但希望未来能养一只。",
+          "D17:21"
+        ],
+        [
+          "周杰感激与兄弟姐妹之间的联结，并珍视他们的支持。",
+          "D17:31"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华以前下过国际象棋，并认同其策略性。",
+          "D17:2"
+        ],
+        [
+          "陈华曾与周杰分享通过研究开局走法和分析棋局来提高国际象棋水平的建议。",
+          "D17:10"
+        ],
+        [
+          "陈华有一个关系亲密的妹妹，喜欢和她一起在海边看日落共度时光。",
+          "D17:30"
+        ],
+        [
+          "陈华养了几只狗，他教会了它们在滑板上保持平衡，它们很喜欢玩滑板。",
+          "D17:18"
+        ],
+        [
+          "陈华最近去了努克市旅行，并为周杰和吉尔带了纪念品。",
+          "D17:22"
+        ],
+        [
+          "陈华常与妹妹和狗狗们共度时光，从中找到快乐并建立了深厚的情感纽带。",
+          "D17:28"
+        ]
+      ]
+    },
+    "session_18_observation": {
+      "Zhou Jie": [
+        [
+          "周杰最近辞去了他做了三年的IT工作，因为他想做一份能带来改变的工作。",
+          "D18:1"
+        ],
+        [
+          "周杰对游戏行业充满热情，希望成为一名游戏赛事组织者，从《反恐精英：全球攻势》和《堡垒之夜》开始。",
+          "D18:7"
+        ],
+        [
+          "周杰重视支持，并感激陈华在他新职业尝试中给予的支持。",
+          "D18:11"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华最近带他的小狗进行了例行检查和疫苗接种，以预防季节性犬类疾病。",
+          "D18:14"
+        ],
+        [
+          "陈华非常关心他的宠物，并确保它们的健康。",
+          "D18:18"
+        ]
+      ]
+    },
+    "session_19_observation": {
+      "Zhou Jie": [
+        [
+          "周杰最近开始探索不同的游戏类型，比如策略游戏和角色扮演游戏，而不是他常玩的射击游戏。",
+          "D19:3"
+        ],
+        [
+          "周杰迷上了一款新的角色扮演游戏《巫师3》，他非常喜欢其中的故事叙述和角色塑造。",
+          "D19:5"
+        ],
+        [
+          "周杰正在考虑为他正在探索的新游戏类型组织比赛。",
+          "D19:3"
+        ],
+        [
+          "周杰主动组织了他的工作场所，以提高效率。",
+          "D19:9"
+        ],
+        [
+          "周杰对陈华持鼓励态度，感谢他鼓励自己尝试新的游戏类型。",
+          "D19:1"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华带着他的三只狗去海滩郊游，以与其他养狗人建立联系。",
+          "D19:12"
+        ],
+        [
+          "陈华正在考虑邀请一个名叫萨曼莎的女孩约会，他们在海滩郊游时相识。",
+          "D19:14"
+        ],
+        [
+          "陈华与周杰分享了一张图片，展示了他们正在讨论的游戏的图形效果。",
+          "D19:8"
+        ]
+      ]
+    },
+    "session_20_observation": {
+      "Zhou Jie": [
+        [
+          "周杰上周五加入了一个在线编程小组。",
+          "D20:1"
+        ],
+        [
+          "周杰上周与在线小组中的某人合作了一个项目。",
+          "D20:5"
+        ],
+        [
+          "周杰充满勇气，准备开始举办电子竞技比赛。",
+          "D20:7"
+        ],
+        [
+          "周杰购买了新设备并翻新了他的游戏桌。",
+          "D20:9"
+        ],
+        [
+          "周杰使用强大的显卡来玩高强度的游戏，并配有耳机以获得沉浸式音效。",
+          "D20:11"
+        ],
+        [
+          "周杰为下个月组织了一场与兄弟姐妹的游戏之夜。",
+          "D20:17"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华有一个他经常一起玩的游戏小组，并且他们会直播游戏过程。",
+          "D20:8"
+        ],
+        [
+          "陈华与朋友们举办了一场游戏马拉松，这加深了他们的感情。",
+          "D20:12"
+        ]
+      ]
+    },
+    "session_21_observation": {
+      "Chen Hua": [
+        [
+          "陈华收养了一只名叫内德的狗，无法想象没有它的生活。",
+          "D21:3"
+        ],
+        [
+          "陈华对开发一款类似《文明》的策略游戏很感兴趣。",
+          "D21:9"
+        ],
+        [
+          "陈华建议和周杰在星巴克见面喝咖啡。",
+          "D21:13"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰帮助弟弟妹妹学习编程，并为他们的进步感到自豪。",
+          "D21:2"
+        ],
+        [
+          "周杰正在和弟弟妹妹合作一个基于文本的冒险游戏编程项目。",
+          "D21:6"
+        ],
+        [
+          "周杰外出时喜欢淡啤酒胜过黑啤酒。",
+          "D21:16"
+        ],
+        [
+          "周杰在讨论不同选择后同意与陈华在麦吉酒吧见面。",
+          "D21:18"
+        ]
+      ]
+    },
+    "session_22_observation": {
+      "Chen Hua": [
+        [
+          "陈华完成了一款投入大量时间和精力的Unity策略游戏。",
+          "D22:1"
+        ],
+        [
+          "陈华热爱玩《文明》和《全面战争》这类策略游戏，这激发了他创作自己游戏的灵感。",
+          "D22:5"
+        ],
+        [
+          "陈华发现制作游戏的过程充满挑战，尤其是在平衡机制与公平性方面。",
+          "D22:7"
+        ],
+        [
+          "陈华认识到在游戏开发中，毅力、耐心、反馈和协作至关重要。",
+          "D22:9"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰一直在教他的兄弟姐妹编程，他们正在创建自己的程序。",
+          "D22:10"
+        ],
+        [
+          "周杰的兄弟姐妹在编程之旅中从基础的游戏和故事开始。",
+          "D22:12"
+        ],
+        [
+          "周杰为他的兄弟姐妹学习编程感到自豪，并期待看到他们运用技能创造出什么。",
+          "D22:14"
+        ],
+        [
+          "周杰正在经历一些困难时期，并感激陈华给予的友谊和支持。",
+          "D22:18"
+        ]
+      ]
+    },
+    "session_23_observation": {
+      "Chen Hua": [
+        [
+          "陈华在剧院请求萨曼莎做他的女朋友，她同意了。",
+          "D23:1"
+        ],
+        [
+          "陈华和萨曼莎在麦吉酒吧时，他发现她喜欢拉格啤酒。",
+          "D23:3"
+        ],
+        [
+          "陈华两天前报名了烹饪课，想学习新东西。",
+          "D23:13"
+        ],
+        [
+          "陈华在烹饪课上做了一个很棒的煎蛋卷。",
+          "D23:13"
+        ],
+        [
+          "陈华的烹饪课每节课收费10美元。",
+          "D23:15"
+        ],
+        [
+          "陈华在烹饪课上制作了蛋白酥皮并学会了如何制作面团。",
+          "D23:15"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰的父母开始向他学习编程，这让他们之间的关系更近了。",
+          "D23:2"
+        ],
+        [
+          "周杰购买了新的游戏设备，包括森海塞尔的耳机和罗技的鼠标。",
+          "D23:8"
+        ]
+      ]
+    },
+    "session_24_observation": {
+      "Zhou Jie": [
+        [
+          "周杰最近迷上了桌游，觉得非常有趣。",
+          "D24:1"
+        ],
+        [
+          "周杰年轻时曾打过鼓。",
+          "D24:13"
+        ],
+        [
+          "周杰有一套他以前用过的旧鼓组。",
+          "D24:15"
+        ],
+        [
+          "周杰曾与朋友一起即兴演奏，觉得非常有趣。",
+          "D24:17"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华开始把所有需要做的事情记在笔记本上，以免忘记任务。",
+          "D24:2"
+        ],
+        [
+          "陈华从书籍、电影和梦境等各种来源获取灵感。",
+          "D24:4"
+        ],
+        [
+          "陈华几周前做了一个富有创意的梦，引发了一些有趣的想法。",
+          "D24:6"
+        ],
+        [
+          "陈华根据一个关于中世纪城堡的梦绘制了草图和笔记，城堡中设有谜题和陷阱。",
+          "D24:9"
+        ],
+        [
+          "陈华年轻时弹过吉他，但已经有一段时间没弹了。",
+          "D24:14"
+        ],
+        [
+          "陈华喜欢音乐，但这与他的城堡梦无关。",
+          "D24:12"
+        ],
+        [
+          "陈华已经开始直播游戏，并希望一切顺利。",
+          "D24:20"
+        ]
+      ]
+    },
+    "session_25_observation": {
+      "Zhou Jie": [
+        [
+          "周杰创办了一家专注于便携式熏烤炉的新创业公司，并已用金属焊接了一台。",
+          "D25:3"
+        ],
+        [
+          "周杰通过创作他的第一款手机游戏实现了一个重要的职业里程碑，该游戏将于下个月发布。",
+          "D25:7"
+        ],
+        [
+          "周杰的手机游戏是一款包含谜题和探索的2D冒险游戏。",
+          "D25:9"
+        ],
+        [
+          "周杰利用书籍、教程和开发者论坛等资源来提升他的游戏开发技能。",
+          "D25:13"
+        ],
+        [
+          "周杰阅读一本杂志，其中包含教程、开发者访谈和游戏开发技巧。",
+          "D25:15"
+        ],
+        [
+          "周杰这周过得一团糟，但他仍在坚持前进。",
+          "D25:21"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华在直播游戏时收到了游戏社区的积极反馈，这激励他继续努力。",
+          "D25:4"
+        ],
+        [
+          "陈华主动提出帮周杰测试他的手机游戏。",
+          "D25:10"
+        ],
+        [
+          "陈华向周杰推荐了一本包含教程和开发者访谈的游戏开发杂志。",
+          "D25:14"
+        ],
+        [
+          "陈华认为这本杂志是游戏开发的实用资源。",
+          "D25:18"
+        ],
+        [
+          "陈华建议周杰在忙碌的一周里照顾好自己，并为自己留出时间。",
+          "D25:22"
+        ]
+      ]
+    },
+    "session_26_observation": {
+      "Zhou Jie": [
+        [
+          "周杰收到一封邮件，是关于在一家游戏开发非营利组织担任志愿工作，为游戏开发者提供编程指导。",
+          "D26:1"
+        ],
+        [
+          "周杰对这个机会感到兴奋，因为它能结合他对游戏的热爱和助人的热情，通过教授编程和协助项目来实现。",
+          "D26:3"
+        ],
+        [
+          "周杰热爱分享知识，激励其他对游戏充满热情的人，并帮助他们发挥潜力。",
+          "D26:5"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华上周拿到了一块很酷的显卡，他很兴奋能用它来玩角色扮演游戏。",
+          "D26:8"
+        ],
+        [
+          "陈华很期待根据周杰的推荐去玩《赛博朋克2077》。",
+          "D26:10"
+        ]
+      ]
+    },
+    "session_27_observation": {
+      "Zhou Jie": [
+        [
+          "周杰和他的程序员朋友们上周组织了一场线上比赛。",
+          "D27:1"
+        ],
+        [
+          "周杰对陈华的游戏开发努力给予了支持和鼓励。",
+          "D27:3"
+        ],
+        [
+          "周杰对陈华为游戏社区发布他的第一款游戏表示兴奋。",
+          "D27:3"
+        ],
+        [
+          "周杰对陈华创作游戏的灵感很感兴趣，并提到了《巫师3》。",
+          "D27:5"
+        ],
+        [
+          "周杰鼓励陈华继续游戏开发，并表示相信他的才华。",
+          "D27:9"
+        ],
+        [
+          "周杰向陈华保证会支持并合作他们的努力。",
+          "D27:11"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华最近为游戏社区创作并发布了他的第一款游戏，他对此感到兴奋。",
+          "D27:2"
+        ],
+        [
+          "陈华看到玩家们沉浸在他创造的游戏世界中，感到很有成就感。",
+          "D27:4"
+        ],
+        [
+          "游戏《巫师3》激励了陈华创作自己的游戏，推动他做出特别的东西。",
+          "D27:6"
+        ],
+        [
+          "陈华表达了在不同游戏类型中创作更多游戏并探索游戏开发新想法的愿望。",
+          "D27:8"
+        ],
+        [
+          "陈华期待未来创造更多令人愉快的体验。",
+          "D27:10"
+        ],
+        [
+          "周杰支持陈华，并对周杰的支持表示感谢。",
+          "D27:12"
+        ],
+        [
+          "陈华珍视周杰的支持和友谊，提到周杰一直在他身边。",
+          "D27:14"
+        ]
+      ]
+    },
+    "session_28_observation": {
+      "Chen Hua": [
+        [
+          "陈华的公寓三天前停电，打乱了他的游戏进度，因为他忘记保存了。",
+          "D28:3"
+        ],
+        [
+          "陈华欣赏游戏的创造力和复杂性，花数小时游玩并从中学习。",
+          "D28:3"
+        ],
+        [
+          "陈华对旧游戏设备怀有怀旧之情，比如小时候在母亲朋友的游戏机上玩耍。",
+          "D28:21"
+        ],
+        [
+          "陈华的第一个游戏系统是任天堂，他在上面玩《超级马里奥》和《塞尔达传说》，这激发了他对游戏的热爱。",
+          "D28:25"
+        ],
+        [
+          "陈华昨天试玩了《赛博朋克2077》，发现它令人上瘾。",
+          "D28:27"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰上周组织了一场编程研讨会，反响热烈，他对编程方法和技巧有了新的见解。",
+          "D28:6"
+        ],
+        [
+          "周杰喜欢在研讨会上分享知识并向其他开发者学习。",
+          "D28:8"
+        ],
+        [
+          "周杰计划将新的编程技巧融入工作，并乐于探索不同的方法。",
+          "D28:12"
+        ],
+        [
+          "周杰重视尝试新的编程技巧和想法，以激发创造力并持续进步。",
+          "D28:14"
+        ],
+        [
+          "周杰乐于助人，愿意与他人分享资源和教程，帮助他们学习成长。",
+          "D28:16"
+        ],
+        [
+          "周杰向陈华建议关于游戏《赛博朋克2077》的事，强调了在游戏中做出正确选择的重要性。",
+          "D28:30"
+        ],
+        [
+          "周杰提醒陈华在《赛博朋克2077》中与角色对话时选择的重要性。",
+          "D28:32"
+        ]
+      ]
+    },
+    "session_29_observation": {
+      "Zhou Jie": [
+        [
+          "周杰与朋友们组织了一场游戏锦标赛，玩了《堡垒之夜》《守望先锋》和《Apex英雄》，为儿童医院筹集资金。",
+          "D29:1"
+        ],
+        [
+          "周杰和朋友们通过游戏锦标赛为儿童医院筹集了可观数额的善款。",
+          "D29:1"
+        ],
+        [
+          "周杰的游戏伙伴们协助他组织锦标赛并通过游戏筹集资金。",
+          "D29:3"
+        ],
+        [
+          "周杰在锦标赛中抓拍到了精彩瞬间，记录下了为公益而战的热烈氛围。",
+          "D29:5"
+        ]
+      ],
+      "Chen Hua": [
+        [
+          "陈华决定搬去和萨曼莎一起住，公寓离麦基酒吧不远。",
+          "D29:8"
+        ],
+        [
+          "麦基酒吧是陈华和萨曼莎选择公寓的标准之一。",
+          "D29:12"
+        ]
+      ]
+    },
+    "session_30_observation": {
+      "Chen Hua": [
+        [
+          "陈华昨天和家人及狗狗们开始了公路旅行，享受探索新地方和大自然的乐趣。",
+          "D30:1"
+        ],
+        [
+          "陈华有兴趣尝试新的游戏类型，并提到考虑体育类游戏。",
+          "D30:15"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰最近赢得了地区国际象棋锦标赛，对自己的成就感到自豪。",
+          "D30:4"
+        ],
+        [
+          "周杰的锦标赛策略包括分析和预判对手的棋步以保持领先。",
+          "D30:8"
+        ],
+        [
+          "周杰建议通过研究开局走法和策略、向经验丰富的玩家学习以及分析过往棋局来提高国际象棋水平。",
+          "D30:10"
+        ],
+        [
+          "周杰目前迷上了玩FIFA 23，这是一款可以与全球玩家在线对战的足球游戏。",
+          "D30:14"
+        ],
+        [
+          "周杰表示玩FIFA 23只需要一个游戏手柄和节奏感。",
+          "D30:18"
+        ]
+      ]
+    },
+    "session_31_observation": {
+      "Chen Hua": [
+        [
+          "陈华和他的家人目前正在公路旅行中，已经拜访了朋友乔什和马克。",
+          "D31:1"
+        ],
+        [
+          "陈华和他的家人在公路旅行中参观了一个动物保护区，看到了许多可爱的救援犬。",
+          "D31:11"
+        ],
+        [
+          "陈华家里已经有三只狗，他认为养超过三只狗就太多了。",
+          "D31:13"
+        ]
+      ],
+      "Zhou Jie": [
+        [
+          "周杰周末与一位游戏开发者合作了一个项目，旨在创建一款在线棋盘游戏。",
+          "D31:2"
+        ],
+        [
+          "周杰和这位游戏开发者即将发布这款在线棋盘游戏的试玩版供他人体验。",
+          "D31:6"
+        ],
+        [
+          "周杰目前没有养狗，但他非常想养一只。",
+          "D31:14"
+        ],
+        [
+          "周杰欣赏狗给生活带来的积极性和快乐，并视它们为特别的伙伴。",
+          "D31:20"
+        ],
+        [
+          "周杰的表亲有一只名叫露娜的狗。",
+          "D31:22"
+        ]
+      ]
+    }
+  },
+  "session_summary": {
+    "session_1_summary": "2022年3月17日下午3点47分，周杰和陈华进行了交谈。周杰询问了陈华的动机，陈华将其归因于对电子游戏的热爱。他们讨论了各自最喜欢的游戏、编程技能，以及可能合作开发一款宠物护理应用。陈华分享了他基于童年草图创作电脑游戏的项目。周杰钦佩陈华的热情，并表示有兴趣一起尝试VR游戏。他们约定下周六见面玩VR游戏。",
+    "session_2_summary": "2022年3月20日晚上9点26分，陈华告诉周杰他加入了一个新的游戏平台，并强调了与玩家联系和分享经验的乐趣。周杰表示赞同，并突出了游戏在社区建设方面的作用。他们都认为在困难时期，游戏能带来慰藉和压力缓解。陈华还分享了他探索不同游戏风格的兴趣，而周杰则提到了他带着金属探测器在海滩寻宝的新爱好。随后，陈华给周杰看了他狗狗的照片，并表示将来愿意帮他寻找宠物。他们的对话在友好的气氛中结束。",
+    "session_3_summary": "2022年3月27日凌晨12点40分，周杰和陈华进行了交谈。周杰分享了他近期的游戏成就和打鼓的爱好，而陈华则谈到了学习一种新乐器。他们讨论了游戏系统、游戏展会，以及对技术高超玩家的共同钦佩。周杰强调了向经验丰富的玩家学习的重要性，陈华则提到了设定小目标以保持动力。陈华对探索新的游戏类型感到兴奋，周杰也渴望了解他的进展。对话结束时，周杰表示期待听到陈华关于游戏冒险的更新。",
+    "session_4_summary": "2022年4月4日下午2点13分，周杰和陈华久别重逢。陈华分享了他参加在线游戏锦标赛的经历，他打进了半决赛，玩得很开心，还从一支著名战队那里获得了游戏技巧和签名。周杰强调了游戏中沟通和团队合作的重要性。他们讨论了以后一起玩《Apex英雄》，并尝试新的游戏类型，比如角色扮演游戏和多人在线战术竞技游戏。他们约定很快再聊，并互相分享新游戏的信息。",
+    "session_5_summary": "2022年4月12日上午9点52分，陈华和周杰叙旧。陈华分享了他收养了一只名叫内德的小狗，这让他的日子变得更快乐。周杰提到工作很忙，但仍然在游戏中找到慰藉。他们讨论了周杰正在玩的一款新的角色扮演游戏，尽管有些延迟和错误，陈华还是表现出了兴趣。周杰说服陈华试试这款游戏，并答应发个链接给他。他们同意稍后再讨论，都表示很兴奋。他们道别时，陈华期待尝试这款游戏，周杰则祝他玩得开心。",
+    "session_6_summary": "2022年4月20日晚上9点32分，周杰和陈华叙旧。周杰兴奋地分享他在编程课程中结交了新朋友。与此同时，陈华谈到他正在与一位游戏伙伴合作，开发一个受《巫师3》启发的虚拟世界项目。他在遛狗时看到的一个陌生人给了他这个项目的灵感。两位朋友讨论了现实生活经历如何激发他们的创造力。他们还分享了他们对旅行的热爱，陈华提到他去过意大利、土耳其和墨西哥，而周杰最近去了日本。他们表示未来有兴趣一起去旅行。陈华同意寻找一个目的地，为未来的旅行做计划。",
+    "session_7_summary": "2022年4月23日上午11点04分，周杰问候了陈华，陈华上周四带他的狗去远足了，并分享说他们探索小径、享受户外时光，玩得很开心。周杰要照片，陈华有照片，展示了这次冒险。陈华解释他选择这个地方是因为它的景色和小径，对狗来说很完美。他们都同意身处大自然对放松有益。周杰透露由于许多截止日期，工作一直很忙，尤其是在一个具有挑战性的编码项目上遇到困难。陈华主动提出帮助，建议分解问题并寻求建议。周杰很感激这个建议，决心坚持下去。陈华鼓励他不要放弃，强调每个问题都有解决方案，并以积极的语气结束了对话。",
+    "session_8_summary": "2022年4月29日下午2点36分，陈华和周杰进行了交谈。周杰提到他正在做自由编程来提高编码技能，并且正在为一家本地企业开发一个网站。尽管面临设置支付等挑战，他决心要成功。陈华赞扬了周杰的进步，并分享了他对奇幻小说的兴趣。他们讨论了《风之名》这本书以及《文明VI》和《英灵殿》等策略游戏。陈华谈到他在玩一款考验解决问题能力的策略游戏，以及获胜带来的满足感。周杰提到喜欢和朋友玩策略棋盘游戏和一款神秘游戏。他们都认为和别人一起玩很有趣，并建议在大型团体中玩类似“内鬼游戏”的游戏以获得更好的体验。",
+    "session_9_summary": "2022年5月4日晚上7点01分，周杰和陈华叙旧。陈华这周很沮丧，因为他的项目里有一个漏洞，但在朋友的帮助下成功修复了。他们讨论了团队合作以及平衡工作与社交的重要性。陈华花时间陪伴他的拉布拉多犬黛西和两只忠诚的牧羊犬。陈华从他的宠物、电脑游戏、旅行和披萨中找到快乐，尤其喜欢意大利辣香肠、奶酪和帕尔玛火腿披萨。周杰更喜欢夏威夷披萨。他们最后讨论了以后尝试帕尔玛火腿披萨。",
+    "session_10_summary": "2022年5月8日凌晨12点45分，陈华和周杰久别重逢。周杰提到他正在和朋友组织一场《反恐精英：全球攻势》锦标赛，为慈善筹款，陈华赞扬了他的努力。周杰表示未来有兴趣组织更多慈善活动。他们讨论了向狗狗收容所捐款以及用筹集到的钱为无家可归者提供食物。陈华称赞了周杰的努力，周杰发誓要继续做好事。陈华在结束对话时表达了对周杰行为的自豪。",
+    "session_11_summary": "2022年5月11日下午5点，周杰和陈华进行了交谈。周杰分享了他如何志愿为一家慈善基金会提供编程技能，创建了一个软件工具，简化了他们的运营。陈华对周杰的贡献表示钦佩，并要求看看其影响的视觉资料。周杰解释他的动机是该基金会致力于帮助孩子们。这次经历激励周杰考虑在非营利部门工作。陈华鼓励他找到适合他技能的组织。周杰感谢支持，并提到期待产生积极影响。陈华祝他好运，他们温暖地结束了对话。",
+    "session_12_summary": "陈华告诉周杰他上周末在游乐园玩得很开心，过山车和其他景点让他回忆起了童年。周杰分享了他最近在当地锦标赛中取得的成功，获得了第二名，并得到了奖杯和奖金。他们讨论了成长、进步和毅力对于实现目标的重要性。陈华提到完成了一个具有挑战性的项目，需要学习一门新语言，这教会了他解决问题、耐心和坚持不懈。周杰鼓励陈华继续前进，实现目标，强调了决心和信心对于取得成功的重要性。",
+    "session_13_summary": "2022年6月13日下午4点30分，周杰和陈华叙旧。周杰兴奋地分享他找到了梦想的工作，下个月开始上班。陈华表示支持，并提到了他对游戏和编程的热情。陈华谈到了他正在开发的一个足球模拟器项目，结合了他对足球和自我提升的热爱。话题转向足球，陈华支持利物浦，周杰支持曼城。他们就他们球队的最终排名打了个友好的赌，为即将到来的竞争性赛季拉开了序幕。",
+    "session_14_summary": "陈华和周杰于2022年6月16日下午5点07分进行了一次交谈。陈华分享说他最近经历了起起落落，但很幸运有一个支持系统。周杰提到开始了一个编程博客，并分享了他对科幻和奇幻书籍的热爱。他推荐了《飓光志》和《弑君者传奇》。陈华谈到了他的狗马克斯，它喜欢游泳和玩接球游戏。周杰赞扬陈华在大自然中休息，强调了自我照顾和支持的重要性。",
+    "session_15_summary": "2022年6月19日晚上9点59分，陈华向周杰分享了他是如何介绍马克斯、黛西和新来的小狗内德的，它们正在慢慢建立感情。周杰要了一张照片，称赞它们的可爱，并分享了他想产生积极影响的职业抱负。陈华鼓励周杰的志愿服务想法，并讨论了这种有益的经历。周杰表示有兴趣加入陈华的志愿服务，陈华主动提出带他去。他们讨论了该组织，陈华向周杰保证那里环境友好。陈华支持周杰做出改变的目标，他们以相互鼓励和决心共同实现目标结束。",
+    "session_16_summary": "陈华和周杰于2022年7月9日下午5点13分叙旧。陈华分享了他赢得在线游戏锦标赛的兴奋以及他对极限运动的新兴趣。周杰祝贺了他，并提到在平衡个人和职业生活方面感到不知所措。陈华透露了他即将前往多伦多和温哥华的旅行，计划于7月20日返回。他们讨论了放松方法并道别，周杰热切期待陈华旅程中的纪念品。",
+    "session_17_summary": "周杰和陈华讨论了他们对国际象棋的共同兴趣，周杰解释了他最近参与这项游戏以提高策略技能。陈华提供了改进建议，他们回忆了一张在滑板公园的童年照片。他们还谈论了宠物、旅行经历和家庭纽带。陈华分享了他姐姐和狗的照片，强调了它们给他生活带来的快乐。周杰感谢兄弟姐妹的支持，突出了家人和朋友的重要性。陈华分享了一张在海洋附近拍摄的日落照片，然后因疲劳而告别。对话以相互道别结束。",
+    "session_18_summary": "周杰和陈华于2022年8月6日下午1点45分叙旧。周杰分享说他辞去了从事3年的IT工作，以追求更符合他价值观、更有成就感的职业。他对这个决定表示高兴。陈华赞扬了周杰做出改变的勇气。周杰透露了他组织游戏锦标赛的计划，从《反恐精英：全球攻势》和《堡垒之夜》开始。陈华支持周杰的新职业努力，并提供了经济援助。陈华分享了他的小狗进行了常规体检和疫苗接种。周杰钦佩陈华对宠物的关爱。对话以相互道别和祝福结束。",
+    "session_19_summary": "2022年8月10日上午9点16分，周杰和陈华在几天后叙旧。周杰感谢陈华鼓励他探索新的游戏类型。周杰一直在尝试策略和角色扮演游戏，而不是射击游戏，并考虑组织比赛。他沉迷于《巫师3》，因为其故事讲述和角色深度。陈华分享了他带狗去海滩游玩，并遇到了一个名叫萨曼莎的女孩，计划约她出去。周杰鼓励陈华给萨曼莎打电话，祝他玩得开心。",
+    "session_20_summary": "周杰于2022年8月21日下午3点57分告知陈华，他加入了一个在线编程小组，发现成为拥有相似目标的社区一员非常棒。他分享说，在合作项目后，他与一些成员交换了联系方式。陈华赞扬了周杰的参与，并询问了潜在的合作。周杰确认了最近一次成功的合作以及他对电子竞技主持的兴趣。陈华提到了他的游戏小组和最近的设备升级。周杰分享了他的游戏设置，强调了游戏提供的逃避和动力。陈华讨论了他主持的一场游戏马拉松，并询问了周杰与他兄弟姐妹的游戏计划。周杰透露了下个月计划举办家庭游戏之夜，陈华对此表示赞赏。他们以同意很快再聊结束对话。",
+    "session_21_summary": "陈华和周杰于2022年8月26日晚上9点18分讨论了陈华的狗内德，周杰帮助他的兄弟姐妹学习编程，以及与兄弟姐妹一起进行一个编码项目。周杰分享了他们正在创建的文本冒险游戏的细节。陈华提到了他对创建像《文明》那样的策略游戏的兴趣。他们计划第二天在麦吉酒吧见面，决定喝淡啤酒。对话以道别结束。",
+    "session_22_summary": "总结：\n2022年9月1日晚上6点53分，陈华兴奋地向周杰分享，他已经完成了他的Unity策略游戏，灵感来自《文明》和《全面战争》等游戏。周杰赞扬了陈华的辛勤工作，并询问了游戏的更多细节。陈华分享了一张截图，并讨论了开发过程中遇到的挑战。周杰钦佩陈华的毅力，并提到教他的兄弟姐妹编程，他们已经在创建自己的程序。两位朋友为彼此感到自豪，陈华在周杰困难时期提供了支持。他们的对话突出了友谊、支持、学习和合作的重要性。",
+    "session_23_summary": "2022年9月4日晚上9点23分，陈华和周杰叙旧，聊了最近的事情。陈华分享说他在剧院请萨曼莎做他的女朋友，后来他们去了麦吉酒吧，发现他们都喜欢拉格啤酒。周杰谈到了教父母编程，并购买了新的游戏设备，包括森海塞尔耳机和罗技鼠标。陈华报名参加了烹饪课，分享说他在那里做了煎蛋卷和蛋白酥。他们计划一起去看棒球比赛。周杰赞扬了陈华寻求自我提升。对话以友好的道别结束。",
+    "session_24_summary": "周杰和陈华于2022年9月18日下午6点02分叙旧。周杰分享了他对棋盘游戏的新兴趣，特别是《龙之地下城》。陈华提到他在笔记本上记录任务以保持条理，并从各种来源（包括梦境）汲取灵感。他回忆起一个关于中世纪城堡的梦，里面有谜题和陷阱。周杰对陈华的梦很感兴趣，向他要了已画好的草图。话题转到音乐上，周杰透露他喜欢电子乐和摇滚乐，并有打鼓的经验。陈华也曾弹过吉他，但已有一段时间没弹了。周杰分享了一张他旧鼓组的照片，他们聊起了与朋友即兴演奏的音乐经历。陈华宣布他开始直播游戏，周杰表示支持。他们愉快地结束了对话，周杰期待听到陈华直播事业的详情。",
+    "session_25_summary": "2022年9月20日晚上8点56分，周杰和陈华聊了聊近况。周杰分享了他新创立的便携式吸烟器公司以及他开发的一款手机游戏，而陈华则谈到收到了游戏社区的积极反馈，并对周杰的游戏很感兴趣。周杰强调了在游戏开发中保持信息灵通和持续学习的重要性，并向陈华推荐了一本书和一本杂志等资源。陈华很感谢这个建议，并鼓励周杰在忙碌的一周中照顾好自己。他们表达了对彼此工作的相互支持和赞赏。",
+    "session_26_summary": "2022年10月3日上午9点20分，周杰和陈华进行了一次对话。周杰兴奋地分享了他将在游戏开发非营利组织担任志愿工作，为游戏开发者提供编程指导。陈华赞扬了周杰能将他对游戏的热爱和帮助他人结合起来的机会。周杰表达了他对分享知识和激励他人的热情。陈华鼓励了周杰，而周杰觉得能有所作为很有成就感。陈华提到他买了一张新显卡，并表示有兴趣玩《赛博朋克2077》，周杰推荐了这款游戏。对话在祝福和计划稍后讨论游戏中结束。",
+    "session_27_summary": "2022年10月13日下午2点14分，周杰和陈华进行了交谈。周杰提到他和程序员朋友们组织了一场在线比赛，而陈华则兴奋地分享了他受《巫师3》启发而制作的第一款游戏即将发布。周杰祝贺了陈华的游戏，并询问了他的灵感来源，陈华表示看到玩家与他的创作互动很有成就感。陈华透露了他未来开发多种类型游戏的计划。周杰赞扬了陈华的决心，并表示支持他未来的努力，陈华对此表示感谢，并说周杰一直支持着他。他们愉快地结束了对话，认可了彼此强大的团队合作和相互支持。",
+    "session_28_summary": "2022年10月21日晚上7点36分，陈华和周杰在许久之后叙旧。陈华分享了他三天前在玩游戏时公寓停电的经历。他们讨论了游戏中保存进度的重要性。周杰上周组织了一场编程研讨会，他觉得很有成就感。陈华表示有兴趣尝试研讨会上学到的新编程技巧。周杰同意与他分享资源。陈华还提到了他母亲和她的军人朋友来访。他给周杰看了一张他在他们旧游戏设备上玩耍的照片。他们聊起了童年游戏记忆和陈华对游戏的热爱。陈华提到他尝试了《赛博朋克2077》，周杰分享了关于这款游戏的建议。他们互道再见，结束了对话。",
+    "session_29_summary": "2022年10月31日凌晨12点37分，周杰打电话给陈华，分享了他与朋友们组织游戏锦标赛的消息，通过玩《堡垒之夜》、《守望先锋》和《Apex英雄》为一家儿童医院筹集资金。陈华赞扬了周杰的努力，提到游戏如何将人们团结起来做好事。周杰分享了一张比赛照片，陈华透露计划搬到麦基酒吧附近的萨曼莎那里住。他们讨论了对这家酒吧的喜爱，陈华寻求周杰的支持。他们互祝安好，承诺保持联系，结束了对话。",
+    "session_30_summary": "2022年11月5日下午5点20分，陈华和周杰进行了交谈。陈华分享了与家人和狗狗们的公路旅行，享受大自然。周杰提到周二赢得了一场国际象棋比赛以及使用的战术。他们讨论了如何提高棋艺，周杰提供了资源。周杰推荐了《FIFA 23》。他们计划在陈华练习后一起玩。",
+    "session_31_summary": "2022年11月7日晚上8点57分，陈华告诉周杰关于他的家庭公路旅行和拜访朋友的事。周杰分享了他周末与一位游戏开发者合作，创建一款在线棋盘游戏的经历。他们讨论了即将发布的演示版以获取反馈。陈华提到参观了一个动物保护区，在那里看到了可爱的救援犬，这让他们想起了他们对毛茸茸伙伴的喜爱。他们讨论了狗狗带来的快乐和爱，一致认为它们是极好的伴侣。周杰展示了他表妹的狗露娜的照片，对话以陈华和周杰道别结束。"
+  },
+  "sample_id": "conv-47"
+}
