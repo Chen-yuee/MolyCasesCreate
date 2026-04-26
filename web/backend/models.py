@@ -15,12 +15,18 @@ class EvidenceCreate(BaseModel):
     content: str
     speaker: Optional[str] = None  # 指定由谁说（主角或对方），None 表示主角
     constraints: Optional[List[EvidenceConstraint]] = []  # 与其他 evidence 的约束
+    link_type: Optional[str] = "final_ev"  # 与所属 query 的关系类型: "reason_ev" | "final_ev"
 
 
 class EvidenceUpdate(BaseModel):
     content: Optional[str] = None
     speaker: Optional[str] = None
     constraints: Optional[List[EvidenceConstraint]] = None
+
+
+class EvidenceLinkTypeUpdate(BaseModel):
+    """更新 (query, evidence) 关联类型的请求体"""
+    type: str  # "reason_ev" | "final_ev"
 
 
 class EvidencePositionUpdate(BaseModel):
@@ -33,7 +39,15 @@ class EvidencePolishUpdate(BaseModel):
 
 class EvidenceQueryRef(BaseModel):
     """Evidence 所属的 query 引用"""
-    id: str        # query id
+    id: str                    # query id
+    type: str = "final_ev"     # 关系类型: "reason_ev" | "final_ev"
+
+
+class QueryEvidenceLink(BaseModel):
+    """Query 与 Evidence 的关联关系（独立关系表条目）"""
+    query_id: str
+    evidence_id: str
+    type: str = "final_ev"     # "reason_ev" | "final_ev"
 
 
 class Evidence(BaseModel):

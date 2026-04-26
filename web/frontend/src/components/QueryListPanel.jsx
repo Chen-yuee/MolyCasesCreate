@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Layout, Card, List, Tag, Space, Button, Modal, Form, Input, Select, message, Typography, Popconfirm } from 'antd'
 import { PlusOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons'
-import { getQueries, getSpeakers, createQuery, updateQuery, deleteQuery, unpolishEvidence } from '../api'
+import { getQueries, getSpeakers, createQuery, updateQuery, deleteQuery, unpolishEvidence, setLinkType } from '../api'
 
 const { Sider } = Layout
 const { Text } = Typography
@@ -94,6 +94,25 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
     return colors[status] || 'default'
   }
 
+  // 取出该 evidence 在指定 query 上下文中的 link 类型（默认 final_ev）
+  const getLinkType = (ev, qid) => {
+    const ref = ev.queries?.find(r => r.id === qid)
+    return ref?.type || 'final_ev'
+  }
+
+  // 点击 F/R 标签切换类型
+  const handleToggleLinkType = async (e, qid, ev) => {
+    e.stopPropagation()
+    const cur = getLinkType(ev, qid)
+    const next = cur === 'reason_ev' ? 'final_ev' : 'reason_ev'
+    try {
+      await setLinkType(qid, ev.id, next)
+      load()
+    } catch (err) {
+      message.error(err.response?.data?.detail || '切换失败')
+    }
+  }
+
   return (
     <>
       <Sider width="30%" style={{ background: '#fff', borderRight: '1px solid #f0f0f0', padding: 16, height: 'calc(100vh - 64px)', overflow: 'auto' }}>
@@ -151,12 +170,24 @@ export default function QueryListPanel({ onSelectQuery, selectedQueryId, refresh
                   </Space>
                   {q.evidences?.length > 0 && (
                     <div style={{ fontSize: 11, color: '#666', marginTop: 2 }}>
-                      {q.evidences.map(ev => (
-                        <div key={ev.id} style={{ marginBottom: 2 }}>
-                          <Tag style={{ fontSize: 10 }} color={getStatusColor(ev.status)}>{ev.status}</Tag>
-                          {ev.content}
-                        </div>
-                      ))}
+                      {q.evidences.map(ev => {
+                        const lt = getLinkType(ev, q.id)
+                        const isReason = lt === 'reason_ev'
+                        return (
+                          <div key={ev.id} style={{ marginBottom: 2 }}>
+                            <Tag style={{ fontSize: 10 }} color={getStatusColor(ev.status)}>{ev.status}</Tag>
+                            <Tag
+                              style={{ fontSize: 10, cursor: 'pointer', fontWeight: 'bold' }}
+                              color={isReason ? 'orange' : 'cyan'}
+                              title={isReason ? 'reason_ev（点击切换为 final_ev）' : 'final_ev（点击切换为 reason_ev）'}
+                              onClick={(e) => handleToggleLinkType(e, q.id, ev)}
+                            >
+                              {isReason ? 'R' : 'F'}
+                            </Tag>
+                            {ev.content}
+                          </div>
+                        )
+                      })}
                     </div>
                   )}
                 </Space>

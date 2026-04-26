@@ -30,10 +30,12 @@ export const getPolishedMessages = (qid) => api.get(`/api/queries/${qid}/polishe
 export const getAllEvidences = () => api.get('/api/evidences').then(r => r.data)
 // → 获取指定 query 的 evidences
 export const getEvidences = (qid) => api.get(`/api/queries/${qid}/evidences`).then(r => r.data)
-// → QueryDetailPanel "新增 Evidence"按钮
+// → QueryDetailPanel "新增 Evidence"按钮（body 可含 link_type: 'final_ev' | 'reason_ev'，默认 final_ev）
 export const createEvidence = (qid, body) => api.post(`/api/queries/${qid}/evidences`, body).then(r => r.data)
-// → 关联已有 evidence 到 query
-export const attachEvidence = (eid, qid) => api.post(`/api/evidences/${eid}/attach?qid=${qid}`).then(r => r.data)
+// → 关联已有 evidence 到 query（默认 final_ev）
+export const attachEvidence = (eid, qid, type = 'final_ev') => api.post(`/api/evidences/${eid}/attach?qid=${qid}&type=${type}`).then(r => r.data)
+// → 切换 (query, evidence) 关联类型，type ∈ {'final_ev', 'reason_ev'}
+export const setLinkType = (qid, eid, type) => api.put(`/api/queries/${qid}/evidences/${eid}/link-type`, { type }).then(r => r.data)
 // → QueryDetailPanel 编辑 evidence 内容/说话人后保存
 export const updateEvidence = (eid, body) => api.put(`/api/evidences/${eid}`, body).then(r => r.data)
 // → QueryDetailPanel "删除 Evidence"按钮

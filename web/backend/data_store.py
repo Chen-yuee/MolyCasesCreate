@@ -1,20 +1,26 @@
 """
 DataStore - 统一数据存储模块
 
-数据文件格式（整理后）:
+数据文件格式（独立关系表）:
 {
-    "queries": [...],          # Query 对象列表，evidences 字段为 evidence ID 列表
-    "evidences": [...],        # 顶层 flattened Evidence 对象列表
-    "polished_messages": [...] # PolishedMessage 对象列表
+    "queries": [...],                # Query 对象列表，不再含 evidences 字段
+    "evidences": [...],              # Evidence 对象列表，不再含 queries 字段
+    "query_evidence_links": [        # 顶层独立关系表（单一事实来源）
+        {"query_id": "...", "evidence_id": "...", "type": "reason_ev" | "final_ev"}
+    ],
+    "polished_messages": [...]       # PolishedMessage 对象列表
 }
+
+内存中仍维护 query.evidences (ID 列表) 和 evidence.queries (含 type 的 ref 列表) 双向引用，
+以保持 API 层兼容；持久化时仅输出独立的 query_evidence_links。
 
 类:
     StoreFileHandler   - 文件监听处理器，文件变更时触发重新加载
     DataStore          - 统一数据存储，维护 queries/evidences/polished_messages 内存缓存，支持文件持久化
 
 DataStore 方法:
-    _load              - 从 JSON 文件加载数据到内存
-    _save              - 将内存数据写回 JSON 文件
+    _load              - 从 JSON 文件加载数据到内存（兼容老格式自动迁移）
+    _save              - 将内存数据写回 JSON 文件（独立关系表格式）
     _start_file_watcher - 启动 watchdog 文件监听
 
     get_queries        - 返回所有 Query 对象
@@ -28,18 +34,22 @@ DataStore 方法:
     update_evidence    - 更新 evidence 内容
     delete_evidence    - 删除 evidence
 
+    get_link_type      - 获取 query 与 evidence 之间关系的类型
+    set_link_type      - 设置 query 与 evidence 之间关系的类型
+
     get_polished_message           - 按 (sample_id, dia_id) 获取 PolishedMessage
     get_polished_messages_by_query - 获取与指定 query 关联的所有 PolishedMessage
     update_polished_message         - 更新 PolishedMessage 并持久化
     delete_polished_message         - 删除指定 PolishedMessage
     delete_polished_messages_by_query - 删除与指定 query 关联的所有 PolishedMessage
 
-最后更新: 2026-04-15
+最后更新: 2026-04-26
 """
 
 import asyncio
 import json
 import os
+import threading
 from typing import Dict, List, Optional
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
@@ -66,12 +76,15 @@ class DataStore:
     统一数据存储。
     维护 queries、evidences、polished_messages 三类数据的内存缓存，支持文件持久化。
 
-    数据文件格式（整理后）:
+    数据文件格式（独立关系表）:
     {
-        "queries": [...],          # 不再内嵌 evidences，改为 evidences 字段存 ID 列表
-        "evidences": [...],        # 顶层 flattened
+        "queries": [...],                # 不含 evidences 字段
+        "evidences": [...],              # 不含 queries 字段
+        "query_evidence_links": [...],   # 顶层独立关系表，含 type
         "polished_messages": [...]
     }
+
+    内存中保留 query.evidences / evidence.queries 双向引用（含 type）以维持 API 兼容。
     """
     def __init__(self):
         self._queries: Dict[str, Query] = {}
@@ -79,6 +92,10 @@ class DataStore:
         self._polished_messages: Dict[str, PolishedMessage] = {}
         self._sse_clients: List[asyncio.Queue] = []
         self._loop: Optional[asyncio.AbstractEventLoop] = None
+        # 互斥锁：序列化 _load / _save，防止 watchdog 线程与主线程交错
+        # 修过的 bug：repolish 循环里多次 _save 触发 watchdog _load，主线程 _save
+        # 读到刚被 _load.clear() 清空的内存字典，把空 queries 写入磁盘，导致永久数据丢失。
+        self._lock = threading.RLock()
         self._load()
         self._start_file_watcher()
 
@@ -120,10 +137,20 @@ class DataStore:
 
     def _load(self):
         """
-        从 JSON 文件加载所有数据到内存。
-        - queries.evidences 字段现为 evidence ID 列表（不再内嵌 Evidence 对象）
-        - evidences 从顶层 data["evidences"] 加载
+        从 JSON 文件加载所有数据到内存（线程安全包装）。
+
+        新格式：
+        - queries: 不含 evidences 字段
+        - evidences: 不含 queries 字段
+        - query_evidence_links: 顶层独立关系表，含 type 字段
+
+        老格式（queries 含 evidences、evidences 含 queries）会被自动迁移到新格式并保存。
         """
+        with self._lock:
+            self._do_load()
+
+    def _do_load(self):
+        """实际加载逻辑，必须在持有 self._lock 的情况下调用。"""
         path = get_store_path()
         if not os.path.exists(path):
             return
@@ -136,27 +163,79 @@ class DataStore:
             self._evidences.clear()
             self._polished_messages.clear()
 
-            # 加载顶层 evidences（flattend）
+            # 1. 加载 evidences（剔除可能存在的 legacy queries 字段，初始化为空）
             for e in data.get("evidences", []):
-                # queries 字段反序列化为 EvidenceQueryRef 列表
-                if "queries" in e:
-                    e["queries"] = [EvidenceQueryRef(**q) for q in e["queries"]]
-                evidence = Evidence(**e)
+                e_clean = {k: v for k, v in e.items() if k != "queries"}
+                evidence = Evidence(**e_clean)
+                evidence.queries = []
                 self._evidences[evidence.id] = evidence
 
-            # 加载 queries（evidences 字段现为 ID 列表）
+            # 2. 加载 queries（剔除可能存在的 legacy evidences 字段，初始化为空）
             for q in data.get("queries", []):
-                query = Query(**q)
+                q_clean = {k: v for k, v in q.items() if k != "evidences"}
+                query = Query(**q_clean)
+                query.evidences = []
                 self._queries[query.id] = query
 
-            # 加载 polished_messages
+            # 3. 处理关联关系：优先读 query_evidence_links；缺失则从老格式迁移
+            links = data.get("query_evidence_links")
+            is_legacy = links is None
+
+            if not is_legacy:
+                # 新格式：从 link table 重建内存中的双向引用
+                for link in links:
+                    qid = link.get("query_id")
+                    eid = link.get("evidence_id")
+                    ltype = link.get("type", "final_ev")
+                    q = self._queries.get(qid)
+                    e = self._evidences.get(eid)
+                    if not (q and e):
+                        continue
+                    if eid not in q.evidences:
+                        q.evidences.append(eid)
+                    if not any(ref.id == qid for ref in e.queries):
+                        e.queries.append(EvidenceQueryRef(id=qid, type=ltype))
+            else:
+                # 老格式：从 evidences[*].queries 和 queries[*].evidences 恢复，type 默认 final_ev
+                for e_raw in data.get("evidences", []):
+                    eid = e_raw.get("id")
+                    ev = self._evidences.get(eid)
+                    if not ev:
+                        continue
+                    for qref in e_raw.get("queries", []):
+                        qid = qref.get("id")
+                        ltype = qref.get("type", "final_ev")
+                        if not any(r.id == qid for r in ev.queries):
+                            ev.queries.append(EvidenceQueryRef(id=qid, type=ltype))
+                        q = self._queries.get(qid)
+                        if q and eid not in q.evidences:
+                            q.evidences.append(eid)
+                for q_raw in data.get("queries", []):
+                    qid = q_raw.get("id")
+                    query = self._queries.get(qid)
+                    if not query:
+                        continue
+                    for eid in q_raw.get("evidences", []):
+                        if eid not in query.evidences:
+                            query.evidences.append(eid)
+                        ev = self._evidences.get(eid)
+                        if ev and not any(r.id == qid for r in ev.queries):
+                            ev.queries.append(EvidenceQueryRef(id=qid, type="final_ev"))
+
+            # 4. 加载 polished_messages
             for m in data.get("polished_messages", []):
                 msg = PolishedMessage(**m)
                 key = f"{msg.sample_id}:{msg.dia_id}"
                 self._polished_messages[key] = msg
 
-            # 验证并修复双向引用一致性
+            # 5. 验证并修复双向引用一致性
             self._verify_and_fix_bidirectional_refs()
+
+            # 6. 若是从老格式迁移，立即写一次新格式
+            if is_legacy:
+                print("检测到老格式数据，自动迁移到 query_evidence_links 表")
+                self._save()
+
             self._notify_clients()
         except Exception:
             pass
@@ -198,13 +277,32 @@ class DataStore:
 
     def _save(self):
         """
-        将内存数据写回 JSON 文件。
-        输出格式与 _load 对应：queries.evidences 为 ID 列表，evidences 顶层存放。
+        将内存数据写回 JSON 文件（独立关系表格式，线程安全包装）。
+        - queries: 剔除 evidences 字段
+        - evidences: 剔除 queries 字段
+        - query_evidence_links: 从 evidence.queries 收集（含 type）
         """
+        with self._lock:
+            self._do_save()
+
+    def _do_save(self):
+        """实际保存逻辑，必须在持有 self._lock 的情况下调用。"""
         path = get_store_path()
+
+        # 收集 link table（以 evidence.queries 为单一来源）
+        query_evidence_links = []
+        for evidence in self._evidences.values():
+            for ref in evidence.queries:
+                query_evidence_links.append({
+                    "query_id": ref.id,
+                    "evidence_id": evidence.id,
+                    "type": ref.type,
+                })
+
         data = {
-            "queries": [q.dict() for q in self._queries.values()],
-            "evidences": [e.dict() for e in self._evidences.values()],
+            "queries": [q.dict(exclude={"evidences"}) for q in self._queries.values()],
+            "evidences": [e.dict(exclude={"queries"}) for e in self._evidences.values()],
+            "query_evidence_links": query_evidence_links,
             "polished_messages": [m.dict() for m in self._polished_messages.values()],
         }
         with open(path, "w", encoding="utf-8") as f:
@@ -274,11 +372,11 @@ class DataStore:
         """返回所有 Evidence 对象列表。"""
         return list(self._evidences.values())
 
-    def add_evidence(self, qid: str, evidence: Evidence) -> Optional[Evidence]:
+    def add_evidence(self, qid: str, evidence: Evidence, link_type: str = "final_ev") -> Optional[Evidence]:
         """
         向指定 query 添加 evidence。
         1. 验证 query 存在
-        2. 构造 queries 字段（含当前 query 的引用）
+        2. 构造 queries 字段（含当前 query 的引用 + 关系类型）
         3. 写入顶层 _evidences
         4. 在 query.evidences 列表中追加 evidence ID
         """
@@ -286,8 +384,8 @@ class DataStore:
         if not query:
             return None
 
-        # 构造 queries 引用字段
-        evidence.queries = [EvidenceQueryRef(id=qid)]
+        # 构造 queries 引用字段（含 type）
+        evidence.queries = [EvidenceQueryRef(id=qid, type=link_type)]
 
         self._evidences[evidence.id] = evidence
         query.evidences.append(evidence.id)
@@ -400,6 +498,30 @@ class DataStore:
         self._evidences.pop(eid)
         self._save()
         return True
+
+    # ── Query-Evidence 关系类型 ─────────────────────────────────────────────────
+
+    def get_link_type(self, qid: str, eid: str) -> Optional[str]:
+        """获取 query 与 evidence 之间关系的类型，关系不存在返回 None。"""
+        ev = self._evidences.get(eid)
+        if not ev:
+            return None
+        for ref in ev.queries:
+            if ref.id == qid:
+                return ref.type
+        return None
+
+    def set_link_type(self, qid: str, eid: str, ltype: str) -> bool:
+        """设置 query 与 evidence 之间关系的类型，关系不存在返回 False。"""
+        ev = self._evidences.get(eid)
+        if not ev:
+            return False
+        for ref in ev.queries:
+            if ref.id == qid:
+                ref.type = ltype
+                self._save()
+                return True
+        return False
 
     # ── PolishedMessage ─────────────────────────────────────────────────────────
 

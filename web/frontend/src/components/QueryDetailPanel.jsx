@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import { Layout, Card, Button, Space, List, Tag, Form, Input, Select, InputNumber, message, Popconfirm, Modal } from 'antd'
 import { PlusOutlined, DeleteOutlined, ThunderboltOutlined, CloseOutlined, EditOutlined, EyeOutlined } from '@ant-design/icons'
-import { getQueries, createEvidence, updateEvidence, deleteEvidence, autoAssign, batchPolish, previewAssign, unpolishEvidence, setPosition, repolish, getPolishedMessages, getConversation, getAllEvidences, attachEvidence, manualAssign } from '../api'
+import { getQueries, createEvidence, updateEvidence, deleteEvidence, autoAssign, batchPolish, previewAssign, unpolishEvidence, setPosition, repolish, getPolishedMessages, getConversation, getAllEvidences, attachEvidence, manualAssign, setLinkType } from '../api'
 
 const { Sider } = Layout
 
@@ -339,6 +339,25 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
     }
   }
 
+  // 取出该 evidence 在当前 query 上下文中的 link 类型（默认 final_ev）
+  const getLinkType = (ev) => {
+    const ref = ev?.queries?.find(r => r.id === queryId)
+    return ref?.type || 'final_ev'
+  }
+
+  // 点击 F/R 标签切换类型
+  const handleToggleLinkType = async (e, ev) => {
+    e.stopPropagation()
+    const cur = getLinkType(ev)
+    const next = cur === 'reason_ev' ? 'final_ev' : 'reason_ev'
+    try {
+      await setLinkType(queryId, ev.id, next)
+      load()
+    } catch (err) {
+      message.error(err.response?.data?.detail || '切换失败')
+    }
+  }
+
   if (!query) return null
 
   const evidences = query.evidences?.sort((a, b) => a.order - b.order) || []
@@ -419,6 +438,20 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                               <Tag color={(ev.speaker || query.protagonist) === query.protagonist ? 'blue' : 'purple'}>
                                 {ev.speaker || query.protagonist}
                               </Tag>
+                              {(() => {
+                                const lt = getLinkType(ev)
+                                const isReason = lt === 'reason_ev'
+                                return (
+                                  <Tag
+                                    style={{ cursor: 'pointer', fontWeight: 'bold' }}
+                                    color={isReason ? 'orange' : 'cyan'}
+                                    title={isReason ? 'reason_ev（点击切换为 final_ev）' : 'final_ev（点击切换为 reason_ev）'}
+                                    onClick={(e) => handleToggleLinkType(e, ev)}
+                                  >
+                                    {isReason ? 'R' : 'F'}
+                                  </Tag>
+                                )
+                              })()}
                               {ev.target_dia_id && <Tag color="green">{ev.target_dia_id}</Tag>}
                               {preview && <Tag color="orange">预览: {preview.target_dia_id}</Tag>}
                             </Space>
@@ -514,6 +547,20 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                             </Tag>
                             <Tag color="cyan">{ev.target_dia_id}</Tag>
                             <Tag color={getStatusColor(ev.status)}>{ev.status}</Tag>
+                            {(() => {
+                              const lt = getLinkType(ev)
+                              const isReason = lt === 'reason_ev'
+                              return (
+                                <Tag
+                                  style={{ cursor: 'pointer', fontWeight: 'bold' }}
+                                  color={isReason ? 'orange' : 'geekblue'}
+                                  title={isReason ? 'reason_ev（点击切换为 final_ev）' : 'final_ev（点击切换为 reason_ev）'}
+                                  onClick={(e) => handleToggleLinkType(e, ev)}
+                                >
+                                  {isReason ? 'R' : 'F'}
+                                </Tag>
+                              )
+                            })()}
                           </Space>
                           <div
                             style={{ cursor: 'pointer' }}
@@ -695,7 +742,7 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
         </Space>
 
         {addMode === 'new' ? (
-          <Form form={form} layout="vertical">
+          <Form form={form} layout="vertical" initialValues={{ link_type: 'final_ev' }}>
           <Form.Item name="content" label="Evidence 内容" rules={[{ required: true }]}>
             <Input.TextArea rows={3} />
           </Form.Item>
@@ -707,6 +754,12 @@ export default function QueryDetailPanel({ queryId, onClose, onClickEvidence, on
                   对方 ({speakers.speaker_a === query.protagonist ? speakers.speaker_b : speakers.speaker_a})
                 </Select.Option>
               )}
+            </Select>
+          </Form.Item>
+          <Form.Item name="link_type" label="类型" tooltip="reason_ev：作为推理依据；final_ev：作为最终答案/结论">
+            <Select>
+              <Select.Option value="final_ev">Final（默认 / F）</Select.Option>
+              <Select.Option value="reason_ev">Reason（R）</Select.Option>
             </Select>
           </Form.Item>
 

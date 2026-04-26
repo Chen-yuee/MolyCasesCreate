@@ -2,8 +2,11 @@ import uuid
 from datetime import datetime
 from fastapi import APIRouter, HTTPException
 from ..data_store import store
-from ..models import Evidence, EvidenceCreate, EvidenceUpdate, EvidenceQueryRef
+from ..models import Evidence, EvidenceCreate, EvidenceUpdate, EvidenceQueryRef, EvidenceLinkTypeUpdate
 from ..logger import get_logger
+
+# 允许的 link 类型
+_ALLOWED_LINK_TYPES = {"reason_ev", "final_ev"}
 
 logger = get_logger("api.evidences")
 
@@ -28,8 +31,10 @@ def list_evidences(qid: str):
 
 
 @router.post("/api/evidences/{eid}/attach")
-def attach_evidence_to_query(eid: str, qid: str):
-    """将已有的 evidence 关联到另一个 query。"""
+def attach_evidence_to_query(eid: str, qid: str, type: str = "final_ev"):
+    """将已有的 evidence 关联到另一个 query，可指定 link 类型。"""
+    if type not in _ALLOWED_LINK_TYPES:
+        raise HTTPException(status_code=400, detail=f"type 必须是 {sorted(_ALLOWED_LINK_TYPES)}")
     ev = store.get_evidence(eid)
     if not ev:
         raise HTTPException(status_code=404, detail="Evidence not found")
@@ -41,8 +46,8 @@ def attach_evidence_to_query(eid: str, qid: str):
     if any(ref.id == qid for ref in ev.queries):
         raise HTTPException(status_code=400, detail="该 evidence 已关联此 query")
 
-    # 添加 query 引用（不需要 order）
-    ev.queries.append(EvidenceQueryRef(id=qid))
+    # 添加 query 引用（含 type）
+    ev.queries.append(EvidenceQueryRef(id=qid, type=type))
     store.update_evidence(ev)
 
     # 在 query.evidences 中也追加该 evidence ID
@@ -55,12 +60,16 @@ def attach_evidence_to_query(eid: str, qid: str):
 
 @router.post("/api/queries/{qid}/evidences")
 def create_evidence(qid: str, body: EvidenceCreate):
-    """创建新的 evidence 并关联到指定 query。"""
-    logger.info(f"创建 evidence - qid: {qid}, speaker: {body.speaker}")
+    """创建新的 evidence 并关联到指定 query，可指定 link 类型。"""
+    logger.info(f"创建 evidence - qid: {qid}, speaker: {body.speaker}, link_type: {body.link_type}")
     q = store.get_query(qid)
     if not q:
         logger.error(f"Query 未找到 - qid: {qid}")
         raise HTTPException(status_code=404, detail="Query not found")
+
+    link_type = body.link_type or "final_ev"
+    if link_type not in _ALLOWED_LINK_TYPES:
+        raise HTTPException(status_code=400, detail=f"link_type 必须是 {sorted(_ALLOWED_LINK_TYPES)}")
 
     ev = Evidence(
         id=str(uuid.uuid4()),
@@ -70,10 +79,24 @@ def create_evidence(qid: str, body: EvidenceCreate):
         status="draft",
         created_at=datetime.now().isoformat(),
     )
-    ev.queries = [EvidenceQueryRef(id=qid)]
-    result = store.add_evidence(qid, ev)
+    result = store.add_evidence(qid, ev, link_type=link_type)
     logger.info(f"Evidence 创建成功 - id: {ev.id}")
     return result
+
+
+@router.put("/api/queries/{qid}/evidences/{eid}/link-type")
+def update_link_type(qid: str, eid: str, body: EvidenceLinkTypeUpdate):
+    """更新 (query, evidence) 之间关联关系的类型。"""
+    if body.type not in _ALLOWED_LINK_TYPES:
+        raise HTTPException(status_code=400, detail=f"type 必须是 {sorted(_ALLOWED_LINK_TYPES)}")
+    if not store.get_query(qid):
+        raise HTTPException(status_code=404, detail="Query not found")
+    if not store.get_evidence(eid):
+        raise HTTPException(status_code=404, detail="Evidence not found")
+    if not store.set_link_type(qid, eid, body.type):
+        raise HTTPException(status_code=404, detail="Query 与 Evidence 之间没有关联关系")
+    logger.info(f"更新 link 类型 - qid: {qid}, eid: {eid}, type: {body.type}")
+    return {"qid": qid, "eid": eid, "type": body.type}
 
 
 @router.put("/api/evidences/{eid}")

@@ -4,6 +4,11 @@
     "api_key": "sk-cba95772704a40a793f4f7188c5842f3",
     "model": "deepseek-chat"
   },
+  "aapi": {
+    "endpoint": "https://api.tokenrouter.com/v1/chat/completions",
+    "api_key": "sk-b8wk1LR6NKIxQjilM1TeZclEktBHPmsWKNwPF4oLwqPGCC6c",
+    "model": "deepseek/deepseek-v3.2"
+  },
   "translation": {
     "source_lang": "English",
     "target_lang": "Chinese",
